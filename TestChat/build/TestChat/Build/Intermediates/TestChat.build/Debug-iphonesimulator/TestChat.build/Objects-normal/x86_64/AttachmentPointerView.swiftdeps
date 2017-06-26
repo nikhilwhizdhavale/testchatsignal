@@ -1,0 +1,1474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AttachmentPointerView"
+provides-nominal:
+- "C8TestChat21AttachmentPointerView"
+provides-member:
+- ["C8TestChat21AttachmentPointerView", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "attachmentPointer"
+- "createSubviews"
+- "emojiForContentType"
+- "filename"
+- "genericFilename"
+- "isIncoming"
+- "nameLabel"
+- "progress"
+- "progressView"
+- "statusLabel"
+- "textColor"
+- "updateViews"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "AttachmentPointerView"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGRect"
+- !private "MIMETypeUtil"
+- "NSCoder"
+- "NSLocalizedString"
+- "OWSProgressView"
+- "String"
+- "StringLiteralType"
+- "TSAttachmentPointer"
+- "TernaryPrecedence"
+- "UIColor"
+- !private "UIFont"
+- "UILabel"
+- "UIView"
+- !private "UnicodeScalarType"
+- !private "assertionFailure"
+depends-member:
+- !private ["OSC11ALDimension", "height"]
+- !private ["OSC6ALEdge", "bottom"]
+- !private ["OSC6ALEdge", "top"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "MIMETypeUtil"]
+- ["Ps9AnyObject", "NSLocalizedString"]
+- ["Ps9AnyObject", "OWSProgressView"]
+- !private ["Ps9AnyObject", "TSAttachmentPointer"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIFont"]
+- ["Ps9AnyObject", "UILabel"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "adjustsFontSizeToFitWidth"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "attachmentPointer"]
+- !private ["Ps9AnyObject", "autoPinEdge"]
+- !private ["Ps9AnyObject", "autoPinWidthToSuperview"]
+- !private ["Ps9AnyObject", "autoSetDimension"]
+- !private ["Ps9AnyObject", "contentType"]
+- !private ["Ps9AnyObject", "createSubviews"]
+- !private ["Ps9AnyObject", "darkText"]
+- !private ["Ps9AnyObject", "emojiForContentType"]
+- !private ["Ps9AnyObject", "filename"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "genericFilename"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isAnimated"]
+- !private ["Ps9AnyObject", "isAudio"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "isImage"]
+- !private ["Ps9AnyObject", "isIncoming"]
+- !private ["Ps9AnyObject", "isVideo"]
+- !private ["Ps9AnyObject", "lineBreakMode"]
+- !private ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "ows_dynamicTypeBody"]
+- !private ["Ps9AnyObject", "ows_footnote"]
+- !private ["Ps9AnyObject", "progress"]
+- !private ["Ps9AnyObject", "progressView"]
+- !private ["Ps9AnyObject", "sourceFilename"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "statusLabel"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "textAlignment"]
+- !private ["Ps9AnyObject", "textColor"]
+- !private ["Ps9AnyObject", "updateViews"]
+- !private ["Ps9AnyObject", "white"]
+- ["Ps9AnyObject", ""]
+- ["C8TestChat21AttachmentPointerView", "Bool"]
+- ["C8TestChat21AttachmentPointerView", "CGFloat"]
+- ["C8TestChat21AttachmentPointerView", "CGRect"]
+- !private ["C8TestChat21AttachmentPointerView", "MIMETypeUtil"]
+- ["C8TestChat21AttachmentPointerView", "NSCoder"]
+- ["C8TestChat21AttachmentPointerView", "NSLocalizedString"]
+- ["C8TestChat21AttachmentPointerView", "OWSProgressView"]
+- ["C8TestChat21AttachmentPointerView", "String"]
+- ["C8TestChat21AttachmentPointerView", "TAG"]
+- ["C8TestChat21AttachmentPointerView", "TSAttachmentPointer"]
+- ["C8TestChat21AttachmentPointerView", "UIColor"]
+- !private ["C8TestChat21AttachmentPointerView", "UIFont"]
+- ["C8TestChat21AttachmentPointerView", "UILabel"]
+- !private ["C8TestChat21AttachmentPointerView", "addSubview"]
+- !private ["C8TestChat21AttachmentPointerView", "assertionFailure"]
+- ["C8TestChat21AttachmentPointerView", "attachmentPointer"]
+- ["C8TestChat21AttachmentPointerView", "createSubviews"]
+- ["C8TestChat21AttachmentPointerView", "deinit"]
+- ["C8TestChat21AttachmentPointerView", "emojiForContentType"]
+- ["C8TestChat21AttachmentPointerView", "filename"]
+- ["C8TestChat21AttachmentPointerView", "genericFilename"]
+- ["C8TestChat21AttachmentPointerView", "init"]
+- ["C8TestChat21AttachmentPointerView", "isIncoming"]
+- ["C8TestChat21AttachmentPointerView", "nameLabel"]
+- ["C8TestChat21AttachmentPointerView", "progress"]
+- ["C8TestChat21AttachmentPointerView", "progressView"]
+- ["C8TestChat21AttachmentPointerView", "statusLabel"]
+- ["C8TestChat21AttachmentPointerView", "textColor"]
+- ["C8TestChat21AttachmentPointerView", "updateViews"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "CGRect"]
+- !private ["PSo15CALayerDelegate", "MIMETypeUtil"]
+- ["PSo15CALayerDelegate", "NSLocalizedString"]
+- ["PSo15CALayerDelegate", "OWSProgressView"]
+- !private ["PSo15CALayerDelegate", "TSAttachmentPointer"]
+- !private ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "UIFont"]
+- ["PSo15CALayerDelegate", "UILabel"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "adjustsFontSizeToFitWidth"]
+- !private ["PSo15CALayerDelegate", "assertionFailure"]
+- !private ["PSo15CALayerDelegate", "attachmentPointer"]
+- !private ["PSo15CALayerDelegate", "autoPinEdge"]
+- !private ["PSo15CALayerDelegate", "autoPinWidthToSuperview"]
+- !private ["PSo15CALayerDelegate", "autoSetDimension"]
+- !private ["PSo15CALayerDelegate", "createSubviews"]
+- !private ["PSo15CALayerDelegate", "emojiForContentType"]
+- !private ["PSo15CALayerDelegate", "filename"]
+- !private ["PSo15CALayerDelegate", "font"]
+- !private ["PSo15CALayerDelegate", "genericFilename"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "isIncoming"]
+- !private ["PSo15CALayerDelegate", "lineBreakMode"]
+- !private ["PSo15CALayerDelegate", "nameLabel"]
+- !private ["PSo15CALayerDelegate", "progress"]
+- !private ["PSo15CALayerDelegate", "progressView"]
+- !private ["PSo15CALayerDelegate", "statusLabel"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CALayerDelegate", "textAlignment"]
+- !private ["PSo15CALayerDelegate", "textColor"]
+- !private ["PSo15CALayerDelegate", "updateViews"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["VSC6CGRect", "zero"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["PSo15CNKeyDescriptor", "isEmpty"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "MIMETypeUtil"]
+- ["Ps7CVarArg", "NSLocalizedString"]
+- ["Ps7CVarArg", "OWSProgressView"]
+- !private ["Ps7CVarArg", "TSAttachmentPointer"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIFont"]
+- ["Ps7CVarArg", "UILabel"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "adjustsFontSizeToFitWidth"]
+- !private ["Ps7CVarArg", "assertionFailure"]
+- !private ["Ps7CVarArg", "attachmentPointer"]
+- !private ["Ps7CVarArg", "autoPinEdge"]
+- !private ["Ps7CVarArg", "autoPinWidthToSuperview"]
+- !private ["Ps7CVarArg", "autoSetDimension"]
+- !private ["Ps7CVarArg", "contentType"]
+- !private ["Ps7CVarArg", "createSubviews"]
+- !private ["Ps7CVarArg", "darkText"]
+- !private ["Ps7CVarArg", "emojiForContentType"]
+- !private ["Ps7CVarArg", "filename"]
+- !private ["Ps7CVarArg", "font"]
+- !private ["Ps7CVarArg", "genericFilename"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isAnimated"]
+- !private ["Ps7CVarArg", "isAudio"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "isImage"]
+- !private ["Ps7CVarArg", "isIncoming"]
+- !private ["Ps7CVarArg", "isVideo"]
+- !private ["Ps7CVarArg", "lineBreakMode"]
+- !private ["Ps7CVarArg", "nameLabel"]
+- !private ["Ps7CVarArg", "ows_dynamicTypeBody"]
+- !private ["Ps7CVarArg", "ows_footnote"]
+- !private ["Ps7CVarArg", "progress"]
+- !private ["Ps7CVarArg", "progressView"]
+- !private ["Ps7CVarArg", "sourceFilename"]
+- !private ["Ps7CVarArg", "state"]
+- !private ["Ps7CVarArg", "statusLabel"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "textAlignment"]
+- !private ["Ps7CVarArg", "textColor"]
+- !private ["Ps7CVarArg", "updateViews"]
+- !private ["Ps7CVarArg", "white"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "MIMETypeUtil"]
+- ["Ps28CustomDebugStringConvertible", "NSLocalizedString"]
+- ["Ps28CustomDebugStringConvertible", "OWSProgressView"]
+- !private ["Ps28CustomDebugStringConvertible", "TSAttachmentPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- ["Ps28CustomDebugStringConvertible", "UILabel"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "adjustsFontSizeToFitWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "attachmentPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "autoPinEdge"]
+- !private ["Ps28CustomDebugStringConvertible", "autoPinWidthToSuperview"]
+- !private ["Ps28CustomDebugStringConvertible", "autoSetDimension"]
+- !private ["Ps28CustomDebugStringConvertible", "contentType"]
+- !private ["Ps28CustomDebugStringConvertible", "createSubviews"]
+- !private ["Ps28CustomDebugStringConvertible", "darkText"]
+- !private ["Ps28CustomDebugStringConvertible", "emojiForContentType"]
+- !private ["Ps28CustomDebugStringConvertible", "filename"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "genericFilename"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isAnimated"]
+- !private ["Ps28CustomDebugStringConvertible", "isAudio"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "isImage"]
+- !private ["Ps28CustomDebugStringConvertible", "isIncoming"]
+- !private ["Ps28CustomDebugStringConvertible", "isVideo"]
+- !private ["Ps28CustomDebugStringConvertible", "lineBreakMode"]
+- !private ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "ows_dynamicTypeBody"]
+- !private ["Ps28CustomDebugStringConvertible", "ows_footnote"]
+- !private ["Ps28CustomDebugStringConvertible", "progress"]
+- !private ["Ps28CustomDebugStringConvertible", "progressView"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceFilename"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- !private ["Ps28CustomDebugStringConvertible", "statusLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "textAlignment"]
+- !private ["Ps28CustomDebugStringConvertible", "textColor"]
+- !private ["Ps28CustomDebugStringConvertible", "updateViews"]
+- !private ["Ps28CustomDebugStringConvertible", "white"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "MIMETypeUtil"]
+- ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- ["Ps23CustomStringConvertible", "OWSProgressView"]
+- !private ["Ps23CustomStringConvertible", "TSAttachmentPointer"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- ["Ps23CustomStringConvertible", "UILabel"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "adjustsFontSizeToFitWidth"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "attachmentPointer"]
+- !private ["Ps23CustomStringConvertible", "autoPinEdge"]
+- !private ["Ps23CustomStringConvertible", "autoPinWidthToSuperview"]
+- !private ["Ps23CustomStringConvertible", "autoSetDimension"]
+- !private ["Ps23CustomStringConvertible", "contentType"]
+- !private ["Ps23CustomStringConvertible", "createSubviews"]
+- !private ["Ps23CustomStringConvertible", "darkText"]
+- !private ["Ps23CustomStringConvertible", "emojiForContentType"]
+- !private ["Ps23CustomStringConvertible", "filename"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "genericFilename"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isAnimated"]
+- !private ["Ps23CustomStringConvertible", "isAudio"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "isImage"]
+- !private ["Ps23CustomStringConvertible", "isIncoming"]
+- !private ["Ps23CustomStringConvertible", "isVideo"]
+- !private ["Ps23CustomStringConvertible", "lineBreakMode"]
+- !private ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "ows_dynamicTypeBody"]
+- !private ["Ps23CustomStringConvertible", "ows_footnote"]
+- !private ["Ps23CustomStringConvertible", "progress"]
+- !private ["Ps23CustomStringConvertible", "progressView"]
+- !private ["Ps23CustomStringConvertible", "sourceFilename"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "statusLabel"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "textAlignment"]
+- !private ["Ps23CustomStringConvertible", "textColor"]
+- !private ["Ps23CustomStringConvertible", "updateViews"]
+- !private ["Ps23CustomStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "MIMETypeUtil"]
+- ["Ps9Equatable", "NSLocalizedString"]
+- ["Ps9Equatable", "OWSProgressView"]
+- !private ["Ps9Equatable", "TSAttachmentPointer"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIFont"]
+- ["Ps9Equatable", "UILabel"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "adjustsFontSizeToFitWidth"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "attachmentPointer"]
+- !private ["Ps9Equatable", "autoPinEdge"]
+- !private ["Ps9Equatable", "autoPinWidthToSuperview"]
+- !private ["Ps9Equatable", "autoSetDimension"]
+- !private ["Ps9Equatable", "bottom"]
+- !private ["Ps9Equatable", "byTruncatingMiddle"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "contentType"]
+- !private ["Ps9Equatable", "createSubviews"]
+- !private ["Ps9Equatable", "darkText"]
+- !private ["Ps9Equatable", "downloading"]
+- !private ["Ps9Equatable", "emojiForContentType"]
+- !private ["Ps9Equatable", "enqueued"]
+- !private ["Ps9Equatable", "failed"]
+- !private ["Ps9Equatable", "filename"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "genericFilename"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isAnimated"]
+- !private ["Ps9Equatable", "isAudio"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "isImage"]
+- !private ["Ps9Equatable", "isIncoming"]
+- !private ["Ps9Equatable", "isVideo"]
+- !private ["Ps9Equatable", "lineBreakMode"]
+- !private ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "ows_dynamicTypeBody"]
+- !private ["Ps9Equatable", "ows_footnote"]
+- !private ["Ps9Equatable", "progress"]
+- !private ["Ps9Equatable", "progressView"]
+- !private ["Ps9Equatable", "sourceFilename"]
+- !private ["Ps9Equatable", "state"]
+- !private ["Ps9Equatable", "statusLabel"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "textAlignment"]
+- !private ["Ps9Equatable", "textColor"]
+- !private ["Ps9Equatable", "top"]
+- !private ["Ps9Equatable", "updateViews"]
+- !private ["Ps9Equatable", "white"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "MIMETypeUtil"]
+- ["Ps8Hashable", "NSLocalizedString"]
+- ["Ps8Hashable", "OWSProgressView"]
+- !private ["Ps8Hashable", "TSAttachmentPointer"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIFont"]
+- ["Ps8Hashable", "UILabel"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "adjustsFontSizeToFitWidth"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "attachmentPointer"]
+- !private ["Ps8Hashable", "autoPinEdge"]
+- !private ["Ps8Hashable", "autoPinWidthToSuperview"]
+- !private ["Ps8Hashable", "autoSetDimension"]
+- !private ["Ps8Hashable", "bottom"]
+- !private ["Ps8Hashable", "byTruncatingMiddle"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "contentType"]
+- !private ["Ps8Hashable", "createSubviews"]
+- !private ["Ps8Hashable", "darkText"]
+- !private ["Ps8Hashable", "downloading"]
+- !private ["Ps8Hashable", "emojiForContentType"]
+- !private ["Ps8Hashable", "enqueued"]
+- !private ["Ps8Hashable", "failed"]
+- !private ["Ps8Hashable", "filename"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "genericFilename"]
+- !private ["Ps8Hashable", "height"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isAnimated"]
+- !private ["Ps8Hashable", "isAudio"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "isImage"]
+- !private ["Ps8Hashable", "isIncoming"]
+- !private ["Ps8Hashable", "isVideo"]
+- !private ["Ps8Hashable", "lineBreakMode"]
+- !private ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "ows_dynamicTypeBody"]
+- !private ["Ps8Hashable", "ows_footnote"]
+- !private ["Ps8Hashable", "progress"]
+- !private ["Ps8Hashable", "progressView"]
+- !private ["Ps8Hashable", "sourceFilename"]
+- !private ["Ps8Hashable", "state"]
+- !private ["Ps8Hashable", "statusLabel"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "textAlignment"]
+- !private ["Ps8Hashable", "textColor"]
+- !private ["Ps8Hashable", "top"]
+- !private ["Ps8Hashable", "updateViews"]
+- !private ["Ps8Hashable", "white"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["CSo12MIMETypeUtil", "isAnimated"]
+- !private ["CSo12MIMETypeUtil", "isAudio"]
+- !private ["CSo12MIMETypeUtil", "isImage"]
+- !private ["CSo12MIMETypeUtil", "isVideo"]
+- !private ["CSo8MTLModel", "contentType"]
+- !private ["CSo8MTLModel", "init"]
+- !private ["CSo8MTLModel", "sourceFilename"]
+- !private ["CSo8MTLModel", "state"]
+- !private ["PSo16MTLModelProtocol", "contentType"]
+- !private ["PSo16MTLModelProtocol", "init"]
+- !private ["PSo16MTLModelProtocol", "sourceFilename"]
+- !private ["PSo16MTLModelProtocol", "state"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "MIMETypeUtil"]
+- ["PSo8NSCoding", "NSLocalizedString"]
+- ["PSo8NSCoding", "OWSProgressView"]
+- !private ["PSo8NSCoding", "TSAttachmentPointer"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIFont"]
+- ["PSo8NSCoding", "UILabel"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "adjustsFontSizeToFitWidth"]
+- !private ["PSo8NSCoding", "assertionFailure"]
+- !private ["PSo8NSCoding", "attachmentPointer"]
+- !private ["PSo8NSCoding", "autoPinEdge"]
+- !private ["PSo8NSCoding", "autoPinWidthToSuperview"]
+- !private ["PSo8NSCoding", "autoSetDimension"]
+- !private ["PSo8NSCoding", "contentType"]
+- !private ["PSo8NSCoding", "createSubviews"]
+- !private ["PSo8NSCoding", "darkText"]
+- !private ["PSo8NSCoding", "emojiForContentType"]
+- !private ["PSo8NSCoding", "filename"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "genericFilename"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "isIncoming"]
+- !private ["PSo8NSCoding", "lineBreakMode"]
+- !private ["PSo8NSCoding", "nameLabel"]
+- !private ["PSo8NSCoding", "progress"]
+- !private ["PSo8NSCoding", "progressView"]
+- !private ["PSo8NSCoding", "sourceFilename"]
+- !private ["PSo8NSCoding", "state"]
+- !private ["PSo8NSCoding", "statusLabel"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textAlignment"]
+- !private ["PSo8NSCoding", "textColor"]
+- !private ["PSo8NSCoding", "updateViews"]
+- !private ["PSo8NSCoding", "white"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "contentType"]
+- !private ["PSo9NSCopying", "darkText"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "ows_dynamicTypeBody"]
+- !private ["PSo9NSCopying", "ows_footnote"]
+- !private ["PSo9NSCopying", "sourceFilename"]
+- !private ["PSo9NSCopying", "state"]
+- !private ["PSo9NSCopying", "white"]
+- !private ["OSC15NSLineBreakMode", "byTruncatingMiddle"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "MIMETypeUtil"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSLocalizedString"]
+- ["CSo8NSObject", "OWSProgressView"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- ["CSo8NSObject", "TSAttachmentPointer"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "adjustsFontSizeToFitWidth"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- ["CSo8NSObject", "attachmentPointer"]
+- !private ["CSo8NSObject", "autoPinEdge"]
+- !private ["CSo8NSObject", "autoPinWidthToSuperview"]
+- !private ["CSo8NSObject", "autoSetDimension"]
+- !private ["CSo8NSObject", "contentType"]
+- ["CSo8NSObject", "createSubviews"]
+- !private ["CSo8NSObject", "darkText"]
+- ["CSo8NSObject", "emojiForContentType"]
+- ["CSo8NSObject", "filename"]
+- !private ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "genericFilename"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isAnimated"]
+- !private ["CSo8NSObject", "isAudio"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "isImage"]
+- ["CSo8NSObject", "isIncoming"]
+- !private ["CSo8NSObject", "isVideo"]
+- !private ["CSo8NSObject", "lineBreakMode"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "ows_dynamicTypeBody"]
+- !private ["CSo8NSObject", "ows_footnote"]
+- ["CSo8NSObject", "progress"]
+- ["CSo8NSObject", "progressView"]
+- !private ["CSo8NSObject", "sourceFilename"]
+- !private ["CSo8NSObject", "state"]
+- ["CSo8NSObject", "statusLabel"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textAlignment"]
+- ["CSo8NSObject", "textColor"]
+- ["CSo8NSObject", "updateViews"]
+- !private ["CSo8NSObject", "white"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "MIMETypeUtil"]
+- ["PSo16NSObjectProtocol", "NSLocalizedString"]
+- ["PSo16NSObjectProtocol", "OWSProgressView"]
+- !private ["PSo16NSObjectProtocol", "TSAttachmentPointer"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "UILabel"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "adjustsFontSizeToFitWidth"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "attachmentPointer"]
+- !private ["PSo16NSObjectProtocol", "autoPinEdge"]
+- !private ["PSo16NSObjectProtocol", "autoPinWidthToSuperview"]
+- !private ["PSo16NSObjectProtocol", "autoSetDimension"]
+- !private ["PSo16NSObjectProtocol", "contentType"]
+- !private ["PSo16NSObjectProtocol", "createSubviews"]
+- !private ["PSo16NSObjectProtocol", "darkText"]
+- !private ["PSo16NSObjectProtocol", "emojiForContentType"]
+- !private ["PSo16NSObjectProtocol", "filename"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "genericFilename"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isAnimated"]
+- !private ["PSo16NSObjectProtocol", "isAudio"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "isImage"]
+- !private ["PSo16NSObjectProtocol", "isIncoming"]
+- !private ["PSo16NSObjectProtocol", "isVideo"]
+- !private ["PSo16NSObjectProtocol", "lineBreakMode"]
+- !private ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "ows_dynamicTypeBody"]
+- !private ["PSo16NSObjectProtocol", "ows_footnote"]
+- !private ["PSo16NSObjectProtocol", "progress"]
+- !private ["PSo16NSObjectProtocol", "progressView"]
+- !private ["PSo16NSObjectProtocol", "sourceFilename"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["PSo16NSObjectProtocol", "statusLabel"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textAlignment"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- !private ["PSo16NSObjectProtocol", "updateViews"]
+- !private ["PSo16NSObjectProtocol", "white"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "darkText"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "white"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["OSC15NSTextAlignment", "center"]
+- !private ["CSo15OWSProgressView", "autoPinEdge"]
+- !private ["CSo15OWSProgressView", "autoPinWidthToSuperview"]
+- !private ["CSo15OWSProgressView", "autoSetDimension"]
+- ["CSo15OWSProgressView", "init"]
+- !private ["CSo15OWSProgressView", "isHidden"]
+- !private ["CSo15OWSProgressView", "progress"]
+- !private ["Ps16RawRepresentable", "bottom"]
+- !private ["Ps16RawRepresentable", "byTruncatingMiddle"]
+- !private ["Ps16RawRepresentable", "center"]
+- !private ["Ps16RawRepresentable", "downloading"]
+- !private ["Ps16RawRepresentable", "enqueued"]
+- !private ["Ps16RawRepresentable", "failed"]
+- !private ["Ps16RawRepresentable", "height"]
+- !private ["Ps16RawRepresentable", "top"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["CSo12TSAttachment", "contentType"]
+- !private ["CSo12TSAttachment", "init"]
+- !private ["CSo12TSAttachment", "sourceFilename"]
+- !private ["CSo12TSAttachment", "state"]
+- !private ["CSo19TSAttachmentPointer", "contentType"]
+- !private ["CSo19TSAttachmentPointer", "init"]
+- !private ["CSo19TSAttachmentPointer", "sourceFilename"]
+- !private ["CSo19TSAttachmentPointer", "state"]
+- !private ["OSC24TSAttachmentPointerState", "downloading"]
+- !private ["OSC24TSAttachmentPointerState", "enqueued"]
+- !private ["OSC24TSAttachmentPointerState", "failed"]
+- !private ["CSo19TSYapDatabaseObject", "contentType"]
+- !private ["CSo19TSYapDatabaseObject", "init"]
+- !private ["CSo19TSYapDatabaseObject", "sourceFilename"]
+- !private ["CSo19TSYapDatabaseObject", "state"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "MIMETypeUtil"]
+- ["PSo29UIAccessibilityIdentification", "NSLocalizedString"]
+- ["PSo29UIAccessibilityIdentification", "OWSProgressView"]
+- !private ["PSo29UIAccessibilityIdentification", "TSAttachmentPointer"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- ["PSo29UIAccessibilityIdentification", "UILabel"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "adjustsFontSizeToFitWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "assertionFailure"]
+- !private ["PSo29UIAccessibilityIdentification", "attachmentPointer"]
+- !private ["PSo29UIAccessibilityIdentification", "autoPinEdge"]
+- !private ["PSo29UIAccessibilityIdentification", "autoPinWidthToSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "autoSetDimension"]
+- !private ["PSo29UIAccessibilityIdentification", "createSubviews"]
+- !private ["PSo29UIAccessibilityIdentification", "emojiForContentType"]
+- !private ["PSo29UIAccessibilityIdentification", "filename"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "genericFilename"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "isIncoming"]
+- !private ["PSo29UIAccessibilityIdentification", "lineBreakMode"]
+- !private ["PSo29UIAccessibilityIdentification", "nameLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "progress"]
+- !private ["PSo29UIAccessibilityIdentification", "progressView"]
+- !private ["PSo29UIAccessibilityIdentification", "statusLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- !private ["PSo29UIAccessibilityIdentification", "updateViews"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRect"]
+- !private ["PSo12UIAppearance", "MIMETypeUtil"]
+- ["PSo12UIAppearance", "NSLocalizedString"]
+- ["PSo12UIAppearance", "OWSProgressView"]
+- !private ["PSo12UIAppearance", "TSAttachmentPointer"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- ["PSo12UIAppearance", "UILabel"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "adjustsFontSizeToFitWidth"]
+- !private ["PSo12UIAppearance", "assertionFailure"]
+- !private ["PSo12UIAppearance", "attachmentPointer"]
+- !private ["PSo12UIAppearance", "autoPinEdge"]
+- !private ["PSo12UIAppearance", "autoPinWidthToSuperview"]
+- !private ["PSo12UIAppearance", "autoSetDimension"]
+- !private ["PSo12UIAppearance", "createSubviews"]
+- !private ["PSo12UIAppearance", "emojiForContentType"]
+- !private ["PSo12UIAppearance", "filename"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "genericFilename"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "isIncoming"]
+- !private ["PSo12UIAppearance", "lineBreakMode"]
+- !private ["PSo12UIAppearance", "nameLabel"]
+- !private ["PSo12UIAppearance", "progress"]
+- !private ["PSo12UIAppearance", "progressView"]
+- !private ["PSo12UIAppearance", "statusLabel"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textAlignment"]
+- !private ["PSo12UIAppearance", "textColor"]
+- !private ["PSo12UIAppearance", "updateViews"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "MIMETypeUtil"]
+- ["PSo21UIAppearanceContainer", "NSLocalizedString"]
+- ["PSo21UIAppearanceContainer", "OWSProgressView"]
+- !private ["PSo21UIAppearanceContainer", "TSAttachmentPointer"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- ["PSo21UIAppearanceContainer", "UILabel"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "adjustsFontSizeToFitWidth"]
+- !private ["PSo21UIAppearanceContainer", "assertionFailure"]
+- !private ["PSo21UIAppearanceContainer", "attachmentPointer"]
+- !private ["PSo21UIAppearanceContainer", "autoPinEdge"]
+- !private ["PSo21UIAppearanceContainer", "autoPinWidthToSuperview"]
+- !private ["PSo21UIAppearanceContainer", "autoSetDimension"]
+- !private ["PSo21UIAppearanceContainer", "createSubviews"]
+- !private ["PSo21UIAppearanceContainer", "emojiForContentType"]
+- !private ["PSo21UIAppearanceContainer", "filename"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "genericFilename"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "isIncoming"]
+- !private ["PSo21UIAppearanceContainer", "lineBreakMode"]
+- !private ["PSo21UIAppearanceContainer", "nameLabel"]
+- !private ["PSo21UIAppearanceContainer", "progress"]
+- !private ["PSo21UIAppearanceContainer", "progressView"]
+- !private ["PSo21UIAppearanceContainer", "statusLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textAlignment"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- !private ["PSo21UIAppearanceContainer", "updateViews"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "darkText"]
+- !private ["CSo7UIColor", "white"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "adjustsFontSizeToFitWidth"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "autoPinEdge"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "autoPinWidthToSuperview"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "font"]
+- ["PSo30UIContentSizeCategoryAdjusting", "init"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "lineBreakMode"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "textAlignment"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "textColor"]
+- !private ["PSo17UICoordinateSpace", "CGRect"]
+- !private ["PSo17UICoordinateSpace", "MIMETypeUtil"]
+- ["PSo17UICoordinateSpace", "NSLocalizedString"]
+- ["PSo17UICoordinateSpace", "OWSProgressView"]
+- !private ["PSo17UICoordinateSpace", "TSAttachmentPointer"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- ["PSo17UICoordinateSpace", "UILabel"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "adjustsFontSizeToFitWidth"]
+- !private ["PSo17UICoordinateSpace", "assertionFailure"]
+- !private ["PSo17UICoordinateSpace", "attachmentPointer"]
+- !private ["PSo17UICoordinateSpace", "autoPinEdge"]
+- !private ["PSo17UICoordinateSpace", "autoPinWidthToSuperview"]
+- !private ["PSo17UICoordinateSpace", "autoSetDimension"]
+- !private ["PSo17UICoordinateSpace", "createSubviews"]
+- !private ["PSo17UICoordinateSpace", "emojiForContentType"]
+- !private ["PSo17UICoordinateSpace", "filename"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "genericFilename"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "isIncoming"]
+- !private ["PSo17UICoordinateSpace", "lineBreakMode"]
+- !private ["PSo17UICoordinateSpace", "nameLabel"]
+- !private ["PSo17UICoordinateSpace", "progress"]
+- !private ["PSo17UICoordinateSpace", "progressView"]
+- !private ["PSo17UICoordinateSpace", "statusLabel"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textAlignment"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- !private ["PSo17UICoordinateSpace", "updateViews"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRect"]
+- !private ["PSo13UIDynamicItem", "MIMETypeUtil"]
+- ["PSo13UIDynamicItem", "NSLocalizedString"]
+- ["PSo13UIDynamicItem", "OWSProgressView"]
+- !private ["PSo13UIDynamicItem", "TSAttachmentPointer"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- ["PSo13UIDynamicItem", "UILabel"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "adjustsFontSizeToFitWidth"]
+- !private ["PSo13UIDynamicItem", "assertionFailure"]
+- !private ["PSo13UIDynamicItem", "attachmentPointer"]
+- !private ["PSo13UIDynamicItem", "autoPinEdge"]
+- !private ["PSo13UIDynamicItem", "autoPinWidthToSuperview"]
+- !private ["PSo13UIDynamicItem", "autoSetDimension"]
+- !private ["PSo13UIDynamicItem", "createSubviews"]
+- !private ["PSo13UIDynamicItem", "emojiForContentType"]
+- !private ["PSo13UIDynamicItem", "filename"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "genericFilename"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "isIncoming"]
+- !private ["PSo13UIDynamicItem", "lineBreakMode"]
+- !private ["PSo13UIDynamicItem", "nameLabel"]
+- !private ["PSo13UIDynamicItem", "progress"]
+- !private ["PSo13UIDynamicItem", "progressView"]
+- !private ["PSo13UIDynamicItem", "statusLabel"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textAlignment"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- !private ["PSo13UIDynamicItem", "updateViews"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "MIMETypeUtil"]
+- ["PSo18UIFocusEnvironment", "NSLocalizedString"]
+- ["PSo18UIFocusEnvironment", "OWSProgressView"]
+- !private ["PSo18UIFocusEnvironment", "TSAttachmentPointer"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "UILabel"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "adjustsFontSizeToFitWidth"]
+- !private ["PSo18UIFocusEnvironment", "assertionFailure"]
+- !private ["PSo18UIFocusEnvironment", "attachmentPointer"]
+- !private ["PSo18UIFocusEnvironment", "autoPinEdge"]
+- !private ["PSo18UIFocusEnvironment", "autoPinWidthToSuperview"]
+- !private ["PSo18UIFocusEnvironment", "autoSetDimension"]
+- !private ["PSo18UIFocusEnvironment", "createSubviews"]
+- !private ["PSo18UIFocusEnvironment", "emojiForContentType"]
+- !private ["PSo18UIFocusEnvironment", "filename"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "genericFilename"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "isIncoming"]
+- !private ["PSo18UIFocusEnvironment", "lineBreakMode"]
+- !private ["PSo18UIFocusEnvironment", "nameLabel"]
+- !private ["PSo18UIFocusEnvironment", "progress"]
+- !private ["PSo18UIFocusEnvironment", "progressView"]
+- !private ["PSo18UIFocusEnvironment", "statusLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textAlignment"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- !private ["PSo18UIFocusEnvironment", "updateViews"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGRect"]
+- !private ["PSo11UIFocusItem", "MIMETypeUtil"]
+- ["PSo11UIFocusItem", "NSLocalizedString"]
+- ["PSo11UIFocusItem", "OWSProgressView"]
+- !private ["PSo11UIFocusItem", "TSAttachmentPointer"]
+- !private ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "UIFont"]
+- ["PSo11UIFocusItem", "UILabel"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "adjustsFontSizeToFitWidth"]
+- !private ["PSo11UIFocusItem", "assertionFailure"]
+- !private ["PSo11UIFocusItem", "attachmentPointer"]
+- !private ["PSo11UIFocusItem", "autoPinEdge"]
+- !private ["PSo11UIFocusItem", "autoPinWidthToSuperview"]
+- !private ["PSo11UIFocusItem", "autoSetDimension"]
+- !private ["PSo11UIFocusItem", "createSubviews"]
+- !private ["PSo11UIFocusItem", "emojiForContentType"]
+- !private ["PSo11UIFocusItem", "filename"]
+- !private ["PSo11UIFocusItem", "font"]
+- !private ["PSo11UIFocusItem", "genericFilename"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "isIncoming"]
+- !private ["PSo11UIFocusItem", "lineBreakMode"]
+- !private ["PSo11UIFocusItem", "nameLabel"]
+- !private ["PSo11UIFocusItem", "progress"]
+- !private ["PSo11UIFocusItem", "progressView"]
+- !private ["PSo11UIFocusItem", "statusLabel"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo11UIFocusItem", "textAlignment"]
+- !private ["PSo11UIFocusItem", "textColor"]
+- !private ["PSo11UIFocusItem", "updateViews"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo6UIFont", "ows_dynamicTypeBody"]
+- !private ["CSo6UIFont", "ows_footnote"]
+- !private ["CSo7UILabel", "adjustsFontSizeToFitWidth"]
+- !private ["CSo7UILabel", "autoPinEdge"]
+- !private ["CSo7UILabel", "autoPinWidthToSuperview"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "init"]
+- !private ["CSo7UILabel", "lineBreakMode"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo7UILabel", "textAlignment"]
+- !private ["CSo7UILabel", "textColor"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "MIMETypeUtil"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "NSLocalizedString"]
+- ["CSo11UIResponder", "OWSProgressView"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "TAG"]
+- ["CSo11UIResponder", "TSAttachmentPointer"]
+- ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "adjustsFontSizeToFitWidth"]
+- !private ["CSo11UIResponder", "assertionFailure"]
+- ["CSo11UIResponder", "attachmentPointer"]
+- !private ["CSo11UIResponder", "autoPinEdge"]
+- !private ["CSo11UIResponder", "autoPinWidthToSuperview"]
+- !private ["CSo11UIResponder", "autoSetDimension"]
+- ["CSo11UIResponder", "createSubviews"]
+- ["CSo11UIResponder", "emojiForContentType"]
+- ["CSo11UIResponder", "filename"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "genericFilename"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- ["CSo11UIResponder", "isIncoming"]
+- !private ["CSo11UIResponder", "lineBreakMode"]
+- ["CSo11UIResponder", "nameLabel"]
+- ["CSo11UIResponder", "progress"]
+- ["CSo11UIResponder", "progressView"]
+- ["CSo11UIResponder", "statusLabel"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textAlignment"]
+- ["CSo11UIResponder", "textColor"]
+- ["CSo11UIResponder", "updateViews"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "MIMETypeUtil"]
+- ["PSo30UIResponderStandardEditActions", "NSLocalizedString"]
+- ["PSo30UIResponderStandardEditActions", "OWSProgressView"]
+- !private ["PSo30UIResponderStandardEditActions", "TSAttachmentPointer"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIFont"]
+- ["PSo30UIResponderStandardEditActions", "UILabel"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "adjustsFontSizeToFitWidth"]
+- !private ["PSo30UIResponderStandardEditActions", "assertionFailure"]
+- !private ["PSo30UIResponderStandardEditActions", "attachmentPointer"]
+- !private ["PSo30UIResponderStandardEditActions", "autoPinEdge"]
+- !private ["PSo30UIResponderStandardEditActions", "autoPinWidthToSuperview"]
+- !private ["PSo30UIResponderStandardEditActions", "autoSetDimension"]
+- !private ["PSo30UIResponderStandardEditActions", "createSubviews"]
+- !private ["PSo30UIResponderStandardEditActions", "emojiForContentType"]
+- !private ["PSo30UIResponderStandardEditActions", "filename"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- !private ["PSo30UIResponderStandardEditActions", "genericFilename"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "isIncoming"]
+- !private ["PSo30UIResponderStandardEditActions", "lineBreakMode"]
+- !private ["PSo30UIResponderStandardEditActions", "nameLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "progress"]
+- !private ["PSo30UIResponderStandardEditActions", "progressView"]
+- !private ["PSo30UIResponderStandardEditActions", "statusLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "textAlignment"]
+- !private ["PSo30UIResponderStandardEditActions", "textColor"]
+- !private ["PSo30UIResponderStandardEditActions", "updateViews"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "MIMETypeUtil"]
+- ["PSo18UITraitEnvironment", "NSLocalizedString"]
+- ["PSo18UITraitEnvironment", "OWSProgressView"]
+- !private ["PSo18UITraitEnvironment", "TSAttachmentPointer"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- ["PSo18UITraitEnvironment", "UILabel"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "adjustsFontSizeToFitWidth"]
+- !private ["PSo18UITraitEnvironment", "assertionFailure"]
+- !private ["PSo18UITraitEnvironment", "attachmentPointer"]
+- !private ["PSo18UITraitEnvironment", "autoPinEdge"]
+- !private ["PSo18UITraitEnvironment", "autoPinWidthToSuperview"]
+- !private ["PSo18UITraitEnvironment", "autoSetDimension"]
+- !private ["PSo18UITraitEnvironment", "createSubviews"]
+- !private ["PSo18UITraitEnvironment", "emojiForContentType"]
+- !private ["PSo18UITraitEnvironment", "filename"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "genericFilename"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "isIncoming"]
+- !private ["PSo18UITraitEnvironment", "lineBreakMode"]
+- !private ["PSo18UITraitEnvironment", "nameLabel"]
+- !private ["PSo18UITraitEnvironment", "progress"]
+- !private ["PSo18UITraitEnvironment", "progressView"]
+- !private ["PSo18UITraitEnvironment", "statusLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textAlignment"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- !private ["PSo18UITraitEnvironment", "updateViews"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "MIMETypeUtil"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "NSLocalizedString"]
+- ["CSo6UIView", "OWSProgressView"]
+- ["CSo6UIView", "String"]
+- ["CSo6UIView", "TAG"]
+- ["CSo6UIView", "TSAttachmentPointer"]
+- ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIFont"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "adjustsFontSizeToFitWidth"]
+- !private ["CSo6UIView", "assertionFailure"]
+- ["CSo6UIView", "attachmentPointer"]
+- !private ["CSo6UIView", "autoPinEdge"]
+- !private ["CSo6UIView", "autoPinWidthToSuperview"]
+- !private ["CSo6UIView", "autoSetDimension"]
+- ["CSo6UIView", "createSubviews"]
+- ["CSo6UIView", "emojiForContentType"]
+- ["CSo6UIView", "filename"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "genericFilename"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isHidden"]
+- ["CSo6UIView", "isIncoming"]
+- !private ["CSo6UIView", "lineBreakMode"]
+- ["CSo6UIView", "nameLabel"]
+- ["CSo6UIView", "progress"]
+- ["CSo6UIView", "progressView"]
+- ["CSo6UIView", "statusLabel"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textAlignment"]
+- ["CSo6UIView", "textColor"]
+- ["CSo6UIView", "updateViews"]
+- ["CSo6UIView", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGRect"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "MIMETypeUtil"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSLocalizedString"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "OWSProgressView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "TSAttachmentPointer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIFont"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UILabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "adjustsFontSizeToFitWidth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "assertionFailure"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "attachmentPointer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoPinEdge"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoPinWidthToSuperview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoSetDimension"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "createSubviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "emojiForContentType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "filename"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "genericFilename"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isIncoming"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lineBreakMode"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nameLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "progress"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "progressView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "statusLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "updateViews"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps26_ExpressibleByColorLiteral", "darkText"]
+- !private ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "MIMETypeUtil"]
+- ["Ps9_Hashable", "NSLocalizedString"]
+- ["Ps9_Hashable", "OWSProgressView"]
+- !private ["Ps9_Hashable", "TSAttachmentPointer"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIFont"]
+- ["Ps9_Hashable", "UILabel"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "adjustsFontSizeToFitWidth"]
+- !private ["Ps9_Hashable", "assertionFailure"]
+- !private ["Ps9_Hashable", "attachmentPointer"]
+- !private ["Ps9_Hashable", "autoPinEdge"]
+- !private ["Ps9_Hashable", "autoPinWidthToSuperview"]
+- !private ["Ps9_Hashable", "autoSetDimension"]
+- !private ["Ps9_Hashable", "bottom"]
+- !private ["Ps9_Hashable", "byTruncatingMiddle"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "contentType"]
+- !private ["Ps9_Hashable", "createSubviews"]
+- !private ["Ps9_Hashable", "darkText"]
+- !private ["Ps9_Hashable", "downloading"]
+- !private ["Ps9_Hashable", "emojiForContentType"]
+- !private ["Ps9_Hashable", "enqueued"]
+- !private ["Ps9_Hashable", "failed"]
+- !private ["Ps9_Hashable", "filename"]
+- !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "genericFilename"]
+- !private ["Ps9_Hashable", "height"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isAnimated"]
+- !private ["Ps9_Hashable", "isAudio"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "isImage"]
+- !private ["Ps9_Hashable", "isIncoming"]
+- !private ["Ps9_Hashable", "isVideo"]
+- !private ["Ps9_Hashable", "lineBreakMode"]
+- !private ["Ps9_Hashable", "nameLabel"]
+- !private ["Ps9_Hashable", "ows_dynamicTypeBody"]
+- !private ["Ps9_Hashable", "ows_footnote"]
+- !private ["Ps9_Hashable", "progress"]
+- !private ["Ps9_Hashable", "progressView"]
+- !private ["Ps9_Hashable", "sourceFilename"]
+- !private ["Ps9_Hashable", "state"]
+- !private ["Ps9_Hashable", "statusLabel"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "textAlignment"]
+- !private ["Ps9_Hashable", "textColor"]
+- !private ["Ps9_Hashable", "top"]
+- !private ["Ps9_Hashable", "updateViews"]
+- !private ["Ps9_Hashable", "white"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
+depends-nominal:
+- !private "OSC11ALDimension"
+- !private "OSC6ALEdge"
+- "Ps9AnyObject"
+- "C8TestChat21AttachmentPointerView"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- !private "CSo12MIMETypeUtil"
+- !private "CSo8MTLModel"
+- !private "PSo16MTLModelProtocol"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "OSC15NSLineBreakMode"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "OSC15NSTextAlignment"
+- "CSo15OWSProgressView"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- "SS"
+- !private "CSo12TSAttachment"
+- !private "CSo19TSAttachmentPointer"
+- !private "OSC24TSAttachmentPointerState"
+- !private "CSo19TSYapDatabaseObject"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo6UIFont"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "00f7bba3f48e60c6d0848741f5f24f21"

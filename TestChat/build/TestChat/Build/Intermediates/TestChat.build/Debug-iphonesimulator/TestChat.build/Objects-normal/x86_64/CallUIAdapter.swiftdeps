@@ -1,0 +1,846 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CallUIAdaptee"
+- "CallUIAdapter"
+provides-nominal:
+- "P8TestChat13CallUIAdaptee"
+- "C8TestChat13CallUIAdapter"
+provides-member:
+- ["P8TestChat13CallUIAdaptee", ""]
+- ["C8TestChat13CallUIAdapter", ""]
+- ["P8TestChat13CallUIAdaptee", "showCall"]
+- ["P8TestChat13CallUIAdaptee", "reportMissedCall"]
+- ["P8TestChat13CallUIAdaptee", "startAndShowOutgoingCall"]
+provides-dynamic-lookup:
+- "TAG"
+- "answerCall"
+- "declineCall"
+- "didUpdateCall"
+- "didUpdateVideoTracks"
+- "hasManualRinger"
+- "localHangupCall"
+- "recipientAcceptedCall"
+- "remoteBusy"
+- "remoteDidHangupCall"
+- "reportIncomingCall"
+- "reportMissedCall"
+- "setHasLocalVideo"
+- "setIsMuted"
+- "setIsSpeakerphoneEnabled"
+- "showCall"
+- "startAndShowOutgoingCall"
+- "startOutgoingCall"
+depends-top-level:
+- !private "=="
+- !private "AssertIsOnMainThread"
+- "AssignmentPrecedence"
+- "Bool"
+- "CallAudioService"
+- "CallError"
+- !private "CallKitCallUIAdaptee"
+- "CallNotificationsAdapter"
+- "CallService"
+- "CallServiceObserver"
+- "CallUIAdaptee"
+- "CallUIAdapter"
+- !private "Environment"
+- !private "Logger"
+- !private "NSNotification"
+- "NSObject"
+- !private "NonCallKitCallUIAdaptee"
+- !private "NotificationCenter"
+- "OWSContactsManager"
+- !private "Platform"
+- "RTCVideoTrack"
+- "SignalCall"
+- "String"
+- "StringLiteralType"
+- "TSContactThread"
+- "UUID"
+depends-member:
+- !private ["Ps9AnyObject", "AssertIsOnMainThread"]
+- !private ["Ps9AnyObject", "CallAudioService"]
+- !private ["Ps9AnyObject", "CallKitCallUIAdaptee"]
+- !private ["Ps9AnyObject", "Environment"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NonCallKitCallUIAdaptee"]
+- !private ["Ps9AnyObject", "Platform"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "adaptee"]
+- !private ["Ps9AnyObject", "addObserverAndSyncState"]
+- !private ["Ps9AnyObject", "audioService"]
+- !private ["Ps9AnyObject", "call"]
+- !private ["Ps9AnyObject", "callServiceActiveCallNotificationName"]
+- !private ["Ps9AnyObject", "contactsManager"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "didUpdateCall"]
+- ["Ps9AnyObject", "didUpdateVideoTracks"]
+- !private ["Ps9AnyObject", "displayName"]
+- !private ["Ps9AnyObject", "getCurrent"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isCallKitEnabled"]
+- !private ["Ps9AnyObject", "isSpeakerphoneEnabled"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "preferences"]
+- !private ["Ps9AnyObject", "presentMissedCall"]
+- !private ["Ps9AnyObject", "remotePhoneNumber"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "AssertIsOnMainThread"]
+- !private ["Ps7CVarArg", "CallAudioService"]
+- !private ["Ps7CVarArg", "CallKitCallUIAdaptee"]
+- !private ["Ps7CVarArg", "Environment"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NonCallKitCallUIAdaptee"]
+- !private ["Ps7CVarArg", "Platform"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "adaptee"]
+- !private ["Ps7CVarArg", "addObserverAndSyncState"]
+- !private ["Ps7CVarArg", "audioService"]
+- !private ["Ps7CVarArg", "call"]
+- !private ["Ps7CVarArg", "callServiceActiveCallNotificationName"]
+- !private ["Ps7CVarArg", "contactsManager"]
+- !private ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "didUpdateCall"]
+- ["Ps7CVarArg", "didUpdateVideoTracks"]
+- !private ["Ps7CVarArg", "displayName"]
+- !private ["Ps7CVarArg", "getCurrent"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isCallKitEnabled"]
+- !private ["Ps7CVarArg", "isSpeakerphoneEnabled"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "preferences"]
+- !private ["Ps7CVarArg", "presentMissedCall"]
+- !private ["Ps7CVarArg", "remotePhoneNumber"]
+- ["Ps7CVarArg", ""]
+- !private ["PSo18CXProviderDelegate", "init"]
+- !private ["C8TestChat16CallAudioService", "deinit"]
+- !private ["C8TestChat16CallAudioService", "didUpdateVideoTracks"]
+- !private ["C8TestChat16CallAudioService", "init"]
+- !private ["C8TestChat20CallKitCallUIAdaptee", "deinit"]
+- !private ["C8TestChat20CallKitCallUIAdaptee", "init"]
+- !private ["C8TestChat24CallNotificationsAdapter", "presentMissedCall"]
+- !private ["P8TestChat12CallObserver", "addObserverAndSyncState"]
+- !private ["P8TestChat12CallObserver", "call"]
+- !private ["P8TestChat12CallObserver", "callServiceActiveCallNotificationName"]
+- !private ["P8TestChat12CallObserver", "didUpdateVideoTracks"]
+- !private ["P8TestChat12CallObserver", "init"]
+- !private ["C8TestChat11CallService", "addObserverAndSyncState"]
+- !private ["C8TestChat11CallService", "call"]
+- !private ["C8TestChat11CallService", "callServiceActiveCallNotificationName"]
+- !private ["P8TestChat19CallServiceObserver", "AssertIsOnMainThread"]
+- !private ["P8TestChat19CallServiceObserver", "CallAudioService"]
+- !private ["P8TestChat19CallServiceObserver", "CallKitCallUIAdaptee"]
+- !private ["P8TestChat19CallServiceObserver", "Environment"]
+- !private ["P8TestChat19CallServiceObserver", "Logger"]
+- !private ["P8TestChat19CallServiceObserver", "NonCallKitCallUIAdaptee"]
+- !private ["P8TestChat19CallServiceObserver", "Platform"]
+- !private ["P8TestChat19CallServiceObserver", "TAG"]
+- !private ["P8TestChat19CallServiceObserver", "adaptee"]
+- !private ["P8TestChat19CallServiceObserver", "audioService"]
+- !private ["P8TestChat19CallServiceObserver", "contactsManager"]
+- ["P8TestChat19CallServiceObserver", "didUpdateCall"]
+- ["P8TestChat19CallServiceObserver", "didUpdateVideoTracks"]
+- ["P8TestChat19CallServiceObserver", ""]
+- !private ["P8TestChat13CallUIAdaptee", "AssertIsOnMainThread"]
+- ["P8TestChat13CallUIAdaptee", "Bool"]
+- ["P8TestChat13CallUIAdaptee", "CallError"]
+- ["P8TestChat13CallUIAdaptee", "CallNotificationsAdapter"]
+- ["P8TestChat13CallUIAdaptee", "CallService"]
+- !private ["P8TestChat13CallUIAdaptee", "Logger"]
+- !private ["P8TestChat13CallUIAdaptee", "NSNotification"]
+- !private ["P8TestChat13CallUIAdaptee", "NotificationCenter"]
+- ["P8TestChat13CallUIAdaptee", "SignalCall"]
+- ["P8TestChat13CallUIAdaptee", "String"]
+- ["P8TestChat13CallUIAdaptee", "UUID"]
+- ["P8TestChat13CallUIAdaptee", "answerCall"]
+- ["P8TestChat13CallUIAdaptee", "callService"]
+- ["P8TestChat13CallUIAdaptee", "declineCall"]
+- ["P8TestChat13CallUIAdaptee", "failCall"]
+- ["P8TestChat13CallUIAdaptee", "hasManualRinger"]
+- !private ["P8TestChat13CallUIAdaptee", "init"]
+- ["P8TestChat13CallUIAdaptee", "localHangupCall"]
+- ["P8TestChat13CallUIAdaptee", "notificationsAdapter"]
+- ["P8TestChat13CallUIAdaptee", "recipientAcceptedCall"]
+- ["P8TestChat13CallUIAdaptee", "remoteBusy"]
+- ["P8TestChat13CallUIAdaptee", "remoteDidHangupCall"]
+- ["P8TestChat13CallUIAdaptee", "reportIncomingCall"]
+- ["P8TestChat13CallUIAdaptee", "reportMissedCall"]
+- ["P8TestChat13CallUIAdaptee", "setHasLocalVideo"]
+- ["P8TestChat13CallUIAdaptee", "setIsMuted"]
+- ["P8TestChat13CallUIAdaptee", "showCall"]
+- ["P8TestChat13CallUIAdaptee", "startAndShowOutgoingCall"]
+- ["P8TestChat13CallUIAdaptee", "startOutgoingCall"]
+- !private ["C8TestChat13CallUIAdapter", "AssertIsOnMainThread"]
+- ["C8TestChat13CallUIAdapter", "Bool"]
+- ["C8TestChat13CallUIAdapter", "CallAudioService"]
+- ["C8TestChat13CallUIAdapter", "CallError"]
+- !private ["C8TestChat13CallUIAdapter", "CallKitCallUIAdaptee"]
+- ["C8TestChat13CallUIAdapter", "CallNotificationsAdapter"]
+- ["C8TestChat13CallUIAdapter", "CallService"]
+- ["C8TestChat13CallUIAdapter", "CallUIAdaptee"]
+- !private ["C8TestChat13CallUIAdapter", "Environment"]
+- !private ["C8TestChat13CallUIAdapter", "Logger"]
+- !private ["C8TestChat13CallUIAdapter", "NonCallKitCallUIAdaptee"]
+- ["C8TestChat13CallUIAdapter", "OWSContactsManager"]
+- !private ["C8TestChat13CallUIAdapter", "Platform"]
+- ["C8TestChat13CallUIAdapter", "RTCVideoTrack"]
+- ["C8TestChat13CallUIAdapter", "SignalCall"]
+- ["C8TestChat13CallUIAdapter", "String"]
+- ["C8TestChat13CallUIAdapter", "TAG"]
+- ["C8TestChat13CallUIAdapter", "TSContactThread"]
+- ["C8TestChat13CallUIAdapter", "UUID"]
+- !private ["C8TestChat13CallUIAdapter", "adaptee"]
+- ["C8TestChat13CallUIAdapter", "answerCall"]
+- !private ["C8TestChat13CallUIAdapter", "audioService"]
+- !private ["C8TestChat13CallUIAdapter", "contactsManager"]
+- ["C8TestChat13CallUIAdapter", "declineCall"]
+- ["C8TestChat13CallUIAdapter", "deinit"]
+- ["C8TestChat13CallUIAdapter", "didUpdateCall"]
+- ["C8TestChat13CallUIAdapter", "didUpdateVideoTracks"]
+- ["C8TestChat13CallUIAdapter", "failCall"]
+- ["C8TestChat13CallUIAdapter", "hasManualRinger"]
+- ["C8TestChat13CallUIAdapter", "init"]
+- ["C8TestChat13CallUIAdapter", "localHangupCall"]
+- ["C8TestChat13CallUIAdapter", "recipientAcceptedCall"]
+- ["C8TestChat13CallUIAdapter", "remoteBusy"]
+- ["C8TestChat13CallUIAdapter", "remoteDidHangupCall"]
+- ["C8TestChat13CallUIAdapter", "reportIncomingCall"]
+- ["C8TestChat13CallUIAdapter", "reportMissedCall"]
+- ["C8TestChat13CallUIAdapter", "setHasLocalVideo"]
+- ["C8TestChat13CallUIAdapter", "setIsMuted"]
+- ["C8TestChat13CallUIAdapter", "setIsSpeakerphoneEnabled"]
+- ["C8TestChat13CallUIAdapter", "showCall"]
+- ["C8TestChat13CallUIAdapter", "startAndShowOutgoingCall"]
+- ["C8TestChat13CallUIAdapter", "startOutgoingCall"]
+- ["Ps10Comparable", "init"]
+- !private ["PSo23ContactsManagerProtocol", "displayName"]
+- !private ["Ps28CustomDebugStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "CallAudioService"]
+- !private ["Ps28CustomDebugStringConvertible", "CallKitCallUIAdaptee"]
+- !private ["Ps28CustomDebugStringConvertible", "Environment"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NonCallKitCallUIAdaptee"]
+- !private ["Ps28CustomDebugStringConvertible", "Platform"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "adaptee"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserverAndSyncState"]
+- !private ["Ps28CustomDebugStringConvertible", "audioService"]
+- !private ["Ps28CustomDebugStringConvertible", "call"]
+- !private ["Ps28CustomDebugStringConvertible", "callServiceActiveCallNotificationName"]
+- !private ["Ps28CustomDebugStringConvertible", "contactsManager"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "didUpdateCall"]
+- ["Ps28CustomDebugStringConvertible", "didUpdateVideoTracks"]
+- !private ["Ps28CustomDebugStringConvertible", "displayName"]
+- !private ["Ps28CustomDebugStringConvertible", "getCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isCallKitEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "isSpeakerphoneEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "preferences"]
+- !private ["Ps28CustomDebugStringConvertible", "presentMissedCall"]
+- !private ["Ps28CustomDebugStringConvertible", "remotePhoneNumber"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps23CustomStringConvertible", "CallAudioService"]
+- !private ["Ps23CustomStringConvertible", "CallKitCallUIAdaptee"]
+- !private ["Ps23CustomStringConvertible", "Environment"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NonCallKitCallUIAdaptee"]
+- !private ["Ps23CustomStringConvertible", "Platform"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "adaptee"]
+- !private ["Ps23CustomStringConvertible", "addObserverAndSyncState"]
+- !private ["Ps23CustomStringConvertible", "audioService"]
+- !private ["Ps23CustomStringConvertible", "call"]
+- !private ["Ps23CustomStringConvertible", "callServiceActiveCallNotificationName"]
+- !private ["Ps23CustomStringConvertible", "contactsManager"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "didUpdateCall"]
+- ["Ps23CustomStringConvertible", "didUpdateVideoTracks"]
+- !private ["Ps23CustomStringConvertible", "displayName"]
+- !private ["Ps23CustomStringConvertible", "getCurrent"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isCallKitEnabled"]
+- !private ["Ps23CustomStringConvertible", "isSpeakerphoneEnabled"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "preferences"]
+- !private ["Ps23CustomStringConvertible", "presentMissedCall"]
+- !private ["Ps23CustomStringConvertible", "remotePhoneNumber"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo11Environment", "getCurrent"]
+- !private ["CSo11Environment", "preferences"]
+- !private ["Ps9Equatable", "AssertIsOnMainThread"]
+- !private ["Ps9Equatable", "CallAudioService"]
+- !private ["Ps9Equatable", "CallKitCallUIAdaptee"]
+- !private ["Ps9Equatable", "Environment"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NonCallKitCallUIAdaptee"]
+- !private ["Ps9Equatable", "Platform"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "adaptee"]
+- !private ["Ps9Equatable", "addObserverAndSyncState"]
+- !private ["Ps9Equatable", "audioService"]
+- !private ["Ps9Equatable", "call"]
+- !private ["Ps9Equatable", "callServiceActiveCallNotificationName"]
+- !private ["Ps9Equatable", "contactsManager"]
+- !private ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "didUpdateCall"]
+- ["Ps9Equatable", "didUpdateVideoTracks"]
+- !private ["Ps9Equatable", "displayName"]
+- !private ["Ps9Equatable", "getCurrent"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isCallKitEnabled"]
+- !private ["Ps9Equatable", "isSpeakerphoneEnabled"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "preferences"]
+- !private ["Ps9Equatable", "presentMissedCall"]
+- !private ["Ps9Equatable", "remotePhoneNumber"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "AssertIsOnMainThread"]
+- !private ["Ps8Hashable", "CallAudioService"]
+- !private ["Ps8Hashable", "CallKitCallUIAdaptee"]
+- !private ["Ps8Hashable", "Environment"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NonCallKitCallUIAdaptee"]
+- !private ["Ps8Hashable", "Platform"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "adaptee"]
+- !private ["Ps8Hashable", "addObserverAndSyncState"]
+- !private ["Ps8Hashable", "audioService"]
+- !private ["Ps8Hashable", "call"]
+- !private ["Ps8Hashable", "callServiceActiveCallNotificationName"]
+- !private ["Ps8Hashable", "contactsManager"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "didUpdateCall"]
+- ["Ps8Hashable", "didUpdateVideoTracks"]
+- !private ["Ps8Hashable", "displayName"]
+- !private ["Ps8Hashable", "getCurrent"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isCallKitEnabled"]
+- !private ["Ps8Hashable", "isSpeakerphoneEnabled"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "preferences"]
+- !private ["Ps8Hashable", "presentMissedCall"]
+- !private ["Ps8Hashable", "remotePhoneNumber"]
+- ["Ps8Hashable", ""]
+- !private ["CSo6Logger", "info"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Name"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "Name"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- !private ["CSo8NSObject", "AssertIsOnMainThread"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CallAudioService"]
+- ["CSo8NSObject", "CallError"]
+- !private ["CSo8NSObject", "CallKitCallUIAdaptee"]
+- ["CSo8NSObject", "CallNotificationsAdapter"]
+- ["CSo8NSObject", "CallService"]
+- ["CSo8NSObject", "CallUIAdaptee"]
+- !private ["CSo8NSObject", "Environment"]
+- !private ["CSo8NSObject", "Logger"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NonCallKitCallUIAdaptee"]
+- ["CSo8NSObject", "OWSContactsManager"]
+- !private ["CSo8NSObject", "Platform"]
+- ["CSo8NSObject", "RTCVideoTrack"]
+- ["CSo8NSObject", "SignalCall"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- ["CSo8NSObject", "TSContactThread"]
+- ["CSo8NSObject", "UUID"]
+- ["CSo8NSObject", "adaptee"]
+- !private ["CSo8NSObject", "addObserverAndSyncState"]
+- ["CSo8NSObject", "answerCall"]
+- ["CSo8NSObject", "audioService"]
+- !private ["CSo8NSObject", "call"]
+- !private ["CSo8NSObject", "callServiceActiveCallNotificationName"]
+- ["CSo8NSObject", "contactsManager"]
+- ["CSo8NSObject", "declineCall"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "didUpdateCall"]
+- ["CSo8NSObject", "didUpdateVideoTracks"]
+- !private ["CSo8NSObject", "displayName"]
+- ["CSo8NSObject", "failCall"]
+- !private ["CSo8NSObject", "getCurrent"]
+- ["CSo8NSObject", "hasManualRinger"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCallKitEnabled"]
+- !private ["CSo8NSObject", "isSpeakerphoneEnabled"]
+- ["CSo8NSObject", "localHangupCall"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "preferences"]
+- !private ["CSo8NSObject", "presentMissedCall"]
+- ["CSo8NSObject", "recipientAcceptedCall"]
+- ["CSo8NSObject", "remoteBusy"]
+- ["CSo8NSObject", "remoteDidHangupCall"]
+- !private ["CSo8NSObject", "remotePhoneNumber"]
+- ["CSo8NSObject", "reportIncomingCall"]
+- ["CSo8NSObject", "reportMissedCall"]
+- ["CSo8NSObject", "setHasLocalVideo"]
+- ["CSo8NSObject", "setIsMuted"]
+- ["CSo8NSObject", "setIsSpeakerphoneEnabled"]
+- ["CSo8NSObject", "showCall"]
+- ["CSo8NSObject", "startAndShowOutgoingCall"]
+- ["CSo8NSObject", "startOutgoingCall"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AssertIsOnMainThread"]
+- !private ["PSo16NSObjectProtocol", "CallAudioService"]
+- !private ["PSo16NSObjectProtocol", "CallKitCallUIAdaptee"]
+- !private ["PSo16NSObjectProtocol", "Environment"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NonCallKitCallUIAdaptee"]
+- !private ["PSo16NSObjectProtocol", "Platform"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "adaptee"]
+- !private ["PSo16NSObjectProtocol", "addObserverAndSyncState"]
+- !private ["PSo16NSObjectProtocol", "audioService"]
+- !private ["PSo16NSObjectProtocol", "call"]
+- !private ["PSo16NSObjectProtocol", "callServiceActiveCallNotificationName"]
+- !private ["PSo16NSObjectProtocol", "contactsManager"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "didUpdateCall"]
+- ["PSo16NSObjectProtocol", "didUpdateVideoTracks"]
+- !private ["PSo16NSObjectProtocol", "displayName"]
+- !private ["PSo16NSObjectProtocol", "getCurrent"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCallKitEnabled"]
+- !private ["PSo16NSObjectProtocol", "isSpeakerphoneEnabled"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "preferences"]
+- !private ["PSo16NSObjectProtocol", "presentMissedCall"]
+- !private ["PSo16NSObjectProtocol", "remotePhoneNumber"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["C8TestChat23NonCallKitCallUIAdaptee", "deinit"]
+- !private ["C8TestChat23NonCallKitCallUIAdaptee", "init"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["CSo18OWSContactsManager", "displayName"]
+- !private ["P8TestChat28PeerConnectionClientDelegate", "addObserverAndSyncState"]
+- !private ["P8TestChat28PeerConnectionClientDelegate", "call"]
+- !private ["P8TestChat28PeerConnectionClientDelegate", "callServiceActiveCallNotificationName"]
+- !private ["V8TestChat8Platform", "isSimulator"]
+- !private ["CSo23PropertyListPreferences", "isCallKitEnabled"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["C8TestChat10SignalCall", "addObserverAndSyncState"]
+- !private ["C8TestChat10SignalCall", "deinit"]
+- !private ["C8TestChat10SignalCall", "isSpeakerphoneEnabled"]
+- !private ["C8TestChat10SignalCall", "remotePhoneNumber"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AssertIsOnMainThread"]
+- !private ["Ps9_Hashable", "CallAudioService"]
+- !private ["Ps9_Hashable", "CallKitCallUIAdaptee"]
+- !private ["Ps9_Hashable", "Environment"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NonCallKitCallUIAdaptee"]
+- !private ["Ps9_Hashable", "Platform"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "adaptee"]
+- !private ["Ps9_Hashable", "addObserverAndSyncState"]
+- !private ["Ps9_Hashable", "audioService"]
+- !private ["Ps9_Hashable", "call"]
+- !private ["Ps9_Hashable", "callServiceActiveCallNotificationName"]
+- !private ["Ps9_Hashable", "contactsManager"]
+- !private ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "didUpdateCall"]
+- ["Ps9_Hashable", "didUpdateVideoTracks"]
+- !private ["Ps9_Hashable", "displayName"]
+- !private ["Ps9_Hashable", "getCurrent"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isCallKitEnabled"]
+- !private ["Ps9_Hashable", "isSpeakerphoneEnabled"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "preferences"]
+- !private ["Ps9_Hashable", "presentMissedCall"]
+- !private ["Ps9_Hashable", "remotePhoneNumber"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "PSo18CXProviderDelegate"
+- !private "C8TestChat16CallAudioService"
+- !private "C8TestChat20CallKitCallUIAdaptee"
+- !private "C8TestChat24CallNotificationsAdapter"
+- !private "P8TestChat12CallObserver"
+- !private "C8TestChat11CallService"
+- "P8TestChat19CallServiceObserver"
+- "P8TestChat13CallUIAdaptee"
+- "C8TestChat13CallUIAdapter"
+- "Ps10Comparable"
+- !private "PSo23ContactsManagerProtocol"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo11Environment"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "VCSo14NSNotification4Name"
+- !private "C8TestChat23NonCallKitCallUIAdaptee"
+- !private "CSo18NotificationCenter"
+- !private "CSo18OWSContactsManager"
+- !private "P8TestChat28PeerConnectionClientDelegate"
+- !private "V8TestChat8Platform"
+- !private "CSo23PropertyListPreferences"
+- !private "Ps16RawRepresentable"
+- !private "C8TestChat10SignalCall"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "97ac2c89b3f5686d9fd0a9a0426b0109"

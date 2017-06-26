@@ -1,0 +1,1403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result"
+- "ContactStoreAdaptee"
+- "ContactsFrameworkContactStoreAdaptee"
+- "kAddressBookContactyStoreDidChangeNotificationName"
+- "AddressBookContactStoreAdaptee"
+- "OWSABRecord"
+- "ContactStoreAuthorizationStatus"
+- "ContactStoreAdapter"
+- "SystemContactsFetcherDelegate"
+- "SystemContactsFetcher"
+- "HashableArray"
+- "=="
+- "=="
+provides-nominal:
+- "O8TestChat6Result"
+- "P8TestChat19ContactStoreAdaptee"
+- "C8TestChat36ContactsFrameworkContactStoreAdaptee"
+- "C8TestChat30AddressBookContactStoreAdaptee"
+- "V8TestChat11OWSABRecord"
+- "VV8TestChat11OWSABRecord15MultivalueEntry"
+- "O8TestChat31ContactStoreAuthorizationStatus"
+- "C8TestChat19ContactStoreAdapter"
+- "P8TestChat29SystemContactsFetcherDelegate"
+- "C8TestChat21SystemContactsFetcher"
+- "V8TestChat13HashableArray"
+provides-member:
+- ["O8TestChat6Result", ""]
+- ["P8TestChat19ContactStoreAdaptee", ""]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", ""]
+- ["C8TestChat30AddressBookContactStoreAdaptee", ""]
+- ["V8TestChat11OWSABRecord", ""]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", ""]
+- ["O8TestChat31ContactStoreAuthorizationStatus", ""]
+- ["C8TestChat19ContactStoreAdapter", ""]
+- ["P8TestChat29SystemContactsFetcherDelegate", ""]
+- ["C8TestChat21SystemContactsFetcher", ""]
+- ["V8TestChat13HashableArray", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "fetchIfAlreadyAuthorized"
+- "isAuthorized"
+- "lastDelegateNotificationDate"
+- "requestOnce"
+- "runChangeHandler"
+- "supportsContactEditing"
+- "systemContactsFetcher"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "..<"
+- "=="
+- !private ">"
+- "ABAddressBook"
+- !private "ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering"
+- "ABAddressBookCreateWithOptions"
+- !private "ABAddressBookGetAuthorizationStatus"
+- !private "ABAddressBookRegisterExternalChangeCallback"
+- !private "ABAddressBookRequestAccessWithCompletion"
+- !private "ABExternalChangeCallback"
+- !private "ABMultiValue"
+- !private "ABMultiValueCopyLabelAtIndex"
+- !private "ABMultiValueCopyValueAtIndex"
+- !private "ABMultiValueGetCount"
+- !private "ABMultiValueGetIdentifierAtIndex"
+- !private "ABPersonCopyImageData"
+- !private "ABPersonGetSortOrdering"
+- !private "ABPersonHasImageData"
+- !private "ABPropertyID"
+- "ABRecord"
+- !private "ABRecordCopyValue"
+- !private "ABRecordGetRecordID"
+- "ABRecordID"
+- "AddressBookContactStoreAdaptee"
+- !private "AnyObject"
+- !private "Array"
+- !private "AssertIsOnMainThread"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CNContact"
+- "CNContactEmailAddressesKey"
+- !private "CNContactFetchRequest"
+- "CNContactFormatter"
+- "CNContactPhoneNumbersKey"
+- "CNContactStore"
+- "CNContactThumbnailImageDataKey"
+- "CNContactViewController"
+- !private "CNEntityType"
+- "CNKeyDescriptor"
+- "CastingPrecedence"
+- "Contact"
+- "ContactStoreAdaptee"
+- "ContactStoreAdapter"
+- "ContactStoreAuthorizationStatus"
+- "ContactsFrameworkContactStoreAdaptee"
+- !private "Data"
+- "Date"
+- !private "DispatchQueue"
+- "Error"
+- "Hashable"
+- "HashableArray"
+- "Int"
+- !private "Logger"
+- !private "NSError"
+- "NSNotification"
+- "NSObject"
+- !private "NotificationCenter"
+- "OWSABRecord"
+- "Result"
+- "String"
+- "StringLiteralType"
+- "SystemContactsFetcher"
+- "SystemContactsFetcherDelegate"
+- !private "TernaryPrecedence"
+- !private "TimeInterval"
+- "UIImage"
+- "Void"
+- !private "^"
+- !private "assert"
+- !private "assertionFailure"
+- !private "kABPersonFirstNameProperty"
+- !private "kABPersonLastNameProperty"
+- !private "kABPersonOrganizationProperty"
+- !private "kABPersonPhoneProperty"
+- "kAddressBookContactyStoreDidChangeNotificationName"
+depends-member:
+- ["OSC21ABAuthorizationStatus", "authorized"]
+- ["OSC21ABAuthorizationStatus", "denied"]
+- ["OSC21ABAuthorizationStatus", "notDetermined"]
+- ["OSC21ABAuthorizationStatus", "restricted"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBook"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBookCreateWithOptions"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBookGetAuthorizationStatus"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBookRegisterExternalChangeCallback"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABExternalChangeCallback"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABPersonGetSortOrdering"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "ABRecord"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "Bool"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "Contact"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "ContactStoreAuthorizationStatus"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "Error"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "Logger"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "NotificationCenter"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "OWSABRecord"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "Result"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "TAG"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "Void"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "addressBook"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "assert"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "assertionFailure"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "authorizationStatus"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "buildContact"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "changeHandler"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "deinit"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "fetchContacts"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "init"]
+- !private ["C8TestChat30AddressBookContactStoreAdaptee", "kAddressBookContactyStoreDidChangeNotificationName"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "requestAccess"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "runChangeHandler"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "startObservingChanges"]
+- ["C8TestChat30AddressBookContactStoreAdaptee", "supportsContactEditing"]
+- !private ["Ps9AnyObject", "ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering"]
+- ["Ps9AnyObject", "ABAddressBookCreateWithOptions"]
+- !private ["Ps9AnyObject", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps9AnyObject", "ABAddressBookRegisterExternalChangeCallback"]
+- !private ["Ps9AnyObject", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps9AnyObject", "ABPersonGetSortOrdering"]
+- !private ["Ps9AnyObject", "AddressBookContactStoreAdaptee"]
+- !private ["Ps9AnyObject", "AssertIsOnMainThread"]
+- !private ["Ps9AnyObject", "CNContact"]
+- ["Ps9AnyObject", "CNContactEmailAddressesKey"]
+- !private ["Ps9AnyObject", "CNContactFetchRequest"]
+- ["Ps9AnyObject", "CNContactFormatter"]
+- ["Ps9AnyObject", "CNContactPhoneNumbersKey"]
+- ["Ps9AnyObject", "CNContactStore"]
+- ["Ps9AnyObject", "CNContactThumbnailImageDataKey"]
+- ["Ps9AnyObject", "CNContactViewController"]
+- !private ["Ps9AnyObject", "CNEntityType"]
+- !private ["Ps9AnyObject", "Contact"]
+- !private ["Ps9AnyObject", "ContactStoreAdapter"]
+- !private ["Ps9AnyObject", "ContactsFrameworkContactStoreAdaptee"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "HashableArray"]
+- !private ["Ps9AnyObject", "Logger"]
+- ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "OWSABRecord"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "TimeInterval"]
+- !private ["Ps9AnyObject", "adaptee"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "addressBook"]
+- !private ["Ps9AnyObject", "allowedContactKeys"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "authorizationStatus"]
+- !private ["Ps9AnyObject", "buildContact"]
+- !private ["Ps9AnyObject", "changeHandler"]
+- !private ["Ps9AnyObject", "contactStore"]
+- !private ["Ps9AnyObject", "contactStoreAdapter"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "descriptorForRequiredKeys"]
+- !private ["Ps9AnyObject", "enumerateContacts"]
+- !private ["Ps9AnyObject", "error"]
+- ["Ps9AnyObject", "fetchContacts"]
+- !private ["Ps9AnyObject", "global"]
+- !private ["Ps9AnyObject", "hasSetupObservation"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kAddressBookContactyStoreDidChangeNotificationName"]
+- !private ["Ps9AnyObject", "lastContactUpdateHash"]
+- !private ["Ps9AnyObject", "lastDelegateNotificationDate"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "post"]
+- ["Ps9AnyObject", "requestAccess"]
+- !private ["Ps9AnyObject", "runChangeHandler"]
+- !private ["Ps9AnyObject", "setupObservationIfNecessary"]
+- ["Ps9AnyObject", "startObservingChanges"]
+- ["Ps9AnyObject", "supportsContactEditing"]
+- !private ["Ps9AnyObject", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps9AnyObject", "updateContacts"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "reduce"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["OSC21CNAuthorizationStatus", "authorized"]
+- ["OSC21CNAuthorizationStatus", "denied"]
+- ["OSC21CNAuthorizationStatus", "notDetermined"]
+- ["OSC21CNAuthorizationStatus", "restricted"]
+- !private ["CSo21CNContactFetchRequest", "init"]
+- ["CSo18CNContactFormatter", "descriptorForRequiredKeys"]
+- ["OSC23CNContactFormatterStyle", "fullName"]
+- !private ["CSo14CNContactStore", "authorizationStatus"]
+- !private ["CSo14CNContactStore", "enumerateContacts"]
+- ["CSo14CNContactStore", "init"]
+- !private ["CSo14CNContactStore", "requestAccess"]
+- ["CSo23CNContactViewController", "descriptorForRequiredKeys"]
+- !private ["OSC12CNEntityType", "contacts"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "AssertIsOnMainThread"]
+- !private ["Ps7CVarArg", "ContactStoreAdapter"]
+- !private ["Ps7CVarArg", "Date"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "HashableArray"]
+- !private ["Ps7CVarArg", "Logger"]
+- ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "TimeInterval"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "assertionFailure"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "authorizationStatus"]
+- !private ["Ps7CVarArg", "contactStoreAdapter"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "descriptorForRequiredKeys"]
+- !private ["Ps7CVarArg", "enumerateContacts"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "global"]
+- !private ["Ps7CVarArg", "hasSetupObservation"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "lastContactUpdateHash"]
+- !private ["Ps7CVarArg", "lastDelegateNotificationDate"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "reduce"]
+- !private ["Ps7CVarArg", "requestAccess"]
+- !private ["Ps7CVarArg", "setupObservationIfNecessary"]
+- !private ["Ps7CVarArg", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps7CVarArg", "updateContacts"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "reduce"]
+- !private ["Ps10Comparable", "CNContactStoreDidChange"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["CSo7Contact", "init"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering"]
+- ["P8TestChat19ContactStoreAdaptee", "ABAddressBookCreateWithOptions"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ABAddressBookGetAuthorizationStatus"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ABAddressBookRegisterExternalChangeCallback"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ABPersonGetSortOrdering"]
+- !private ["P8TestChat19ContactStoreAdaptee", "AddressBookContactStoreAdaptee"]
+- ["P8TestChat19ContactStoreAdaptee", "Bool"]
+- !private ["P8TestChat19ContactStoreAdaptee", "CNContact"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactEmailAddressesKey"]
+- !private ["P8TestChat19ContactStoreAdaptee", "CNContactFetchRequest"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactFormatter"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactPhoneNumbersKey"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactStore"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactThumbnailImageDataKey"]
+- ["P8TestChat19ContactStoreAdaptee", "CNContactViewController"]
+- !private ["P8TestChat19ContactStoreAdaptee", "CNEntityType"]
+- ["P8TestChat19ContactStoreAdaptee", "Contact"]
+- ["P8TestChat19ContactStoreAdaptee", "ContactStoreAuthorizationStatus"]
+- !private ["P8TestChat19ContactStoreAdaptee", "ContactsFrameworkContactStoreAdaptee"]
+- ["P8TestChat19ContactStoreAdaptee", "Error"]
+- !private ["P8TestChat19ContactStoreAdaptee", "Logger"]
+- !private ["P8TestChat19ContactStoreAdaptee", "NotificationCenter"]
+- !private ["P8TestChat19ContactStoreAdaptee", "OWSABRecord"]
+- ["P8TestChat19ContactStoreAdaptee", "Result"]
+- !private ["P8TestChat19ContactStoreAdaptee", "TAG"]
+- ["P8TestChat19ContactStoreAdaptee", "Void"]
+- !private ["P8TestChat19ContactStoreAdaptee", "adaptee"]
+- !private ["P8TestChat19ContactStoreAdaptee", "addressBook"]
+- !private ["P8TestChat19ContactStoreAdaptee", "allowedContactKeys"]
+- !private ["P8TestChat19ContactStoreAdaptee", "assert"]
+- !private ["P8TestChat19ContactStoreAdaptee", "assertionFailure"]
+- ["P8TestChat19ContactStoreAdaptee", "authorizationStatus"]
+- !private ["P8TestChat19ContactStoreAdaptee", "buildContact"]
+- !private ["P8TestChat19ContactStoreAdaptee", "changeHandler"]
+- !private ["P8TestChat19ContactStoreAdaptee", "contactStore"]
+- ["P8TestChat19ContactStoreAdaptee", "fetchContacts"]
+- !private ["P8TestChat19ContactStoreAdaptee", "init"]
+- !private ["P8TestChat19ContactStoreAdaptee", "kAddressBookContactyStoreDidChangeNotificationName"]
+- ["P8TestChat19ContactStoreAdaptee", "requestAccess"]
+- !private ["P8TestChat19ContactStoreAdaptee", "runChangeHandler"]
+- ["P8TestChat19ContactStoreAdaptee", "startObservingChanges"]
+- ["P8TestChat19ContactStoreAdaptee", "supportsContactEditing"]
+- ["P8TestChat19ContactStoreAdaptee", ""]
+- !private ["C8TestChat19ContactStoreAdapter", "AddressBookContactStoreAdaptee"]
+- ["C8TestChat19ContactStoreAdapter", "Bool"]
+- ["C8TestChat19ContactStoreAdapter", "Contact"]
+- ["C8TestChat19ContactStoreAdapter", "ContactStoreAdaptee"]
+- ["C8TestChat19ContactStoreAdapter", "ContactStoreAuthorizationStatus"]
+- !private ["C8TestChat19ContactStoreAdapter", "ContactsFrameworkContactStoreAdaptee"]
+- ["C8TestChat19ContactStoreAdapter", "Error"]
+- ["C8TestChat19ContactStoreAdapter", "Result"]
+- ["C8TestChat19ContactStoreAdapter", "Void"]
+- ["C8TestChat19ContactStoreAdapter", "adaptee"]
+- ["C8TestChat19ContactStoreAdapter", "authorizationStatus"]
+- ["C8TestChat19ContactStoreAdapter", "deinit"]
+- ["C8TestChat19ContactStoreAdapter", "fetchContacts"]
+- ["C8TestChat19ContactStoreAdapter", "init"]
+- ["C8TestChat19ContactStoreAdapter", "requestAccess"]
+- ["C8TestChat19ContactStoreAdapter", "startObservingChanges"]
+- ["C8TestChat19ContactStoreAdapter", "supportsContactEditing"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "=="]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "_toAnyHashable"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "authorized"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "deinit"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "denied"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "hashValue"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "notDetermined"]
+- ["O8TestChat31ContactStoreAuthorizationStatus", "restricted"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Bool"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContact"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactEmailAddressesKey"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactFetchRequest"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactFormatter"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactPhoneNumbersKey"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactStore"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactThumbnailImageDataKey"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNContactViewController"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNEntityType"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "CNKeyDescriptor"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Contact"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "ContactStoreAuthorizationStatus"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Error"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Logger"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "NSError"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "NotificationCenter"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Result"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "TAG"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "Void"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "allowedContactKeys"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "assert"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "assertionFailure"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "authorizationStatus"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "changeHandler"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "contactStore"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "deinit"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "fetchContacts"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "init"]
+- !private ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "initializedObserver"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "requestAccess"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "runChangeHandler"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "startObservingChanges"]
+- ["C8TestChat36ContactsFrameworkContactStoreAdaptee", "supportsContactEditing"]
+- !private ["Ps28CustomDebugStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "CNContactStoreDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "ContactStoreAdapter"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "HashableArray"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "TimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "authorized"]
+- !private ["Ps28CustomDebugStringConvertible", "contactStoreAdapter"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "descriptorForRequiredKeys"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerateContacts"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "global"]
+- !private ["Ps28CustomDebugStringConvertible", "hasSetupObservation"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "lastContactUpdateHash"]
+- !private ["Ps28CustomDebugStringConvertible", "lastDelegateNotificationDate"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAccess"]
+- !private ["Ps28CustomDebugStringConvertible", "setupObservationIfNecessary"]
+- !private ["Ps28CustomDebugStringConvertible", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps28CustomDebugStringConvertible", "updateContacts"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "CNContactStoreDidChange"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "authorized"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "reduce"]
+- !private ["Ps23CustomStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps23CustomStringConvertible", "ContactStoreAdapter"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "HashableArray"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "TimeInterval"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "authorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "contactStoreAdapter"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "descriptorForRequiredKeys"]
+- !private ["Ps23CustomStringConvertible", "enumerateContacts"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "global"]
+- !private ["Ps23CustomStringConvertible", "hasSetupObservation"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "lastContactUpdateHash"]
+- !private ["Ps23CustomStringConvertible", "lastDelegateNotificationDate"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Ps23CustomStringConvertible", "requestAccess"]
+- !private ["Ps23CustomStringConvertible", "setupObservationIfNecessary"]
+- !private ["Ps23CustomStringConvertible", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps23CustomStringConvertible", "updateContacts"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "init"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "global"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "global"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "AssertIsOnMainThread"]
+- !private ["Ps9Equatable", "CNContactStoreDidChange"]
+- !private ["Ps9Equatable", "ContactStoreAdapter"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "HashableArray"]
+- !private ["Ps9Equatable", "Logger"]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "TimeInterval"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "authorizationStatus"]
+- ["Ps9Equatable", "authorized"]
+- !private ["Ps9Equatable", "contactStoreAdapter"]
+- !private ["Ps9Equatable", "contacts"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "denied"]
+- ["Ps9Equatable", "descriptorForRequiredKeys"]
+- !private ["Ps9Equatable", "elements"]
+- !private ["Ps9Equatable", "enumerateContacts"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "fullName"]
+- !private ["Ps9Equatable", "global"]
+- !private ["Ps9Equatable", "hasSetupObservation"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lastContactUpdateHash"]
+- !private ["Ps9Equatable", "lastDelegateNotificationDate"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "notDetermined"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "requestAccess"]
+- ["Ps9Equatable", "restricted"]
+- !private ["Ps9Equatable", "setupObservationIfNecessary"]
+- !private ["Ps9Equatable", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps9Equatable", "updateContacts"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reduce"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "CNContactStoreDidChange"]
+- !private ["Ps23ExpressibleByNilLiteral", "authorized"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- ["CSo9Formatter", "descriptorForRequiredKeys"]
+- !private ["Ps8Hashable", "AssertIsOnMainThread"]
+- !private ["Ps8Hashable", "CNContactStoreDidChange"]
+- !private ["Ps8Hashable", "ContactStoreAdapter"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "HashableArray"]
+- !private ["Ps8Hashable", "Logger"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "TimeInterval"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "authorizationStatus"]
+- ["Ps8Hashable", "authorized"]
+- !private ["Ps8Hashable", "contactStoreAdapter"]
+- !private ["Ps8Hashable", "contacts"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "denied"]
+- ["Ps8Hashable", "descriptorForRequiredKeys"]
+- !private ["Ps8Hashable", "elements"]
+- !private ["Ps8Hashable", "enumerateContacts"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "fullName"]
+- !private ["Ps8Hashable", "global"]
+- !private ["Ps8Hashable", "hasSetupObservation"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lastContactUpdateHash"]
+- !private ["Ps8Hashable", "lastDelegateNotificationDate"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "notDetermined"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "requestAccess"]
+- ["Ps8Hashable", "restricted"]
+- !private ["Ps8Hashable", "setupObservationIfNecessary"]
+- !private ["Ps8Hashable", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps8Hashable", "updateContacts"]
+- ["Ps8Hashable", ""]
+- ["V8TestChat13HashableArray", "=="]
+- ["V8TestChat13HashableArray", "Bool"]
+- ["V8TestChat13HashableArray", "Element"]
+- ["V8TestChat13HashableArray", "HashableArray"]
+- ["V8TestChat13HashableArray", "Int"]
+- ["V8TestChat13HashableArray", "_toAnyHashable"]
+- ["V8TestChat13HashableArray", "deinit"]
+- ["V8TestChat13HashableArray", "elements"]
+- ["V8TestChat13HashableArray", "hashValue"]
+- ["V8TestChat13HashableArray", "init"]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "info"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "Int"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "String"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "T"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "id"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "init"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "label"]
+- ["VV8TestChat11OWSABRecord15MultivalueEntry", "value"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps17MutableCollection", "reduce"]
+- ["PSo8NSCoding", "Name"]
+- ["PSo8NSCoding", "descriptorForRequiredKeys"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "Name"]
+- ["PSo9NSCopying", "descriptorForRequiredKeys"]
+- ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "descriptorForRequiredKeys"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo14NSNotification", "Name"]
+- !private ["CSo8NSObject", "AssertIsOnMainThread"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Contact"]
+- ["CSo8NSObject", "ContactStoreAdapter"]
+- ["CSo8NSObject", "ContactStoreAuthorizationStatus"]
+- ["CSo8NSObject", "Date"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "HashableArray"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "Name"]
+- ["CSo8NSObject", "SystemContactsFetcherDelegate"]
+- ["CSo8NSObject", "TAG"]
+- !private ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "authorizationStatus"]
+- ["CSo8NSObject", "contactStoreAdapter"]
+- !private ["CSo8NSObject", "debug"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "descriptorForRequiredKeys"]
+- !private ["CSo8NSObject", "enumerateContacts"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "fetchIfAlreadyAuthorized"]
+- !private ["CSo8NSObject", "global"]
+- ["CSo8NSObject", "hasSetupObservation"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isAuthorized"]
+- ["CSo8NSObject", "lastContactUpdateHash"]
+- ["CSo8NSObject", "lastDelegateNotificationDate"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "requestAccess"]
+- ["CSo8NSObject", "requestOnce"]
+- ["CSo8NSObject", "setupObservationIfNecessary"]
+- ["CSo8NSObject", "supportsContactEditing"]
+- ["CSo8NSObject", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- ["CSo8NSObject", "updateContacts"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AssertIsOnMainThread"]
+- !private ["PSo16NSObjectProtocol", "ContactStoreAdapter"]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "HashableArray"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "TimeInterval"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "authorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "contactStoreAdapter"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "descriptorForRequiredKeys"]
+- !private ["PSo16NSObjectProtocol", "enumerateContacts"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "global"]
+- !private ["PSo16NSObjectProtocol", "hasSetupObservation"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lastContactUpdateHash"]
+- !private ["PSo16NSObjectProtocol", "lastDelegateNotificationDate"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "requestAccess"]
+- !private ["PSo16NSObjectProtocol", "setupObservationIfNecessary"]
+- !private ["PSo16NSObjectProtocol", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["PSo16NSObjectProtocol", "updateContacts"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["VCSo14NSNotification4Name", "CNContactStoreDidChange"]
+- ["VCSo14NSNotification4Name", "init"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "global"]
+- !private ["CSo9OS_object", "main"]
+- !private ["V8TestChat11OWSABRecord", "ABMultiValue"]
+- !private ["V8TestChat11OWSABRecord", "ABMultiValueCopyLabelAtIndex"]
+- !private ["V8TestChat11OWSABRecord", "ABMultiValueCopyValueAtIndex"]
+- !private ["V8TestChat11OWSABRecord", "ABMultiValueGetCount"]
+- !private ["V8TestChat11OWSABRecord", "ABMultiValueGetIdentifierAtIndex"]
+- !private ["V8TestChat11OWSABRecord", "ABPersonCopyImageData"]
+- !private ["V8TestChat11OWSABRecord", "ABPersonHasImageData"]
+- !private ["V8TestChat11OWSABRecord", "ABPropertyID"]
+- ["V8TestChat11OWSABRecord", "ABRecord"]
+- !private ["V8TestChat11OWSABRecord", "ABRecordCopyValue"]
+- !private ["V8TestChat11OWSABRecord", "ABRecordGetRecordID"]
+- ["V8TestChat11OWSABRecord", "ABRecordID"]
+- !private ["V8TestChat11OWSABRecord", "AnyObject"]
+- !private ["V8TestChat11OWSABRecord", "Array"]
+- !private ["V8TestChat11OWSABRecord", "Data"]
+- ["V8TestChat11OWSABRecord", "Int"]
+- ["V8TestChat11OWSABRecord", "MultivalueEntry"]
+- ["V8TestChat11OWSABRecord", "String"]
+- ["V8TestChat11OWSABRecord", "UIImage"]
+- ["V8TestChat11OWSABRecord", "abRecord"]
+- ["V8TestChat11OWSABRecord", "companyName"]
+- !private ["V8TestChat11OWSABRecord", "extractMultivalueProperty"]
+- !private ["V8TestChat11OWSABRecord", "extractProperty"]
+- ["V8TestChat11OWSABRecord", "firstName"]
+- ["V8TestChat11OWSABRecord", "image"]
+- ["V8TestChat11OWSABRecord", "init"]
+- !private ["V8TestChat11OWSABRecord", "kABPersonFirstNameProperty"]
+- !private ["V8TestChat11OWSABRecord", "kABPersonLastNameProperty"]
+- !private ["V8TestChat11OWSABRecord", "kABPersonOrganizationProperty"]
+- !private ["V8TestChat11OWSABRecord", "kABPersonPhoneProperty"]
+- ["V8TestChat11OWSABRecord", "lastName"]
+- ["V8TestChat11OWSABRecord", "phoneNumbers"]
+- ["V8TestChat11OWSABRecord", "recordId"]
+- !private ["Sq", "CNContactStoreDidChange"]
+- !private ["Sq", "authorized"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "reduce"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "reduce"]
+- !private ["Ps16RawRepresentable", "CNContactStoreDidChange"]
+- ["Ps16RawRepresentable", "authorized"]
+- !private ["Ps16RawRepresentable", "contacts"]
+- ["Ps16RawRepresentable", "denied"]
+- ["Ps16RawRepresentable", "fullName"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "notDetermined"]
+- ["Ps16RawRepresentable", "restricted"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- ["O8TestChat6Result", "ErrorType"]
+- ["O8TestChat6Result", "T"]
+- ["O8TestChat6Result", "error"]
+- ["O8TestChat6Result", "success"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "reduce"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "init"]
+- !private ["C8TestChat21SystemContactsFetcher", "AssertIsOnMainThread"]
+- ["C8TestChat21SystemContactsFetcher", "Bool"]
+- !private ["C8TestChat21SystemContactsFetcher", "Contact"]
+- ["C8TestChat21SystemContactsFetcher", "ContactStoreAdapter"]
+- ["C8TestChat21SystemContactsFetcher", "ContactStoreAuthorizationStatus"]
+- ["C8TestChat21SystemContactsFetcher", "Date"]
+- !private ["C8TestChat21SystemContactsFetcher", "DispatchQueue"]
+- ["C8TestChat21SystemContactsFetcher", "Error"]
+- !private ["C8TestChat21SystemContactsFetcher", "HashableArray"]
+- ["C8TestChat21SystemContactsFetcher", "Int"]
+- !private ["C8TestChat21SystemContactsFetcher", "Logger"]
+- ["C8TestChat21SystemContactsFetcher", "SystemContactsFetcherDelegate"]
+- !private ["C8TestChat21SystemContactsFetcher", "TAG"]
+- !private ["C8TestChat21SystemContactsFetcher", "TimeInterval"]
+- ["C8TestChat21SystemContactsFetcher", "Void"]
+- !private ["C8TestChat21SystemContactsFetcher", "assertionFailure"]
+- ["C8TestChat21SystemContactsFetcher", "authorizationStatus"]
+- ["C8TestChat21SystemContactsFetcher", "contactStoreAdapter"]
+- ["C8TestChat21SystemContactsFetcher", "deinit"]
+- ["C8TestChat21SystemContactsFetcher", "delegate"]
+- ["C8TestChat21SystemContactsFetcher", "fetchIfAlreadyAuthorized"]
+- !private ["C8TestChat21SystemContactsFetcher", "hasSetupObservation"]
+- ["C8TestChat21SystemContactsFetcher", "init"]
+- ["C8TestChat21SystemContactsFetcher", "isAuthorized"]
+- ["C8TestChat21SystemContactsFetcher", "lastContactUpdateHash"]
+- ["C8TestChat21SystemContactsFetcher", "lastDelegateNotificationDate"]
+- ["C8TestChat21SystemContactsFetcher", "requestOnce"]
+- !private ["C8TestChat21SystemContactsFetcher", "setupObservationIfNecessary"]
+- ["C8TestChat21SystemContactsFetcher", "supportsContactEditing"]
+- !private ["C8TestChat21SystemContactsFetcher", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["C8TestChat21SystemContactsFetcher", "updateContacts"]
+- ["P8TestChat29SystemContactsFetcherDelegate", "Contact"]
+- ["P8TestChat29SystemContactsFetcherDelegate", "SystemContactsFetcher"]
+- ["P8TestChat29SystemContactsFetcherDelegate", "systemContactsFetcher"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo21UIAppearanceContainer", "descriptorForRequiredKeys"]
+- ["PSo18UIContentContainer", "descriptorForRequiredKeys"]
+- ["PSo18UIFocusEnvironment", "descriptorForRequiredKeys"]
+- !private ["CSo7UIImage", "init"]
+- ["CSo11UIResponder", "descriptorForRequiredKeys"]
+- ["PSo30UIResponderStandardEditActions", "descriptorForRequiredKeys"]
+- ["PSo16UIStateRestoring", "descriptorForRequiredKeys"]
+- ["PSo18UITraitEnvironment", "descriptorForRequiredKeys"]
+- ["CSo16UIViewController", "descriptorForRequiredKeys"]
+- ["Vs9Unmanaged", "takeRetainedValue"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps14_ArrayProtocol", "reduce"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "reduce"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AssertIsOnMainThread"]
+- !private ["Ps9_Hashable", "CNContactStoreDidChange"]
+- !private ["Ps9_Hashable", "ContactStoreAdapter"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "HashableArray"]
+- !private ["Ps9_Hashable", "Logger"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "TimeInterval"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "assertionFailure"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "authorizationStatus"]
+- ["Ps9_Hashable", "authorized"]
+- !private ["Ps9_Hashable", "contactStoreAdapter"]
+- !private ["Ps9_Hashable", "contacts"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "denied"]
+- ["Ps9_Hashable", "descriptorForRequiredKeys"]
+- !private ["Ps9_Hashable", "elements"]
+- !private ["Ps9_Hashable", "enumerateContacts"]
+- !private ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "fullName"]
+- !private ["Ps9_Hashable", "global"]
+- !private ["Ps9_Hashable", "hasSetupObservation"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lastContactUpdateHash"]
+- !private ["Ps9_Hashable", "lastDelegateNotificationDate"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "notDetermined"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "requestAccess"]
+- ["Ps9_Hashable", "restricted"]
+- !private ["Ps9_Hashable", "setupObservationIfNecessary"]
+- !private ["Ps9_Hashable", "systemContactsHaveBeenRequestedAtLeastOnce"]
+- !private ["Ps9_Hashable", "updateContacts"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "reduce"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "reduce"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps17_MutableIndexable", "reduce"]
+- !private ["Ps21_ObjectiveCBridgeable", "CNContactStoreDidChange"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "authorized"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "reduce"]
+- !private ["Vs26_OptionalNilComparisonType", "authorized"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "reduce"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "reduce"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "CNContactStoreDidChange"]
+- ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "OSC21ABAuthorizationStatus"
+- !private "Ps16AbsoluteValuable"
+- "C8TestChat30AddressBookContactStoreAdaptee"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "OSC21CNAuthorizationStatus"
+- !private "CSo21CNContactFetchRequest"
+- "CSo18CNContactFormatter"
+- "OSC23CNContactFormatterStyle"
+- "CSo14CNContactStore"
+- "CSo23CNContactViewController"
+- !private "OSC12CNEntityType"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "CSo7Contact"
+- "P8TestChat19ContactStoreAdaptee"
+- "C8TestChat19ContactStoreAdapter"
+- "O8TestChat31ContactStoreAuthorizationStatus"
+- "C8TestChat36ContactsFrameworkContactStoreAdaptee"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "CSo9Formatter"
+- "Ps8Hashable"
+- "V8TestChat13HashableArray"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "VV8TestChat11OWSABRecord15MultivalueEntry"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- !private "CSo18NotificationCenter"
+- !private "CSo9OS_object"
+- "V8TestChat11OWSABRecord"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "O8TestChat6Result"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "C8TestChat21SystemContactsFetcher"
+- "P8TestChat29SystemContactsFetcherDelegate"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Vs9Unmanaged"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "4fbf0ddf0354490aa8561c1c7293706e"

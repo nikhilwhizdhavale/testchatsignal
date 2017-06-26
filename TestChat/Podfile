@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'TestChat' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  #use_frameworks!
+    pod 'JSQMessagesViewController',  git: 'https://github.com/WhisperSystems/JSQMessagesViewController.git', branch: 'mkirk/retain-keyboard-view'
+    pod 'PureLayout'
+    pod 'Reachability'
+    pod 'SocketRocket',               :git => 'https://github.com/facebook/SocketRocket.git'
+     pod 'AxolotlKit',                 git: 'https://github.com/WhisperSystems/SignalProtocolKit.git'
+        pod 'SignalServiceKit',           git: 'https://github.com/WhisperSystems/SignalServiceKit.git'
+
+  # Pods for TestChat
+
+end

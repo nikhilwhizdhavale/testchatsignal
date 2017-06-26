@@ -1,0 +1,1730 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContactCell"
+provides-nominal:
+- "C8TestChat11ContactCell"
+provides-member:
+- ["C8TestChat11ContactCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "contact"
+- "contactContainerView"
+- "contactDetailTextLabel"
+- "contactImageView"
+- "contactTextLabel"
+- "didChangePreferredContentSize"
+- "nib"
+- "prepareForReuse"
+- "setSelected"
+depends-top-level:
+- !private "!="
+- !private "/"
+- !private "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CNContact"
+- !private "CNContactFamilyNameKey"
+- !private "CNContactFormatter"
+- !private "CNContactGivenNameKey"
+- !private "CNContactPropertyAttribute"
+- !private "CastingPrecedence"
+- "Contact"
+- "ContactCell"
+- !private "ContactSortOrder"
+- !private "Dictionary"
+- !private "NSAttributedString"
+- !private "NSFontAttributeName"
+- !private "NSLocalizedString"
+- !private "NSMakeRange"
+- !private "NSMutableAttributedString"
+- !private "NSNotification"
+- !private "NotificationCenter"
+- !private "OWSContactAvatarBuilder"
+- "OWSContactsManager"
+- !private "String"
+- "StringLiteralType"
+- "SubtitleCellValue"
+- "TernaryPrecedence"
+- !private "UIFont"
+- "UIImageView"
+- "UILabel"
+- "UINib"
+- "UITableViewCell"
+- !private "UITableViewCellSelectionStyle"
+- "UIView"
+- !private "UInt"
+depends-member:
+- !private ["Ps9AnyObject", "CNContactFamilyNameKey"]
+- !private ["Ps9AnyObject", "CNContactFormatter"]
+- !private ["Ps9AnyObject", "CNContactGivenNameKey"]
+- !private ["Ps9AnyObject", "CNContactPropertyAttribute"]
+- !private ["Ps9AnyObject", "ContactSortOrder"]
+- !private ["Ps9AnyObject", "NSAttributedString"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSLocalizedString"]
+- !private ["Ps9AnyObject", "NSMakeRange"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "OWSContactAvatarBuilder"]
+- !private ["Ps9AnyObject", "UIFont"]
+- ["Ps9AnyObject", "UINib"]
+- !private ["Ps9AnyObject", "UITableViewCellSelectionStyle"]
+- !private ["Ps9AnyObject", "accessoryType"]
+- !private ["Ps9AnyObject", "addAttributes"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "attributedString"]
+- !private ["Ps9AnyObject", "attributedText"]
+- !private ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "buildDefaultImage"]
+- !private ["Ps9AnyObject", "cnContact"]
+- !private ["Ps9AnyObject", "contact"]
+- !private ["Ps9AnyObject", "contactContainerView"]
+- !private ["Ps9AnyObject", "contactDetailTextLabel"]
+- !private ["Ps9AnyObject", "contactImageView"]
+- !private ["Ps9AnyObject", "contactTextLabel"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "didChangePreferredContentSize"]
+- !private ["Ps9AnyObject", "emailAddresses"]
+- !private ["Ps9AnyObject", "emails"]
+- !private ["Ps9AnyObject", "enumerateAttributes"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "fontDescriptor"]
+- !private ["Ps9AnyObject", "formattedFullName"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "fullName"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "masksToBounds"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- !private ["Ps9AnyObject", "parsedPhoneNumbers"]
+- !private ["Ps9AnyObject", "preferredFont"]
+- !private ["Ps9AnyObject", "selectionStyle"]
+- !private ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "toE164"]
+- !private ["Ps9AnyObject", "updateSubtitleBasedonType"]
+- !private ["Ps9AnyObject", "userTextPhoneNumbers"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "withSymbolicTraits"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["CSo7CALayer", "masksToBounds"]
+- !private ["PSo15CALayerDelegate", "NSLocalizedString"]
+- !private ["PSo15CALayerDelegate", "NSNotification"]
+- !private ["PSo15CALayerDelegate", "NotificationCenter"]
+- !private ["PSo15CALayerDelegate", "OWSContactAvatarBuilder"]
+- !private ["PSo15CALayerDelegate", "UIFont"]
+- ["PSo15CALayerDelegate", "UINib"]
+- !private ["PSo15CALayerDelegate", "UITableViewCellSelectionStyle"]
+- !private ["PSo15CALayerDelegate", "accessoryType"]
+- !private ["PSo15CALayerDelegate", "attributedText"]
+- !private ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "contact"]
+- !private ["PSo15CALayerDelegate", "contactContainerView"]
+- !private ["PSo15CALayerDelegate", "contactDetailTextLabel"]
+- !private ["PSo15CALayerDelegate", "contactImageView"]
+- !private ["PSo15CALayerDelegate", "contactTextLabel"]
+- !private ["PSo15CALayerDelegate", "didChangePreferredContentSize"]
+- !private ["PSo15CALayerDelegate", "font"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "selectionStyle"]
+- !private ["PSo15CALayerDelegate", "setSelected"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CALayerDelegate", "updateSubtitleBasedonType"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "masksToBounds"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "width"]
+- !private ["CSo9CNContact", "CNContactFamilyNameKey"]
+- !private ["CSo9CNContact", "CNContactFormatter"]
+- !private ["CSo9CNContact", "CNContactGivenNameKey"]
+- !private ["CSo9CNContact", "CNContactPropertyAttribute"]
+- !private ["CSo9CNContact", "ContactSortOrder"]
+- !private ["CSo9CNContact", "NSAttributedString"]
+- !private ["CSo9CNContact", "NSFontAttributeName"]
+- !private ["CSo9CNContact", "NSMakeRange"]
+- !private ["CSo9CNContact", "NSMutableAttributedString"]
+- !private ["CSo9CNContact", "String"]
+- !private ["CSo9CNContact", "UIFont"]
+- !private ["CSo9CNContact", "emailAddresses"]
+- !private ["CSo9CNContact", "formattedFullName"]
+- !private ["CSo18CNContactFormatter", "attributedString"]
+- !private ["OSC23CNContactFormatterStyle", "fullName"]
+- !private ["OSC18CNContactSortOrder", "familyName"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["CSo14CNLabeledValue", "value"]
+- !private ["Ps7CVarArg", "CNContactFamilyNameKey"]
+- !private ["Ps7CVarArg", "CNContactFormatter"]
+- !private ["Ps7CVarArg", "CNContactGivenNameKey"]
+- !private ["Ps7CVarArg", "CNContactPropertyAttribute"]
+- !private ["Ps7CVarArg", "ContactSortOrder"]
+- !private ["Ps7CVarArg", "NSAttributedString"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSLocalizedString"]
+- !private ["Ps7CVarArg", "NSMakeRange"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "OWSContactAvatarBuilder"]
+- !private ["Ps7CVarArg", "UIFont"]
+- ["Ps7CVarArg", "UINib"]
+- !private ["Ps7CVarArg", "UITableViewCellSelectionStyle"]
+- !private ["Ps7CVarArg", "accessoryType"]
+- !private ["Ps7CVarArg", "addAttributes"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "attributedString"]
+- !private ["Ps7CVarArg", "attributedText"]
+- !private ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "buildDefaultImage"]
+- !private ["Ps7CVarArg", "cnContact"]
+- !private ["Ps7CVarArg", "contact"]
+- !private ["Ps7CVarArg", "contactContainerView"]
+- !private ["Ps7CVarArg", "contactDetailTextLabel"]
+- !private ["Ps7CVarArg", "contactImageView"]
+- !private ["Ps7CVarArg", "contactTextLabel"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "didChangePreferredContentSize"]
+- !private ["Ps7CVarArg", "emailAddresses"]
+- !private ["Ps7CVarArg", "emails"]
+- !private ["Ps7CVarArg", "enumerateAttributes"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "font"]
+- !private ["Ps7CVarArg", "fontDescriptor"]
+- !private ["Ps7CVarArg", "formattedFullName"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "fullName"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "length"]
+- !private ["Ps7CVarArg", "masksToBounds"]
+- !private ["Ps7CVarArg", "mutableCopy"]
+- !private ["Ps7CVarArg", "parsedPhoneNumbers"]
+- !private ["Ps7CVarArg", "preferredFont"]
+- !private ["Ps7CVarArg", "selectionStyle"]
+- !private ["Ps7CVarArg", "setSelected"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "toE164"]
+- !private ["Ps7CVarArg", "updateSubtitleBasedonType"]
+- !private ["Ps7CVarArg", "userTextPhoneNumbers"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps7CVarArg", "withSymbolicTraits"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps10Comparable", "body"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subheadline"]
+- !private ["CSo7Contact", "cnContact"]
+- !private ["CSo7Contact", "emails"]
+- !private ["CSo7Contact", "fullName"]
+- !private ["CSo7Contact", "image"]
+- !private ["CSo7Contact", "parsedPhoneNumbers"]
+- !private ["CSo7Contact", "userTextPhoneNumbers"]
+- ["C8TestChat11ContactCell", "Bool"]
+- ["C8TestChat11ContactCell", "Contact"]
+- !private ["C8TestChat11ContactCell", "NSLocalizedString"]
+- !private ["C8TestChat11ContactCell", "NSNotification"]
+- !private ["C8TestChat11ContactCell", "NotificationCenter"]
+- !private ["C8TestChat11ContactCell", "OWSContactAvatarBuilder"]
+- ["C8TestChat11ContactCell", "OWSContactsManager"]
+- !private ["C8TestChat11ContactCell", "String"]
+- ["C8TestChat11ContactCell", "SubtitleCellValue"]
+- !private ["C8TestChat11ContactCell", "UIFont"]
+- ["C8TestChat11ContactCell", "UIImageView"]
+- ["C8TestChat11ContactCell", "UILabel"]
+- ["C8TestChat11ContactCell", "UINib"]
+- !private ["C8TestChat11ContactCell", "UITableViewCellSelectionStyle"]
+- ["C8TestChat11ContactCell", "UIView"]
+- !private ["C8TestChat11ContactCell", "UInt"]
+- !private ["C8TestChat11ContactCell", "accessoryType"]
+- ["C8TestChat11ContactCell", "awakeFromNib"]
+- ["C8TestChat11ContactCell", "contact"]
+- ["C8TestChat11ContactCell", "contactContainerView"]
+- ["C8TestChat11ContactCell", "contactDetailTextLabel"]
+- ["C8TestChat11ContactCell", "contactImageView"]
+- ["C8TestChat11ContactCell", "contactTextLabel"]
+- ["C8TestChat11ContactCell", "deinit"]
+- ["C8TestChat11ContactCell", "didChangePreferredContentSize"]
+- ["C8TestChat11ContactCell", "init"]
+- ["C8TestChat11ContactCell", "nib"]
+- ["C8TestChat11ContactCell", "prepareForReuse"]
+- !private ["C8TestChat11ContactCell", "selectionStyle"]
+- ["C8TestChat11ContactCell", "setSelected"]
+- ["C8TestChat11ContactCell", "updateContactsinUI"]
+- ["C8TestChat11ContactCell", "updateSubtitleBasedonType"]
+- !private ["Ps28CustomDebugStringConvertible", "CNContactFamilyNameKey"]
+- !private ["Ps28CustomDebugStringConvertible", "CNContactFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "CNContactGivenNameKey"]
+- !private ["Ps28CustomDebugStringConvertible", "CNContactPropertyAttribute"]
+- !private ["Ps28CustomDebugStringConvertible", "ContactSortOrder"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAttributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMakeRange"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSContactAvatarBuilder"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "accessoryType"]
+- !private ["Ps28CustomDebugStringConvertible", "addAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "attributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "attributedText"]
+- !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "buildDefaultImage"]
+- !private ["Ps28CustomDebugStringConvertible", "cnContact"]
+- !private ["Ps28CustomDebugStringConvertible", "contact"]
+- !private ["Ps28CustomDebugStringConvertible", "contactContainerView"]
+- !private ["Ps28CustomDebugStringConvertible", "contactDetailTextLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "contactImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "contactTextLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "didChangePreferredContentSize"]
+- !private ["Ps28CustomDebugStringConvertible", "emailAddresses"]
+- !private ["Ps28CustomDebugStringConvertible", "emails"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerateAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "fontDescriptor"]
+- !private ["Ps28CustomDebugStringConvertible", "formattedFullName"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "fullName"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "masksToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- !private ["Ps28CustomDebugStringConvertible", "parsedPhoneNumbers"]
+- !private ["Ps28CustomDebugStringConvertible", "preferredFont"]
+- !private ["Ps28CustomDebugStringConvertible", "selectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "toE164"]
+- !private ["Ps28CustomDebugStringConvertible", "updateSubtitleBasedonType"]
+- !private ["Ps28CustomDebugStringConvertible", "userTextPhoneNumbers"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "withSymbolicTraits"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "first"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CNContactFamilyNameKey"]
+- !private ["Ps23CustomStringConvertible", "CNContactFormatter"]
+- !private ["Ps23CustomStringConvertible", "CNContactGivenNameKey"]
+- !private ["Ps23CustomStringConvertible", "CNContactPropertyAttribute"]
+- !private ["Ps23CustomStringConvertible", "ContactSortOrder"]
+- !private ["Ps23CustomStringConvertible", "NSAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- !private ["Ps23CustomStringConvertible", "NSMakeRange"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "OWSContactAvatarBuilder"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accessoryType"]
+- !private ["Ps23CustomStringConvertible", "addAttributes"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "attributedString"]
+- !private ["Ps23CustomStringConvertible", "attributedText"]
+- !private ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "buildDefaultImage"]
+- !private ["Ps23CustomStringConvertible", "cnContact"]
+- !private ["Ps23CustomStringConvertible", "contact"]
+- !private ["Ps23CustomStringConvertible", "contactContainerView"]
+- !private ["Ps23CustomStringConvertible", "contactDetailTextLabel"]
+- !private ["Ps23CustomStringConvertible", "contactImageView"]
+- !private ["Ps23CustomStringConvertible", "contactTextLabel"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "didChangePreferredContentSize"]
+- !private ["Ps23CustomStringConvertible", "emailAddresses"]
+- !private ["Ps23CustomStringConvertible", "emails"]
+- !private ["Ps23CustomStringConvertible", "enumerateAttributes"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "fontDescriptor"]
+- !private ["Ps23CustomStringConvertible", "formattedFullName"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "fullName"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "masksToBounds"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- !private ["Ps23CustomStringConvertible", "parsedPhoneNumbers"]
+- !private ["Ps23CustomStringConvertible", "preferredFont"]
+- !private ["Ps23CustomStringConvertible", "selectionStyle"]
+- !private ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "toE164"]
+- !private ["Ps23CustomStringConvertible", "updateSubtitleBasedonType"]
+- !private ["Ps23CustomStringConvertible", "userTextPhoneNumbers"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "withSymbolicTraits"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "CNContactFamilyNameKey"]
+- !private ["Ps9Equatable", "CNContactFormatter"]
+- !private ["Ps9Equatable", "CNContactGivenNameKey"]
+- !private ["Ps9Equatable", "CNContactPropertyAttribute"]
+- !private ["Ps9Equatable", "ContactSortOrder"]
+- !private ["Ps9Equatable", "NSAttributedString"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSLocalizedString"]
+- !private ["Ps9Equatable", "NSMakeRange"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "OWSContactAvatarBuilder"]
+- !private ["Ps9Equatable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps9Equatable", "UIFont"]
+- ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "UITableViewCellSelectionStyle"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "accessoryType"]
+- !private ["Ps9Equatable", "addAttributes"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "attributedString"]
+- !private ["Ps9Equatable", "attributedText"]
+- !private ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "body"]
+- !private ["Ps9Equatable", "buildDefaultImage"]
+- !private ["Ps9Equatable", "checkmark"]
+- !private ["Ps9Equatable", "cnContact"]
+- !private ["Ps9Equatable", "contact"]
+- !private ["Ps9Equatable", "contactContainerView"]
+- !private ["Ps9Equatable", "contactDetailTextLabel"]
+- !private ["Ps9Equatable", "contactImageView"]
+- !private ["Ps9Equatable", "contactTextLabel"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "didChangePreferredContentSize"]
+- ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "emailAddresses"]
+- !private ["Ps9Equatable", "emails"]
+- !private ["Ps9Equatable", "enumerateAttributes"]
+- !private ["Ps9Equatable", "familyName"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "fontDescriptor"]
+- !private ["Ps9Equatable", "formattedFullName"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "fullName"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "masksToBounds"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "parsedPhoneNumbers"]
+- ["Ps9Equatable", "phoneNumber"]
+- !private ["Ps9Equatable", "preferredFont"]
+- !private ["Ps9Equatable", "selectionStyle"]
+- !private ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "subheadline"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "toE164"]
+- !private ["Ps9Equatable", "traitBold"]
+- !private ["Ps9Equatable", "updateSubtitleBasedonType"]
+- !private ["Ps9Equatable", "userTextPhoneNumbers"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "withSymbolicTraits"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "traitBold"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo9Formatter", "attributedString"]
+- !private ["Ps8Hashable", "CNContactFamilyNameKey"]
+- !private ["Ps8Hashable", "CNContactFormatter"]
+- !private ["Ps8Hashable", "CNContactGivenNameKey"]
+- !private ["Ps8Hashable", "CNContactPropertyAttribute"]
+- !private ["Ps8Hashable", "ContactSortOrder"]
+- !private ["Ps8Hashable", "NSAttributedString"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSLocalizedString"]
+- !private ["Ps8Hashable", "NSMakeRange"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "OWSContactAvatarBuilder"]
+- !private ["Ps8Hashable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps8Hashable", "UIFont"]
+- ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "UITableViewCellSelectionStyle"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "accessoryType"]
+- !private ["Ps8Hashable", "addAttributes"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "attributedString"]
+- !private ["Ps8Hashable", "attributedText"]
+- !private ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "body"]
+- !private ["Ps8Hashable", "buildDefaultImage"]
+- !private ["Ps8Hashable", "checkmark"]
+- !private ["Ps8Hashable", "cnContact"]
+- !private ["Ps8Hashable", "contact"]
+- !private ["Ps8Hashable", "contactContainerView"]
+- !private ["Ps8Hashable", "contactDetailTextLabel"]
+- !private ["Ps8Hashable", "contactImageView"]
+- !private ["Ps8Hashable", "contactTextLabel"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "didChangePreferredContentSize"]
+- ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "emailAddresses"]
+- !private ["Ps8Hashable", "emails"]
+- !private ["Ps8Hashable", "enumerateAttributes"]
+- !private ["Ps8Hashable", "familyName"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "fontDescriptor"]
+- !private ["Ps8Hashable", "formattedFullName"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "fullName"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "masksToBounds"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "parsedPhoneNumbers"]
+- ["Ps8Hashable", "phoneNumber"]
+- !private ["Ps8Hashable", "preferredFont"]
+- !private ["Ps8Hashable", "selectionStyle"]
+- !private ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "subheadline"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "toE164"]
+- !private ["Ps8Hashable", "updateSubtitleBasedonType"]
+- !private ["Ps8Hashable", "userTextPhoneNumbers"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps8Hashable", "withSymbolicTraits"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["CSo18NSAttributedString", "addAttributes"]
+- !private ["CSo18NSAttributedString", "enumerateAttributes"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["CSo18NSAttributedString", "length"]
+- !private ["CSo18NSAttributedString", "mutableCopy"]
+- !private ["PSo8NSCoding", "CNContactFamilyNameKey"]
+- !private ["PSo8NSCoding", "CNContactFormatter"]
+- !private ["PSo8NSCoding", "CNContactGivenNameKey"]
+- !private ["PSo8NSCoding", "CNContactPropertyAttribute"]
+- !private ["PSo8NSCoding", "ContactSortOrder"]
+- !private ["PSo8NSCoding", "NSAttributedString"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "NSLocalizedString"]
+- !private ["PSo8NSCoding", "NSMakeRange"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
+- !private ["PSo8NSCoding", "OWSContactAvatarBuilder"]
+- !private ["PSo8NSCoding", "UIFont"]
+- ["PSo8NSCoding", "UINib"]
+- !private ["PSo8NSCoding", "UITableViewCellSelectionStyle"]
+- !private ["PSo8NSCoding", "accessoryType"]
+- !private ["PSo8NSCoding", "addAttributes"]
+- !private ["PSo8NSCoding", "attributedString"]
+- !private ["PSo8NSCoding", "attributedText"]
+- !private ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "contact"]
+- !private ["PSo8NSCoding", "contactContainerView"]
+- !private ["PSo8NSCoding", "contactDetailTextLabel"]
+- !private ["PSo8NSCoding", "contactImageView"]
+- !private ["PSo8NSCoding", "contactTextLabel"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "didChangePreferredContentSize"]
+- !private ["PSo8NSCoding", "emailAddresses"]
+- !private ["PSo8NSCoding", "enumerateAttributes"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "formattedFullName"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "masksToBounds"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "selectionStyle"]
+- !private ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "updateSubtitleBasedonType"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo8NSCoding", "withSymbolicTraits"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CNContactFamilyNameKey"]
+- !private ["PSo9NSCopying", "CNContactFormatter"]
+- !private ["PSo9NSCopying", "CNContactGivenNameKey"]
+- !private ["PSo9NSCopying", "CNContactPropertyAttribute"]
+- !private ["PSo9NSCopying", "ContactSortOrder"]
+- !private ["PSo9NSCopying", "NSAttributedString"]
+- !private ["PSo9NSCopying", "NSFontAttributeName"]
+- !private ["PSo9NSCopying", "NSMakeRange"]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "UIFont"]
+- !private ["PSo9NSCopying", "addAttributes"]
+- !private ["PSo9NSCopying", "attributedString"]
+- !private ["PSo9NSCopying", "emailAddresses"]
+- !private ["PSo9NSCopying", "enumerateAttributes"]
+- !private ["PSo9NSCopying", "fontDescriptor"]
+- !private ["PSo9NSCopying", "formattedFullName"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "preferredFont"]
+- !private ["PSo9NSCopying", "value"]
+- !private ["PSo9NSCopying", "withSymbolicTraits"]
+- !private ["CSo25NSMutableAttributedString", "addAttributes"]
+- !private ["CSo25NSMutableAttributedString", "enumerateAttributes"]
+- !private ["CSo25NSMutableAttributedString", "length"]
+- !private ["PSo16NSMutableCopying", "CNContactFamilyNameKey"]
+- !private ["PSo16NSMutableCopying", "CNContactFormatter"]
+- !private ["PSo16NSMutableCopying", "CNContactGivenNameKey"]
+- !private ["PSo16NSMutableCopying", "CNContactPropertyAttribute"]
+- !private ["PSo16NSMutableCopying", "ContactSortOrder"]
+- !private ["PSo16NSMutableCopying", "NSAttributedString"]
+- !private ["PSo16NSMutableCopying", "NSFontAttributeName"]
+- !private ["PSo16NSMutableCopying", "NSMakeRange"]
+- !private ["PSo16NSMutableCopying", "UIFont"]
+- !private ["PSo16NSMutableCopying", "addAttributes"]
+- !private ["PSo16NSMutableCopying", "emailAddresses"]
+- !private ["PSo16NSMutableCopying", "enumerateAttributes"]
+- !private ["PSo16NSMutableCopying", "formattedFullName"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["CSo14NSNotification", "Name"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CNContactFamilyNameKey"]
+- !private ["CSo8NSObject", "CNContactFormatter"]
+- !private ["CSo8NSObject", "CNContactGivenNameKey"]
+- !private ["CSo8NSObject", "CNContactPropertyAttribute"]
+- ["CSo8NSObject", "Contact"]
+- !private ["CSo8NSObject", "ContactSortOrder"]
+- !private ["CSo8NSObject", "NSAttributedString"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSLocalizedString"]
+- !private ["CSo8NSObject", "NSMakeRange"]
+- !private ["CSo8NSObject", "NSMutableAttributedString"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- !private ["CSo8NSObject", "OWSContactAvatarBuilder"]
+- ["CSo8NSObject", "OWSContactsManager"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "SubtitleCellValue"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UINib"]
+- !private ["CSo8NSObject", "UITableViewCellSelectionStyle"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "UInt"]
+- !private ["CSo8NSObject", "accessoryType"]
+- !private ["CSo8NSObject", "addAttributes"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "attributedString"]
+- !private ["CSo8NSObject", "attributedText"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "buildDefaultImage"]
+- !private ["CSo8NSObject", "cnContact"]
+- ["CSo8NSObject", "contact"]
+- ["CSo8NSObject", "contactContainerView"]
+- ["CSo8NSObject", "contactDetailTextLabel"]
+- ["CSo8NSObject", "contactImageView"]
+- ["CSo8NSObject", "contactTextLabel"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "didChangePreferredContentSize"]
+- !private ["CSo8NSObject", "emailAddresses"]
+- !private ["CSo8NSObject", "emails"]
+- !private ["CSo8NSObject", "enumerateAttributes"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "fontDescriptor"]
+- !private ["CSo8NSObject", "formattedFullName"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "fullName"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "masksToBounds"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- ["CSo8NSObject", "nib"]
+- !private ["CSo8NSObject", "parsedPhoneNumbers"]
+- !private ["CSo8NSObject", "preferredFont"]
+- ["CSo8NSObject", "prepareForReuse"]
+- !private ["CSo8NSObject", "selectionStyle"]
+- ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "toE164"]
+- ["CSo8NSObject", "updateContactsinUI"]
+- ["CSo8NSObject", "updateSubtitleBasedonType"]
+- !private ["CSo8NSObject", "userTextPhoneNumbers"]
+- !private ["CSo8NSObject", "value"]
+- !private ["CSo8NSObject", "withSymbolicTraits"]
+- !private ["PSo16NSObjectProtocol", "CNContactFamilyNameKey"]
+- !private ["PSo16NSObjectProtocol", "CNContactFormatter"]
+- !private ["PSo16NSObjectProtocol", "CNContactGivenNameKey"]
+- !private ["PSo16NSObjectProtocol", "CNContactPropertyAttribute"]
+- !private ["PSo16NSObjectProtocol", "ContactSortOrder"]
+- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedString"]
+- !private ["PSo16NSObjectProtocol", "NSMakeRange"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "OWSContactAvatarBuilder"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "UINib"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCellSelectionStyle"]
+- !private ["PSo16NSObjectProtocol", "accessoryType"]
+- !private ["PSo16NSObjectProtocol", "addAttributes"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "attributedString"]
+- !private ["PSo16NSObjectProtocol", "attributedText"]
+- !private ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "buildDefaultImage"]
+- !private ["PSo16NSObjectProtocol", "cnContact"]
+- !private ["PSo16NSObjectProtocol", "contact"]
+- !private ["PSo16NSObjectProtocol", "contactContainerView"]
+- !private ["PSo16NSObjectProtocol", "contactDetailTextLabel"]
+- !private ["PSo16NSObjectProtocol", "contactImageView"]
+- !private ["PSo16NSObjectProtocol", "contactTextLabel"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "didChangePreferredContentSize"]
+- !private ["PSo16NSObjectProtocol", "emailAddresses"]
+- !private ["PSo16NSObjectProtocol", "emails"]
+- !private ["PSo16NSObjectProtocol", "enumerateAttributes"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "fontDescriptor"]
+- !private ["PSo16NSObjectProtocol", "formattedFullName"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "fullName"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "masksToBounds"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- !private ["PSo16NSObjectProtocol", "parsedPhoneNumbers"]
+- !private ["PSo16NSObjectProtocol", "preferredFont"]
+- !private ["PSo16NSObjectProtocol", "selectionStyle"]
+- !private ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "toE164"]
+- !private ["PSo16NSObjectProtocol", "updateSubtitleBasedonType"]
+- !private ["PSo16NSObjectProtocol", "userTextPhoneNumbers"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo16NSObjectProtocol", "withSymbolicTraits"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CNContactFamilyNameKey"]
+- !private ["PSo14NSSecureCoding", "CNContactFormatter"]
+- !private ["PSo14NSSecureCoding", "CNContactGivenNameKey"]
+- !private ["PSo14NSSecureCoding", "CNContactPropertyAttribute"]
+- !private ["PSo14NSSecureCoding", "ContactSortOrder"]
+- !private ["PSo14NSSecureCoding", "NSAttributedString"]
+- !private ["PSo14NSSecureCoding", "NSFontAttributeName"]
+- !private ["PSo14NSSecureCoding", "NSMakeRange"]
+- !private ["PSo14NSSecureCoding", "UIFont"]
+- !private ["PSo14NSSecureCoding", "addAttributes"]
+- !private ["PSo14NSSecureCoding", "emailAddresses"]
+- !private ["PSo14NSSecureCoding", "enumerateAttributes"]
+- !private ["PSo14NSSecureCoding", "formattedFullName"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "value"]
+- !private ["PSo14NSSecureCoding", "withSymbolicTraits"]
+- ["CSo8NSString", "init"]
+- !private ["VCSo14NSNotification4Name", "UIContentSizeCategoryDidChange"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo16OWSAvatarBuilder", "buildDefaultImage"]
+- !private ["CSo16OWSAvatarBuilder", "init"]
+- !private ["CSo23OWSContactAvatarBuilder", "buildDefaultImage"]
+- !private ["CSo23OWSContactAvatarBuilder", "init"]
+- !private ["Ps9OptionSet", "traitBold"]
+- !private ["CSo11PhoneNumber", "toE164"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps16RawRepresentable", "body"]
+- !private ["Ps16RawRepresentable", "checkmark"]
+- !private ["Ps16RawRepresentable", "familyName"]
+- !private ["Ps16RawRepresentable", "fullName"]
+- !private ["Ps16RawRepresentable", "none"]
+- !private ["Ps16RawRepresentable", "subheadline"]
+- !private ["Ps16RawRepresentable", "traitBold"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "traitBold"]
+- ["SS", "init"]
+- ["O8TestChat17SubtitleCellValue", "email"]
+- ["O8TestChat17SubtitleCellValue", "phoneNumber"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "NSLocalizedString"]
+- !private ["PSo29UIAccessibilityIdentification", "NSNotification"]
+- !private ["PSo29UIAccessibilityIdentification", "NotificationCenter"]
+- !private ["PSo29UIAccessibilityIdentification", "OWSContactAvatarBuilder"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- ["PSo29UIAccessibilityIdentification", "UINib"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewCellSelectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "accessoryType"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedText"]
+- !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "contact"]
+- !private ["PSo29UIAccessibilityIdentification", "contactContainerView"]
+- !private ["PSo29UIAccessibilityIdentification", "contactDetailTextLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "contactImageView"]
+- !private ["PSo29UIAccessibilityIdentification", "contactTextLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "didChangePreferredContentSize"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "selectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "updateSubtitleBasedonType"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "NSLocalizedString"]
+- !private ["PSo12UIAppearance", "NSNotification"]
+- !private ["PSo12UIAppearance", "NotificationCenter"]
+- !private ["PSo12UIAppearance", "OWSContactAvatarBuilder"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- ["PSo12UIAppearance", "UINib"]
+- !private ["PSo12UIAppearance", "UITableViewCellSelectionStyle"]
+- !private ["PSo12UIAppearance", "accessoryType"]
+- !private ["PSo12UIAppearance", "attributedText"]
+- !private ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "contact"]
+- !private ["PSo12UIAppearance", "contactContainerView"]
+- !private ["PSo12UIAppearance", "contactDetailTextLabel"]
+- !private ["PSo12UIAppearance", "contactImageView"]
+- !private ["PSo12UIAppearance", "contactTextLabel"]
+- !private ["PSo12UIAppearance", "didChangePreferredContentSize"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "selectionStyle"]
+- !private ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "updateSubtitleBasedonType"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "NSLocalizedString"]
+- !private ["PSo21UIAppearanceContainer", "NSNotification"]
+- !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "OWSContactAvatarBuilder"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- ["PSo21UIAppearanceContainer", "UINib"]
+- !private ["PSo21UIAppearanceContainer", "UITableViewCellSelectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "accessoryType"]
+- !private ["PSo21UIAppearanceContainer", "attributedText"]
+- !private ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "contact"]
+- !private ["PSo21UIAppearanceContainer", "contactContainerView"]
+- !private ["PSo21UIAppearanceContainer", "contactDetailTextLabel"]
+- !private ["PSo21UIAppearanceContainer", "contactImageView"]
+- !private ["PSo21UIAppearanceContainer", "contactTextLabel"]
+- !private ["PSo21UIAppearanceContainer", "didChangePreferredContentSize"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "selectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "updateSubtitleBasedonType"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "attributedText"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "font"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "NSLocalizedString"]
+- !private ["PSo17UICoordinateSpace", "NSNotification"]
+- !private ["PSo17UICoordinateSpace", "NotificationCenter"]
+- !private ["PSo17UICoordinateSpace", "OWSContactAvatarBuilder"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- ["PSo17UICoordinateSpace", "UINib"]
+- !private ["PSo17UICoordinateSpace", "UITableViewCellSelectionStyle"]
+- !private ["PSo17UICoordinateSpace", "accessoryType"]
+- !private ["PSo17UICoordinateSpace", "attributedText"]
+- !private ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "contact"]
+- !private ["PSo17UICoordinateSpace", "contactContainerView"]
+- !private ["PSo17UICoordinateSpace", "contactDetailTextLabel"]
+- !private ["PSo17UICoordinateSpace", "contactImageView"]
+- !private ["PSo17UICoordinateSpace", "contactTextLabel"]
+- !private ["PSo17UICoordinateSpace", "didChangePreferredContentSize"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "selectionStyle"]
+- !private ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "updateSubtitleBasedonType"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "NSLocalizedString"]
+- !private ["PSo13UIDynamicItem", "NSNotification"]
+- !private ["PSo13UIDynamicItem", "NotificationCenter"]
+- !private ["PSo13UIDynamicItem", "OWSContactAvatarBuilder"]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- ["PSo13UIDynamicItem", "UINib"]
+- !private ["PSo13UIDynamicItem", "UITableViewCellSelectionStyle"]
+- !private ["PSo13UIDynamicItem", "accessoryType"]
+- !private ["PSo13UIDynamicItem", "attributedText"]
+- !private ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "contact"]
+- !private ["PSo13UIDynamicItem", "contactContainerView"]
+- !private ["PSo13UIDynamicItem", "contactDetailTextLabel"]
+- !private ["PSo13UIDynamicItem", "contactImageView"]
+- !private ["PSo13UIDynamicItem", "contactTextLabel"]
+- !private ["PSo13UIDynamicItem", "didChangePreferredContentSize"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "selectionStyle"]
+- !private ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "updateSubtitleBasedonType"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "NSLocalizedString"]
+- !private ["PSo18UIFocusEnvironment", "NSNotification"]
+- !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "OWSContactAvatarBuilder"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "UINib"]
+- !private ["PSo18UIFocusEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "accessoryType"]
+- !private ["PSo18UIFocusEnvironment", "attributedText"]
+- !private ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "contact"]
+- !private ["PSo18UIFocusEnvironment", "contactContainerView"]
+- !private ["PSo18UIFocusEnvironment", "contactDetailTextLabel"]
+- !private ["PSo18UIFocusEnvironment", "contactImageView"]
+- !private ["PSo18UIFocusEnvironment", "contactTextLabel"]
+- !private ["PSo18UIFocusEnvironment", "didChangePreferredContentSize"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "selectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "updateSubtitleBasedonType"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "NSLocalizedString"]
+- !private ["PSo11UIFocusItem", "NSNotification"]
+- !private ["PSo11UIFocusItem", "NotificationCenter"]
+- !private ["PSo11UIFocusItem", "OWSContactAvatarBuilder"]
+- !private ["PSo11UIFocusItem", "UIFont"]
+- ["PSo11UIFocusItem", "UINib"]
+- !private ["PSo11UIFocusItem", "UITableViewCellSelectionStyle"]
+- !private ["PSo11UIFocusItem", "accessoryType"]
+- !private ["PSo11UIFocusItem", "attributedText"]
+- !private ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "contact"]
+- !private ["PSo11UIFocusItem", "contactContainerView"]
+- !private ["PSo11UIFocusItem", "contactDetailTextLabel"]
+- !private ["PSo11UIFocusItem", "contactImageView"]
+- !private ["PSo11UIFocusItem", "contactTextLabel"]
+- !private ["PSo11UIFocusItem", "didChangePreferredContentSize"]
+- !private ["PSo11UIFocusItem", "font"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "selectionStyle"]
+- !private ["PSo11UIFocusItem", "setSelected"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo11UIFocusItem", "updateSubtitleBasedonType"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo6UIFont", "fontDescriptor"]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo6UIFont", "preferredFont"]
+- !private ["CSo16UIFontDescriptor", "withSymbolicTraits"]
+- !private ["VSC30UIFontDescriptorSymbolicTraits", "traitBold"]
+- !private ["VSC15UIFontTextStyle", "body"]
+- !private ["VSC15UIFontTextStyle", "subheadline"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSLocalizedString"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSNotification"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NotificationCenter"]
+- !private ["PSo27UIGestureRecognizerDelegate", "OWSContactAvatarBuilder"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIFont"]
+- ["PSo27UIGestureRecognizerDelegate", "UINib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UITableViewCellSelectionStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "accessoryType"]
+- !private ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contact"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contactContainerView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contactDetailTextLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contactImageView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contactTextLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "didChangePreferredContentSize"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "selectionStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- !private ["PSo27UIGestureRecognizerDelegate", "updateSubtitleBasedonType"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "attributedText"]
+- !private ["CSo7UILabel", "font"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo5UINib", "init"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Contact"]
+- !private ["CSo11UIResponder", "NSLocalizedString"]
+- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
+- !private ["CSo11UIResponder", "OWSContactAvatarBuilder"]
+- ["CSo11UIResponder", "OWSContactsManager"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "SubtitleCellValue"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UINib"]
+- !private ["CSo11UIResponder", "UITableViewCellSelectionStyle"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "UInt"]
+- !private ["CSo11UIResponder", "accessoryType"]
+- !private ["CSo11UIResponder", "attributedText"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "contact"]
+- ["CSo11UIResponder", "contactContainerView"]
+- ["CSo11UIResponder", "contactDetailTextLabel"]
+- ["CSo11UIResponder", "contactImageView"]
+- ["CSo11UIResponder", "contactTextLabel"]
+- ["CSo11UIResponder", "didChangePreferredContentSize"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "nib"]
+- ["CSo11UIResponder", "prepareForReuse"]
+- !private ["CSo11UIResponder", "selectionStyle"]
+- ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateContactsinUI"]
+- ["CSo11UIResponder", "updateSubtitleBasedonType"]
+- !private ["PSo30UIResponderStandardEditActions", "NSLocalizedString"]
+- !private ["PSo30UIResponderStandardEditActions", "NSNotification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "OWSContactAvatarBuilder"]
+- !private ["PSo30UIResponderStandardEditActions", "UIFont"]
+- ["PSo30UIResponderStandardEditActions", "UINib"]
+- !private ["PSo30UIResponderStandardEditActions", "UITableViewCellSelectionStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "accessoryType"]
+- !private ["PSo30UIResponderStandardEditActions", "attributedText"]
+- !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "contact"]
+- !private ["PSo30UIResponderStandardEditActions", "contactContainerView"]
+- !private ["PSo30UIResponderStandardEditActions", "contactDetailTextLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "contactImageView"]
+- !private ["PSo30UIResponderStandardEditActions", "contactTextLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "didChangePreferredContentSize"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "selectionStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "setSelected"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "updateSubtitleBasedonType"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Contact"]
+- !private ["CSo15UITableViewCell", "NSLocalizedString"]
+- !private ["CSo15UITableViewCell", "NSNotification"]
+- !private ["CSo15UITableViewCell", "NotificationCenter"]
+- !private ["CSo15UITableViewCell", "OWSContactAvatarBuilder"]
+- ["CSo15UITableViewCell", "OWSContactsManager"]
+- !private ["CSo15UITableViewCell", "String"]
+- ["CSo15UITableViewCell", "SubtitleCellValue"]
+- !private ["CSo15UITableViewCell", "UIFont"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UINib"]
+- !private ["CSo15UITableViewCell", "UITableViewCellSelectionStyle"]
+- ["CSo15UITableViewCell", "UIView"]
+- !private ["CSo15UITableViewCell", "UInt"]
+- !private ["CSo15UITableViewCell", "accessoryType"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "contact"]
+- ["CSo15UITableViewCell", "contactContainerView"]
+- ["CSo15UITableViewCell", "contactDetailTextLabel"]
+- ["CSo15UITableViewCell", "contactImageView"]
+- ["CSo15UITableViewCell", "contactTextLabel"]
+- ["CSo15UITableViewCell", "didChangePreferredContentSize"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "nib"]
+- ["CSo15UITableViewCell", "prepareForReuse"]
+- !private ["CSo15UITableViewCell", "selectionStyle"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "updateContactsinUI"]
+- ["CSo15UITableViewCell", "updateSubtitleBasedonType"]
+- ["CSo15UITableViewCell", ""]
+- !private ["OSC28UITableViewCellAccessoryType", "checkmark"]
+- !private ["OSC28UITableViewCellAccessoryType", "none"]
+- !private ["OSC29UITableViewCellSelectionStyle", "none"]
+- !private ["PSo18UITraitEnvironment", "NSLocalizedString"]
+- !private ["PSo18UITraitEnvironment", "NSNotification"]
+- !private ["PSo18UITraitEnvironment", "NotificationCenter"]
+- !private ["PSo18UITraitEnvironment", "OWSContactAvatarBuilder"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- ["PSo18UITraitEnvironment", "UINib"]
+- !private ["PSo18UITraitEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UITraitEnvironment", "accessoryType"]
+- !private ["PSo18UITraitEnvironment", "attributedText"]
+- !private ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "contact"]
+- !private ["PSo18UITraitEnvironment", "contactContainerView"]
+- !private ["PSo18UITraitEnvironment", "contactDetailTextLabel"]
+- !private ["PSo18UITraitEnvironment", "contactImageView"]
+- !private ["PSo18UITraitEnvironment", "contactTextLabel"]
+- !private ["PSo18UITraitEnvironment", "didChangePreferredContentSize"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "selectionStyle"]
+- !private ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "updateSubtitleBasedonType"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Contact"]
+- !private ["CSo6UIView", "NSLocalizedString"]
+- !private ["CSo6UIView", "NSNotification"]
+- !private ["CSo6UIView", "NotificationCenter"]
+- !private ["CSo6UIView", "OWSContactAvatarBuilder"]
+- ["CSo6UIView", "OWSContactsManager"]
+- !private ["CSo6UIView", "String"]
+- ["CSo6UIView", "SubtitleCellValue"]
+- !private ["CSo6UIView", "UIFont"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UINib"]
+- !private ["CSo6UIView", "UITableViewCellSelectionStyle"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "UInt"]
+- !private ["CSo6UIView", "accessoryType"]
+- !private ["CSo6UIView", "attributedText"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "contact"]
+- ["CSo6UIView", "contactContainerView"]
+- ["CSo6UIView", "contactDetailTextLabel"]
+- ["CSo6UIView", "contactImageView"]
+- ["CSo6UIView", "contactTextLabel"]
+- ["CSo6UIView", "didChangePreferredContentSize"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "nib"]
+- ["CSo6UIView", "prepareForReuse"]
+- !private ["CSo6UIView", "selectionStyle"]
+- ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "updateContactsinUI"]
+- ["CSo6UIView", "updateSubtitleBasedonType"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSLocalizedString"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSNotification"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NotificationCenter"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "OWSContactAvatarBuilder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIFont"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UINib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITableViewCellSelectionStyle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "accessoryType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "attributedText"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contact"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contactContainerView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contactDetailTextLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contactImageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contactTextLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "didChangePreferredContentSize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectionStyle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "updateSubtitleBasedonType"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CNContactFamilyNameKey"]
+- !private ["Ps9_Hashable", "CNContactFormatter"]
+- !private ["Ps9_Hashable", "CNContactGivenNameKey"]
+- !private ["Ps9_Hashable", "CNContactPropertyAttribute"]
+- !private ["Ps9_Hashable", "ContactSortOrder"]
+- !private ["Ps9_Hashable", "NSAttributedString"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSLocalizedString"]
+- !private ["Ps9_Hashable", "NSMakeRange"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "OWSContactAvatarBuilder"]
+- !private ["Ps9_Hashable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps9_Hashable", "UIFont"]
+- ["Ps9_Hashable", "UINib"]
+- !private ["Ps9_Hashable", "UITableViewCellSelectionStyle"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "accessoryType"]
+- !private ["Ps9_Hashable", "addAttributes"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "attributedString"]
+- !private ["Ps9_Hashable", "attributedText"]
+- !private ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "body"]
+- !private ["Ps9_Hashable", "buildDefaultImage"]
+- !private ["Ps9_Hashable", "checkmark"]
+- !private ["Ps9_Hashable", "cnContact"]
+- !private ["Ps9_Hashable", "contact"]
+- !private ["Ps9_Hashable", "contactContainerView"]
+- !private ["Ps9_Hashable", "contactDetailTextLabel"]
+- !private ["Ps9_Hashable", "contactImageView"]
+- !private ["Ps9_Hashable", "contactTextLabel"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "didChangePreferredContentSize"]
+- ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "emailAddresses"]
+- !private ["Ps9_Hashable", "emails"]
+- !private ["Ps9_Hashable", "enumerateAttributes"]
+- !private ["Ps9_Hashable", "familyName"]
+- !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "fontDescriptor"]
+- !private ["Ps9_Hashable", "formattedFullName"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "fullName"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "length"]
+- !private ["Ps9_Hashable", "masksToBounds"]
+- !private ["Ps9_Hashable", "mutableCopy"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "parsedPhoneNumbers"]
+- ["Ps9_Hashable", "phoneNumber"]
+- !private ["Ps9_Hashable", "preferredFont"]
+- !private ["Ps9_Hashable", "selectionStyle"]
+- !private ["Ps9_Hashable", "setSelected"]
+- !private ["Ps9_Hashable", "subheadline"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "toE164"]
+- !private ["Ps9_Hashable", "updateSubtitleBasedonType"]
+- !private ["Ps9_Hashable", "userTextPhoneNumbers"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps9_Hashable", "withSymbolicTraits"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIContentSizeCategoryDidChange"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "body"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "size"]
+- !private ["Ps21_ObjectiveCBridgeable", "subheadline"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIContentSizeCategoryDidChange"]
+- !private ["Ps20_SwiftNewtypeWrapper", "body"]
+- !private ["Ps20_SwiftNewtypeWrapper", "subheadline"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- !private "CSo9CNContact"
+- !private "CSo18CNContactFormatter"
+- !private "OSC23CNContactFormatterStyle"
+- !private "OSC18CNContactSortOrder"
+- "PSo15CNKeyDescriptor"
+- !private "CSo14CNLabeledValue"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "CSo7Contact"
+- "C8TestChat11ContactCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "CSo18NSAttributedString"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo25NSMutableAttributedString"
+- "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "VCSo14NSNotification4Name"
+- !private "CSo18NotificationCenter"
+- !private "CSo16OWSAvatarBuilder"
+- !private "CSo23OWSContactAvatarBuilder"
+- !private "Ps9OptionSet"
+- !private "CSo11PhoneNumber"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "O8TestChat17SubtitleCellValue"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo6UIFont"
+- !private "CSo16UIFontDescriptor"
+- !private "VSC30UIFontDescriptorSymbolicTraits"
+- !private "VSC15UIFontTextStyle"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo5UINib"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- !private "OSC28UITableViewCellAccessoryType"
+- !private "OSC29UITableViewCellSelectionStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "d013f4d1f3dbfb8fca027fc2b41a3c37"

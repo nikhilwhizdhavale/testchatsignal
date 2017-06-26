@@ -1,0 +1,1085 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppNotifications"
+- "UserNotificationsAdaptee"
+- "=="
+- "=="
+provides-nominal:
+- "V8TestChat16AppNotifications"
+- "OV8TestChat16AppNotifications8Category"
+- "OV8TestChat16AppNotifications6Action"
+- "C8TestChat24UserNotificationsAdaptee"
+provides-member:
+- ["V8TestChat16AppNotifications", ""]
+- ["OV8TestChat16AppNotifications8Category", ""]
+- ["OV8TestChat16AppNotifications6Action", ""]
+- ["C8TestChat24UserNotificationsAdaptee", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "presentIncomingCall"
+- "presentMissedCall"
+- "presentMissedCallBecauseOfNewIdentity"
+- "presentMissedCallBecauseOfNoLongerVerifiedIdentity"
+- "previewType"
+- "requestAuthorization"
+depends-top-level:
+- !private "!="
+- "=="
+- "AppNotifications"
+- "Array"
+- "AssignmentPrecedence"
+- !private "CallStrings"
+- !private "Environment"
+- !private "Logger"
+- "NSObject"
+- "NotificationType"
+- "OWSCallNotificationsAdaptee"
+- "Set"
+- "SignalCall"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "UNMutableNotificationContent"
+- "UNNotificationAction"
+- "UNNotificationCategory"
+- !private "UNNotificationRequest"
+- !private "UNNotificationSound"
+- "UNUserNotificationCenter"
+- "UNUserNotificationCenterDelegate"
+- "UnicodeScalarType"
+- "UserNotificationsAdaptee"
+depends-member:
+- ["OV8TestChat16AppNotifications6Action", "=="]
+- ["OV8TestChat16AppNotifications6Action", "_toAnyHashable"]
+- ["OV8TestChat16AppNotifications6Action", "callBack"]
+- ["OV8TestChat16AppNotifications6Action", "deinit"]
+- ["OV8TestChat16AppNotifications6Action", "hashValue"]
+- ["OV8TestChat16AppNotifications6Action", "showThread"]
+- !private ["Ps9AnyObject", "AppNotifications"]
+- !private ["Ps9AnyObject", "CallStrings"]
+- !private ["Ps9AnyObject", "Environment"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "UNMutableNotificationContent"]
+- !private ["Ps9AnyObject", "UNNotificationRequest"]
+- !private ["Ps9AnyObject", "UNNotificationSound"]
+- !private ["Ps9AnyObject", "UNUserNotificationCenter"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "callBackButtonTitle"]
+- !private ["Ps9AnyObject", "categoryIdentifier"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "getCurrent"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isCallKitPrivacyEnabled"]
+- !private ["Ps9AnyObject", "localId"]
+- !private ["Ps9AnyObject", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps9AnyObject", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps9AnyObject", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps9AnyObject", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps9AnyObject", "notificationPreviewType"]
+- !private ["Ps9AnyObject", "preferences"]
+- ["Ps9AnyObject", "presentIncomingCall"]
+- ["Ps9AnyObject", "presentMissedCall"]
+- ["Ps9AnyObject", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps9AnyObject", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps9AnyObject", "previewType"]
+- !private ["Ps9AnyObject", "requestAuthorization"]
+- !private ["Ps9AnyObject", "setNotificationCategories"]
+- !private ["Ps9AnyObject", "showThreadButtonTitle"]
+- !private ["Ps9AnyObject", "sound"]
+- ["Ps9AnyObject", "userNotificationCenter"]
+- ["Ps9AnyObject", ""]
+- ["V8TestChat16AppNotifications", "Action"]
+- !private ["V8TestChat16AppNotifications", "CallStrings"]
+- ["V8TestChat16AppNotifications", "Category"]
+- ["V8TestChat16AppNotifications", "Set"]
+- ["V8TestChat16AppNotifications", "UNNotificationAction"]
+- ["V8TestChat16AppNotifications", "UNNotificationCategory"]
+- ["V8TestChat16AppNotifications", "action"]
+- ["V8TestChat16AppNotifications", "allCategories"]
+- ["V8TestChat16AppNotifications", "category"]
+- ["V8TestChat16AppNotifications", "init"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "AppNotifications"]
+- !private ["Ps7CVarArg", "CallStrings"]
+- !private ["Ps7CVarArg", "Environment"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "UNMutableNotificationContent"]
+- !private ["Ps7CVarArg", "UNNotificationRequest"]
+- !private ["Ps7CVarArg", "UNNotificationSound"]
+- !private ["Ps7CVarArg", "UNUserNotificationCenter"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "body"]
+- !private ["Ps7CVarArg", "callBackButtonTitle"]
+- !private ["Ps7CVarArg", "categoryIdentifier"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "current"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "getCurrent"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isCallKitPrivacyEnabled"]
+- !private ["Ps7CVarArg", "localId"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps7CVarArg", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps7CVarArg", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps7CVarArg", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps7CVarArg", "notificationPreviewType"]
+- !private ["Ps7CVarArg", "preferences"]
+- ["Ps7CVarArg", "presentIncomingCall"]
+- ["Ps7CVarArg", "presentMissedCall"]
+- ["Ps7CVarArg", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps7CVarArg", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps7CVarArg", "previewType"]
+- !private ["Ps7CVarArg", "requestAuthorization"]
+- !private ["Ps7CVarArg", "setNotificationCategories"]
+- !private ["Ps7CVarArg", "showThreadButtonTitle"]
+- !private ["Ps7CVarArg", "sound"]
+- ["Ps7CVarArg", "userNotificationCenter"]
+- ["Ps7CVarArg", ""]
+- !private ["C8TestChat11CallStrings", "callBackButtonTitle"]
+- !private ["C8TestChat11CallStrings", "missedCallNotificationBodyWithCallerName"]
+- !private ["C8TestChat11CallStrings", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["C8TestChat11CallStrings", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["C8TestChat11CallStrings", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["C8TestChat11CallStrings", "showThreadButtonTitle"]
+- ["OV8TestChat16AppNotifications8Category", "=="]
+- ["OV8TestChat16AppNotifications8Category", "_toAnyHashable"]
+- ["OV8TestChat16AppNotifications8Category", "allValues"]
+- ["OV8TestChat16AppNotifications8Category", "deinit"]
+- ["OV8TestChat16AppNotifications8Category", "hashValue"]
+- ["OV8TestChat16AppNotifications8Category", "missedCall"]
+- ["OV8TestChat16AppNotifications8Category", "missedCallFromNoLongerVerifiedIdentity"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AppNotifications"]
+- !private ["Ps28CustomDebugStringConvertible", "CallStrings"]
+- !private ["Ps28CustomDebugStringConvertible", "Environment"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "UNMutableNotificationContent"]
+- !private ["Ps28CustomDebugStringConvertible", "UNNotificationRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "UNNotificationSound"]
+- !private ["Ps28CustomDebugStringConvertible", "UNUserNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "body"]
+- !private ["Ps28CustomDebugStringConvertible", "callBackButtonTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "categoryIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "getCurrent"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isCallKitPrivacyEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "localId"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps28CustomDebugStringConvertible", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps28CustomDebugStringConvertible", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps28CustomDebugStringConvertible", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps28CustomDebugStringConvertible", "notificationPreviewType"]
+- !private ["Ps28CustomDebugStringConvertible", "preferences"]
+- ["Ps28CustomDebugStringConvertible", "presentIncomingCall"]
+- ["Ps28CustomDebugStringConvertible", "presentMissedCall"]
+- ["Ps28CustomDebugStringConvertible", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps28CustomDebugStringConvertible", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps28CustomDebugStringConvertible", "previewType"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "setNotificationCategories"]
+- !private ["Ps28CustomDebugStringConvertible", "showThreadButtonTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "sound"]
+- ["Ps28CustomDebugStringConvertible", "userNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "AppNotifications"]
+- !private ["Ps23CustomStringConvertible", "CallStrings"]
+- !private ["Ps23CustomStringConvertible", "Environment"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "UNMutableNotificationContent"]
+- !private ["Ps23CustomStringConvertible", "UNNotificationRequest"]
+- !private ["Ps23CustomStringConvertible", "UNNotificationSound"]
+- !private ["Ps23CustomStringConvertible", "UNUserNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "callBackButtonTitle"]
+- !private ["Ps23CustomStringConvertible", "categoryIdentifier"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "getCurrent"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isCallKitPrivacyEnabled"]
+- !private ["Ps23CustomStringConvertible", "localId"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps23CustomStringConvertible", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps23CustomStringConvertible", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps23CustomStringConvertible", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps23CustomStringConvertible", "notificationPreviewType"]
+- !private ["Ps23CustomStringConvertible", "preferences"]
+- ["Ps23CustomStringConvertible", "presentIncomingCall"]
+- ["Ps23CustomStringConvertible", "presentMissedCall"]
+- ["Ps23CustomStringConvertible", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps23CustomStringConvertible", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps23CustomStringConvertible", "previewType"]
+- !private ["Ps23CustomStringConvertible", "requestAuthorization"]
+- !private ["Ps23CustomStringConvertible", "setNotificationCategories"]
+- !private ["Ps23CustomStringConvertible", "showThreadButtonTitle"]
+- !private ["Ps23CustomStringConvertible", "sound"]
+- ["Ps23CustomStringConvertible", "userNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo11Environment", "getCurrent"]
+- !private ["CSo11Environment", "preferences"]
+- !private ["Ps9Equatable", "AppNotifications"]
+- !private ["Ps9Equatable", "CallStrings"]
+- !private ["Ps9Equatable", "Environment"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "UNMutableNotificationContent"]
+- !private ["Ps9Equatable", "UNNotificationRequest"]
+- !private ["Ps9Equatable", "UNNotificationSound"]
+- !private ["Ps9Equatable", "UNUserNotificationCenter"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "allValues"]
+- !private ["Ps9Equatable", "authenticationRequired"]
+- !private ["Ps9Equatable", "badge"]
+- !private ["Ps9Equatable", "body"]
+- ["Ps9Equatable", "callBack"]
+- !private ["Ps9Equatable", "callBackButtonTitle"]
+- !private ["Ps9Equatable", "categoryIdentifier"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "getCurrent"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isCallKitPrivacyEnabled"]
+- !private ["Ps9Equatable", "localId"]
+- ["Ps9Equatable", "missedCall"]
+- ["Ps9Equatable", "missedCallFromNoLongerVerifiedIdentity"]
+- !private ["Ps9Equatable", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps9Equatable", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps9Equatable", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps9Equatable", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps9Equatable", "nameNoPreview"]
+- !private ["Ps9Equatable", "namePreview"]
+- !private ["Ps9Equatable", "noNameNoPreview"]
+- !private ["Ps9Equatable", "notificationPreviewType"]
+- !private ["Ps9Equatable", "preferences"]
+- ["Ps9Equatable", "presentIncomingCall"]
+- ["Ps9Equatable", "presentMissedCall"]
+- ["Ps9Equatable", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps9Equatable", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps9Equatable", "previewType"]
+- !private ["Ps9Equatable", "requestAuthorization"]
+- !private ["Ps9Equatable", "setNotificationCategories"]
+- ["Ps9Equatable", "showThread"]
+- !private ["Ps9Equatable", "showThreadButtonTitle"]
+- !private ["Ps9Equatable", "sound"]
+- ["Ps9Equatable", "userNotificationCenter"]
+- !private ["Ps9Equatable", "uuidString"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "alert"]
+- !private ["Ps25ExpressibleByArrayLiteral", "authenticationRequired"]
+- !private ["Ps25ExpressibleByArrayLiteral", "badge"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "sound"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "AppNotifications"]
+- !private ["Ps8Hashable", "CallStrings"]
+- !private ["Ps8Hashable", "Environment"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "UNMutableNotificationContent"]
+- !private ["Ps8Hashable", "UNNotificationRequest"]
+- !private ["Ps8Hashable", "UNNotificationSound"]
+- !private ["Ps8Hashable", "UNUserNotificationCenter"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "allValues"]
+- !private ["Ps8Hashable", "body"]
+- ["Ps8Hashable", "callBack"]
+- !private ["Ps8Hashable", "callBackButtonTitle"]
+- !private ["Ps8Hashable", "categoryIdentifier"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "getCurrent"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isCallKitPrivacyEnabled"]
+- !private ["Ps8Hashable", "localId"]
+- ["Ps8Hashable", "missedCall"]
+- ["Ps8Hashable", "missedCallFromNoLongerVerifiedIdentity"]
+- !private ["Ps8Hashable", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps8Hashable", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps8Hashable", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps8Hashable", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps8Hashable", "nameNoPreview"]
+- !private ["Ps8Hashable", "namePreview"]
+- !private ["Ps8Hashable", "noNameNoPreview"]
+- !private ["Ps8Hashable", "notificationPreviewType"]
+- !private ["Ps8Hashable", "preferences"]
+- ["Ps8Hashable", "presentIncomingCall"]
+- ["Ps8Hashable", "presentMissedCall"]
+- ["Ps8Hashable", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps8Hashable", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps8Hashable", "previewType"]
+- !private ["Ps8Hashable", "requestAuthorization"]
+- !private ["Ps8Hashable", "setNotificationCategories"]
+- ["Ps8Hashable", "showThread"]
+- !private ["Ps8Hashable", "showThreadButtonTitle"]
+- !private ["Ps8Hashable", "sound"]
+- ["Ps8Hashable", "userNotificationCenter"]
+- !private ["Ps8Hashable", "uuidString"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["PSo8NSCoding", "body"]
+- !private ["PSo8NSCoding", "categoryIdentifier"]
+- !private ["PSo8NSCoding", "default"]
+- !private ["PSo8NSCoding", "identifier"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "sound"]
+- !private ["PSo9NSCopying", "body"]
+- !private ["PSo9NSCopying", "categoryIdentifier"]
+- !private ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "identifier"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "sound"]
+- !private ["PSo16NSMutableCopying", "body"]
+- !private ["PSo16NSMutableCopying", "categoryIdentifier"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "sound"]
+- !private ["CSo8NSObject", "AppNotifications"]
+- !private ["CSo8NSObject", "CallStrings"]
+- !private ["CSo8NSObject", "Environment"]
+- !private ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "NotificationType"]
+- ["CSo8NSObject", "SignalCall"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- !private ["CSo8NSObject", "UNMutableNotificationContent"]
+- !private ["CSo8NSObject", "UNNotificationRequest"]
+- !private ["CSo8NSObject", "UNNotificationSound"]
+- ["CSo8NSObject", "UNUserNotificationCenter"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "body"]
+- !private ["CSo8NSObject", "callBackButtonTitle"]
+- !private ["CSo8NSObject", "categoryIdentifier"]
+- ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "current"]
+- !private ["CSo8NSObject", "debug"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "error"]
+- !private ["CSo8NSObject", "getCurrent"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCallKitPrivacyEnabled"]
+- !private ["CSo8NSObject", "localId"]
+- !private ["CSo8NSObject", "missedCallNotificationBodyWithCallerName"]
+- !private ["CSo8NSObject", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["CSo8NSObject", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["CSo8NSObject", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["CSo8NSObject", "notificationPreviewType"]
+- !private ["CSo8NSObject", "preferences"]
+- ["CSo8NSObject", "presentIncomingCall"]
+- ["CSo8NSObject", "presentMissedCall"]
+- ["CSo8NSObject", "presentMissedCallBecauseOfNewIdentity"]
+- ["CSo8NSObject", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- ["CSo8NSObject", "previewType"]
+- ["CSo8NSObject", "requestAuthorization"]
+- !private ["CSo8NSObject", "setNotificationCategories"]
+- !private ["CSo8NSObject", "showThreadButtonTitle"]
+- !private ["CSo8NSObject", "sound"]
+- ["CSo8NSObject", "userNotificationCenter"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AppNotifications"]
+- !private ["PSo16NSObjectProtocol", "CallStrings"]
+- !private ["PSo16NSObjectProtocol", "Environment"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "UNMutableNotificationContent"]
+- !private ["PSo16NSObjectProtocol", "UNNotificationRequest"]
+- !private ["PSo16NSObjectProtocol", "UNNotificationSound"]
+- !private ["PSo16NSObjectProtocol", "UNUserNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "body"]
+- !private ["PSo16NSObjectProtocol", "callBackButtonTitle"]
+- !private ["PSo16NSObjectProtocol", "categoryIdentifier"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "getCurrent"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCallKitPrivacyEnabled"]
+- !private ["PSo16NSObjectProtocol", "localId"]
+- !private ["PSo16NSObjectProtocol", "missedCallNotificationBodyWithCallerName"]
+- !private ["PSo16NSObjectProtocol", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["PSo16NSObjectProtocol", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["PSo16NSObjectProtocol", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["PSo16NSObjectProtocol", "notificationPreviewType"]
+- !private ["PSo16NSObjectProtocol", "preferences"]
+- ["PSo16NSObjectProtocol", "presentIncomingCall"]
+- ["PSo16NSObjectProtocol", "presentMissedCall"]
+- ["PSo16NSObjectProtocol", "presentMissedCallBecauseOfNewIdentity"]
+- ["PSo16NSObjectProtocol", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["PSo16NSObjectProtocol", "previewType"]
+- !private ["PSo16NSObjectProtocol", "requestAuthorization"]
+- !private ["PSo16NSObjectProtocol", "setNotificationCategories"]
+- !private ["PSo16NSObjectProtocol", "showThreadButtonTitle"]
+- !private ["PSo16NSObjectProtocol", "sound"]
+- ["PSo16NSObjectProtocol", "userNotificationCenter"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "body"]
+- !private ["PSo14NSSecureCoding", "categoryIdentifier"]
+- !private ["PSo14NSSecureCoding", "default"]
+- !private ["PSo14NSSecureCoding", "identifier"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "sound"]
+- ["CSo8NSString", "init"]
+- !private ["OSC16NotificationType", "nameNoPreview"]
+- !private ["OSC16NotificationType", "namePreview"]
+- !private ["OSC16NotificationType", "noNameNoPreview"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "AppNotifications"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "CallStrings"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "Environment"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "Logger"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "String"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "TAG"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "UNMutableNotificationContent"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "UNNotificationRequest"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "UNNotificationSound"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "UNUserNotificationCenter"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "center"]
+- ["PSo27OWSCallNotificationsAdaptee", "presentIncomingCall"]
+- ["PSo27OWSCallNotificationsAdaptee", "presentMissedCall"]
+- ["PSo27OWSCallNotificationsAdaptee", "presentMissedCallBecauseOfNewIdentity"]
+- ["PSo27OWSCallNotificationsAdaptee", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "previewType"]
+- !private ["PSo27OWSCallNotificationsAdaptee", "requestAuthorization"]
+- ["PSo27OWSCallNotificationsAdaptee", "userNotificationCenter"]
+- ["PSo27OWSCallNotificationsAdaptee", ""]
+- !private ["Ps9OptionSet", "alert"]
+- !private ["Ps9OptionSet", "authenticationRequired"]
+- !private ["Ps9OptionSet", "badge"]
+- !private ["Ps9OptionSet", "sound"]
+- !private ["CSo23PropertyListPreferences", "isCallKitPrivacyEnabled"]
+- !private ["CSo23PropertyListPreferences", "notificationPreviewType"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "authenticationRequired"]
+- !private ["Ps16RawRepresentable", "badge"]
+- !private ["Ps16RawRepresentable", "nameNoPreview"]
+- !private ["Ps16RawRepresentable", "namePreview"]
+- !private ["Ps16RawRepresentable", "noNameNoPreview"]
+- !private ["Ps16RawRepresentable", "sound"]
+- !private ["P10Foundation20ReferenceConvertible", "uuidString"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Vs3Set", "init"]
+- !private ["Ps10SetAlgebra", "alert"]
+- !private ["Ps10SetAlgebra", "authenticationRequired"]
+- !private ["Ps10SetAlgebra", "badge"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "sound"]
+- !private ["C8TestChat10SignalCall", "localId"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["VSC22UNAuthorizationOptions", "alert"]
+- !private ["VSC22UNAuthorizationOptions", "badge"]
+- !private ["VSC22UNAuthorizationOptions", "sound"]
+- !private ["CSo28UNMutableNotificationContent", "body"]
+- !private ["CSo28UNMutableNotificationContent", "categoryIdentifier"]
+- !private ["CSo28UNMutableNotificationContent", "init"]
+- !private ["CSo28UNMutableNotificationContent", "sound"]
+- !private ["CSo20UNNotificationAction", "init"]
+- !private ["VSC27UNNotificationActionOptions", "authenticationRequired"]
+- !private ["CSo22UNNotificationCategory", "identifier"]
+- !private ["CSo22UNNotificationCategory", "init"]
+- !private ["CSo21UNNotificationContent", "body"]
+- !private ["CSo21UNNotificationContent", "categoryIdentifier"]
+- !private ["CSo21UNNotificationContent", "init"]
+- !private ["CSo21UNNotificationContent", "sound"]
+- !private ["CSo21UNNotificationRequest", "init"]
+- !private ["CSo19UNNotificationSound", "default"]
+- !private ["CSo24UNUserNotificationCenter", "add"]
+- !private ["CSo24UNUserNotificationCenter", "current"]
+- !private ["CSo24UNUserNotificationCenter", "delegate"]
+- !private ["CSo24UNUserNotificationCenter", "requestAuthorization"]
+- !private ["CSo24UNUserNotificationCenter", "setNotificationCategories"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "AppNotifications"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "CallStrings"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "Environment"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "Logger"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "String"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "TAG"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "UNMutableNotificationContent"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "UNNotificationRequest"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "UNNotificationSound"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "UNUserNotificationCenter"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "center"]
+- ["PSo32UNUserNotificationCenterDelegate", "presentIncomingCall"]
+- ["PSo32UNUserNotificationCenterDelegate", "presentMissedCall"]
+- ["PSo32UNUserNotificationCenterDelegate", "presentMissedCallBecauseOfNewIdentity"]
+- ["PSo32UNUserNotificationCenterDelegate", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "previewType"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "requestAuthorization"]
+- ["PSo32UNUserNotificationCenterDelegate", "userNotificationCenter"]
+- ["PSo32UNUserNotificationCenterDelegate", ""]
+- !private ["V10Foundation4UUID", "uuidString"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "AppNotifications"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "CallStrings"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "Environment"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "Logger"]
+- ["C8TestChat24UserNotificationsAdaptee", "NotificationType"]
+- ["C8TestChat24UserNotificationsAdaptee", "SignalCall"]
+- ["C8TestChat24UserNotificationsAdaptee", "String"]
+- ["C8TestChat24UserNotificationsAdaptee", "TAG"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "UNMutableNotificationContent"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "UNNotificationRequest"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "UNNotificationSound"]
+- ["C8TestChat24UserNotificationsAdaptee", "UNUserNotificationCenter"]
+- !private ["C8TestChat24UserNotificationsAdaptee", "center"]
+- ["C8TestChat24UserNotificationsAdaptee", "deinit"]
+- ["C8TestChat24UserNotificationsAdaptee", "init"]
+- ["C8TestChat24UserNotificationsAdaptee", "presentIncomingCall"]
+- ["C8TestChat24UserNotificationsAdaptee", "presentMissedCall"]
+- ["C8TestChat24UserNotificationsAdaptee", "presentMissedCallBecauseOfNewIdentity"]
+- ["C8TestChat24UserNotificationsAdaptee", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- ["C8TestChat24UserNotificationsAdaptee", "previewType"]
+- ["C8TestChat24UserNotificationsAdaptee", "requestAuthorization"]
+- ["C8TestChat24UserNotificationsAdaptee", "userNotificationCenter"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AppNotifications"]
+- !private ["Ps9_Hashable", "CallStrings"]
+- !private ["Ps9_Hashable", "Environment"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "UNMutableNotificationContent"]
+- !private ["Ps9_Hashable", "UNNotificationRequest"]
+- !private ["Ps9_Hashable", "UNNotificationSound"]
+- !private ["Ps9_Hashable", "UNUserNotificationCenter"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "allValues"]
+- !private ["Ps9_Hashable", "body"]
+- ["Ps9_Hashable", "callBack"]
+- !private ["Ps9_Hashable", "callBackButtonTitle"]
+- !private ["Ps9_Hashable", "categoryIdentifier"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "getCurrent"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isCallKitPrivacyEnabled"]
+- !private ["Ps9_Hashable", "localId"]
+- ["Ps9_Hashable", "missedCall"]
+- ["Ps9_Hashable", "missedCallFromNoLongerVerifiedIdentity"]
+- !private ["Ps9_Hashable", "missedCallNotificationBodyWithCallerName"]
+- !private ["Ps9_Hashable", "missedCallNotificationBodyWithoutCallerName"]
+- !private ["Ps9_Hashable", "missedCallWithIdentityChangeNotificationBodyWithCallerName"]
+- !private ["Ps9_Hashable", "missedCallWithIdentityChangeNotificationBodyWithoutCallerName"]
+- !private ["Ps9_Hashable", "nameNoPreview"]
+- !private ["Ps9_Hashable", "namePreview"]
+- !private ["Ps9_Hashable", "noNameNoPreview"]
+- !private ["Ps9_Hashable", "notificationPreviewType"]
+- !private ["Ps9_Hashable", "preferences"]
+- ["Ps9_Hashable", "presentIncomingCall"]
+- ["Ps9_Hashable", "presentMissedCall"]
+- ["Ps9_Hashable", "presentMissedCallBecauseOfNewIdentity"]
+- ["Ps9_Hashable", "presentMissedCallBecauseOfNoLongerVerifiedIdentity"]
+- !private ["Ps9_Hashable", "previewType"]
+- !private ["Ps9_Hashable", "requestAuthorization"]
+- !private ["Ps9_Hashable", "setNotificationCategories"]
+- ["Ps9_Hashable", "showThread"]
+- !private ["Ps9_Hashable", "showThreadButtonTitle"]
+- !private ["Ps9_Hashable", "sound"]
+- ["Ps9_Hashable", "userNotificationCenter"]
+- !private ["Ps9_Hashable", "uuidString"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "uuidString"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "OV8TestChat16AppNotifications6Action"
+- "Ps9AnyObject"
+- "V8TestChat16AppNotifications"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "C8TestChat11CallStrings"
+- "OV8TestChat16AppNotifications8Category"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo11Environment"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "OSC16NotificationType"
+- "PSo27OWSCallNotificationsAdaptee"
+- !private "Ps9OptionSet"
+- !private "CSo23PropertyListPreferences"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "C8TestChat10SignalCall"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "VSC22UNAuthorizationOptions"
+- !private "CSo28UNMutableNotificationContent"
+- !private "CSo20UNNotificationAction"
+- !private "VSC27UNNotificationActionOptions"
+- !private "CSo22UNNotificationCategory"
+- !private "CSo21UNNotificationContent"
+- !private "CSo21UNNotificationRequest"
+- !private "CSo19UNNotificationSound"
+- !private "CSo24UNUserNotificationCenter"
+- "PSo32UNUserNotificationCenterDelegate"
+- !private "V10Foundation4UUID"
+- "C8TestChat24UserNotificationsAdaptee"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "a7d9e13d63c5113e237d0b70ee62dbe0"

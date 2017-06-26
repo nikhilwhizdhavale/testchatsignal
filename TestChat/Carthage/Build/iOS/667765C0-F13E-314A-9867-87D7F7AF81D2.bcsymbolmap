@@ -1,0 +1,3324 @@
+BCSymbolMap Version: 2.0
+-[ZXAztecDecoder decode:error:]
++[ZXAztecDecoder highLevelDecode:]
++[ZXAztecDecoder encodedData:]
++[ZXAztecDecoder table:]
++[ZXAztecDecoder character:code:]
+-[ZXAztecDecoder correctBits:error:]
+-[ZXAztecDecoder extractBits:]
++[ZXAztecDecoder readCode:startIndex:length:]
++[ZXAztecDecoder readByte:startIndex:]
++[ZXAztecDecoder convertBoolArrayToByteArray:]
+-[ZXAztecDecoder totalBitsInLayer:compact:]
+-[ZXAztecDecoder ddata]
+-[ZXAztecDecoder setDdata:]
+-[ZXAztecDecoder .cxx_destruct]
+_ZX_AZTEC_UPPER_TABLE
+_ZX_AZTEC_LOWER_TABLE
+_ZX_AZTEC_MIXED_TABLE
+_ZX_AZTEC_PUNCT_TABLE
+_ZX_AZTEC_DIGIT_TABLE
+_OBJC_IVAR_$_ZXAztecDecoder._ddata
+Apple LLVM version 8.1.0 (clang-802.0.41)
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/decoder/ZXAztecDecoder.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC
+-[ZXAztecWriter encode:format:width:height:error:]
+-[ZXAztecWriter encode:format:width:height:hints:error:]
+-[ZXAztecWriter encode:format:width:height:encoding:eccPercent:layers:]
+-[ZXAztecWriter renderResult:width:height:]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_ZXWriter
+l_OBJC_LABEL_PROTOCOL_$_ZXWriter
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/ZXAztecWriter.m
+-[ZXAztecPoint initWithX:y:]
+-[ZXAztecPoint toResultPoint]
+-[ZXAztecPoint description]
+-[ZXAztecPoint x]
+-[ZXAztecPoint y]
+-[ZXAztecDetector initWithImage:]
+-[ZXAztecDetector detectWithError:]
+-[ZXAztecDetector detectWithMirror:error:]
+-[ZXAztecDetector extractParameters:]
+-[ZXAztecDetector rotationForSides:length:]
+-[ZXAztecDetector correctedParameterData:compact:]
+-[ZXAztecDetector bullsEyeCorners:]
+-[ZXAztecDetector matrixCenter]
+-[ZXAztecDetector matrixCornerPoints:]
+-[ZXAztecDetector sampleGrid:topLeft:topRight:bottomRight:bottomLeft:]
+-[ZXAztecDetector sampleLine:p2:size:]
+-[ZXAztecDetector isWhiteOrBlackRectangle:p2:p3:p4:]
+-[ZXAztecDetector color:p2:]
+-[ZXAztecDetector firstDifferent:color:dx:dy:]
+-[ZXAztecDetector expandSquare:oldSide:newSide:]
+-[ZXAztecDetector isValidX:y:]
+-[ZXAztecDetector isValid:]
+-[ZXAztecDetector distance:b:]
+-[ZXAztecDetector resultDistance:b:]
+-[ZXAztecDetector dimension]
+-[ZXAztecDetector isCompact]
+-[ZXAztecDetector setCompact:]
+-[ZXAztecDetector image]
+-[ZXAztecDetector setImage:]
+-[ZXAztecDetector nbCenterLayers]
+-[ZXAztecDetector setNbCenterLayers:]
+-[ZXAztecDetector nbDataBlocks]
+-[ZXAztecDetector setNbDataBlocks:]
+-[ZXAztecDetector nbLayers]
+-[ZXAztecDetector setNbLayers:]
+-[ZXAztecDetector shift]
+-[ZXAztecDetector setShift:]
+-[ZXAztecDetector .cxx_destruct]
+_OBJC_IVAR_$_ZXAztecPoint._x
+_OBJC_IVAR_$_ZXAztecPoint._y
+_OBJC_IVAR_$_ZXAztecDetector._image
+_expectedCornerBits
+_OBJC_IVAR_$_ZXAztecDetector._compact
+_OBJC_IVAR_$_ZXAztecDetector._nbCenterLayers
+_OBJC_IVAR_$_ZXAztecDetector._nbDataBlocks
+_OBJC_IVAR_$_ZXAztecDetector._nbLayers
+_OBJC_IVAR_$_ZXAztecDetector._shift
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/detector/ZXAztecDetector.m
+bitCount
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/detector/ZXAztecDetector.h
+-[ZXAztecDetectorResult initWithBits:points:compact:nbDatablocks:nbLayers:]
+-[ZXAztecDetectorResult isCompact]
+-[ZXAztecDetectorResult nbDatablocks]
+-[ZXAztecDetectorResult nbLayers]
+_OBJC_IVAR_$_ZXAztecDetectorResult._compact
+_OBJC_IVAR_$_ZXAztecDetectorResult._nbDatablocks
+_OBJC_IVAR_$_ZXAztecDetectorResult._nbLayers
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/ZXAztecDetectorResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/ZXAztecDetectorResult.h
+-[ZXAztecReader decode:error:]
+-[ZXAztecReader decode:hints:error:]
+-[ZXAztecReader reset]
+l_OBJC_PROTOCOL_$_ZXReader
+l_OBJC_LABEL_PROTOCOL_$_ZXReader
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/ZXAztecReader.m
++[ZXAbstractDoCoMoResultParser matchDoCoMoPrefixedField:rawText:trim:]
++[ZXAbstractDoCoMoResultParser matchSingleDoCoMoPrefixedField:rawText:trim:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXAbstractDoCoMoResultParser.m
+-[ZXAddressBookAUResultParser parse:]
+-[ZXAddressBookAUResultParser matchMultipleValuePrefix:max:rawText:trim:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXAddressBookAUResultParser.m
+-[ZXAddressBookDoCoMoResultParser parse:]
+-[ZXAddressBookDoCoMoResultParser parseName:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXAddressBookDoCoMoResultParser.m
+-[ZXAddressBookParsedResult initWithNames:phoneNumbers:phoneTypes:emails:emailTypes:addresses:addressTypes:]
+-[ZXAddressBookParsedResult initWithNames:nicknames:pronunciation:phoneNumbers:phoneTypes:emails:emailTypes:instantMessenger:note:addresses:addressTypes:org:birthday:title:urls:geo:]
++[ZXAddressBookParsedResult addressBookParsedResultWithNames:phoneNumbers:phoneTypes:emails:emailTypes:addresses:addressTypes:]
++[ZXAddressBookParsedResult addressBookParsedResultWithNames:nicknames:pronunciation:phoneNumbers:phoneTypes:emails:emailTypes:instantMessenger:note:addresses:addressTypes:org:birthday:title:urls:geo:]
+-[ZXAddressBookParsedResult displayResult]
+-[ZXAddressBookParsedResult names]
+-[ZXAddressBookParsedResult nicknames]
+-[ZXAddressBookParsedResult pronunciation]
+-[ZXAddressBookParsedResult phoneNumbers]
+-[ZXAddressBookParsedResult phoneTypes]
+-[ZXAddressBookParsedResult emails]
+-[ZXAddressBookParsedResult emailTypes]
+-[ZXAddressBookParsedResult instantMessenger]
+-[ZXAddressBookParsedResult note]
+-[ZXAddressBookParsedResult addresses]
+-[ZXAddressBookParsedResult addressTypes]
+-[ZXAddressBookParsedResult title]
+-[ZXAddressBookParsedResult org]
+-[ZXAddressBookParsedResult urls]
+-[ZXAddressBookParsedResult birthday]
+-[ZXAddressBookParsedResult geo]
+-[ZXAddressBookParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXAddressBookParsedResult._emailTypes
+_OBJC_IVAR_$_ZXAddressBookParsedResult._names
+_OBJC_IVAR_$_ZXAddressBookParsedResult._nicknames
+_OBJC_IVAR_$_ZXAddressBookParsedResult._pronunciation
+_OBJC_IVAR_$_ZXAddressBookParsedResult._phoneNumbers
+_OBJC_IVAR_$_ZXAddressBookParsedResult._phoneTypes
+_OBJC_IVAR_$_ZXAddressBookParsedResult._emails
+_OBJC_IVAR_$_ZXAddressBookParsedResult._instantMessenger
+_OBJC_IVAR_$_ZXAddressBookParsedResult._note
+_OBJC_IVAR_$_ZXAddressBookParsedResult._addresses
+_OBJC_IVAR_$_ZXAddressBookParsedResult._addressTypes
+_OBJC_IVAR_$_ZXAddressBookParsedResult._org
+_OBJC_IVAR_$_ZXAddressBookParsedResult._birthday
+_OBJC_IVAR_$_ZXAddressBookParsedResult._title
+_OBJC_IVAR_$_ZXAddressBookParsedResult._urls
+_OBJC_IVAR_$_ZXAddressBookParsedResult._geo
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXAddressBookParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXAddressBookParsedResult.h
+-[ZXBizcardResultParser parse:]
+-[ZXBizcardResultParser buildPhoneNumbers:number2:number3:]
+-[ZXBizcardResultParser buildName:lastName:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXBizcardResultParser.m
+-[ZXAztecState initWithToken:mode:binaryBytes:bitCount:]
++[ZXAztecState initialState]
+-[ZXAztecState latchAndAppend:value:]
+-[ZXAztecState shiftAndAppend:value:]
+-[ZXAztecState addBinaryShiftChar:]
+-[ZXAztecState endBinaryShift:]
+-[ZXAztecState isBetterThanOrEqualTo:]
+-[ZXAztecState toBitArray:]
+-[ZXAztecState description]
+-[ZXAztecState mode]
+-[ZXAztecState token]
+-[ZXAztecState binaryShiftByteCount]
+-[ZXAztecState bitCount]
+-[ZXAztecState .cxx_destruct]
+_OBJC_IVAR_$_ZXAztecState._token
+_OBJC_IVAR_$_ZXAztecState._mode
+_OBJC_IVAR_$_ZXAztecState._binaryShiftByteCount
+_OBJC_IVAR_$_ZXAztecState._bitCount
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecState.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecState.h
+-[ZXBookmarkDoCoMoResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXBookmarkDoCoMoResultParser.m
++[ZXCalendarParsedResult initialize]
+-[ZXCalendarParsedResult initWithSummary:startString:endString:durationString:location:organizer:attendees:description:latitude:longitude:]
++[ZXCalendarParsedResult calendarParsedResultWithSummary:startString:endString:durationString:location:organizer:attendees:description:latitude:longitude:]
+-[ZXCalendarParsedResult displayResult]
+-[ZXCalendarParsedResult parseDate:]
+-[ZXCalendarParsedResult format:date:]
+-[ZXCalendarParsedResult parseDurationMS:]
+-[ZXCalendarParsedResult buildDateFormat]
+-[ZXCalendarParsedResult buildDateTimeFormat]
+-[ZXCalendarParsedResult description]
+-[ZXCalendarParsedResult summary]
+-[ZXCalendarParsedResult start]
+-[ZXCalendarParsedResult startAllDay]
+-[ZXCalendarParsedResult end]
+-[ZXCalendarParsedResult endAllDay]
+-[ZXCalendarParsedResult location]
+-[ZXCalendarParsedResult organizer]
+-[ZXCalendarParsedResult attendees]
+-[ZXCalendarParsedResult resultDescription]
+-[ZXCalendarParsedResult latitude]
+-[ZXCalendarParsedResult longitude]
+-[ZXCalendarParsedResult .cxx_destruct]
+_ZX_DATE_TIME
+_ZX_RFC2445_DURATION
+_OBJC_IVAR_$_ZXCalendarParsedResult._summary
+_OBJC_IVAR_$_ZXCalendarParsedResult._start
+_OBJC_IVAR_$_ZXCalendarParsedResult._end
+_OBJC_IVAR_$_ZXCalendarParsedResult._startAllDay
+_OBJC_IVAR_$_ZXCalendarParsedResult._endAllDay
+_OBJC_IVAR_$_ZXCalendarParsedResult._location
+_OBJC_IVAR_$_ZXCalendarParsedResult._organizer
+_OBJC_IVAR_$_ZXCalendarParsedResult._attendees
+_OBJC_IVAR_$_ZXCalendarParsedResult._resultDescription
+_OBJC_IVAR_$_ZXCalendarParsedResult._latitude
+_OBJC_IVAR_$_ZXCalendarParsedResult._longitude
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXCalendarParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXCalendarParsedResult.h
+-[ZXEmailAddressParsedResult initWithTo:]
+-[ZXEmailAddressParsedResult initWithTos:ccs:bccs:subject:body:]
+-[ZXEmailAddressParsedResult emailAddress]
+-[ZXEmailAddressParsedResult mailtoURI]
+-[ZXEmailAddressParsedResult displayResult]
+-[ZXEmailAddressParsedResult tos]
+-[ZXEmailAddressParsedResult ccs]
+-[ZXEmailAddressParsedResult bccs]
+-[ZXEmailAddressParsedResult subject]
+-[ZXEmailAddressParsedResult body]
+-[ZXEmailAddressParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXEmailAddressParsedResult._tos
+_OBJC_IVAR_$_ZXEmailAddressParsedResult._ccs
+_OBJC_IVAR_$_ZXEmailAddressParsedResult._bccs
+_OBJC_IVAR_$_ZXEmailAddressParsedResult._subject
+_OBJC_IVAR_$_ZXEmailAddressParsedResult._body
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXEmailAddressParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXEmailAddressParsedResult.h
+-[ZXAztecSimpleToken initWithPrevious:value:bitCount:]
+-[ZXAztecSimpleToken appendTo:text:]
+-[ZXAztecSimpleToken description]
+-[ZXAztecSimpleToken value]
+-[ZXAztecSimpleToken bitCount]
+_OBJC_IVAR_$_ZXAztecSimpleToken._value
+_OBJC_IVAR_$_ZXAztecSimpleToken._bitCount
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecSimpleToken.m
++[ZXEmailAddressResultParser initialize]
+-[ZXEmailAddressResultParser parse:]
+_ZX_EMAIL_ADDRESS_RESULT_COMMA
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXEmailAddressResultParser.m
++[ZXEncodeHints hints]
+-[ZXEncodeHints encoding]
+-[ZXEncodeHints setEncoding:]
+-[ZXEncodeHints dataMatrixShape]
+-[ZXEncodeHints setDataMatrixShape:]
+-[ZXEncodeHints minSize]
+-[ZXEncodeHints setMinSize:]
+-[ZXEncodeHints maxSize]
+-[ZXEncodeHints setMaxSize:]
+-[ZXEncodeHints errorCorrectionLevel]
+-[ZXEncodeHints setErrorCorrectionLevel:]
+-[ZXEncodeHints errorCorrectionPercent]
+-[ZXEncodeHints setErrorCorrectionPercent:]
+-[ZXEncodeHints margin]
+-[ZXEncodeHints setMargin:]
+-[ZXEncodeHints pdf417Compact]
+-[ZXEncodeHints setPdf417Compact:]
+-[ZXEncodeHints pdf417Compaction]
+-[ZXEncodeHints setPdf417Compaction:]
+-[ZXEncodeHints pdf417Dimensions]
+-[ZXEncodeHints setPdf417Dimensions:]
+-[ZXEncodeHints aztecLayers]
+-[ZXEncodeHints setAztecLayers:]
+-[ZXEncodeHints .cxx_destruct]
+_OBJC_IVAR_$_ZXEncodeHints._encoding
+_OBJC_IVAR_$_ZXEncodeHints._dataMatrixShape
+_OBJC_IVAR_$_ZXEncodeHints._minSize
+_OBJC_IVAR_$_ZXEncodeHints._maxSize
+_OBJC_IVAR_$_ZXEncodeHints._errorCorrectionLevel
+_OBJC_IVAR_$_ZXEncodeHints._errorCorrectionPercent
+_OBJC_IVAR_$_ZXEncodeHints._margin
+_OBJC_IVAR_$_ZXEncodeHints._pdf417Compact
+_OBJC_IVAR_$_ZXEncodeHints._pdf417Compaction
+_OBJC_IVAR_$_ZXEncodeHints._pdf417Dimensions
+_OBJC_IVAR_$_ZXEncodeHints._aztecLayers
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXEncodeHints.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXEncodeHints.h
+-[ZXMultiDetector detectMulti:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/multi/detector/ZXMultiDetector.m
++[ZXEmailDoCoMoResultParser initialize]
+-[ZXEmailDoCoMoResultParser parse:]
++[ZXEmailDoCoMoResultParser isBasicallyValidEmailAddress:]
+_ZX_ATEXT_ALPHANUMERIC
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXEmailDoCoMoResultParser.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXErrors.m
+ZXNotFoundErrorInstance
+ZXFormatErrorInstance
+ZXChecksumErrorInstance
+-[ZXExpandedProductParsedResult init]
+-[ZXExpandedProductParsedResult initWithRawText:productID:sscc:lotNumber:productionDate:packagingDate:bestBeforeDate:expirationDate:weight:weightType:weightIncrement:price:priceIncrement:priceCurrency:uncommonAIs:]
++[ZXExpandedProductParsedResult expandedProductParsedResultWithRawText:productID:sscc:lotNumber:productionDate:packagingDate:bestBeforeDate:expirationDate:weight:weightType:weightIncrement:price:priceIncrement:priceCurrency:uncommonAIs:]
+-[ZXExpandedProductParsedResult isEqual:]
+-[ZXExpandedProductParsedResult equalsOrNil:o2:]
+-[ZXExpandedProductParsedResult hash]
+-[ZXExpandedProductParsedResult displayResult]
+-[ZXExpandedProductParsedResult rawText]
+-[ZXExpandedProductParsedResult productID]
+-[ZXExpandedProductParsedResult sscc]
+-[ZXExpandedProductParsedResult lotNumber]
+-[ZXExpandedProductParsedResult productionDate]
+-[ZXExpandedProductParsedResult packagingDate]
+-[ZXExpandedProductParsedResult bestBeforeDate]
+-[ZXExpandedProductParsedResult expirationDate]
+-[ZXExpandedProductParsedResult weight]
+-[ZXExpandedProductParsedResult weightType]
+-[ZXExpandedProductParsedResult weightIncrement]
+-[ZXExpandedProductParsedResult price]
+-[ZXExpandedProductParsedResult priceIncrement]
+-[ZXExpandedProductParsedResult priceCurrency]
+-[ZXExpandedProductParsedResult uncommonAIs]
+-[ZXExpandedProductParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._rawText
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._productID
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._sscc
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._lotNumber
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._productionDate
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._packagingDate
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._bestBeforeDate
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._expirationDate
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._weight
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._weightType
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._weightIncrement
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._price
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._priceIncrement
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._priceCurrency
+_OBJC_IVAR_$_ZXExpandedProductParsedResult._uncommonAIs
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXExpandedProductParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXExpandedProductParsedResult.h
+-[ZXExpandedProductResultParser parse:]
+-[ZXExpandedProductResultParser findAIvalue:rawText:]
+-[ZXExpandedProductResultParser findValue:rawText:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXExpandedProductResultParser.m
+-[ZXGeoParsedResult initWithLatitude:longitude:altitude:query:]
++[ZXGeoParsedResult geoParsedResultWithLatitude:longitude:altitude:query:]
+-[ZXGeoParsedResult geoURI]
+-[ZXGeoParsedResult displayResult]
+-[ZXGeoParsedResult latitude]
+-[ZXGeoParsedResult longitude]
+-[ZXGeoParsedResult altitude]
+-[ZXGeoParsedResult query]
+-[ZXGeoParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXGeoParsedResult._latitude
+_OBJC_IVAR_$_ZXGeoParsedResult._longitude
+_OBJC_IVAR_$_ZXGeoParsedResult._altitude
+_OBJC_IVAR_$_ZXGeoParsedResult._query
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXGeoParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXGeoParsedResult.h
++[ZXGeoResultParser initialize]
+-[ZXGeoResultParser parse:]
+_ZX_GEO_URL_PATTERN
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXGeoResultParser.m
+-[ZXISBNParsedResult initWithIsbn:]
++[ZXISBNParsedResult isbnParsedResultWithIsbn:]
+-[ZXISBNParsedResult displayResult]
+-[ZXISBNParsedResult isbn]
+-[ZXISBNParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXISBNParsedResult._isbn
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXISBNParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXISBNParsedResult.h
+-[ZXISBNResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXISBNResultParser.m
+-[ZXParsedResult initWithType:]
++[ZXParsedResult parsedResultWithType:]
+-[ZXParsedResult displayResult]
+-[ZXParsedResult description]
++[ZXParsedResult maybeAppend:result:]
++[ZXParsedResult maybeAppendArray:result:]
+-[ZXParsedResult type]
+_OBJC_IVAR_$_ZXParsedResult._type
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXParsedResult.h
+-[ZXDecodeHints init]
++[ZXDecodeHints hints]
+-[ZXDecodeHints copyWithZone:]
+-[ZXDecodeHints addPossibleFormat:]
+-[ZXDecodeHints containsFormat:]
+-[ZXDecodeHints numberOfPossibleFormats]
+-[ZXDecodeHints removePossibleFormat:]
+-[ZXDecodeHints assumeCode39CheckDigit]
+-[ZXDecodeHints setAssumeCode39CheckDigit:]
+-[ZXDecodeHints assumeGS1]
+-[ZXDecodeHints setAssumeGS1:]
+-[ZXDecodeHints allowedLengths]
+-[ZXDecodeHints setAllowedLengths:]
+-[ZXDecodeHints encoding]
+-[ZXDecodeHints setEncoding:]
+-[ZXDecodeHints other]
+-[ZXDecodeHints setOther:]
+-[ZXDecodeHints pureBarcode]
+-[ZXDecodeHints setPureBarcode:]
+-[ZXDecodeHints returnCodaBarStartEnd]
+-[ZXDecodeHints setReturnCodaBarStartEnd:]
+-[ZXDecodeHints resultPointCallback]
+-[ZXDecodeHints setResultPointCallback:]
+-[ZXDecodeHints tryHarder]
+-[ZXDecodeHints setTryHarder:]
+-[ZXDecodeHints allowedEANExtensions]
+-[ZXDecodeHints setAllowedEANExtensions:]
+-[ZXDecodeHints barcodeFormats]
+-[ZXDecodeHints .cxx_destruct]
+_OBJC_IVAR_$_ZXDecodeHints._barcodeFormats
+_OBJC_IVAR_$_ZXDecodeHints._assumeCode39CheckDigit
+_OBJC_IVAR_$_ZXDecodeHints._assumeGS1
+_OBJC_IVAR_$_ZXDecodeHints._allowedLengths
+_OBJC_IVAR_$_ZXDecodeHints._encoding
+_OBJC_IVAR_$_ZXDecodeHints._other
+_OBJC_IVAR_$_ZXDecodeHints._pureBarcode
+_OBJC_IVAR_$_ZXDecodeHints._returnCodaBarStartEnd
+_OBJC_IVAR_$_ZXDecodeHints._resultPointCallback
+_OBJC_IVAR_$_ZXDecodeHints._tryHarder
+_OBJC_IVAR_$_ZXDecodeHints._allowedEANExtensions
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXDecodeHints.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXDecodeHints.h
+-[ZXProductParsedResult initWithProductID:]
+-[ZXProductParsedResult initWithProductID:normalizedProductID:]
++[ZXProductParsedResult productParsedResultWithProductID:]
++[ZXProductParsedResult productParsedResultWithProductID:normalizedProductID:]
+-[ZXProductParsedResult displayResult]
+-[ZXProductParsedResult normalizedProductID]
+-[ZXProductParsedResult productID]
+-[ZXProductParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXProductParsedResult._normalizedProductID
+_OBJC_IVAR_$_ZXProductParsedResult._productID
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXProductParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXProductParsedResult.h
+-[ZXProductResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXProductResultParser.m
++[ZXResultParser initialize]
+-[ZXResultParser parse:]
++[ZXResultParser massagedText:]
++[ZXResultParser parseResult:]
+-[ZXResultParser maybeAppend:result:]
+-[ZXResultParser maybeAppendArray:result:]
+-[ZXResultParser maybeWrap:]
++[ZXResultParser unescapeBackslash:]
++[ZXResultParser parseHexDigit:]
++[ZXResultParser isStringOfDigits:length:]
+-[ZXResultParser urlDecode:]
+-[ZXResultParser findFirstEscape:]
++[ZXResultParser isSubstringOfDigits:offset:length:]
+-[ZXResultParser parseNameValuePairs:]
+-[ZXResultParser appendKeyValue:result:]
++[ZXResultParser urlDecode:]
++[ZXResultParser matchPrefixedField:rawText:endChar:trim:]
++[ZXResultParser countPrecedingBackslashes:pos:]
++[ZXResultParser matchSinglePrefixedField:rawText:endChar:trim:]
+_ZX_PARSERS
+_ZX_DIGITS
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXResultParser.m
+-[ZXSMSMMSResultParser parse:]
+-[ZXSMSMMSResultParser addNumberVia:vias:numberPart:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXSMSMMSResultParser.m
+-[ZXSMSParsedResult initWithNumber:via:subject:body:]
+-[ZXSMSParsedResult initWithNumbers:vias:subject:body:]
++[ZXSMSParsedResult smsParsedResultWithNumber:via:subject:body:]
++[ZXSMSParsedResult smsParsedResultWithNumbers:vias:subject:body:]
+-[ZXSMSParsedResult sMSURI]
+-[ZXSMSParsedResult displayResult]
+-[ZXSMSParsedResult numbers]
+-[ZXSMSParsedResult vias]
+-[ZXSMSParsedResult subject]
+-[ZXSMSParsedResult body]
+-[ZXSMSParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXSMSParsedResult._numbers
+_OBJC_IVAR_$_ZXSMSParsedResult._vias
+_OBJC_IVAR_$_ZXSMSParsedResult._subject
+_OBJC_IVAR_$_ZXSMSParsedResult._body
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXSMSParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXSMSParsedResult.h
+-[ZXSMSTOMMSTOResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXSMSTOMMSTOResultParser.m
+-[ZXSMTPResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXSMTPResultParser.m
+-[ZXAztecToken initWithPrevious:]
++[ZXAztecToken empty]
+-[ZXAztecToken add:bitCount:]
+-[ZXAztecToken addBinaryShift:byteCount:]
+-[ZXAztecToken appendTo:text:]
+-[ZXAztecToken previous]
+-[ZXAztecToken .cxx_destruct]
+_OBJC_IVAR_$_ZXAztecToken._previous
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecToken.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecToken.h
+-[ZXRGBLuminanceSource initWithWidth:height:pixels:pixelsLen:]
+-[ZXRGBLuminanceSource initWithPixels:dataWidth:dataHeight:left:top:width:height:]
+-[ZXRGBLuminanceSource rowAtY:row:]
+-[ZXRGBLuminanceSource matrix]
+-[ZXRGBLuminanceSource cropSupported]
+-[ZXRGBLuminanceSource crop:top:width:height:]
+-[ZXRGBLuminanceSource luminances]
+-[ZXRGBLuminanceSource dataWidth]
+-[ZXRGBLuminanceSource dataHeight]
+-[ZXRGBLuminanceSource left]
+-[ZXRGBLuminanceSource top]
+-[ZXRGBLuminanceSource .cxx_destruct]
+_OBJC_IVAR_$_ZXRGBLuminanceSource._dataWidth
+_OBJC_IVAR_$_ZXRGBLuminanceSource._dataHeight
+_OBJC_IVAR_$_ZXRGBLuminanceSource._left
+_OBJC_IVAR_$_ZXRGBLuminanceSource._top
+_OBJC_IVAR_$_ZXRGBLuminanceSource._luminances
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXRGBLuminanceSource.m
+-[ZXTelParsedResult initWithNumber:telURI:title:]
++[ZXTelParsedResult telParsedResultWithNumber:telURI:title:]
+-[ZXTelParsedResult displayResult]
+-[ZXTelParsedResult number]
+-[ZXTelParsedResult telURI]
+-[ZXTelParsedResult title]
+-[ZXTelParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXTelParsedResult._number
+_OBJC_IVAR_$_ZXTelParsedResult._telURI
+_OBJC_IVAR_$_ZXTelParsedResult._title
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXTelParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXTelParsedResult.h
+-[ZXByteArray initWithLength:]
+-[ZXByteArray initWithBytes:]
+-[ZXByteArray dealloc]
+-[ZXByteArray description]
+-[ZXByteArray array]
+-[ZXByteArray length]
+_OBJC_IVAR_$_ZXByteArray._array
+_OBJC_IVAR_$_ZXByteArray._length
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXByteArray.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXByteArray.h
+-[ZXTelResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXTelResultParser.m
+-[ZXTextParsedResult initWithText:language:]
++[ZXTextParsedResult textParsedResultWithText:language:]
+-[ZXTextParsedResult displayResult]
+-[ZXTextParsedResult text]
+-[ZXTextParsedResult language]
+-[ZXTextParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXTextParsedResult._text
+_OBJC_IVAR_$_ZXTextParsedResult._language
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXTextParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXTextParsedResult.h
+-[ZXMultiFinderPatternFinder selectBestPatternsWithError:]
+-[ZXMultiFinderPatternFinder findMulti:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/multi/detector/ZXMultiFinderPatternFinder.m
+moduleSizeCompare
++[ZXURIParsedResult initialize]
+-[ZXURIParsedResult initWithUri:title:]
++[ZXURIParsedResult uriParsedResultWithUri:title:]
+-[ZXURIParsedResult possiblyMaliciousURI]
+-[ZXURIParsedResult displayResult]
+-[ZXURIParsedResult massageURI:]
+-[ZXURIParsedResult isColonFollowedByPortNumber:protocolEnd:]
+-[ZXURIParsedResult uri]
+-[ZXURIParsedResult title]
+-[ZXURIParsedResult .cxx_destruct]
+_ZX_USER_IN_HOST
+_OBJC_IVAR_$_ZXURIParsedResult._uri
+_OBJC_IVAR_$_ZXURIParsedResult._title
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXURIParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXURIParsedResult.h
++[ZXURIResultParser initialize]
+-[ZXURIResultParser parse:]
++[ZXURIResultParser isBasicallyValidURI:]
+_ZX_URL_WITH_PROTOCOL_PATTERN
+_ZX_URL_WITHOUT_PROTOCOL_PATTERN
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXURIResultParser.m
+-[ZXURLTOResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXURLTOResultParser.m
++[ZXVCardResultParser initialize]
+-[ZXVCardResultParser parse:]
++[ZXVCardResultParser matchVCardPrefixedField:rawText:trim:parseFieldDivider:]
++[ZXVCardResultParser decodeQuotedPrintable:charset:]
++[ZXVCardResultParser maybeAppendFragment:charset:result:]
++[ZXVCardResultParser matchSingleVCardPrefixedField:rawText:trim:parseFieldDivider:]
+-[ZXVCardResultParser toPrimaryValue:]
+-[ZXVCardResultParser toPrimaryValues:]
+-[ZXVCardResultParser toTypes:]
+-[ZXVCardResultParser isLikeVCardDate:]
+-[ZXVCardResultParser formatNames:]
+-[ZXVCardResultParser maybeAppendComponent:i:newName:]
+_ZX_BEGIN_VCARD
+_ZX_VCARD_LIKE_DATE
+_ZX_CR_LF_SPACE_TAB
+_ZX_NEWLINE_ESCAPE
+_ZX_VCARD_ESCAPES
+_ZX_UNESCAPED_SEMICOLONS
+_ZX_COMMA
+_ZX_SEMICOLON_OR_COMMA
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXVCardResultParser.m
+-[ZXVEventResultParser parse:]
+-[ZXVEventResultParser matchSingleVCardPrefixedField:rawText:trim:]
+-[ZXVEventResultParser matchVCardPrefixedField:rawText:trim:]
+-[ZXVEventResultParser stripMailto:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXVEventResultParser.m
+-[ZXWifiParsedResult initWithNetworkEncryption:ssid:password:]
+-[ZXWifiParsedResult initWithNetworkEncryption:ssid:password:hidden:]
++[ZXWifiParsedResult wifiParsedResultWithNetworkEncryption:ssid:password:]
++[ZXWifiParsedResult wifiParsedResultWithNetworkEncryption:ssid:password:hidden:]
+-[ZXWifiParsedResult displayResult]
+-[ZXWifiParsedResult ssid]
+-[ZXWifiParsedResult networkEncryption]
+-[ZXWifiParsedResult password]
+-[ZXWifiParsedResult hidden]
+-[ZXWifiParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXWifiParsedResult._ssid
+_OBJC_IVAR_$_ZXWifiParsedResult._networkEncryption
+_OBJC_IVAR_$_ZXWifiParsedResult._password
+_OBJC_IVAR_$_ZXWifiParsedResult._hidden
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXWifiParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXWifiParsedResult.h
+-[ZXWifiResultParser parse:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXWifiResultParser.m
+-[ZXCapture init]
+-[ZXCapture dealloc]
+-[ZXCapture layer]
+-[ZXCapture output]
+-[ZXCapture setCamera:]
+-[ZXCapture setDelegate:]
+-[ZXCapture setFocusMode:]
+-[ZXCapture setLastScannedImage:]
+-[ZXCapture setMirror:]
+-[ZXCapture setTorch:]
+-[ZXCapture setTransform:]
+-[ZXCapture back]
+-[ZXCapture front]
+-[ZXCapture hasFront]
+-[ZXCapture hasBack]
+-[ZXCapture hasTorch]
+-[ZXCapture binary]
+-[ZXCapture setBinary:]
+-[ZXCapture luminance]
+-[ZXCapture setLuminance:]
+-[ZXCapture hard_stop]
+-[ZXCapture order_skip]
+-[ZXCapture start]
+-[ZXCapture stop]
+-[ZXCapture actionForLayer:forKey:]
+-[ZXCapture runActionForKey:object:arguments:]
+-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]
+___64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.166
+___copy_helper_block_.169
+___destroy_helper_block_.170
+___64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.179
+___copy_helper_block_.180
+___destroy_helper_block_.181
+___64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.188
+___copy_helper_block_.191
+___destroy_helper_block_.192
+-[ZXCapture createRotatedImage:degrees:]
+-[ZXCapture device]
+-[ZXCapture replaceInput]
+-[ZXCapture session]
+-[ZXCapture startStop]
+-[ZXCapture camera]
+-[ZXCapture captureDevice]
+-[ZXCapture setCaptureDevice:]
+-[ZXCapture captureToFilename]
+-[ZXCapture setCaptureToFilename:]
+-[ZXCapture delegate]
+-[ZXCapture focusMode]
+-[ZXCapture hints]
+-[ZXCapture setHints:]
+-[ZXCapture lastScannedImage]
+-[ZXCapture invert]
+-[ZXCapture setInvert:]
+-[ZXCapture mirror]
+-[ZXCapture reader]
+-[ZXCapture setReader:]
+-[ZXCapture rotation]
+-[ZXCapture setRotation:]
+-[ZXCapture running]
+-[ZXCapture setRunning:]
+-[ZXCapture scanRect]
+-[ZXCapture setScanRect:]
+-[ZXCapture sessionPreset]
+-[ZXCapture setSessionPreset:]
+-[ZXCapture torch]
+-[ZXCapture transform]
+-[ZXCapture binaryLayer]
+-[ZXCapture setBinaryLayer:]
+-[ZXCapture cameraIsReady]
+-[ZXCapture setCameraIsReady:]
+-[ZXCapture captureDeviceIndex]
+-[ZXCapture setCaptureDeviceIndex:]
+-[ZXCapture captureQueue]
+-[ZXCapture setCaptureQueue:]
+-[ZXCapture hardStop]
+-[ZXCapture setHardStop:]
+-[ZXCapture input]
+-[ZXCapture setInput:]
+-[ZXCapture setLayer:]
+-[ZXCapture luminanceLayer]
+-[ZXCapture setLuminanceLayer:]
+-[ZXCapture orderInSkip]
+-[ZXCapture setOrderInSkip:]
+-[ZXCapture orderOutSkip]
+-[ZXCapture setOrderOutSkip:]
+-[ZXCapture onScreen]
+-[ZXCapture setOnScreen:]
+-[ZXCapture setOutput:]
+-[ZXCapture setSession:]
+-[ZXCapture .cxx_destruct]
+_OBJC_IVAR_$_ZXCapture._captureDeviceIndex
+_OBJC_IVAR_$_ZXCapture._captureQueue
+_OBJC_IVAR_$_ZXCapture._focusMode
+_OBJC_IVAR_$_ZXCapture._hardStop
+_OBJC_IVAR_$_ZXCapture._hints
+_OBJC_IVAR_$_ZXCapture._lastScannedImage
+_OBJC_IVAR_$_ZXCapture._onScreen
+_OBJC_IVAR_$_ZXCapture._orderInSkip
+_OBJC_IVAR_$_ZXCapture._orderOutSkip
+_OBJC_IVAR_$_ZXCapture._reader
+_OBJC_IVAR_$_ZXCapture._rotation
+_OBJC_IVAR_$_ZXCapture._running
+_OBJC_IVAR_$_ZXCapture._transform
+_OBJC_IVAR_$_ZXCapture._scanRect
+_OBJC_IVAR_$_ZXCapture._session
+_OBJC_IVAR_$_ZXCapture._layer
+_OBJC_IVAR_$_ZXCapture._output
+_OBJC_IVAR_$_ZXCapture._camera
+_OBJC_IVAR_$_ZXCapture._delegate
+_OBJC_IVAR_$_ZXCapture._mirror
+_OBJC_IVAR_$_ZXCapture._torch
+_start.i
+___block_descriptor_tmp
+___block_descriptor_tmp.171
+___block_descriptor_tmp.182
+___block_descriptor_tmp.193
+_OBJC_IVAR_$_ZXCapture._sessionPreset
+_OBJC_IVAR_$_ZXCapture._captureDevice
+_OBJC_IVAR_$_ZXCapture._captureToFilename
+_OBJC_IVAR_$_ZXCapture._invert
+_OBJC_IVAR_$_ZXCapture._binaryLayer
+_OBJC_IVAR_$_ZXCapture._cameraIsReady
+_OBJC_IVAR_$_ZXCapture._input
+_OBJC_IVAR_$_ZXCapture._luminanceLayer
+l_OBJC_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
+l_OBJC_LABEL_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
+l_OBJC_PROTOCOL_$_CAAction
+l_OBJC_LABEL_PROTOCOL_$_CAAction
+l_OBJC_PROTOCOL_$_CALayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CALayerDelegate
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXCapture.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXCapture.h
+CGRectMake
+/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__destroy_helper_block_
+__copy_helper_block_
+__64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.188
+__64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.179
+__64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.166
+__64-[ZXCapture captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke
++[ZXCGImageLuminanceSource createImageFromBuffer:]
++[ZXCGImageLuminanceSource createImageFromBuffer:left:top:width:height:]
+-[ZXCGImageLuminanceSource initWithZXImage:left:top:width:height:]
+-[ZXCGImageLuminanceSource initWithZXImage:]
+-[ZXCGImageLuminanceSource initWithCGImage:left:top:width:height:]
+-[ZXCGImageLuminanceSource initWithCGImage:]
+-[ZXCGImageLuminanceSource initWithBuffer:left:top:width:height:]
+-[ZXCGImageLuminanceSource initWithBuffer:]
+-[ZXCGImageLuminanceSource dealloc]
+-[ZXCGImageLuminanceSource rowAtY:row:]
+-[ZXCGImageLuminanceSource matrix]
+-[ZXCGImageLuminanceSource initializeWithImage:left:top:width:height:]
+___70-[ZXCGImageLuminanceSource initializeWithImage:left:top:width:height:]_block_invoke
+-[ZXCGImageLuminanceSource rotateSupported]
+-[ZXCGImageLuminanceSource rotateCounterClockwise]
+-[ZXCGImageLuminanceSource crop:top:width:height:]
+-[ZXCGImageLuminanceSource image]
+-[ZXCGImageLuminanceSource data]
+-[ZXCGImageLuminanceSource left]
+-[ZXCGImageLuminanceSource top]
+_OBJC_IVAR_$_ZXCGImageLuminanceSource._image
+_OBJC_IVAR_$_ZXCGImageLuminanceSource._data
+_OBJC_IVAR_$_ZXCGImageLuminanceSource._left
+_OBJC_IVAR_$_ZXCGImageLuminanceSource._top
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXCGImageLuminanceSource.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXCGImageLuminanceSource.h
+__70-[ZXCGImageLuminanceSource initializeWithImage:left:top:width:height:]_block_invoke
+-[ZXResult initWithText:rawBytes:resultPoints:format:]
+-[ZXResult initWithText:rawBytes:resultPoints:format:timestamp:]
++[ZXResult resultWithText:rawBytes:resultPoints:format:]
++[ZXResult resultWithText:rawBytes:resultPoints:format:timestamp:]
+-[ZXResult putMetadata:value:]
+-[ZXResult putAllMetadata:]
+-[ZXResult addResultPoints:]
+-[ZXResult description]
+-[ZXResult text]
+-[ZXResult rawBytes]
+-[ZXResult resultPoints]
+-[ZXResult setResultPoints:]
+-[ZXResult barcodeFormat]
+-[ZXResult resultMetadata]
+-[ZXResult setResultMetadata:]
+-[ZXResult timestamp]
+-[ZXResult .cxx_destruct]
+_OBJC_IVAR_$_ZXResult._text
+_OBJC_IVAR_$_ZXResult._rawBytes
+_OBJC_IVAR_$_ZXResult._resultPoints
+_OBJC_IVAR_$_ZXResult._barcodeFormat
+_OBJC_IVAR_$_ZXResult._resultMetadata
+_OBJC_IVAR_$_ZXResult._timestamp
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXResult.h
+-[ZXResultPoint initWithX:y:]
++[ZXResultPoint resultPointWithX:y:]
+-[ZXResultPoint copyWithZone:]
+-[ZXResultPoint isEqual:]
+-[ZXResultPoint hash]
+-[ZXResultPoint description]
++[ZXResultPoint orderBestPatterns:]
++[ZXResultPoint distance:pattern2:]
++[ZXResultPoint crossProductZ:pointB:pointC:]
+-[ZXResultPoint x]
+-[ZXResultPoint y]
+_OBJC_IVAR_$_ZXResultPoint._x
+_OBJC_IVAR_$_ZXResultPoint._y
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXResultPoint.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXResultPoint.h
+-[ZXImage initWithCGImageRef:]
+-[ZXImage initWithURL:]
+-[ZXImage width]
+-[ZXImage height]
+-[ZXImage dealloc]
++[ZXImage imageWithMatrix:]
++[ZXImage imageWithMatrix:onColor:offColor:]
++[ZXImage setColorIntensities:color:]
+-[ZXImage cgimage]
+_OBJC_IVAR_$_ZXImage._cgimage
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXImage.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/ZXImage.h
++[ZXMathUtils round:]
++[ZXMathUtils distance:aY:bX:bY:]
++[ZXMathUtils distanceInt:aY:bX:bY:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/detector/ZXMathUtils.m
+-[ZXMonochromeRectangleDetector initWithImage:]
+-[ZXMonochromeRectangleDetector detectWithError:]
+-[ZXMonochromeRectangleDetector findCornerFromCenter:deltaX:left:right:centerY:deltaY:top:bottom:maxWhiteRun:]
+-[ZXMonochromeRectangleDetector blackWhiteRange:maxWhiteRun:minDim:maxDim:horizontal:]
+-[ZXMonochromeRectangleDetector image]
+-[ZXMonochromeRectangleDetector .cxx_destruct]
+_OBJC_IVAR_$_ZXMonochromeRectangleDetector._image
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/detector/ZXMonochromeRectangleDetector.m
+-[ZXWhiteRectangleDetector initWithImage:error:]
+-[ZXWhiteRectangleDetector initWithImage:initSize:x:y:error:]
+-[ZXWhiteRectangleDetector detectWithError:]
+-[ZXWhiteRectangleDetector blackPointOnSegment:aY:bX:bY:]
+-[ZXWhiteRectangleDetector centerEdges:z:x:t:]
+-[ZXWhiteRectangleDetector containsBlackPoint:b:fixed:horizontal:]
+-[ZXWhiteRectangleDetector image]
+-[ZXWhiteRectangleDetector height]
+-[ZXWhiteRectangleDetector width]
+-[ZXWhiteRectangleDetector leftInit]
+-[ZXWhiteRectangleDetector rightInit]
+-[ZXWhiteRectangleDetector downInit]
+-[ZXWhiteRectangleDetector upInit]
+-[ZXWhiteRectangleDetector .cxx_destruct]
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._image
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._height
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._width
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._leftInit
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._rightInit
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._upInit
+_OBJC_IVAR_$_ZXWhiteRectangleDetector._downInit
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/detector/ZXWhiteRectangleDetector.m
+-[ZXGenericGF initWithPrimitive:size:b:]
++[ZXGenericGF AztecData12]
+___26+[ZXGenericGF AztecData12]_block_invoke
++[ZXGenericGF AztecData10]
+___26+[ZXGenericGF AztecData10]_block_invoke
++[ZXGenericGF AztecData6]
+___25+[ZXGenericGF AztecData6]_block_invoke
++[ZXGenericGF AztecParam]
+___25+[ZXGenericGF AztecParam]_block_invoke
++[ZXGenericGF QrCodeField256]
+___29+[ZXGenericGF QrCodeField256]_block_invoke
++[ZXGenericGF DataMatrixField256]
+___33+[ZXGenericGF DataMatrixField256]_block_invoke
++[ZXGenericGF AztecData8]
++[ZXGenericGF MaxiCodeField64]
+-[ZXGenericGF buildMonomial:coefficient:]
++[ZXGenericGF addOrSubtract:b:]
+-[ZXGenericGF exp:]
+-[ZXGenericGF log:]
+-[ZXGenericGF inverse:]
+-[ZXGenericGF multiply:b:]
+-[ZXGenericGF isEqual:]
+-[ZXGenericGF description]
+-[ZXGenericGF zero]
+-[ZXGenericGF one]
+-[ZXGenericGF size]
+-[ZXGenericGF generatorBase]
+-[ZXGenericGF expTable]
+-[ZXGenericGF logTable]
+-[ZXGenericGF primitive]
+-[ZXGenericGF .cxx_destruct]
+_OBJC_IVAR_$_ZXGenericGF._primitive
+_OBJC_IVAR_$_ZXGenericGF._size
+_OBJC_IVAR_$_ZXGenericGF._generatorBase
+_OBJC_IVAR_$_ZXGenericGF._expTable
+_OBJC_IVAR_$_ZXGenericGF._logTable
+_OBJC_IVAR_$_ZXGenericGF._zero
+_OBJC_IVAR_$_ZXGenericGF._one
+_AztecData12.AztecData12
+_AztecData12.onceToken
+___block_literal_global
+_AztecData10.AztecData10
+_AztecData10.onceToken
+___block_descriptor_tmp.17
+___block_literal_global.18
+_AztecData6.AztecData6
+_AztecData6.onceToken
+___block_descriptor_tmp.19
+___block_literal_global.20
+_AztecParam.AztecParam
+_AztecParam.onceToken
+___block_descriptor_tmp.21
+___block_literal_global.22
+_QrCodeField256.QrCodeField256
+_QrCodeField256.onceToken
+___block_descriptor_tmp.23
+___block_literal_global.24
+_DataMatrixField256.DataMatrixField256
+_DataMatrixField256.onceToken
+___block_descriptor_tmp.25
+___block_literal_global.26
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXGenericGF.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXGenericGF.h
+__33+[ZXGenericGF DataMatrixField256]_block_invoke
+_dispatch_once
+/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+__29+[ZXGenericGF QrCodeField256]_block_invoke
+__25+[ZXGenericGF AztecParam]_block_invoke
+__25+[ZXGenericGF AztecData6]_block_invoke
+__26+[ZXGenericGF AztecData10]_block_invoke
+__26+[ZXGenericGF AztecData12]_block_invoke
+-[ZXGenericGFPoly initWithField:coefficients:]
+-[ZXGenericGFPoly degree]
+-[ZXGenericGFPoly zero]
+-[ZXGenericGFPoly coefficient:]
+-[ZXGenericGFPoly evaluateAt:]
+-[ZXGenericGFPoly addOrSubtract:]
+-[ZXGenericGFPoly multiply:]
+-[ZXGenericGFPoly multiplyScalar:]
+-[ZXGenericGFPoly multiplyByMonomial:coefficient:]
+-[ZXGenericGFPoly divide:]
+-[ZXGenericGFPoly description]
+-[ZXGenericGFPoly coefficients]
+-[ZXGenericGFPoly field]
+-[ZXGenericGFPoly .cxx_destruct]
+_OBJC_IVAR_$_ZXGenericGFPoly._field
+_OBJC_IVAR_$_ZXGenericGFPoly._coefficients
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXGenericGFPoly.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXGenericGFPoly.h
+-[ZXReedSolomonDecoder initWithField:]
+-[ZXReedSolomonDecoder decode:twoS:error:]
+-[ZXReedSolomonDecoder runEuclideanAlgorithm:b:R:error:]
+-[ZXReedSolomonDecoder findErrorLocations:error:]
+-[ZXReedSolomonDecoder findErrorMagnitudes:errorLocations:]
+-[ZXReedSolomonDecoder field]
+-[ZXReedSolomonDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXReedSolomonDecoder._field
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXReedSolomonDecoder.m
+-[ZXReedSolomonEncoder initWithField:]
+-[ZXReedSolomonEncoder buildGenerator:]
+-[ZXReedSolomonEncoder encode:ecBytes:]
+-[ZXReedSolomonEncoder cachedGenerators]
+-[ZXReedSolomonEncoder field]
+-[ZXReedSolomonEncoder .cxx_destruct]
+_OBJC_IVAR_$_ZXReedSolomonEncoder._field
+_OBJC_IVAR_$_ZXReedSolomonEncoder._cachedGenerators
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/reedsolomon/ZXReedSolomonEncoder.m
+-[ZXBitArray init]
+-[ZXBitArray initWithBits:size:]
+-[ZXBitArray initWithSize:]
+-[ZXBitArray dealloc]
+-[ZXBitArray sizeInBytes]
+-[ZXBitArray ensureCapacity:]
+-[ZXBitArray get:]
+-[ZXBitArray set:]
+-[ZXBitArray flip:]
+-[ZXBitArray nextSet:]
+-[ZXBitArray nextUnset:]
+-[ZXBitArray setBulk:newBits:]
+-[ZXBitArray setRange:end:]
+-[ZXBitArray clear]
+-[ZXBitArray isRange:end:value:]
+-[ZXBitArray appendBit:]
+-[ZXBitArray appendBits:numBits:]
+-[ZXBitArray appendBitArray:]
+-[ZXBitArray xor:]
+-[ZXBitArray toBytes:array:offset:numBytes:]
+-[ZXBitArray bitArray]
+-[ZXBitArray isEqual:]
+-[ZXBitArray hash]
+-[ZXBitArray reverse]
+-[ZXBitArray description]
+-[ZXBitArray numberOfTrailingZeros:]
+-[ZXBitArray copyWithZone:]
+-[ZXBitArray bits]
+-[ZXBitArray setBits:]
+-[ZXBitArray size]
+-[ZXBitArray setSize:]
+-[ZXBitArray bitsLength]
+-[ZXBitArray setBitsLength:]
+_OBJC_IVAR_$_ZXBitArray._size
+_OBJC_IVAR_$_ZXBitArray._bits
+_OBJC_IVAR_$_ZXBitArray._bitsLength
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitArray.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitArray.h
+-[ZXBitMatrix initWithDimension:]
+-[ZXBitMatrix initWithWidth:height:]
+-[ZXBitMatrix initWithWidth:height:rowSize:bits:]
+-[ZXBitMatrix dealloc]
++[ZXBitMatrix parse:setString:unsetString:]
+-[ZXBitMatrix getX:y:]
+-[ZXBitMatrix setX:y:]
+-[ZXBitMatrix unsetX:y:]
+-[ZXBitMatrix flipX:y:]
+-[ZXBitMatrix xor:]
+-[ZXBitMatrix clear]
+-[ZXBitMatrix setRegionAtLeft:top:width:height:]
+-[ZXBitMatrix rowAtY:row:]
+-[ZXBitMatrix setRowAtY:row:]
+-[ZXBitMatrix rotate180]
+-[ZXBitMatrix enclosingRectangle]
+-[ZXBitMatrix topLeftOnBit]
+-[ZXBitMatrix bottomRightOnBit]
+-[ZXBitMatrix isEqual:]
+-[ZXBitMatrix hash]
+-[ZXBitMatrix description]
+-[ZXBitMatrix descriptionWithSetString:unsetString:]
+-[ZXBitMatrix descriptionWithSetString:unsetString:lineSeparator:]
+-[ZXBitMatrix copyWithZone:]
+-[ZXBitMatrix width]
+-[ZXBitMatrix height]
+-[ZXBitMatrix bits]
+-[ZXBitMatrix rowSize]
+-[ZXBitMatrix bitsSize]
+_OBJC_IVAR_$_ZXBitMatrix._width
+_OBJC_IVAR_$_ZXBitMatrix._height
+_OBJC_IVAR_$_ZXBitMatrix._rowSize
+_OBJC_IVAR_$_ZXBitMatrix._bitsSize
+_OBJC_IVAR_$_ZXBitMatrix._bits
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitMatrix.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitMatrix.h
+-[ZXBitSource initWithBytes:]
+-[ZXBitSource readBits:]
+-[ZXBitSource available]
+-[ZXBitSource bitOffset]
+-[ZXBitSource setBitOffset:]
+-[ZXBitSource byteOffset]
+-[ZXBitSource setByteOffset:]
+-[ZXBitSource bytes]
+-[ZXBitSource .cxx_destruct]
+_OBJC_IVAR_$_ZXBitSource._bytes
+_OBJC_IVAR_$_ZXBitSource._bitOffset
+_OBJC_IVAR_$_ZXBitSource._byteOffset
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitSource.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBitSource.h
++[ZXCharacterSetECI initialize]
+-[ZXCharacterSetECI initWithValue:encoding:]
++[ZXCharacterSetECI addCharacterSet:encoding:]
++[ZXCharacterSetECI characterSetECIByValue:]
++[ZXCharacterSetECI characterSetECIByEncoding:]
+-[ZXCharacterSetECI encoding]
+-[ZXCharacterSetECI value]
+_VALUE_TO_ECI
+_ENCODING_TO_ECI
+_OBJC_IVAR_$_ZXCharacterSetECI._value
+_OBJC_IVAR_$_ZXCharacterSetECI._encoding
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXCharacterSetECI.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXCharacterSetECI.h
+-[ZXDecoderResult initWithRawBytes:text:byteSegments:ecLevel:]
+-[ZXDecoderResult initWithRawBytes:text:byteSegments:ecLevel:saSequence:saParity:]
+-[ZXDecoderResult hasStructuredAppend]
+-[ZXDecoderResult rawBytes]
+-[ZXDecoderResult text]
+-[ZXDecoderResult byteSegments]
+-[ZXDecoderResult ecLevel]
+-[ZXDecoderResult errorsCorrected]
+-[ZXDecoderResult setErrorsCorrected:]
+-[ZXDecoderResult erasures]
+-[ZXDecoderResult setErasures:]
+-[ZXDecoderResult other]
+-[ZXDecoderResult setOther:]
+-[ZXDecoderResult structuredAppendParity]
+-[ZXDecoderResult structuredAppendSequenceNumber]
+-[ZXDecoderResult .cxx_destruct]
+_OBJC_IVAR_$_ZXDecoderResult._rawBytes
+_OBJC_IVAR_$_ZXDecoderResult._text
+_OBJC_IVAR_$_ZXDecoderResult._byteSegments
+_OBJC_IVAR_$_ZXDecoderResult._ecLevel
+_OBJC_IVAR_$_ZXDecoderResult._structuredAppendParity
+_OBJC_IVAR_$_ZXDecoderResult._structuredAppendSequenceNumber
+_OBJC_IVAR_$_ZXDecoderResult._errorsCorrected
+_OBJC_IVAR_$_ZXDecoderResult._erasures
+_OBJC_IVAR_$_ZXDecoderResult._other
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXDecoderResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXDecoderResult.h
+-[ZXInvertedLuminanceSource initWithDelegate:]
+-[ZXInvertedLuminanceSource rowAtY:row:]
+-[ZXInvertedLuminanceSource matrix]
+-[ZXInvertedLuminanceSource cropSupported]
+-[ZXInvertedLuminanceSource crop:top:width:height:]
+-[ZXInvertedLuminanceSource rotateSupported]
+-[ZXInvertedLuminanceSource invert]
+-[ZXInvertedLuminanceSource rotateCounterClockwise]
+-[ZXInvertedLuminanceSource rotateCounterClockwise45]
+-[ZXInvertedLuminanceSource delegate]
+-[ZXInvertedLuminanceSource .cxx_destruct]
+_OBJC_IVAR_$_ZXInvertedLuminanceSource._delegate
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXInvertedLuminanceSource.m
+-[ZXDefaultGridSampler sampleGrid:dimensionX:dimensionY:p1ToX:p1ToY:p2ToX:p2ToY:p3ToX:p3ToY:p4ToX:p4ToY:p1FromX:p1FromY:p2FromX:p2FromY:p3FromX:p3FromY:p4FromX:p4FromY:error:]
+-[ZXDefaultGridSampler sampleGrid:dimensionX:dimensionY:transform:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXDefaultGridSampler.m
+-[ZXDetectorResult initWithBits:points:]
+-[ZXDetectorResult bits]
+-[ZXDetectorResult points]
+-[ZXDetectorResult .cxx_destruct]
+_OBJC_IVAR_$_ZXDetectorResult._bits
+_OBJC_IVAR_$_ZXDetectorResult._points
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXDetectorResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXDetectorResult.h
+-[ZXGlobalHistogramBinarizer initWithSource:]
+-[ZXGlobalHistogramBinarizer blackRow:row:error:]
+-[ZXGlobalHistogramBinarizer blackMatrixWithError:]
+-[ZXGlobalHistogramBinarizer createBinarizer:]
+-[ZXGlobalHistogramBinarizer initArrays:]
+-[ZXGlobalHistogramBinarizer estimateBlackPoint:]
+-[ZXGlobalHistogramBinarizer luminances]
+-[ZXGlobalHistogramBinarizer setLuminances:]
+-[ZXGlobalHistogramBinarizer buckets]
+-[ZXGlobalHistogramBinarizer setBuckets:]
+-[ZXGlobalHistogramBinarizer .cxx_destruct]
+_OBJC_IVAR_$_ZXGlobalHistogramBinarizer._luminances
+_OBJC_IVAR_$_ZXGlobalHistogramBinarizer._buckets
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXGlobalHistogramBinarizer.m
++[ZXGridSampler setGridSampler:]
++[ZXGridSampler instance]
+-[ZXGridSampler sampleGrid:dimensionX:dimensionY:p1ToX:p1ToY:p2ToX:p2ToY:p3ToX:p3ToY:p4ToX:p4ToY:p1FromX:p1FromY:p2FromX:p2FromY:p3FromX:p3FromY:p4FromX:p4FromY:error:]
+-[ZXGridSampler sampleGrid:dimensionX:dimensionY:transform:error:]
++[ZXGridSampler checkAndNudgePoints:points:pointsLen:error:]
+_gridSampler
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXGridSampler.m
+-[ZXHybridBinarizer blackMatrixWithError:]
+-[ZXHybridBinarizer createBinarizer:]
+-[ZXHybridBinarizer calculateThresholdForBlock:subWidth:subHeight:width:height:blackPoints:matrix:]
+-[ZXHybridBinarizer cap:min:max:]
+-[ZXHybridBinarizer thresholdBlock:xoffset:yoffset:threshold:stride:matrix:]
+-[ZXHybridBinarizer calculateBlackPoints:subWidth:subHeight:width:height:]
+-[ZXHybridBinarizer matrix]
+-[ZXHybridBinarizer setMatrix:]
+-[ZXHybridBinarizer .cxx_destruct]
+_OBJC_IVAR_$_ZXHybridBinarizer._matrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXHybridBinarizer.m
++[ZXAztecHighLevelEncoder load]
+-[ZXAztecHighLevelEncoder initWithText:]
+-[ZXAztecHighLevelEncoder encode]
+___33-[ZXAztecHighLevelEncoder encode]_block_invoke
+-[ZXAztecHighLevelEncoder updateStateListForChar:index:]
+-[ZXAztecHighLevelEncoder updateStateForChar:index:result:]
+-[ZXAztecHighLevelEncoder updateStateListForPair:index:pairCode:]
+-[ZXAztecHighLevelEncoder updateStateForPair:index:pairCode:result:]
+-[ZXAztecHighLevelEncoder simplifyStates:]
+-[ZXAztecHighLevelEncoder text]
+_ZX_AZTEC_CHAR_MAP
+_load.mixedTable
+_load.punctTable
+_OBJC_IVAR_$_ZXAztecHighLevelEncoder._text
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.m
+__33-[ZXAztecHighLevelEncoder encode]_block_invoke
+-[ZXPerspectiveTransform initWithA11:a21:a31:a12:a22:a32:a13:a23:a33:]
++[ZXPerspectiveTransform quadrilateralToQuadrilateral:y0:x1:y1:x2:y2:x3:y3:x0p:y0p:x1p:y1p:x2p:y2p:x3p:y3p:]
+-[ZXPerspectiveTransform transformPoints:pointsLen:]
+-[ZXPerspectiveTransform transformPoints:yValues:pointsLen:]
++[ZXPerspectiveTransform squareToQuadrilateral:y0:x1:y1:x2:y2:x3:y3:]
++[ZXPerspectiveTransform quadrilateralToSquare:y0:x1:y1:x2:y2:x3:y3:]
+-[ZXPerspectiveTransform buildAdjoint]
+-[ZXPerspectiveTransform times:]
+-[ZXPerspectiveTransform a11]
+-[ZXPerspectiveTransform a12]
+-[ZXPerspectiveTransform a13]
+-[ZXPerspectiveTransform a21]
+-[ZXPerspectiveTransform a22]
+-[ZXPerspectiveTransform a23]
+-[ZXPerspectiveTransform a31]
+-[ZXPerspectiveTransform a32]
+-[ZXPerspectiveTransform a33]
+_OBJC_IVAR_$_ZXPerspectiveTransform._a11
+_OBJC_IVAR_$_ZXPerspectiveTransform._a12
+_OBJC_IVAR_$_ZXPerspectiveTransform._a13
+_OBJC_IVAR_$_ZXPerspectiveTransform._a21
+_OBJC_IVAR_$_ZXPerspectiveTransform._a22
+_OBJC_IVAR_$_ZXPerspectiveTransform._a23
+_OBJC_IVAR_$_ZXPerspectiveTransform._a31
+_OBJC_IVAR_$_ZXPerspectiveTransform._a32
+_OBJC_IVAR_$_ZXPerspectiveTransform._a33
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXPerspectiveTransform.m
++[ZXStringUtils guessEncoding:hints:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXStringUtils.m
+-[ZXDataMatrixBitMatrixParser initWithBitMatrix:error:]
+-[ZXDataMatrixBitMatrixParser readVersion:]
+-[ZXDataMatrixBitMatrixParser readCodewords]
+-[ZXDataMatrixBitMatrixParser readModule:column:numRows:numColumns:]
+-[ZXDataMatrixBitMatrixParser readUtah:column:numRows:numColumns:]
+-[ZXDataMatrixBitMatrixParser readCorner1:numColumns:]
+-[ZXDataMatrixBitMatrixParser readCorner2:numColumns:]
+-[ZXDataMatrixBitMatrixParser readCorner3:numColumns:]
+-[ZXDataMatrixBitMatrixParser readCorner4:numColumns:]
+-[ZXDataMatrixBitMatrixParser extractDataRegion:]
+-[ZXDataMatrixBitMatrixParser version]
+-[ZXDataMatrixBitMatrixParser mappingBitMatrix]
+-[ZXDataMatrixBitMatrixParser readMappingMatrix]
+-[ZXDataMatrixBitMatrixParser .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixBitMatrixParser._version
+_OBJC_IVAR_$_ZXDataMatrixBitMatrixParser._mappingBitMatrix
+_OBJC_IVAR_$_ZXDataMatrixBitMatrixParser._readMappingMatrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixBitMatrixParser.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixBitMatrixParser.h
++[ZXPDF417ScanningDecoder initialize]
++[ZXPDF417ScanningDecoder decode:imageTopLeft:imageBottomLeft:imageTopRight:imageBottomRight:minCodewordWidth:maxCodewordWidth:error:]
++[ZXPDF417ScanningDecoder merge:rightRowIndicatorColumn:error:]
++[ZXPDF417ScanningDecoder adjustBoundingBox:rowIndicatorColumn:error:]
++[ZXPDF417ScanningDecoder max:]
++[ZXPDF417ScanningDecoder barcodeMetadata:rightRowIndicatorColumn:]
++[ZXPDF417ScanningDecoder rowIndicatorColumn:boundingBox:startPoint:leftToRight:minCodewordWidth:maxCodewordWidth:]
++[ZXPDF417ScanningDecoder adjustCodewordCount:barcodeMatrix:]
++[ZXPDF417ScanningDecoder createDecoderResult:error:]
++[ZXPDF417ScanningDecoder createDecoderResultFromAmbiguousValues:codewords:erasureArray:ambiguousIndexes:ambiguousIndexValues:error:]
++[ZXPDF417ScanningDecoder createBarcodeMatrix:]
++[ZXPDF417ScanningDecoder isValidBarcodeColumn:barcodeColumn:]
++[ZXPDF417ScanningDecoder startColumn:barcodeColumn:imageRow:leftToRight:]
++[ZXPDF417ScanningDecoder detectCodeword:minColumn:maxColumn:leftToRight:startColumn:imageRow:minCodewordWidth:maxCodewordWidth:]
++[ZXPDF417ScanningDecoder moduleBitCount:minColumn:maxColumn:leftToRight:startColumn:imageRow:]
++[ZXPDF417ScanningDecoder numberOfECCodeWords:]
++[ZXPDF417ScanningDecoder adjustCodewordStartColumn:minColumn:maxColumn:leftToRight:codewordStartColumn:imageRow:]
++[ZXPDF417ScanningDecoder checkCodewordSkew:minCodewordWidth:maxCodewordWidth:]
++[ZXPDF417ScanningDecoder decodeCodewords:ecLevel:erasures:error:]
++[ZXPDF417ScanningDecoder correctErrors:erasures:numECCodewords:]
++[ZXPDF417ScanningDecoder verifyCodewordCount:numECCodewords:]
++[ZXPDF417ScanningDecoder bitCountForCodeword:]
++[ZXPDF417ScanningDecoder codewordBucketNumber:]
++[ZXPDF417ScanningDecoder codewordBucketNumberWithModuleBitCount:]
+-[ZXPDF417ScanningDecoder description:]
+_errorCorrection
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417ScanningDecoder.m
+-[ZXDataMatrixDataBlock initWithNumDataCodewords:codewords:]
++[ZXDataMatrixDataBlock dataBlocks:version:]
+-[ZXDataMatrixDataBlock numDataCodewords]
+-[ZXDataMatrixDataBlock codewords]
+-[ZXDataMatrixDataBlock .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixDataBlock._numDataCodewords
+_OBJC_IVAR_$_ZXDataMatrixDataBlock._codewords
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.h
++[ZXDataMatrixDecodedBitStreamParser initialize]
++[ZXDataMatrixDecodedBitStreamParser decode:error:]
++[ZXDataMatrixDecodedBitStreamParser decodeAsciiSegment:result:resultTrailer:]
++[ZXDataMatrixDecodedBitStreamParser decodeC40Segment:result:]
++[ZXDataMatrixDecodedBitStreamParser decodeTextSegment:result:]
++[ZXDataMatrixDecodedBitStreamParser decodeAnsiX12Segment:result:]
++[ZXDataMatrixDecodedBitStreamParser parseTwoBytes:secondByte:result:]
++[ZXDataMatrixDecodedBitStreamParser decodeEdifactSegment:result:]
++[ZXDataMatrixDecodedBitStreamParser decodeBase256Segment:result:byteSegments:]
++[ZXDataMatrixDecodedBitStreamParser unrandomize255State:base256CodewordPosition:]
+_TEXT_SHIFT2_SET_CHARS
+_C40_SHIFT2_SET_CHARS
+_C40_BASIC_SET_CHARS
+_TEXT_BASIC_SET_CHARS
+_TEXT_SHIFT3_SET_CHARS
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixDecodedBitStreamParser.m
+-[ZXDataMatrixDecoder init]
+-[ZXDataMatrixDecoder decode:error:]
+-[ZXDataMatrixDecoder decodeMatrix:error:]
+-[ZXDataMatrixDecoder correctErrors:numDataCodewords:error:]
+-[ZXDataMatrixDecoder rsDecoder]
+-[ZXDataMatrixDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixDecoder._rsDecoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.m
+-[ZXDataMatrixECBlocks initWithCodewords:ecBlocks:]
+-[ZXDataMatrixECBlocks initWithCodewords:ecBlocks1:ecBlocks2:]
+-[ZXDataMatrixECBlocks ecBlocks]
+-[ZXDataMatrixECBlocks ecCodewords]
+-[ZXDataMatrixECBlocks .cxx_destruct]
+-[ZXDataMatrixECB initWithCount:dataCodewords:]
+-[ZXDataMatrixECB count]
+-[ZXDataMatrixECB dataCodewords]
+-[ZXDataMatrixVersion initWithVersionNumber:symbolSizeRows:symbolSizeColumns:dataRegionSizeRows:dataRegionSizeColumns:ecBlocks:]
++[ZXDataMatrixVersion versionForDimensions:numColumns:]
+-[ZXDataMatrixVersion description]
++[ZXDataMatrixVersion initialize]
+-[ZXDataMatrixVersion ecBlocks]
+-[ZXDataMatrixVersion dataRegionSizeColumns]
+-[ZXDataMatrixVersion dataRegionSizeRows]
+-[ZXDataMatrixVersion symbolSizeColumns]
+-[ZXDataMatrixVersion symbolSizeRows]
+-[ZXDataMatrixVersion totalCodewords]
+-[ZXDataMatrixVersion versionNumber]
+-[ZXDataMatrixVersion .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixECBlocks._ecCodewords
+_OBJC_IVAR_$_ZXDataMatrixECBlocks._ecBlocks
+_OBJC_IVAR_$_ZXDataMatrixECB._count
+_OBJC_IVAR_$_ZXDataMatrixECB._dataCodewords
+_VERSIONS
+_OBJC_IVAR_$_ZXDataMatrixVersion._versionNumber
+_OBJC_IVAR_$_ZXDataMatrixVersion._symbolSizeRows
+_OBJC_IVAR_$_ZXDataMatrixVersion._symbolSizeColumns
+_OBJC_IVAR_$_ZXDataMatrixVersion._dataRegionSizeRows
+_OBJC_IVAR_$_ZXDataMatrixVersion._dataRegionSizeColumns
+_OBJC_IVAR_$_ZXDataMatrixVersion._ecBlocks
+_OBJC_IVAR_$_ZXDataMatrixVersion._totalCodewords
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixVersion.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/decoder/ZXDataMatrixVersion.h
+-[ZXResultPointsAndTransitions initWithFrom:to:transitions:]
+-[ZXResultPointsAndTransitions description]
+-[ZXResultPointsAndTransitions compare:]
+-[ZXResultPointsAndTransitions from]
+-[ZXResultPointsAndTransitions to]
+-[ZXResultPointsAndTransitions transitions]
+-[ZXResultPointsAndTransitions .cxx_destruct]
+-[ZXDataMatrixDetector initWithImage:error:]
+-[ZXDataMatrixDetector detectWithError:]
+-[ZXDataMatrixDetector correctTopRightRectangular:bottomRight:topLeft:topRight:dimensionTop:dimensionRight:]
+-[ZXDataMatrixDetector correctTopRight:bottomRight:topLeft:topRight:dimension:]
+-[ZXDataMatrixDetector isValid:]
+-[ZXDataMatrixDetector distance:b:]
+-[ZXDataMatrixDetector increment:key:]
+-[ZXDataMatrixDetector sampleGrid:topLeft:bottomLeft:bottomRight:topRight:dimensionX:dimensionY:error:]
+-[ZXDataMatrixDetector transitionsBetween:to:]
+-[ZXDataMatrixDetector image]
+-[ZXDataMatrixDetector rectangleDetector]
+-[ZXDataMatrixDetector .cxx_destruct]
+_OBJC_IVAR_$_ZXResultPointsAndTransitions._from
+_OBJC_IVAR_$_ZXResultPointsAndTransitions._to
+_OBJC_IVAR_$_ZXResultPointsAndTransitions._transitions
+_OBJC_IVAR_$_ZXDataMatrixDetector._image
+_OBJC_IVAR_$_ZXDataMatrixDetector._rectangleDetector
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.m
+-[ZXDataMatrixReader init]
+-[ZXDataMatrixReader decode:error:]
+-[ZXDataMatrixReader decode:hints:error:]
+-[ZXDataMatrixReader reset]
+-[ZXDataMatrixReader extractPureBits:]
+-[ZXDataMatrixReader moduleSize:image:]
+-[ZXDataMatrixReader decoder]
+-[ZXDataMatrixReader .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixReader._decoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/ZXDataMatrixReader.m
+-[ZXMaxiCodeBitMatrixParser initWithBitMatrix:error:]
+-[ZXMaxiCodeBitMatrixParser readCodewords]
+-[ZXMaxiCodeBitMatrixParser bitMatrix]
+-[ZXMaxiCodeBitMatrixParser .cxx_destruct]
+_OBJC_IVAR_$_ZXMaxiCodeBitMatrixParser._bitMatrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/maxicode/decoder/ZXMaxiCodeBitMatrixParser.m
++[ZXMaxiCodeDecodedBitStreamParser decode:mode:]
++[ZXMaxiCodeDecodedBitStreamParser bit:bytes:]
++[ZXMaxiCodeDecodedBitStreamParser integer:x:]
++[ZXMaxiCodeDecodedBitStreamParser country:]
++[ZXMaxiCodeDecodedBitStreamParser serviceClass:]
++[ZXMaxiCodeDecodedBitStreamParser postCode2Length:]
++[ZXMaxiCodeDecodedBitStreamParser postCode2:]
++[ZXMaxiCodeDecodedBitStreamParser postCode3:]
++[ZXMaxiCodeDecodedBitStreamParser message:start:len:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/maxicode/decoder/ZXMaxiCodeDecodedBitStreamParser.m
+-[ZXMaxiCodeDecoder init]
+-[ZXMaxiCodeDecoder decode:error:]
+-[ZXMaxiCodeDecoder decode:hints:error:]
+-[ZXMaxiCodeDecoder correctErrors:start:dataCodewords:ecCodewords:mode:error:]
+-[ZXMaxiCodeDecoder rsDecoder]
+-[ZXMaxiCodeDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXMaxiCodeDecoder._rsDecoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/maxicode/decoder/ZXMaxiCodeDecoder.m
+-[ZXMaxiCodeReader init]
+-[ZXMaxiCodeReader decode:error:]
+-[ZXMaxiCodeReader decode:hints:error:]
+-[ZXMaxiCodeReader reset]
+-[ZXMaxiCodeReader extractPureBits:]
+-[ZXMaxiCodeReader decoder]
+-[ZXMaxiCodeReader .cxx_destruct]
+_OBJC_IVAR_$_ZXMaxiCodeReader._decoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/maxicode/ZXMaxiCodeReader.m
+-[ZXPDF417DetectionResultColumn initWithBoundingBox:]
+-[ZXPDF417DetectionResultColumn codewordNearby:]
+-[ZXPDF417DetectionResultColumn imageRowToCodewordIndex:]
+-[ZXPDF417DetectionResultColumn setCodeword:codeword:]
+-[ZXPDF417DetectionResultColumn codeword:]
+-[ZXPDF417DetectionResultColumn description]
+-[ZXPDF417DetectionResultColumn boundingBox]
+-[ZXPDF417DetectionResultColumn codewords]
+-[ZXPDF417DetectionResultColumn .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417DetectionResultColumn._boundingBox
+_OBJC_IVAR_$_ZXPDF417DetectionResultColumn._codewords
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultColumn.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultColumn.h
+-[ZXByteMatrix initWithWidth:height:]
+-[ZXByteMatrix dealloc]
+-[ZXByteMatrix getX:y:]
+-[ZXByteMatrix setX:y:byteValue:]
+-[ZXByteMatrix setX:y:intValue:]
+-[ZXByteMatrix setX:y:boolValue:]
+-[ZXByteMatrix clear:]
+-[ZXByteMatrix description]
+-[ZXByteMatrix array]
+-[ZXByteMatrix height]
+-[ZXByteMatrix width]
+_OBJC_IVAR_$_ZXByteMatrix._width
+_OBJC_IVAR_$_ZXByteMatrix._height
+_OBJC_IVAR_$_ZXByteMatrix._array
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXByteMatrix.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXByteMatrix.h
+-[ZXLuminanceSource initWithWidth:height:]
+-[ZXLuminanceSource rowAtY:row:]
+-[ZXLuminanceSource matrix]
+-[ZXLuminanceSource crop:top:width:height:]
+-[ZXLuminanceSource invert]
+-[ZXLuminanceSource rotateCounterClockwise]
+-[ZXLuminanceSource rotateCounterClockwise45]
+-[ZXLuminanceSource description]
+-[ZXLuminanceSource width]
+-[ZXLuminanceSource height]
+-[ZXLuminanceSource cropSupported]
+-[ZXLuminanceSource rotateSupported]
+_OBJC_IVAR_$_ZXLuminanceSource._width
+_OBJC_IVAR_$_ZXLuminanceSource._height
+_OBJC_IVAR_$_ZXLuminanceSource._cropSupported
+_OBJC_IVAR_$_ZXLuminanceSource._rotateSupported
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXLuminanceSource.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXLuminanceSource.h
+-[ZXAztecBinaryShiftToken initWithPrevious:binaryShiftStart:binaryShiftByteCount:]
+-[ZXAztecBinaryShiftToken appendTo:text:]
+-[ZXAztecBinaryShiftToken binaryShiftStart]
+-[ZXAztecBinaryShiftToken binaryShiftByteCount]
+_OBJC_IVAR_$_ZXAztecBinaryShiftToken._binaryShiftStart
+_OBJC_IVAR_$_ZXAztecBinaryShiftToken._binaryShiftByteCount
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecBinaryShiftToken.m
++[ZXMultiFormatWriter writer]
+-[ZXMultiFormatWriter encode:format:width:height:error:]
+-[ZXMultiFormatWriter encode:format:width:height:hints:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/ZXMultiFormatWriter.m
+-[ZXByQuadrantReader initWithDelegate:]
+-[ZXByQuadrantReader decode:error:]
+-[ZXByQuadrantReader decode:hints:error:]
+-[ZXByQuadrantReader reset]
+-[ZXByQuadrantReader makeAbsolute:leftOffset:topOffset:]
+-[ZXByQuadrantReader delegate]
+-[ZXByQuadrantReader .cxx_destruct]
+_OBJC_IVAR_$_ZXByQuadrantReader._delegate
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/multi/ZXByQuadrantReader.m
+-[ZXGenericMultipleBarcodeReader initWithDelegate:]
+-[ZXGenericMultipleBarcodeReader decodeMultiple:error:]
+-[ZXGenericMultipleBarcodeReader decodeMultiple:hints:error:]
+-[ZXGenericMultipleBarcodeReader doDecodeMultiple:hints:results:xOffset:yOffset:currentDepth:error:]
+-[ZXGenericMultipleBarcodeReader translateResultPoints:xOffset:yOffset:]
+-[ZXGenericMultipleBarcodeReader delegate]
+-[ZXGenericMultipleBarcodeReader .cxx_destruct]
+_OBJC_IVAR_$_ZXGenericMultipleBarcodeReader._delegate
+l_OBJC_PROTOCOL_$_ZXMultipleBarcodeReader
+l_OBJC_LABEL_PROTOCOL_$_ZXMultipleBarcodeReader
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/multi/ZXGenericMultipleBarcodeReader.m
+-[ZXAbstractExpandedDecoder initWithInformation:]
+-[ZXAbstractExpandedDecoder parseInformationWithError:]
++[ZXAbstractExpandedDecoder createDecoder:]
+-[ZXAbstractExpandedDecoder generalDecoder]
+-[ZXAbstractExpandedDecoder information]
+-[ZXAbstractExpandedDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXAbstractExpandedDecoder._information
+_OBJC_IVAR_$_ZXAbstractExpandedDecoder._generalDecoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAbstractExpandedDecoder.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAbstractExpandedDecoder.h
+-[ZXAI013103decoder addWeightCode:weight:]
+-[ZXAI013103decoder checkWeight:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI013103decoder.m
+-[ZXAI01320xDecoder addWeightCode:weight:]
+-[ZXAI01320xDecoder checkWeight:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01320xDecoder.m
+-[ZXAI01392xDecoder parseInformationWithError:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01392xDecoder.m
+-[ZXAI01393xDecoder parseInformationWithError:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01393xDecoder.m
++[ZXPDF417Common bitCountSum:]
++[ZXPDF417Common toIntArray:]
++[ZXPDF417Common codeword:]
++[ZXPDF417Common binarySearch:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/ZXPDF417Common.m
+-[ZXAI013x0x1xDecoder initWithInformation:firstAIdigits:dateCode:]
+-[ZXAI013x0x1xDecoder parseInformationWithError:]
+-[ZXAI013x0x1xDecoder encodeCompressedDate:currentPos:]
+-[ZXAI013x0x1xDecoder addWeightCode:weight:]
+-[ZXAI013x0x1xDecoder checkWeight:]
+-[ZXAI013x0x1xDecoder dateCode]
+-[ZXAI013x0x1xDecoder firstAIdigits]
+-[ZXAI013x0x1xDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXAI013x0x1xDecoder._dateCode
+_OBJC_IVAR_$_ZXAI013x0x1xDecoder._firstAIdigits
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0x1xDecoder.m
+-[ZXPDF417BarcodeValue init]
+-[ZXPDF417BarcodeValue setValue:]
+-[ZXPDF417BarcodeValue value]
+-[ZXPDF417BarcodeValue confidence:]
+-[ZXPDF417BarcodeValue values]
+-[ZXPDF417BarcodeValue .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417BarcodeValue._values
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417BarcodeValue.m
+-[ZXAI013x0xDecoder parseInformationWithError:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0xDecoder.m
+-[ZXAI01AndOtherAIs parseInformationWithError:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01AndOtherAIs.m
+-[ZXAI01decoder encodeCompressedGtin:currentPos:]
+-[ZXAI01decoder encodeCompressedGtinWithoutAI:currentPos:initialBufferPosition:]
+-[ZXAI01decoder appendCheckDigit:currentPos:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01decoder.m
+-[ZXAI01weightDecoder encodeCompressedWeight:currentPos:weightSize:]
+-[ZXAI01weightDecoder addWeightCode:weight:]
+-[ZXAI01weightDecoder checkWeight:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAI01weightDecoder.m
+-[ZXAnyAIDecoder parseInformationWithError:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXAnyAIDecoder.m
+-[ZXIntArray initWithLength:]
+-[ZXIntArray initWithInts:]
+-[ZXIntArray copyWithZone:]
+-[ZXIntArray dealloc]
+-[ZXIntArray clear]
+-[ZXIntArray sum]
+-[ZXIntArray description]
+-[ZXIntArray array]
+-[ZXIntArray length]
+_OBJC_IVAR_$_ZXIntArray._array
+_OBJC_IVAR_$_ZXIntArray._length
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXIntArray.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXIntArray.h
+-[ZXRSSExpandedBlockParsedResult initWithFinished:]
+-[ZXRSSExpandedBlockParsedResult initWithInformation:finished:]
+-[ZXRSSExpandedBlockParsedResult decodedInformation]
+-[ZXRSSExpandedBlockParsedResult finished]
+-[ZXRSSExpandedBlockParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedBlockParsedResult._decodedInformation
+_OBJC_IVAR_$_ZXRSSExpandedBlockParsedResult._finished
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedBlockParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedBlockParsedResult.h
+-[ZXRSSExpandedCurrentParsingState init]
+-[ZXRSSExpandedCurrentParsingState alpha]
+-[ZXRSSExpandedCurrentParsingState numeric]
+-[ZXRSSExpandedCurrentParsingState isoIec646]
+-[ZXRSSExpandedCurrentParsingState setNumeric]
+-[ZXRSSExpandedCurrentParsingState setAlpha]
+-[ZXRSSExpandedCurrentParsingState setIsoIec646]
+-[ZXRSSExpandedCurrentParsingState position]
+-[ZXRSSExpandedCurrentParsingState setPosition:]
+-[ZXRSSExpandedCurrentParsingState encoding]
+-[ZXRSSExpandedCurrentParsingState setEncoding:]
+_OBJC_IVAR_$_ZXRSSExpandedCurrentParsingState._position
+_OBJC_IVAR_$_ZXRSSExpandedCurrentParsingState._encoding
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedCurrentParsingState.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedCurrentParsingState.h
+-[ZXRSSExpandedDecodedChar initWithNewPosition:value:]
+-[ZXRSSExpandedDecodedChar fnc1]
+-[ZXRSSExpandedDecodedChar value]
+_OBJC_IVAR_$_ZXRSSExpandedDecodedChar._value
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedChar.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedChar.h
+-[ZXRSSExpandedDecodedInformation initWithNewPosition:newString:]
+-[ZXRSSExpandedDecodedInformation initWithNewPosition:newString:remainingValue:]
+-[ZXRSSExpandedDecodedInformation theNewString]
+-[ZXRSSExpandedDecodedInformation remainingValue]
+-[ZXRSSExpandedDecodedInformation remaining]
+-[ZXRSSExpandedDecodedInformation .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedDecodedInformation._remaining
+_OBJC_IVAR_$_ZXRSSExpandedDecodedInformation._remainingValue
+_OBJC_IVAR_$_ZXRSSExpandedDecodedInformation._theNewString
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedInformation.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedInformation.h
+-[ZXPDF417Codeword initWithStartX:endX:bucket:value:]
+-[ZXPDF417Codeword hasValidRowNumber]
+-[ZXPDF417Codeword isValidRowNumber:]
+-[ZXPDF417Codeword setRowNumberAsRowIndicatorColumn]
+-[ZXPDF417Codeword width]
+-[ZXPDF417Codeword description]
+-[ZXPDF417Codeword startX]
+-[ZXPDF417Codeword endX]
+-[ZXPDF417Codeword bucket]
+-[ZXPDF417Codeword value]
+-[ZXPDF417Codeword rowNumber]
+-[ZXPDF417Codeword setRowNumber:]
+_OBJC_IVAR_$_ZXPDF417Codeword._startX
+_OBJC_IVAR_$_ZXPDF417Codeword._endX
+_OBJC_IVAR_$_ZXPDF417Codeword._bucket
+_OBJC_IVAR_$_ZXPDF417Codeword._value
+_OBJC_IVAR_$_ZXPDF417Codeword._rowNumber
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417Codeword.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417Codeword.h
+-[ZXRSSExpandedDecodedNumeric initWithNewPosition:firstDigit:secondDigit:]
+-[ZXRSSExpandedDecodedNumeric value]
+-[ZXRSSExpandedDecodedNumeric firstDigitFNC1]
+-[ZXRSSExpandedDecodedNumeric secondDigitFNC1]
+-[ZXRSSExpandedDecodedNumeric anyFNC1]
+-[ZXRSSExpandedDecodedNumeric firstDigit]
+-[ZXRSSExpandedDecodedNumeric secondDigit]
+_OBJC_IVAR_$_ZXRSSExpandedDecodedNumeric._firstDigit
+_OBJC_IVAR_$_ZXRSSExpandedDecodedNumeric._secondDigit
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedNumeric.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedNumeric.h
+-[ZXRSSExpandedDecodedObject initWithNewPosition:]
+-[ZXRSSExpandedDecodedObject theNewPosition]
+_OBJC_IVAR_$_ZXRSSExpandedDecodedObject._theNewPosition
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedObject.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedObject.h
+-[ZXPDF417DetectionResult initWithBarcodeMetadata:boundingBox:]
+-[ZXPDF417DetectionResult detectionResultColumns]
+-[ZXPDF417DetectionResult adjustIndicatorColumnRowNumbers:]
+-[ZXPDF417DetectionResult adjustRowNumbers]
+-[ZXPDF417DetectionResult adjustRowNumbersByRow]
+-[ZXPDF417DetectionResult adjustRowNumbersFromBothRI]
+-[ZXPDF417DetectionResult adjustRowNumbersFromRRI]
+-[ZXPDF417DetectionResult adjustRowNumbersFromLRI]
+-[ZXPDF417DetectionResult adjustRowNumberIfValid:invalidRowCounts:codeword:]
+-[ZXPDF417DetectionResult adjustRowNumbers:codewordsRow:codewords:]
+-[ZXPDF417DetectionResult adjustRowNumber:otherCodeword:]
+-[ZXPDF417DetectionResult barcodeRowCount]
+-[ZXPDF417DetectionResult barcodeECLevel]
+-[ZXPDF417DetectionResult setDetectionResultColumn:detectionResultColumn:]
+-[ZXPDF417DetectionResult detectionResultColumn:]
+-[ZXPDF417DetectionResult description]
+-[ZXPDF417DetectionResult boundingBox]
+-[ZXPDF417DetectionResult setBoundingBox:]
+-[ZXPDF417DetectionResult barcodeMetadata]
+-[ZXPDF417DetectionResult detectionResultColumnsInternal]
+-[ZXPDF417DetectionResult barcodeColumnCount]
+-[ZXPDF417DetectionResult .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417DetectionResult._barcodeMetadata
+_OBJC_IVAR_$_ZXPDF417DetectionResult._barcodeColumnCount
+_OBJC_IVAR_$_ZXPDF417DetectionResult._boundingBox
+_OBJC_IVAR_$_ZXPDF417DetectionResult._detectionResultColumnsInternal
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.h
++[ZXRSSExpandedFieldParser initialize]
++[ZXRSSExpandedFieldParser parseFieldsInGeneralPurpose:error:]
++[ZXRSSExpandedFieldParser processFixedAI:fieldSize:rawInformation:]
++[ZXRSSExpandedFieldParser processVariableAI:variableFieldSize:rawInformation:]
+_VARIABLE_LENGTH
+_TWO_DIGIT_DATA_LENGTH
+_THREE_DIGIT_DATA_LENGTH
+_THREE_DIGIT_PLUS_DIGIT_DATA_LENGTH
+_FOUR_DIGIT_DATA_LENGTH
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedFieldParser.m
+-[ZXRSSExpandedGeneralAppIdDecoder initWithInformation:]
+-[ZXRSSExpandedGeneralAppIdDecoder decodeAllCodes:initialPosition:error:]
+-[ZXRSSExpandedGeneralAppIdDecoder isStillNumeric:]
+-[ZXRSSExpandedGeneralAppIdDecoder decodeNumeric:]
+-[ZXRSSExpandedGeneralAppIdDecoder extractNumericValueFromBitArray:bits:]
++[ZXRSSExpandedGeneralAppIdDecoder extractNumericValueFromBitArray:pos:bits:]
+-[ZXRSSExpandedGeneralAppIdDecoder decodeGeneralPurposeField:remaining:]
+-[ZXRSSExpandedGeneralAppIdDecoder parseBlocksWithError:]
+-[ZXRSSExpandedGeneralAppIdDecoder parseNumericBlockWithError:]
+-[ZXRSSExpandedGeneralAppIdDecoder parseIsoIec646BlockWithError:]
+-[ZXRSSExpandedGeneralAppIdDecoder parseAlphaBlock]
+-[ZXRSSExpandedGeneralAppIdDecoder isStillIsoIec646:]
+-[ZXRSSExpandedGeneralAppIdDecoder decodeIsoIec646:]
+-[ZXRSSExpandedGeneralAppIdDecoder isStillAlpha:]
+-[ZXRSSExpandedGeneralAppIdDecoder decodeAlphanumeric:]
+-[ZXRSSExpandedGeneralAppIdDecoder isAlphaTo646ToAlphaLatch:]
+-[ZXRSSExpandedGeneralAppIdDecoder isAlphaOr646ToNumericLatch:]
+-[ZXRSSExpandedGeneralAppIdDecoder isNumericToAlphaNumericLatch:]
+-[ZXRSSExpandedGeneralAppIdDecoder information]
+-[ZXRSSExpandedGeneralAppIdDecoder current]
+-[ZXRSSExpandedGeneralAppIdDecoder buffer]
+-[ZXRSSExpandedGeneralAppIdDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedGeneralAppIdDecoder._current
+_OBJC_IVAR_$_ZXRSSExpandedGeneralAppIdDecoder._buffer
+_OBJC_IVAR_$_ZXRSSExpandedGeneralAppIdDecoder._information
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedGeneralAppIdDecoder.m
++[ZXBitArrayBuilder buildBitArray:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXBitArrayBuilder.m
+-[ZXRSSExpandedPair initWithLeftChar:rightChar:finderPattern:mayBeLast:]
+-[ZXRSSExpandedPair mustBeLast]
+-[ZXRSSExpandedPair description]
+-[ZXRSSExpandedPair isEqual:]
++[ZXRSSExpandedPair isEqualOrNil:toObject:]
+-[ZXRSSExpandedPair hash]
+-[ZXRSSExpandedPair hashNotNil:]
+-[ZXRSSExpandedPair leftChar]
+-[ZXRSSExpandedPair rightChar]
+-[ZXRSSExpandedPair finderPattern]
+-[ZXRSSExpandedPair mayBeLast]
+-[ZXRSSExpandedPair .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedPair._leftChar
+_OBJC_IVAR_$_ZXRSSExpandedPair._rightChar
+_OBJC_IVAR_$_ZXRSSExpandedPair._finderPattern
+_OBJC_IVAR_$_ZXRSSExpandedPair._mayBeLast
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedPair.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedPair.h
+-[ZXRSSExpandedReader init]
+-[ZXRSSExpandedReader decodeRow:row:hints:error:]
+-[ZXRSSExpandedReader reset]
+-[ZXRSSExpandedReader decodeRow2pairs:row:error:]
+-[ZXRSSExpandedReader checkRows:]
+-[ZXRSSExpandedReader checkRows:current:]
+-[ZXRSSExpandedReader isValidSequence:]
+-[ZXRSSExpandedReader storeRow:wasReversed:]
+-[ZXRSSExpandedReader removePartialRows:from:]
+-[ZXRSSExpandedReader isPartialRow:of:]
+-[ZXRSSExpandedReader constructResult:error:]
+-[ZXRSSExpandedReader checkChecksum]
+-[ZXRSSExpandedReader nextSecondBar:initialPos:]
+-[ZXRSSExpandedReader retrieveNextPair:previousPairs:rowNumber:]
+-[ZXRSSExpandedReader findNextPair:previousPairs:forcedOffset:]
+-[ZXRSSExpandedReader reverseCounters:]
+-[ZXRSSExpandedReader parseFoundFinderPattern:rowNumber:oddPattern:]
+-[ZXRSSExpandedReader decodeDataCharacter:pattern:isOddPattern:leftChar:]
+-[ZXRSSExpandedReader isNotA1left:isOddPattern:leftChar:]
+-[ZXRSSExpandedReader adjustOddEvenCounts:]
+-[ZXRSSExpandedReader rows]
+-[ZXRSSExpandedReader setRows:]
+-[ZXRSSExpandedReader startEnd]
+-[ZXRSSExpandedReader pairs]
+-[ZXRSSExpandedReader startFromEven]
+-[ZXRSSExpandedReader setStartFromEven:]
+-[ZXRSSExpandedReader .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedReader._pairs
+_OBJC_IVAR_$_ZXRSSExpandedReader._rows
+_OBJC_IVAR_$_ZXRSSExpandedReader._startFromEven
+_OBJC_IVAR_$_ZXRSSExpandedReader._startEnd
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedReader.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedReader.h
+-[ZXPDF417BoundingBox initWithImage:topLeft:bottomLeft:topRight:bottomRight:]
+-[ZXPDF417BoundingBox initWithBoundingBox:]
++[ZXPDF417BoundingBox mergeLeftBox:rightBox:]
+-[ZXPDF417BoundingBox addMissingRows:missingEndRows:isLeft:]
+-[ZXPDF417BoundingBox calculateMinMaxValues]
+-[ZXPDF417BoundingBox minX]
+-[ZXPDF417BoundingBox setMinX:]
+-[ZXPDF417BoundingBox maxX]
+-[ZXPDF417BoundingBox setMaxX:]
+-[ZXPDF417BoundingBox minY]
+-[ZXPDF417BoundingBox setMinY:]
+-[ZXPDF417BoundingBox maxY]
+-[ZXPDF417BoundingBox setMaxY:]
+-[ZXPDF417BoundingBox topLeft]
+-[ZXPDF417BoundingBox topRight]
+-[ZXPDF417BoundingBox bottomLeft]
+-[ZXPDF417BoundingBox bottomRight]
+-[ZXPDF417BoundingBox image]
+-[ZXPDF417BoundingBox .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417BoundingBox._image
+_OBJC_IVAR_$_ZXPDF417BoundingBox._topLeft
+_OBJC_IVAR_$_ZXPDF417BoundingBox._bottomLeft
+_OBJC_IVAR_$_ZXPDF417BoundingBox._topRight
+_OBJC_IVAR_$_ZXPDF417BoundingBox._bottomRight
+_OBJC_IVAR_$_ZXPDF417BoundingBox._minX
+_OBJC_IVAR_$_ZXPDF417BoundingBox._maxX
+_OBJC_IVAR_$_ZXPDF417BoundingBox._minY
+_OBJC_IVAR_$_ZXPDF417BoundingBox._maxY
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417BoundingBox.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417BoundingBox.h
+-[ZXAbstractRSSReader init]
+-[ZXAbstractRSSReader dealloc]
++[ZXAbstractRSSReader parseFinderValue:finderPatternType:]
++[ZXAbstractRSSReader count:]
++[ZXAbstractRSSReader increment:errors:]
++[ZXAbstractRSSReader decrement:errors:]
++[ZXAbstractRSSReader isFinderPattern:]
+-[ZXAbstractRSSReader decodeFinderCounters]
+-[ZXAbstractRSSReader dataCharacterCounters]
+-[ZXAbstractRSSReader oddRoundingErrors]
+-[ZXAbstractRSSReader oddRoundingErrorsLen]
+-[ZXAbstractRSSReader evenRoundingErrors]
+-[ZXAbstractRSSReader evenRoundingErrorsLen]
+-[ZXAbstractRSSReader oddCounts]
+-[ZXAbstractRSSReader evenCounts]
+-[ZXAbstractRSSReader .cxx_destruct]
+_OBJC_IVAR_$_ZXAbstractRSSReader._decodeFinderCounters
+_OBJC_IVAR_$_ZXAbstractRSSReader._dataCharacterCounters
+_OBJC_IVAR_$_ZXAbstractRSSReader._oddRoundingErrorsLen
+_OBJC_IVAR_$_ZXAbstractRSSReader._oddRoundingErrors
+_OBJC_IVAR_$_ZXAbstractRSSReader._evenRoundingErrorsLen
+_OBJC_IVAR_$_ZXAbstractRSSReader._evenRoundingErrors
+_OBJC_IVAR_$_ZXAbstractRSSReader._oddCounts
+_OBJC_IVAR_$_ZXAbstractRSSReader._evenCounts
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXAbstractRSSReader.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXAbstractRSSReader.h
+-[ZXRSSDataCharacter initWithValue:checksumPortion:]
+-[ZXRSSDataCharacter description]
+-[ZXRSSDataCharacter isEqual:]
+-[ZXRSSDataCharacter hash]
+-[ZXRSSDataCharacter value]
+-[ZXRSSDataCharacter checksumPortion]
+_OBJC_IVAR_$_ZXRSSDataCharacter._value
+_OBJC_IVAR_$_ZXRSSDataCharacter._checksumPortion
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSDataCharacter.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSDataCharacter.h
+-[ZXRSSPair initWithValue:checksumPortion:finderPattern:]
+-[ZXRSSPair incrementCount]
+-[ZXRSSPair count]
+-[ZXRSSPair setCount:]
+-[ZXRSSPair finderPattern]
+-[ZXRSSPair .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSPair._finderPattern
+_OBJC_IVAR_$_ZXRSSPair._count
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSPair.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSPair.h
+-[ZXPlanarYUVLuminanceSource initWithYuvData:yuvDataLen:dataWidth:dataHeight:left:top:width:height:reverseHorizontal:]
+-[ZXPlanarYUVLuminanceSource rowAtY:row:]
+-[ZXPlanarYUVLuminanceSource matrix]
+-[ZXPlanarYUVLuminanceSource cropSupported]
+-[ZXPlanarYUVLuminanceSource crop:top:width:height:]
+-[ZXPlanarYUVLuminanceSource renderThumbnail]
+-[ZXPlanarYUVLuminanceSource thumbnailWidth]
+-[ZXPlanarYUVLuminanceSource thumbnailHeight]
+-[ZXPlanarYUVLuminanceSource reverseHorizontal:height:]
+-[ZXPlanarYUVLuminanceSource yuvData]
+-[ZXPlanarYUVLuminanceSource dataWidth]
+-[ZXPlanarYUVLuminanceSource dataHeight]
+-[ZXPlanarYUVLuminanceSource left]
+-[ZXPlanarYUVLuminanceSource top]
+-[ZXPlanarYUVLuminanceSource .cxx_destruct]
+_OBJC_IVAR_$_ZXPlanarYUVLuminanceSource._yuvData
+_OBJC_IVAR_$_ZXPlanarYUVLuminanceSource._dataWidth
+_OBJC_IVAR_$_ZXPlanarYUVLuminanceSource._dataHeight
+_OBJC_IVAR_$_ZXPlanarYUVLuminanceSource._left
+_OBJC_IVAR_$_ZXPlanarYUVLuminanceSource._top
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXPlanarYUVLuminanceSource.m
+-[ZXRSS14Reader init]
+-[ZXRSS14Reader decodeRow:row:hints:error:]
+-[ZXRSS14Reader addOrTally:pair:]
+-[ZXRSS14Reader reset]
+-[ZXRSS14Reader constructResult:rightPair:]
+-[ZXRSS14Reader checkChecksum:rightPair:]
+-[ZXRSS14Reader decodePair:right:rowNumber:hints:]
+-[ZXRSS14Reader decodeDataCharacter:pattern:outsideChar:]
+-[ZXRSS14Reader findFinderPattern:rowOffset:rightFinderPattern:]
+-[ZXRSS14Reader parseFoundFinderPattern:rowNumber:right:startEnd:]
+-[ZXRSS14Reader adjustOddEvenCounts:numModules:]
+-[ZXRSS14Reader possibleLeftPairs]
+-[ZXRSS14Reader possibleRightPairs]
+-[ZXRSS14Reader .cxx_destruct]
+_OBJC_IVAR_$_ZXRSS14Reader._possibleLeftPairs
+_OBJC_IVAR_$_ZXRSS14Reader._possibleRightPairs
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSS14Reader.m
+-[ZXRSSFinderPattern initWithValue:startEnd:start:end:rowNumber:]
+-[ZXRSSFinderPattern isEqual:]
+-[ZXRSSFinderPattern hash]
+-[ZXRSSFinderPattern value]
+-[ZXRSSFinderPattern startEnd]
+-[ZXRSSFinderPattern resultPoints]
+-[ZXRSSFinderPattern .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSFinderPattern._value
+_OBJC_IVAR_$_ZXRSSFinderPattern._startEnd
+_OBJC_IVAR_$_ZXRSSFinderPattern._resultPoints
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSFinderPattern.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSFinderPattern.h
++[ZXRSSUtils rssValue:maxWidth:noNarrow:]
++[ZXRSSUtils combins:r:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/ZXRSSUtils.m
+-[ZXCodaBarReader init]
+-[ZXCodaBarReader decodeRow:row:hints:error:]
+-[ZXCodaBarReader validatePattern:]
+-[ZXCodaBarReader setCountersWithRow:]
+-[ZXCodaBarReader counterAppend:]
+-[ZXCodaBarReader findStartPattern]
++[ZXCodaBarReader arrayContains:length:key:]
+-[ZXCodaBarReader toNarrowWidePattern:]
+-[ZXCodaBarReader decodeRowResult]
+-[ZXCodaBarReader setDecodeRowResult:]
+-[ZXCodaBarReader counters]
+-[ZXCodaBarReader setCounters:]
+-[ZXCodaBarReader counterLength]
+-[ZXCodaBarReader setCounterLength:]
+-[ZXCodaBarReader .cxx_destruct]
+_OBJC_IVAR_$_ZXCodaBarReader._decodeRowResult
+_OBJC_IVAR_$_ZXCodaBarReader._counters
+_OBJC_IVAR_$_ZXCodaBarReader._counterLength
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCodaBarReader.m
++[ZXCodaBarWriter initialize]
+-[ZXCodaBarWriter encode:]
+_ZX_CODA_DEFAULT_GUARD
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCodaBarWriter.m
+-[ZXCode128Reader findStartPattern:]
+-[ZXCode128Reader decodeCode:counters:rowOffset:]
+-[ZXCode128Reader decodeRow:row:hints:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCode128Reader.m
+-[ZXCode128Writer encode:format:width:height:hints:error:]
+-[ZXCode128Writer encode:]
+-[ZXCode128Writer isDigits:start:length:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCode128Writer.m
++[ZXCode39Reader load]
+-[ZXCode39Reader init]
+-[ZXCode39Reader initUsingCheckDigit:]
+-[ZXCode39Reader initUsingCheckDigit:extendedMode:]
+-[ZXCode39Reader decodeRow:row:hints:error:]
+-[ZXCode39Reader findAsteriskPattern:counters:]
+-[ZXCode39Reader toNarrowWidePattern:]
+-[ZXCode39Reader patternToChar:]
+-[ZXCode39Reader decodeExtended:]
+-[ZXCode39Reader extendedMode]
+-[ZXCode39Reader usingCheckDigit]
+-[ZXCode39Reader counters]
+-[ZXCode39Reader .cxx_destruct]
+_OBJC_IVAR_$_ZXCode39Reader._usingCheckDigit
+_OBJC_IVAR_$_ZXCode39Reader._extendedMode
+_OBJC_IVAR_$_ZXCode39Reader._counters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCode39Reader.m
+-[ZXCode39Writer encode:format:width:height:hints:error:]
+-[ZXCode39Writer encode:]
+-[ZXCode39Writer toIntArray:toReturn:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCode39Writer.m
++[ZXCode93Reader initialize]
+-[ZXCode93Reader init]
+-[ZXCode93Reader decodeRow:row:hints:error:]
+-[ZXCode93Reader findAsteriskPattern:]
+-[ZXCode93Reader toPattern:]
+-[ZXCode93Reader patternToChar:]
+-[ZXCode93Reader decodeExtended:]
+-[ZXCode93Reader checkChecksums:error:]
+-[ZXCode93Reader checkOneChecksum:checkPosition:weightMax:error:]
+-[ZXCode93Reader counters]
+-[ZXCode93Reader .cxx_destruct]
+_OBJC_IVAR_$_ZXCode93Reader._counters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXCode93Reader.m
+-[ZXEAN13Reader init]
+-[ZXEAN13Reader decodeMiddle:startRange:result:error:]
+-[ZXEAN13Reader barcodeFormat]
+-[ZXEAN13Reader determineFirstDigit:lgPatternFound:]
+-[ZXEAN13Reader decodeMiddleCounters]
+-[ZXEAN13Reader .cxx_destruct]
+_OBJC_IVAR_$_ZXEAN13Reader._decodeMiddleCounters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXEAN13Reader.m
+NSMaxRange
+/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[ZXEAN13Writer encode:format:width:height:hints:error:]
+-[ZXEAN13Writer encode:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXEAN13Writer.m
+-[ZXEAN8Reader init]
+-[ZXEAN8Reader decodeMiddle:startRange:result:error:]
+-[ZXEAN8Reader barcodeFormat]
+-[ZXEAN8Reader decodeMiddleCounters]
+-[ZXEAN8Reader .cxx_destruct]
+_OBJC_IVAR_$_ZXEAN8Reader._decodeMiddleCounters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXEAN8Reader.m
+-[ZXUPCEWriter encode:format:width:height:hints:error:]
+-[ZXUPCEWriter encode:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEWriter.m
+-[ZXEAN8Writer encode:format:width:height:hints:error:]
+-[ZXEAN8Writer encode:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXEAN8Writer.m
+-[ZXPDF417DetectorResult initWithBits:points:]
+-[ZXPDF417DetectorResult bits]
+-[ZXPDF417DetectorResult points]
+-[ZXPDF417DetectorResult .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417DetectorResult._bits
+_OBJC_IVAR_$_ZXPDF417DetectorResult._points
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/detector/ZXPDF417DetectorResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/detector/ZXPDF417DetectorResult.h
+-[ZXEANManufacturerOrgSupport init]
+-[ZXEANManufacturerOrgSupport lookupCountryIdentifier:]
+-[ZXEANManufacturerOrgSupport add:identifier:]
+-[ZXEANManufacturerOrgSupport initIfNeeded]
+-[ZXEANManufacturerOrgSupport countryIdentifiers]
+-[ZXEANManufacturerOrgSupport ranges]
+-[ZXEANManufacturerOrgSupport .cxx_destruct]
+_OBJC_IVAR_$_ZXEANManufacturerOrgSupport._ranges
+_OBJC_IVAR_$_ZXEANManufacturerOrgSupport._countryIdentifiers
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXEANManufacturerOrgSupport.m
+-[ZXITFReader init]
+-[ZXITFReader decodeRow:row:hints:error:]
+-[ZXITFReader decodeMiddle:payloadStart:payloadEnd:resultString:]
+-[ZXITFReader decodeStart:]
+-[ZXITFReader validateQuietZone:startPattern:]
+-[ZXITFReader skipWhiteSpace:]
+-[ZXITFReader decodeEnd:]
+-[ZXITFReader findGuardPattern:rowOffset:pattern:patternLen:]
+-[ZXITFReader decodeDigit:]
+-[ZXITFReader narrowLineWidth]
+-[ZXITFReader setNarrowLineWidth:]
+_OBJC_IVAR_$_ZXITFReader._narrowLineWidth
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXITFReader.m
+-[ZXITFWriter encode:format:width:height:hints:error:]
+-[ZXITFWriter encode:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXITFWriter.m
+-[ZXMultiFormatOneDReader initWithHints:]
+-[ZXMultiFormatOneDReader decodeRow:row:hints:error:]
+-[ZXMultiFormatOneDReader reset]
+-[ZXMultiFormatOneDReader readers]
+-[ZXMultiFormatOneDReader .cxx_destruct]
+_OBJC_IVAR_$_ZXMultiFormatOneDReader._readers
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXMultiFormatOneDReader.m
+-[ZXMultiFormatUPCEANReader initWithHints:]
+-[ZXMultiFormatUPCEANReader decodeRow:row:hints:error:]
+-[ZXMultiFormatUPCEANReader reset]
+-[ZXMultiFormatUPCEANReader readers]
+-[ZXMultiFormatUPCEANReader .cxx_destruct]
+_OBJC_IVAR_$_ZXMultiFormatUPCEANReader._readers
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXMultiFormatUPCEANReader.m
+-[ZXOneDimensionalCodeWriter encode:format:width:height:error:]
+-[ZXOneDimensionalCodeWriter encode:format:width:height:hints:error:]
+-[ZXOneDimensionalCodeWriter renderResult:width:height:sidesMargin:]
+-[ZXOneDimensionalCodeWriter appendPattern:pos:pattern:patternLen:startColor:]
+-[ZXOneDimensionalCodeWriter defaultMargin]
+-[ZXOneDimensionalCodeWriter encode:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXOneDimensionalCodeWriter.m
+-[ZXQRCodeMultiReader decodeMultiple:error:]
+-[ZXQRCodeMultiReader decodeMultiple:hints:error:]
+-[ZXQRCodeMultiReader processStructuredAppend:]
+___47-[ZXQRCodeMultiReader processStructuredAppend:]_block_invoke
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/multi/ZXQRCodeMultiReader.m
+__47-[ZXQRCodeMultiReader processStructuredAppend:]_block_invoke
+-[ZXOneDReader decode:error:]
+-[ZXOneDReader decode:hints:error:]
+-[ZXOneDReader reset]
+-[ZXOneDReader doDecode:hints:error:]
++[ZXOneDReader recordPattern:start:counters:]
++[ZXOneDReader recordPatternInReverse:start:counters:]
++[ZXOneDReader patternMatchVariance:pattern:maxIndividualVariance:]
+-[ZXOneDReader decodeRow:row:hints:error:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXOneDReader.m
+-[ZXUPCAReader init]
+-[ZXUPCAReader decodeRow:row:startGuardRange:hints:error:]
+-[ZXUPCAReader decodeRow:row:hints:error:]
+-[ZXUPCAReader decode:error:]
+-[ZXUPCAReader decode:hints:error:]
+-[ZXUPCAReader barcodeFormat]
+-[ZXUPCAReader decodeMiddle:startRange:result:error:]
+-[ZXUPCAReader maybeReturnResult:]
+-[ZXUPCAReader ean13Reader]
+-[ZXUPCAReader .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCAReader._ean13Reader
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCAReader.m
+-[ZXUPCAWriter subWriter]
+___25-[ZXUPCAWriter subWriter]_block_invoke
+-[ZXUPCAWriter encode:format:width:height:error:]
+-[ZXUPCAWriter encode:format:width:height:hints:error:]
+-[ZXUPCAWriter preencode:]
+_subWriter.subWriter
+_subWriter.onceToken
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCAWriter.m
+__25-[ZXUPCAWriter subWriter]_block_invoke
+-[ZXUPCEANExtension2Support init]
+-[ZXUPCEANExtension2Support decodeRow:row:extensionStartRange:error:]
+-[ZXUPCEANExtension2Support decodeMiddle:startRange:result:error:]
+-[ZXUPCEANExtension2Support parseExtensionString:]
+-[ZXUPCEANExtension2Support decodeMiddleCounters]
+-[ZXUPCEANExtension2Support .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCEANExtension2Support._decodeMiddleCounters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEANExtension2Support.m
+-[ZXQRCodeDecoderMetaData initWithMirrored:]
+-[ZXQRCodeDecoderMetaData applyMirroredCorrection:]
+-[ZXQRCodeDecoderMetaData mirrored]
+_OBJC_IVAR_$_ZXQRCodeDecoderMetaData._mirrored
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDecoderMetaData.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDecoderMetaData.h
+-[ZXBinaryBitmap initWithBinarizer:]
++[ZXBinaryBitmap binaryBitmapWithBinarizer:]
+-[ZXBinaryBitmap width]
+-[ZXBinaryBitmap height]
+-[ZXBinaryBitmap blackRow:row:error:]
+-[ZXBinaryBitmap blackMatrixWithError:]
+-[ZXBinaryBitmap cropSupported]
+-[ZXBinaryBitmap crop:top:width:height:]
+-[ZXBinaryBitmap rotateSupported]
+-[ZXBinaryBitmap rotateCounterClockwise]
+-[ZXBinaryBitmap rotateCounterClockwise45]
+-[ZXBinaryBitmap description]
+-[ZXBinaryBitmap binarizer]
+-[ZXBinaryBitmap matrix]
+-[ZXBinaryBitmap setMatrix:]
+-[ZXBinaryBitmap .cxx_destruct]
+_OBJC_IVAR_$_ZXBinaryBitmap._binarizer
+_OBJC_IVAR_$_ZXBinaryBitmap._matrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXBinaryBitmap.m
+-[ZXUPCEANExtension5Support init]
+-[ZXUPCEANExtension5Support decodeRow:row:extensionStartRange:error:]
+-[ZXUPCEANExtension5Support decodeMiddle:startRange:result:error:]
+-[ZXUPCEANExtension5Support extensionChecksum:]
+-[ZXUPCEANExtension5Support determineCheckDigit:]
+-[ZXUPCEANExtension5Support parseExtensionString:]
+-[ZXUPCEANExtension5Support parseExtension5String:]
+-[ZXUPCEANExtension5Support decodeMiddleCounters]
+-[ZXUPCEANExtension5Support .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCEANExtension5Support._decodeMiddleCounters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEANExtension5Support.m
+-[ZXUPCEANExtensionSupport init]
+-[ZXUPCEANExtensionSupport decodeRow:row:rowOffset:error:]
+-[ZXUPCEANExtensionSupport twoSupport]
+-[ZXUPCEANExtensionSupport fiveSupport]
+-[ZXUPCEANExtensionSupport .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCEANExtensionSupport._twoSupport
+_OBJC_IVAR_$_ZXUPCEANExtensionSupport._fiveSupport
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEANExtensionSupport.m
+-[ZXUPCEANReader init]
++[ZXUPCEANReader findStartGuardPattern:error:]
+-[ZXUPCEANReader decodeRow:row:hints:error:]
+-[ZXUPCEANReader decodeRow:row:startGuardRange:hints:error:]
+-[ZXUPCEANReader checkChecksum:error:]
++[ZXUPCEANReader checkStandardUPCEANChecksum:]
+-[ZXUPCEANReader decodeEnd:endStart:error:]
++[ZXUPCEANReader findGuardPattern:rowOffset:whiteFirst:pattern:patternLen:error:]
++[ZXUPCEANReader findGuardPattern:rowOffset:whiteFirst:pattern:patternLen:counters:error:]
++[ZXUPCEANReader decodeDigit:counters:rowOffset:patternType:error:]
+-[ZXUPCEANReader barcodeFormat]
+-[ZXUPCEANReader decodeMiddle:startRange:result:error:]
+-[ZXUPCEANReader decodeRowNSMutableString]
+-[ZXUPCEANReader extensionReader]
+-[ZXUPCEANReader eanManSupport]
+-[ZXUPCEANReader .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCEANReader._decodeRowNSMutableString
+_OBJC_IVAR_$_ZXUPCEANReader._extensionReader
+_OBJC_IVAR_$_ZXUPCEANReader._eanManSupport
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEANReader.m
+NSMakeRange
+-[ZXUPCEANWriter defaultMargin]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEANWriter.m
+-[ZXUPCEReader init]
+-[ZXUPCEReader decodeMiddle:startRange:result:error:]
+-[ZXUPCEReader decodeEnd:endStart:error:]
+-[ZXUPCEReader checkChecksum:error:]
+-[ZXUPCEReader determineNumSysAndCheckDigit:lgPatternFound:]
+-[ZXUPCEReader barcodeFormat]
++[ZXUPCEReader convertUPCEtoUPCA:]
+-[ZXUPCEReader decodeMiddleCounters]
+-[ZXUPCEReader .cxx_destruct]
+_OBJC_IVAR_$_ZXUPCEReader._decodeMiddleCounters
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/ZXUPCEReader.m
++[ZXModulusGF PDF417_GF]
+___24+[ZXModulusGF PDF417_GF]_block_invoke
+-[ZXModulusGF initWithModulus:generator:]
+-[ZXModulusGF buildMonomial:coefficient:]
+-[ZXModulusGF add:b:]
+-[ZXModulusGF subtract:b:]
+-[ZXModulusGF exp:]
+-[ZXModulusGF log:]
+-[ZXModulusGF inverse:]
+-[ZXModulusGF multiply:b:]
+-[ZXModulusGF size]
+-[ZXModulusGF one]
+-[ZXModulusGF zero]
+-[ZXModulusGF expTable]
+-[ZXModulusGF logTable]
+-[ZXModulusGF modulus]
+-[ZXModulusGF .cxx_destruct]
+_PDF417_GF.pred
+_PDF417_GF._mod
+_OBJC_IVAR_$_ZXModulusGF._modulus
+_OBJC_IVAR_$_ZXModulusGF._expTable
+_OBJC_IVAR_$_ZXModulusGF._logTable
+_OBJC_IVAR_$_ZXModulusGF._zero
+_OBJC_IVAR_$_ZXModulusGF._one
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ec/ZXModulusGF.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ec/ZXModulusGF.h
+__24+[ZXModulusGF PDF417_GF]_block_invoke
+-[ZXModulusPoly initWithField:coefficients:]
+-[ZXModulusPoly degree]
+-[ZXModulusPoly zero]
+-[ZXModulusPoly coefficient:]
+-[ZXModulusPoly evaluateAt:]
+-[ZXModulusPoly add:]
+-[ZXModulusPoly subtract:]
+-[ZXModulusPoly multiply:]
+-[ZXModulusPoly negative]
+-[ZXModulusPoly multiplyScalar:]
+-[ZXModulusPoly multiplyByMonomial:coefficient:]
+-[ZXModulusPoly divide:]
+-[ZXModulusPoly description]
+-[ZXModulusPoly coefficients]
+-[ZXModulusPoly field]
+-[ZXModulusPoly .cxx_destruct]
+_OBJC_IVAR_$_ZXModulusPoly._field
+_OBJC_IVAR_$_ZXModulusPoly._coefficients
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ec/ZXModulusPoly.m
+-[ZXPDF417ECErrorCorrection init]
+-[ZXPDF417ECErrorCorrection decode:numECCodewords:erasures:]
+-[ZXPDF417ECErrorCorrection runEuclideanAlgorithm:b:R:]
+-[ZXPDF417ECErrorCorrection findErrorLocations:]
+-[ZXPDF417ECErrorCorrection findErrorMagnitudes:errorLocator:errorLocations:]
+-[ZXPDF417ECErrorCorrection field]
+-[ZXPDF417ECErrorCorrection .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417ECErrorCorrection._field
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ec/ZXPDF417ECErrorCorrection.m
++[ZXPDF417DecodedBitStreamParser initialize]
++[ZXPDF417DecodedBitStreamParser decode:ecLevel:error:]
++[ZXPDF417DecodedBitStreamParser decodeMacroBlock:codeIndex:resultMetadata:]
++[ZXPDF417DecodedBitStreamParser textCompaction:codeIndex:result:]
++[ZXPDF417DecodedBitStreamParser decodeTextCompaction:byteCompactionData:length:result:]
++[ZXPDF417DecodedBitStreamParser byteCompaction:codewords:encoding:codeIndex:result:]
++[ZXPDF417DecodedBitStreamParser numericCompaction:codeIndex:result:]
++[ZXPDF417DecodedBitStreamParser decodeBase900toBase10:count:]
+_ZX_PDF417_EXP900
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DecodedBitStreamParser.m
++[ZXPDF417Detector detect:hints:multiple:error:]
++[ZXPDF417Detector detect:bitMatrix:error:]
++[ZXPDF417Detector findVertices:startRow:startColumn:]
++[ZXPDF417Detector copyToResult:tmpResult:destinationIndexes:length:]
++[ZXPDF417Detector findRowsWithPattern:height:width:startRow:startColumn:pattern:patternLen:]
++[ZXPDF417Detector findGuardPattern:column:row:width:whiteFirst:pattern:patternLen:counters:]
++[ZXPDF417Detector patternMatchVariance:countersSize:pattern:maxIndividualVariance:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/detector/ZXPDF417Detector.m
+-[ZXPDF417BarcodeMatrix initWithHeight:width:]
+-[ZXPDF417BarcodeMatrix setX:y:value:]
+-[ZXPDF417BarcodeMatrix startRow]
+-[ZXPDF417BarcodeMatrix currentRow]
+-[ZXPDF417BarcodeMatrix matrix]
+-[ZXPDF417BarcodeMatrix scaledMatrixWithXScale:yScale:]
+-[ZXPDF417BarcodeMatrix height]
+-[ZXPDF417BarcodeMatrix width]
+-[ZXPDF417BarcodeMatrix currentRowIndex]
+-[ZXPDF417BarcodeMatrix setCurrentRowIndex:]
+-[ZXPDF417BarcodeMatrix rowMatrix]
+-[ZXPDF417BarcodeMatrix .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417BarcodeMatrix._rowMatrix
+_OBJC_IVAR_$_ZXPDF417BarcodeMatrix._width
+_OBJC_IVAR_$_ZXPDF417BarcodeMatrix._height
+_OBJC_IVAR_$_ZXPDF417BarcodeMatrix._currentRowIndex
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417BarcodeMatrix.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417BarcodeMatrix.h
++[ZXPDF417BarcodeRow barcodeRowWithWidth:]
+-[ZXPDF417BarcodeRow initWithWidth:]
+-[ZXPDF417BarcodeRow setX:value:]
+-[ZXPDF417BarcodeRow setX:black:]
+-[ZXPDF417BarcodeRow addBar:width:]
+-[ZXPDF417BarcodeRow scaledRow:]
+-[ZXPDF417BarcodeRow row]
+-[ZXPDF417BarcodeRow currentLocation]
+-[ZXPDF417BarcodeRow setCurrentLocation:]
+-[ZXPDF417BarcodeRow .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417BarcodeRow._row
+_OBJC_IVAR_$_ZXPDF417BarcodeRow._currentLocation
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.h
+-[ZXPDF417BarcodeMetadata initWithColumnCount:rowCountUpperPart:rowCountLowerPart:errorCorrectionLevel:]
+-[ZXPDF417BarcodeMetadata columnCount]
+-[ZXPDF417BarcodeMetadata errorCorrectionLevel]
+-[ZXPDF417BarcodeMetadata rowCountUpperPart]
+-[ZXPDF417BarcodeMetadata rowCountLowerPart]
+-[ZXPDF417BarcodeMetadata rowCount]
+_OBJC_IVAR_$_ZXPDF417BarcodeMetadata._columnCount
+_OBJC_IVAR_$_ZXPDF417BarcodeMetadata._errorCorrectionLevel
+_OBJC_IVAR_$_ZXPDF417BarcodeMetadata._rowCountUpperPart
+_OBJC_IVAR_$_ZXPDF417BarcodeMetadata._rowCountLowerPart
+_OBJC_IVAR_$_ZXPDF417BarcodeMetadata._rowCount
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.h
+-[ZXPDF417Dimensions initWithMinCols:maxCols:minRows:maxRows:]
+-[ZXPDF417Dimensions minCols]
+-[ZXPDF417Dimensions maxCols]
+-[ZXPDF417Dimensions minRows]
+-[ZXPDF417Dimensions maxRows]
+_OBJC_IVAR_$_ZXPDF417Dimensions._minCols
+_OBJC_IVAR_$_ZXPDF417Dimensions._maxCols
+_OBJC_IVAR_$_ZXPDF417Dimensions._minRows
+_OBJC_IVAR_$_ZXPDF417Dimensions._maxRows
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.h
+-[ZXPDF417 init]
+-[ZXPDF417 initWithCompact:]
+-[ZXPDF417 calculateNumberOfRowsM:k:c:]
+-[ZXPDF417 numberOfPadCodewordsM:k:c:r:]
+-[ZXPDF417 encodeCharPattern:len:logic:]
+-[ZXPDF417 encodeLowLevel:c:r:errorCorrectionLevel:logic:]
+-[ZXPDF417 generateBarcodeLogic:errorCorrectionLevel:error:]
+-[ZXPDF417 determineDimensions:errorCorrectionCodeWords:error:]
+-[ZXPDF417 setDimensionsWithMaxCols:minCols:maxRows:minRows:]
+-[ZXPDF417 barcodeMatrix]
+-[ZXPDF417 setBarcodeMatrix:]
+-[ZXPDF417 compact]
+-[ZXPDF417 setCompact:]
+-[ZXPDF417 compaction]
+-[ZXPDF417 setCompaction:]
+-[ZXPDF417 encoding]
+-[ZXPDF417 setEncoding:]
+-[ZXPDF417 minCols]
+-[ZXPDF417 setMinCols:]
+-[ZXPDF417 maxCols]
+-[ZXPDF417 setMaxCols:]
+-[ZXPDF417 minRows]
+-[ZXPDF417 setMinRows:]
+-[ZXPDF417 maxRows]
+-[ZXPDF417 setMaxRows:]
+-[ZXPDF417 .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417._compact
+_OBJC_IVAR_$_ZXPDF417._compaction
+_OBJC_IVAR_$_ZXPDF417._encoding
+_OBJC_IVAR_$_ZXPDF417._minCols
+_OBJC_IVAR_$_ZXPDF417._maxCols
+_OBJC_IVAR_$_ZXPDF417._maxRows
+_OBJC_IVAR_$_ZXPDF417._minRows
+_OBJC_IVAR_$_ZXPDF417._barcodeMatrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417.h
++[ZXPDF417ErrorCorrection errorCorrectionCodewordCount:]
++[ZXPDF417ErrorCorrection recommendedMinimumErrorCorrectionLevel:error:]
++[ZXPDF417ErrorCorrection generateErrorCorrection:errorCorrectionLevel:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417ErrorCorrection.m
++[ZXPDF417HighLevelEncoder initialize]
++[ZXPDF417HighLevelEncoder encodeHighLevel:compaction:encoding:error:]
++[ZXPDF417HighLevelEncoder encodeText:startpos:count:buffer:initialSubmode:]
++[ZXPDF417HighLevelEncoder encodeBinary:startpos:count:startmode:buffer:]
++[ZXPDF417HighLevelEncoder encodeNumeric:startpos:count:buffer:]
++[ZXPDF417HighLevelEncoder isDigit:]
++[ZXPDF417HighLevelEncoder isAlphaUpper:]
++[ZXPDF417HighLevelEncoder isAlphaLower:]
++[ZXPDF417HighLevelEncoder isMixed:]
++[ZXPDF417HighLevelEncoder isPunctuation:]
++[ZXPDF417HighLevelEncoder isText:]
++[ZXPDF417HighLevelEncoder determineConsecutiveDigitCount:startpos:]
++[ZXPDF417HighLevelEncoder determineConsecutiveTextCount:startpos:]
++[ZXPDF417HighLevelEncoder determineConsecutiveBinaryCount:bytes:startpos:error:]
++[ZXPDF417HighLevelEncoder encodingECI:sb:error:]
++[ZXPDF417HighLevelEncoder bytesForMessage:encoding:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/encoder/ZXPDF417HighLevelEncoder.m
+-[ZXPDF417Reader decode:error:]
+-[ZXPDF417Reader decode:hints:error:]
+-[ZXPDF417Reader decodeMultiple:error:]
+-[ZXPDF417Reader decodeMultiple:hints:error:]
+-[ZXPDF417Reader decode:hints:multiple:error:]
+-[ZXPDF417Reader maxWidth:p2:]
+-[ZXPDF417Reader minWidth:p2:]
+-[ZXPDF417Reader maxCodewordWidth:]
+-[ZXPDF417Reader minCodewordWidth:]
+-[ZXPDF417Reader reset]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/ZXPDF417Reader.m
+-[ZXDataMask000 isMasked:j:]
+-[ZXDataMask001 isMasked:j:]
+-[ZXDataMask010 isMasked:j:]
+-[ZXDataMask011 isMasked:j:]
+-[ZXDataMask100 isMasked:j:]
+-[ZXDataMask101 isMasked:j:]
+-[ZXDataMask110 isMasked:j:]
+-[ZXDataMask111 isMasked:j:]
+-[ZXQRCodeDataMask unmaskBitMatrix:dimension:]
+-[ZXQRCodeDataMask isMasked:j:]
++[ZXQRCodeDataMask forReference:]
+_DATA_MASKS
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDataMask.m
++[ZXVINResultParser initialize]
+-[ZXVINResultParser parse:]
+-[ZXVINResultParser checkChecksum:]
+-[ZXVINResultParser vinCharValue:]
+-[ZXVINResultParser vinPositionWeight:]
+-[ZXVINResultParser checkChar:]
+-[ZXVINResultParser modelYear:]
+-[ZXVINResultParser countryCode:]
+_ZX_IOQ
+_ZX_AZ09
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXVINResultParser.m
+-[ZXQRCodeErrorCorrectionLevel initWithOrdinal:bits:name:]
+-[ZXQRCodeErrorCorrectionLevel description]
++[ZXQRCodeErrorCorrectionLevel forBits:]
++[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelL]
+___53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelL]_block_invoke
++[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelM]
+___53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelM]_block_invoke
++[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelQ]
+___53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelQ]_block_invoke
++[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelH]
+___53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelH]_block_invoke
+-[ZXQRCodeErrorCorrectionLevel bits]
+-[ZXQRCodeErrorCorrectionLevel name]
+-[ZXQRCodeErrorCorrectionLevel ordinal]
+-[ZXQRCodeErrorCorrectionLevel .cxx_destruct]
+_FOR_BITS
+_OBJC_IVAR_$_ZXQRCodeErrorCorrectionLevel._ordinal
+_OBJC_IVAR_$_ZXQRCodeErrorCorrectionLevel._bits
+_OBJC_IVAR_$_ZXQRCodeErrorCorrectionLevel._name
+_errorCorrectionLevelL.thisLevel
+_errorCorrectionLevelL.onceToken
+_errorCorrectionLevelM.thisLevel
+_errorCorrectionLevelM.onceToken
+___block_descriptor_tmp.30
+___block_literal_global.31
+_errorCorrectionLevelQ.thisLevel
+_errorCorrectionLevelQ.onceToken
+___block_descriptor_tmp.34
+___block_literal_global.35
+_errorCorrectionLevelH.thisLevel
+_errorCorrectionLevelH.onceToken
+___block_descriptor_tmp.38
+___block_literal_global.39
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeErrorCorrectionLevel.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeErrorCorrectionLevel.h
+__53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelH]_block_invoke
+__53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelQ]_block_invoke
+__53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelM]_block_invoke
+__53+[ZXQRCodeErrorCorrectionLevel errorCorrectionLevelL]_block_invoke
+-[ZXQRCodeFormatInformation initWithFormatInfo:]
++[ZXQRCodeFormatInformation numBitsDiffering:b:]
++[ZXQRCodeFormatInformation decodeFormatInformation:maskedFormatInfo2:]
++[ZXQRCodeFormatInformation doDecodeFormatInformation:maskedFormatInfo2:]
+-[ZXQRCodeFormatInformation hash]
+-[ZXQRCodeFormatInformation isEqual:]
+-[ZXQRCodeFormatInformation errorCorrectionLevel]
+-[ZXQRCodeFormatInformation dataMask]
+-[ZXQRCodeFormatInformation .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeFormatInformation._errorCorrectionLevel
+_OBJC_IVAR_$_ZXQRCodeFormatInformation._dataMask
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.h
+-[ZXVINParsedResult initWithVIN:worldManufacturerID:vehicleDescriptorSection:vehicleIdentifierSection:countryCode:vehicleAttributes:modelYear:plantCode:sequentialNumber:]
+-[ZXVINParsedResult displayResult]
+-[ZXVINParsedResult vin]
+-[ZXVINParsedResult worldManufacturerID]
+-[ZXVINParsedResult vehicleDescriptorSection]
+-[ZXVINParsedResult vehicleIdentifierSection]
+-[ZXVINParsedResult countryCode]
+-[ZXVINParsedResult vehicleAttributes]
+-[ZXVINParsedResult modelYear]
+-[ZXVINParsedResult plantCode]
+-[ZXVINParsedResult sequentialNumber]
+-[ZXVINParsedResult .cxx_destruct]
+_OBJC_IVAR_$_ZXVINParsedResult._vin
+_OBJC_IVAR_$_ZXVINParsedResult._worldManufacturerID
+_OBJC_IVAR_$_ZXVINParsedResult._vehicleDescriptorSection
+_OBJC_IVAR_$_ZXVINParsedResult._vehicleIdentifierSection
+_OBJC_IVAR_$_ZXVINParsedResult._countryCode
+_OBJC_IVAR_$_ZXVINParsedResult._vehicleAttributes
+_OBJC_IVAR_$_ZXVINParsedResult._modelYear
+_OBJC_IVAR_$_ZXVINParsedResult._plantCode
+_OBJC_IVAR_$_ZXVINParsedResult._sequentialNumber
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXVINParsedResult.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/client/result/ZXVINParsedResult.h
+-[ZXQRCodeMode initWithCharacterCountBitsForVersions:bits:name:]
++[ZXQRCodeMode forBits:]
+-[ZXQRCodeMode characterCountBits:]
+-[ZXQRCodeMode description]
++[ZXQRCodeMode terminatorMode]
+___30+[ZXQRCodeMode terminatorMode]_block_invoke
++[ZXQRCodeMode numericMode]
+___27+[ZXQRCodeMode numericMode]_block_invoke
++[ZXQRCodeMode alphanumericMode]
+___32+[ZXQRCodeMode alphanumericMode]_block_invoke
++[ZXQRCodeMode structuredAppendMode]
+___36+[ZXQRCodeMode structuredAppendMode]_block_invoke
++[ZXQRCodeMode byteMode]
+___24+[ZXQRCodeMode byteMode]_block_invoke
++[ZXQRCodeMode eciMode]
+___23+[ZXQRCodeMode eciMode]_block_invoke
++[ZXQRCodeMode kanjiMode]
+___25+[ZXQRCodeMode kanjiMode]_block_invoke
++[ZXQRCodeMode fnc1FirstPositionMode]
+___37+[ZXQRCodeMode fnc1FirstPositionMode]_block_invoke
++[ZXQRCodeMode fnc1SecondPositionMode]
+___38+[ZXQRCodeMode fnc1SecondPositionMode]_block_invoke
++[ZXQRCodeMode hanziMode]
+___25+[ZXQRCodeMode hanziMode]_block_invoke
+-[ZXQRCodeMode bits]
+-[ZXQRCodeMode name]
+-[ZXQRCodeMode characterCountBitsForVersions]
+-[ZXQRCodeMode .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeMode._characterCountBitsForVersions
+_OBJC_IVAR_$_ZXQRCodeMode._bits
+_OBJC_IVAR_$_ZXQRCodeMode._name
+_terminatorMode.thisMode
+_terminatorMode.onceToken
+_numericMode.thisMode
+_numericMode.onceToken
+___block_descriptor_tmp.44
+___block_literal_global.45
+_alphanumericMode.thisMode
+_alphanumericMode.onceToken
+___block_descriptor_tmp.48
+___block_literal_global.49
+_structuredAppendMode.thisMode
+_structuredAppendMode.onceToken
+___block_descriptor_tmp.52
+___block_literal_global.53
+_byteMode.thisMode
+_byteMode.onceToken
+___block_descriptor_tmp.56
+___block_literal_global.57
+_eciMode.thisMode
+_eciMode.onceToken
+___block_descriptor_tmp.60
+___block_literal_global.61
+_kanjiMode.thisMode
+_kanjiMode.onceToken
+___block_descriptor_tmp.64
+___block_literal_global.65
+_fnc1FirstPositionMode.thisMode
+_fnc1FirstPositionMode.onceToken
+___block_descriptor_tmp.68
+___block_literal_global.69
+_fnc1SecondPositionMode.thisMode
+_fnc1SecondPositionMode.onceToken
+___block_descriptor_tmp.72
+___block_literal_global.73
+_hanziMode.thisMode
+_hanziMode.onceToken
+___block_descriptor_tmp.76
+___block_literal_global.77
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeMode.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeMode.h
+__25+[ZXQRCodeMode hanziMode]_block_invoke
+__38+[ZXQRCodeMode fnc1SecondPositionMode]_block_invoke
+__37+[ZXQRCodeMode fnc1FirstPositionMode]_block_invoke
+__25+[ZXQRCodeMode kanjiMode]_block_invoke
+__23+[ZXQRCodeMode eciMode]_block_invoke
+__24+[ZXQRCodeMode byteMode]_block_invoke
+__36+[ZXQRCodeMode structuredAppendMode]_block_invoke
+__32+[ZXQRCodeMode alphanumericMode]_block_invoke
+__27+[ZXQRCodeMode numericMode]_block_invoke
+__30+[ZXQRCodeMode terminatorMode]_block_invoke
+-[ZXQRCodeBitMatrixParser initWithBitMatrix:error:]
+-[ZXQRCodeBitMatrixParser readFormatInformationWithError:]
+-[ZXQRCodeBitMatrixParser readVersionWithError:]
+-[ZXQRCodeBitMatrixParser copyBit:j:versionBits:]
+-[ZXQRCodeBitMatrixParser readCodewordsWithError:]
+-[ZXQRCodeBitMatrixParser remask]
+-[ZXQRCodeBitMatrixParser setMirror:]
+-[ZXQRCodeBitMatrixParser mirror]
+-[ZXQRCodeBitMatrixParser bitMatrix]
+-[ZXQRCodeBitMatrixParser shouldMirror]
+-[ZXQRCodeBitMatrixParser setShouldMirror:]
+-[ZXQRCodeBitMatrixParser parsedFormatInfo]
+-[ZXQRCodeBitMatrixParser setParsedFormatInfo:]
+-[ZXQRCodeBitMatrixParser parsedVersion]
+-[ZXQRCodeBitMatrixParser setParsedVersion:]
+-[ZXQRCodeBitMatrixParser .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeBitMatrixParser._bitMatrix
+_OBJC_IVAR_$_ZXQRCodeBitMatrixParser._parsedFormatInfo
+_OBJC_IVAR_$_ZXQRCodeBitMatrixParser._parsedVersion
+_OBJC_IVAR_$_ZXQRCodeBitMatrixParser._shouldMirror
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeBitMatrixParser.m
+-[ZXQRCodeDataBlock initWithNumDataCodewords:codewords:]
++[ZXQRCodeDataBlock dataBlocks:version:ecLevel:]
+-[ZXQRCodeDataBlock codewords]
+-[ZXQRCodeDataBlock numDataCodewords]
+-[ZXQRCodeDataBlock .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeDataBlock._numDataCodewords
+_OBJC_IVAR_$_ZXQRCodeDataBlock._codewords
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDataBlock.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDataBlock.h
++[ZXQRCodeDecodedBitStreamParser decode:version:ecLevel:hints:error:]
++[ZXQRCodeDecodedBitStreamParser decodeHanziSegment:result:count:]
++[ZXQRCodeDecodedBitStreamParser decodeKanjiSegment:result:count:]
++[ZXQRCodeDecodedBitStreamParser decodeByteSegment:result:count:currentCharacterSetECI:byteSegments:hints:]
++[ZXQRCodeDecodedBitStreamParser toAlphaNumericChar:]
++[ZXQRCodeDecodedBitStreamParser decodeAlphanumericSegment:result:count:fc1InEffect:]
++[ZXQRCodeDecodedBitStreamParser decodeNumericSegment:result:count:]
++[ZXQRCodeDecodedBitStreamParser parseECIValue:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDecodedBitStreamParser.m
+-[ZXQRCodeDecoder init]
+-[ZXQRCodeDecoder decode:error:]
+-[ZXQRCodeDecoder decode:hints:error:]
+-[ZXQRCodeDecoder decodeMatrix:error:]
+-[ZXQRCodeDecoder decodeMatrix:hints:error:]
+-[ZXQRCodeDecoder decodeParser:hints:error:]
+-[ZXQRCodeDecoder correctErrors:numDataCodewords:error:]
+-[ZXQRCodeDecoder rsDecoder]
+-[ZXQRCodeDecoder .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeDecoder._rsDecoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeDecoder.m
+-[ZXQRCodeVersion initWithVersionNumber:alignmentPatternCenters:ecBlocks1:ecBlocks2:ecBlocks3:ecBlocks4:]
++[ZXQRCodeVersion ZXQRCodeVersionWithVersionNumber:alignmentPatternCenters:ecBlocks1:ecBlocks2:ecBlocks3:ecBlocks4:]
+-[ZXQRCodeVersion dimensionForVersion]
+-[ZXQRCodeVersion ecBlocksForLevel:]
++[ZXQRCodeVersion provisionalVersionForDimension:]
++[ZXQRCodeVersion versionForNumber:]
++[ZXQRCodeVersion decodeVersionInformation:]
+-[ZXQRCodeVersion buildFunctionPattern]
+-[ZXQRCodeVersion description]
++[ZXQRCodeVersion initialize]
+-[ZXQRCodeVersion versionNumber]
+-[ZXQRCodeVersion alignmentPatternCenters]
+-[ZXQRCodeVersion ecBlocks]
+-[ZXQRCodeVersion totalCodewords]
+-[ZXQRCodeVersion .cxx_destruct]
+-[ZXQRCodeECBlocks initWithEcCodewordsPerBlock:ecBlocks:]
+-[ZXQRCodeECBlocks initWithEcCodewordsPerBlock:ecBlocks1:ecBlocks2:]
++[ZXQRCodeECBlocks ecBlocksWithEcCodewordsPerBlock:ecBlocks:]
++[ZXQRCodeECBlocks ecBlocksWithEcCodewordsPerBlock:ecBlocks1:ecBlocks2:]
+-[ZXQRCodeECBlocks numBlocks]
+-[ZXQRCodeECBlocks totalECCodewords]
+-[ZXQRCodeECBlocks ecCodewordsPerBlock]
+-[ZXQRCodeECBlocks ecBlocks]
+-[ZXQRCodeECBlocks .cxx_destruct]
+-[ZXQRCodeECB initWithCount:dataCodewords:]
++[ZXQRCodeECB ecbWithCount:dataCodewords:]
+-[ZXQRCodeECB count]
+-[ZXQRCodeECB dataCodewords]
+_ZX_VERSIONS
+_OBJC_IVAR_$_ZXQRCodeVersion._versionNumber
+_OBJC_IVAR_$_ZXQRCodeVersion._alignmentPatternCenters
+_OBJC_IVAR_$_ZXQRCodeVersion._ecBlocks
+_OBJC_IVAR_$_ZXQRCodeVersion._totalCodewords
+_OBJC_IVAR_$_ZXQRCodeECBlocks._ecCodewordsPerBlock
+_OBJC_IVAR_$_ZXQRCodeECBlocks._ecBlocks
+_OBJC_IVAR_$_ZXQRCodeECB._count
+_OBJC_IVAR_$_ZXQRCodeECB._dataCodewords
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeVersion.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/decoder/ZXQRCodeVersion.h
+-[ZXQRCodeAlignmentPattern initWithPosX:posY:estimatedModuleSize:]
+-[ZXQRCodeAlignmentPattern aboutEquals:i:j:]
+-[ZXQRCodeAlignmentPattern combineEstimateI:j:newModuleSize:]
+-[ZXQRCodeAlignmentPattern estimatedModuleSize]
+_OBJC_IVAR_$_ZXQRCodeAlignmentPattern._estimatedModuleSize
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPattern.m
+-[ZXQRCodeAlignmentPatternFinder initWithImage:startX:startY:width:height:moduleSize:resultPointCallback:]
+-[ZXQRCodeAlignmentPatternFinder findWithError:]
+-[ZXQRCodeAlignmentPatternFinder centerFromEnd:end:]
+-[ZXQRCodeAlignmentPatternFinder foundPatternCross:]
+-[ZXQRCodeAlignmentPatternFinder crossCheckVertical:centerJ:maxCount:originalStateCountTotal:]
+-[ZXQRCodeAlignmentPatternFinder handlePossibleCenter:i:j:]
+-[ZXQRCodeAlignmentPatternFinder image]
+-[ZXQRCodeAlignmentPatternFinder possibleCenters]
+-[ZXQRCodeAlignmentPatternFinder startX]
+-[ZXQRCodeAlignmentPatternFinder startY]
+-[ZXQRCodeAlignmentPatternFinder width]
+-[ZXQRCodeAlignmentPatternFinder height]
+-[ZXQRCodeAlignmentPatternFinder moduleSize]
+-[ZXQRCodeAlignmentPatternFinder crossCheckStateCount]
+-[ZXQRCodeAlignmentPatternFinder resultPointCallback]
+-[ZXQRCodeAlignmentPatternFinder .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._image
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._possibleCenters
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._startX
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._startY
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._width
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._height
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._moduleSize
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._crossCheckStateCount
+_OBJC_IVAR_$_ZXQRCodeAlignmentPatternFinder._resultPointCallback
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPatternFinder.m
+__inline_isnanf
+/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/math.h
+-[ZXQRCodeFinderPatternFinder initWithImage:]
+-[ZXQRCodeFinderPatternFinder initWithImage:resultPointCallback:]
+-[ZXQRCodeFinderPatternFinder find:error:]
+-[ZXQRCodeFinderPatternFinder centerFromEnd:end:]
++[ZXQRCodeFinderPatternFinder foundPatternCross:]
+-[ZXQRCodeFinderPatternFinder crossCheckDiagonal:centerJ:maxCount:originalStateCountTotal:]
+-[ZXQRCodeFinderPatternFinder crossCheckVertical:centerJ:maxCount:originalStateCountTotal:]
+-[ZXQRCodeFinderPatternFinder crossCheckHorizontal:centerI:maxCount:originalStateCountTotal:]
+-[ZXQRCodeFinderPatternFinder handlePossibleCenter:i:j:pureBarcode:]
+-[ZXQRCodeFinderPatternFinder findRowSkip]
+-[ZXQRCodeFinderPatternFinder haveMultiplyConfirmedCenters]
+-[ZXQRCodeFinderPatternFinder selectBestPatterns]
+-[ZXQRCodeFinderPatternFinder image]
+-[ZXQRCodeFinderPatternFinder possibleCenters]
+-[ZXQRCodeFinderPatternFinder setPossibleCenters:]
+-[ZXQRCodeFinderPatternFinder hasSkipped]
+-[ZXQRCodeFinderPatternFinder setHasSkipped:]
+-[ZXQRCodeFinderPatternFinder resultPointCallback]
+-[ZXQRCodeFinderPatternFinder .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeFinderPatternFinder._image
+_OBJC_IVAR_$_ZXQRCodeFinderPatternFinder._possibleCenters
+_OBJC_IVAR_$_ZXQRCodeFinderPatternFinder._resultPointCallback
+_OBJC_IVAR_$_ZXQRCodeFinderPatternFinder._hasSkipped
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternFinder.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternFinder.h
+furthestFromAverageCompare
+centerCompare
+-[ZXQRCodeFinderPatternInfo initWithPatternCenters:]
+-[ZXQRCodeFinderPatternInfo bottomLeft]
+-[ZXQRCodeFinderPatternInfo topLeft]
+-[ZXQRCodeFinderPatternInfo topRight]
+-[ZXQRCodeFinderPatternInfo .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeFinderPatternInfo._bottomLeft
+_OBJC_IVAR_$_ZXQRCodeFinderPatternInfo._topLeft
+_OBJC_IVAR_$_ZXQRCodeFinderPatternInfo._topRight
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.h
+-[ZXQRCodeDetector initWithImage:]
+-[ZXQRCodeDetector detectWithError:]
+-[ZXQRCodeDetector detect:error:]
+-[ZXQRCodeDetector processFinderPatternInfo:error:]
++[ZXQRCodeDetector createTransform:topRight:bottomLeft:alignmentPattern:dimension:]
+-[ZXQRCodeDetector sampleGrid:transform:dimension:error:]
++[ZXQRCodeDetector computeDimension:topRight:bottomLeft:moduleSize:error:]
+-[ZXQRCodeDetector calculateModuleSize:topRight:bottomLeft:]
+-[ZXQRCodeDetector calculateModuleSizeOneWay:otherPattern:]
+-[ZXQRCodeDetector sizeOfBlackWhiteBlackRunBothWays:fromY:toX:toY:]
+-[ZXQRCodeDetector sizeOfBlackWhiteBlackRun:fromY:toX:toY:]
+-[ZXQRCodeDetector findAlignmentInRegion:estAlignmentX:estAlignmentY:allowanceFactor:error:]
+-[ZXQRCodeDetector image]
+-[ZXQRCodeDetector resultPointCallback]
+-[ZXQRCodeDetector setResultPointCallback:]
+-[ZXQRCodeDetector .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeDetector._image
+_OBJC_IVAR_$_ZXQRCodeDetector._resultPointCallback
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeDetector.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeDetector.h
+-[ZXQRCodeFinderPattern initWithPosX:posY:estimatedModuleSize:]
+-[ZXQRCodeFinderPattern initWithPosX:posY:estimatedModuleSize:count:]
+-[ZXQRCodeFinderPattern aboutEquals:i:j:]
+-[ZXQRCodeFinderPattern combineEstimateI:j:newModuleSize:]
+-[ZXQRCodeFinderPattern count]
+-[ZXQRCodeFinderPattern estimatedModuleSize]
+_OBJC_IVAR_$_ZXQRCodeFinderPattern._estimatedModuleSize
+_OBJC_IVAR_$_ZXQRCodeFinderPattern._count
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPattern.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/detector/ZXQRCodeFinderPattern.h
+-[ZXQRCodeBlockPair initWithData:errorCorrection:]
+-[ZXQRCodeBlockPair dataBytes]
+-[ZXQRCodeBlockPair errorCorrectionBytes]
+-[ZXQRCodeBlockPair .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeBlockPair._dataBytes
+_OBJC_IVAR_$_ZXQRCodeBlockPair._errorCorrectionBytes
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCodeBlockPair.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCodeBlockPair.h
+-[ZXBinarizer initWithSource:]
+-[ZXBinarizer initWithLuminanceSource:]
++[ZXBinarizer binarizerWithSource:]
+-[ZXBinarizer blackRow:row:error:]
+-[ZXBinarizer blackMatrixWithError:]
+-[ZXBinarizer createBinarizer:]
+-[ZXBinarizer createImage]
+-[ZXBinarizer width]
+-[ZXBinarizer height]
+-[ZXBinarizer luminanceSource]
+-[ZXBinarizer .cxx_destruct]
+_OBJC_IVAR_$_ZXBinarizer._luminanceSource
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXBinarizer.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXBinarizer.h
++[ZXQRCodeEncoder calculateMaskPenalty:]
++[ZXQRCodeEncoder encode:ecLevel:error:]
++[ZXQRCodeEncoder encode:ecLevel:hints:error:]
++[ZXQRCodeEncoder alphanumericCode:]
++[ZXQRCodeEncoder chooseMode:]
++[ZXQRCodeEncoder chooseMode:encoding:]
++[ZXQRCodeEncoder isOnlyDoubleByteKanji:]
++[ZXQRCodeEncoder chooseMaskPattern:ecLevel:version:matrix:error:]
++[ZXQRCodeEncoder chooseVersion:ecLevel:error:]
++[ZXQRCodeEncoder totalInputBytes:version:mode:]
++[ZXQRCodeEncoder terminateBits:bits:error:]
++[ZXQRCodeEncoder numDataBytesAndNumECBytesForBlockID:numDataBytes:numRSBlocks:blockID:numDataBytesInBlock:numECBytesInBlock:error:]
++[ZXQRCodeEncoder interleaveWithECBytes:numTotalBytes:numDataBytes:numRSBlocks:error:]
++[ZXQRCodeEncoder generateECBytes:numEcBytesInBlock:]
++[ZXQRCodeEncoder appendModeInfo:bits:]
++[ZXQRCodeEncoder appendLengthInfo:version:mode:bits:error:]
++[ZXQRCodeEncoder appendBytes:mode:bits:encoding:error:]
++[ZXQRCodeEncoder appendNumericBytes:bits:]
++[ZXQRCodeEncoder appendAlphanumericBytes:bits:error:]
++[ZXQRCodeEncoder append8BitBytes:bits:encoding:]
++[ZXQRCodeEncoder appendKanjiBytes:bits:error:]
++[ZXQRCodeEncoder appendECI:bits:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCodeEncoder.m
++[ZXQRCodeMaskUtil applyMaskPenaltyRule1:]
++[ZXQRCodeMaskUtil applyMaskPenaltyRule2:]
++[ZXQRCodeMaskUtil applyMaskPenaltyRule3:]
++[ZXQRCodeMaskUtil isWhiteHorizontal:length:from:to:]
++[ZXQRCodeMaskUtil isWhiteVertical:length:col:from:to:]
++[ZXQRCodeMaskUtil applyMaskPenaltyRule4:]
++[ZXQRCodeMaskUtil dataMaskBit:x:y:]
++[ZXQRCodeMaskUtil applyMaskPenaltyRule1Internal:isHorizontal:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCodeMaskUtil.m
++[ZXQRCodeMatrixUtil clearMatrix:]
++[ZXQRCodeMatrixUtil buildMatrix:ecLevel:version:maskPattern:matrix:error:]
++[ZXQRCodeMatrixUtil embedBasicPatterns:matrix:error:]
++[ZXQRCodeMatrixUtil embedTypeInfo:maskPattern:matrix:error:]
++[ZXQRCodeMatrixUtil maybeEmbedVersionInfo:matrix:error:]
++[ZXQRCodeMatrixUtil embedDataBits:maskPattern:matrix:error:]
++[ZXQRCodeMatrixUtil findMSBSet:]
++[ZXQRCodeMatrixUtil calculateBCHCode:poly:]
++[ZXQRCodeMatrixUtil makeTypeInfoBits:maskPattern:bits:error:]
++[ZXQRCodeMatrixUtil makeVersionInfoBits:bits:error:]
++[ZXQRCodeMatrixUtil isEmpty:]
++[ZXQRCodeMatrixUtil embedTimingPatterns:]
++[ZXQRCodeMatrixUtil embedDarkDotAtLeftBottomCorner:]
++[ZXQRCodeMatrixUtil embedHorizontalSeparationPattern:yStart:matrix:]
++[ZXQRCodeMatrixUtil embedVerticalSeparationPattern:yStart:matrix:]
++[ZXQRCodeMatrixUtil embedPositionAdjustmentPattern:yStart:matrix:]
++[ZXQRCodeMatrixUtil embedPositionDetectionPattern:yStart:matrix:]
++[ZXQRCodeMatrixUtil embedPositionDetectionPatternsAndSeparators:]
++[ZXQRCodeMatrixUtil maybeEmbedPositionAdjustmentPatterns:matrix:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCodeMatrixUtil.m
+-[ZXQRCode init]
+-[ZXQRCode description]
++[ZXQRCode isValidMaskPattern:]
+-[ZXQRCode mode]
+-[ZXQRCode setMode:]
+-[ZXQRCode ecLevel]
+-[ZXQRCode setEcLevel:]
+-[ZXQRCode version]
+-[ZXQRCode setVersion:]
+-[ZXQRCode maskPattern]
+-[ZXQRCode setMaskPattern:]
+-[ZXQRCode matrix]
+-[ZXQRCode setMatrix:]
+-[ZXQRCode .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCode._mode
+_OBJC_IVAR_$_ZXQRCode._ecLevel
+_OBJC_IVAR_$_ZXQRCode._version
+_OBJC_IVAR_$_ZXQRCode._maskPattern
+_OBJC_IVAR_$_ZXQRCode._matrix
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCode.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/encoder/ZXQRCode.h
+-[ZXQRCodeReader init]
+-[ZXQRCodeReader decode:error:]
+-[ZXQRCodeReader decode:hints:error:]
+-[ZXQRCodeReader reset]
+-[ZXQRCodeReader extractPureBits:]
+-[ZXQRCodeReader moduleSize:image:]
+-[ZXQRCodeReader decoder]
+-[ZXQRCodeReader .cxx_destruct]
+_OBJC_IVAR_$_ZXQRCodeReader._decoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/ZXQRCodeReader.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/ZXQRCodeReader.h
+-[ZXPDF417DetectionResultRowIndicatorColumn initWithBoundingBox:isLeft:]
+-[ZXPDF417DetectionResultRowIndicatorColumn setRowNumbers]
+-[ZXPDF417DetectionResultRowIndicatorColumn adjustCompleteIndicatorColumnRowNumbers:]
+-[ZXPDF417DetectionResultRowIndicatorColumn getRowHeights:]
+-[ZXPDF417DetectionResultRowIndicatorColumn adjustIncompleteIndicatorColumnRowNumbers:]
+-[ZXPDF417DetectionResultRowIndicatorColumn barcodeMetadata]
+-[ZXPDF417DetectionResultRowIndicatorColumn removeIncorrectCodewords:]
+-[ZXPDF417DetectionResultRowIndicatorColumn description]
+-[ZXPDF417DetectionResultRowIndicatorColumn isLeft]
+_OBJC_IVAR_$_ZXPDF417DetectionResultRowIndicatorColumn._isLeft
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultRowIndicatorColumn.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultRowIndicatorColumn.h
+-[ZXQRCodeWriter encode:format:width:height:error:]
+-[ZXQRCodeWriter encode:format:width:height:hints:error:]
+-[ZXQRCodeWriter renderResult:width:height:quietZone:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/qrcode/ZXQRCodeWriter.m
+-[ZXRSSExpandedRow initWithPairs:rowNumber:wasReversed:]
+-[ZXRSSExpandedRow isReversed]
+-[ZXRSSExpandedRow isEquivalent:]
+-[ZXRSSExpandedRow description]
+-[ZXRSSExpandedRow isEqual:]
+-[ZXRSSExpandedRow hash]
+-[ZXRSSExpandedRow pairs]
+-[ZXRSSExpandedRow rowNumber]
+-[ZXRSSExpandedRow wasReversed]
+-[ZXRSSExpandedRow .cxx_destruct]
+_OBJC_IVAR_$_ZXRSSExpandedRow._pairs
+_OBJC_IVAR_$_ZXRSSExpandedRow._rowNumber
+_OBJC_IVAR_$_ZXRSSExpandedRow._wasReversed
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.h
+-[ZXPDF417Writer encode:format:width:height:hints:error:]
+-[ZXPDF417Writer encode:format:width:height:error:]
+-[ZXPDF417Writer bitMatrixFromEncoder:contents:width:height:margin:error:]
+-[ZXPDF417Writer bitMatrixFrombitArray:margin:]
+-[ZXPDF417Writer rotateArray:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/ZXPDF417Writer.m
+-[ZXDimension initWithWidth:height:]
+-[ZXDimension isEqual:]
+-[ZXDimension hash]
+-[ZXDimension description]
+-[ZXDimension height]
+-[ZXDimension width]
+_OBJC_IVAR_$_ZXDimension._width
+_OBJC_IVAR_$_ZXDimension._height
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXDimension.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/core/ZXDimension.h
+-[ZXPDF417ResultMetadata segmentIndex]
+-[ZXPDF417ResultMetadata setSegmentIndex:]
+-[ZXPDF417ResultMetadata fileId]
+-[ZXPDF417ResultMetadata setFileId:]
+-[ZXPDF417ResultMetadata optionalData]
+-[ZXPDF417ResultMetadata setOptionalData:]
+-[ZXPDF417ResultMetadata lastSegment]
+-[ZXPDF417ResultMetadata setLastSegment:]
+-[ZXPDF417ResultMetadata .cxx_destruct]
+_OBJC_IVAR_$_ZXPDF417ResultMetadata._segmentIndex
+_OBJC_IVAR_$_ZXPDF417ResultMetadata._fileId
+_OBJC_IVAR_$_ZXPDF417ResultMetadata._optionalData
+_OBJC_IVAR_$_ZXPDF417ResultMetadata._lastSegment
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/ZXPDF417ResultMetadata.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/ZXPDF417ResultMetadata.h
++[ZXPDF417CodewordDecoder initialize]
++[ZXPDF417CodewordDecoder decodedValue:]
++[ZXPDF417CodewordDecoder sampleBitCounts:]
++[ZXPDF417CodewordDecoder decodedCodewordValue:]
++[ZXPDF417CodewordDecoder bitValue:]
++[ZXPDF417CodewordDecoder closestDecodedValue:]
+_ZX_PDF417_RATIOS_TABLE
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/pdf417/decoder/ZXPDF417CodewordDecoder.m
+-[ZXDataMatrixWriter encode:format:width:height:error:]
+-[ZXDataMatrixWriter encode:format:width:height:hints:error:]
+-[ZXDataMatrixWriter encodeLowLevel:symbolInfo:width:height:]
+-[ZXDataMatrixWriter convertByteMatrixToBitMatrix:width:height:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/ZXDataMatrixWriter.m
+-[ZXDataMatrixASCIIEncoder encodingMode]
+-[ZXDataMatrixASCIIEncoder encode:]
+-[ZXDataMatrixASCIIEncoder encodeASCIIDigits:digit2:]
+l_OBJC_PROTOCOL_$_ZXDataMatrixEncoder
+l_OBJC_LABEL_PROTOCOL_$_ZXDataMatrixEncoder
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixASCIIEncoder.m
+-[ZXDataMatrixBase256Encoder encodingMode]
+-[ZXDataMatrixBase256Encoder encode:]
+-[ZXDataMatrixBase256Encoder randomize255State:codewordPosition:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixBase256Encoder.m
+-[ZXMultiFormatReader init]
++[ZXMultiFormatReader reader]
+-[ZXMultiFormatReader decode:error:]
+-[ZXMultiFormatReader decode:hints:error:]
+-[ZXMultiFormatReader decodeWithState:error:]
+-[ZXMultiFormatReader setHints:]
+-[ZXMultiFormatReader reset]
+-[ZXMultiFormatReader decodeInternal:error:]
+-[ZXMultiFormatReader hints]
+-[ZXMultiFormatReader readers]
+-[ZXMultiFormatReader .cxx_destruct]
+_OBJC_IVAR_$_ZXMultiFormatReader._readers
+_OBJC_IVAR_$_ZXMultiFormatReader._hints
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/ZXMultiFormatReader.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/ZXMultiFormatReader.h
+-[ZXDataMatrixC40Encoder encodingMode]
+-[ZXDataMatrixC40Encoder encode:]
+-[ZXDataMatrixC40Encoder backtrackOneCharacter:buffer:removed:lastCharSize:]
+-[ZXDataMatrixC40Encoder writeNextTriplet:buffer:]
+-[ZXDataMatrixC40Encoder handleEOD:buffer:]
+-[ZXDataMatrixC40Encoder encodeChar:buffer:]
+-[ZXDataMatrixC40Encoder encodeToCodewords:startpos:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixC40Encoder.m
+-[ZXDataMatrixSymbolInfo144 init]
+-[ZXDataMatrixSymbolInfo144 interleavedBlockCount]
+-[ZXDataMatrixSymbolInfo144 dataLengthForInterleavedBlock:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo144.m
+-[ZXBoolArray initWithLength:]
+-[ZXBoolArray dealloc]
+-[ZXBoolArray array]
+-[ZXBoolArray length]
+_OBJC_IVAR_$_ZXBoolArray._array
+_OBJC_IVAR_$_ZXBoolArray._length
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBoolArray.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/common/ZXBoolArray.h
+-[ZXDataMatrixDefaultPlacement initWithCodewords:numcols:numrows:]
+-[ZXDataMatrixDefaultPlacement dealloc]
+-[ZXDataMatrixDefaultPlacement bitAtCol:row:]
+-[ZXDataMatrixDefaultPlacement setBitAtCol:row:bit:]
+-[ZXDataMatrixDefaultPlacement hasBitAtCol:row:]
+-[ZXDataMatrixDefaultPlacement place]
+-[ZXDataMatrixDefaultPlacement moduleAtRow:col:pos:bit:]
+-[ZXDataMatrixDefaultPlacement utahAtRow:col:pos:]
+-[ZXDataMatrixDefaultPlacement corner1:]
+-[ZXDataMatrixDefaultPlacement corner2:]
+-[ZXDataMatrixDefaultPlacement corner3:]
+-[ZXDataMatrixDefaultPlacement corner4:]
+-[ZXDataMatrixDefaultPlacement codewords]
+-[ZXDataMatrixDefaultPlacement numrows]
+-[ZXDataMatrixDefaultPlacement numcols]
+-[ZXDataMatrixDefaultPlacement bits]
+-[ZXDataMatrixDefaultPlacement bitsLen]
+-[ZXDataMatrixDefaultPlacement .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixDefaultPlacement._codewords
+_OBJC_IVAR_$_ZXDataMatrixDefaultPlacement._numcols
+_OBJC_IVAR_$_ZXDataMatrixDefaultPlacement._numrows
+_OBJC_IVAR_$_ZXDataMatrixDefaultPlacement._bitsLen
+_OBJC_IVAR_$_ZXDataMatrixDefaultPlacement._bits
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixDefaultPlacement.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixDefaultPlacement.h
+-[ZXDataMatrixEdifactEncoder encodingMode]
+-[ZXDataMatrixEdifactEncoder encode:]
+-[ZXDataMatrixEdifactEncoder handleEOD:buffer:]
+-[ZXDataMatrixEdifactEncoder encodeChar:buffer:]
+-[ZXDataMatrixEdifactEncoder encodeToCodewords:startpos:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixEdifactEncoder.m
+-[ZXDataMatrixEncoderContext initWithMessage:]
+-[ZXDataMatrixEncoderContext setSizeConstraints:maxSize:]
+-[ZXDataMatrixEncoderContext currentChar]
+-[ZXDataMatrixEncoderContext current]
+-[ZXDataMatrixEncoderContext writeCodewords:]
+-[ZXDataMatrixEncoderContext writeCodeword:]
+-[ZXDataMatrixEncoderContext codewordCount]
+-[ZXDataMatrixEncoderContext signalEncoderChange:]
+-[ZXDataMatrixEncoderContext resetEncoderSignal]
+-[ZXDataMatrixEncoderContext hasMoreCharacters]
+-[ZXDataMatrixEncoderContext totalMessageCharCount]
+-[ZXDataMatrixEncoderContext remainingCharacters]
+-[ZXDataMatrixEncoderContext updateSymbolInfo]
+-[ZXDataMatrixEncoderContext updateSymbolInfoWithLength:]
+-[ZXDataMatrixEncoderContext resetSymbolInfo]
+-[ZXDataMatrixEncoderContext codewords]
+-[ZXDataMatrixEncoderContext message]
+-[ZXDataMatrixEncoderContext newEncoding]
+-[ZXDataMatrixEncoderContext setNewEncoding:]
+-[ZXDataMatrixEncoderContext pos]
+-[ZXDataMatrixEncoderContext setPos:]
+-[ZXDataMatrixEncoderContext skipAtEnd]
+-[ZXDataMatrixEncoderContext setSkipAtEnd:]
+-[ZXDataMatrixEncoderContext symbolShape]
+-[ZXDataMatrixEncoderContext setSymbolShape:]
+-[ZXDataMatrixEncoderContext symbolInfo]
+-[ZXDataMatrixEncoderContext setSymbolInfo:]
+-[ZXDataMatrixEncoderContext maxSize]
+-[ZXDataMatrixEncoderContext setMaxSize:]
+-[ZXDataMatrixEncoderContext minSize]
+-[ZXDataMatrixEncoderContext setMinSize:]
+-[ZXDataMatrixEncoderContext .cxx_destruct]
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._message
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._symbolShape
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._codewords
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._newEncoding
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._pos
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._skipAtEnd
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._symbolInfo
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._maxSize
+_OBJC_IVAR_$_ZXDataMatrixEncoderContext._minSize
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixEncoderContext.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixEncoderContext.h
++[ZXDataMatrixErrorCorrection initialize]
++[ZXDataMatrixErrorCorrection encodeECC200:symbolInfo:]
++[ZXDataMatrixErrorCorrection createECCBlock:numECWords:]
++[ZXDataMatrixErrorCorrection createECCBlock:start:len:numECWords:]
+_ZX_ALOG
+_ZX_LOG
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixErrorCorrection.m
++[ZXDataMatrixHighLevelEncoder initialize]
++[ZXDataMatrixHighLevelEncoder latchToC40]
++[ZXDataMatrixHighLevelEncoder latchToBase256]
++[ZXDataMatrixHighLevelEncoder upperShift]
++[ZXDataMatrixHighLevelEncoder macro05]
++[ZXDataMatrixHighLevelEncoder macro06]
++[ZXDataMatrixHighLevelEncoder latchToAnsiX12]
++[ZXDataMatrixHighLevelEncoder latchToText]
++[ZXDataMatrixHighLevelEncoder latchToEdifact]
++[ZXDataMatrixHighLevelEncoder c40Unlatch]
++[ZXDataMatrixHighLevelEncoder x12Unlatch]
++[ZXDataMatrixHighLevelEncoder asciiEncodation]
++[ZXDataMatrixHighLevelEncoder c40Encodation]
++[ZXDataMatrixHighLevelEncoder textEncodation]
++[ZXDataMatrixHighLevelEncoder x12Encodation]
++[ZXDataMatrixHighLevelEncoder edifactEncodation]
++[ZXDataMatrixHighLevelEncoder base256Encodation]
++[ZXDataMatrixHighLevelEncoder randomize253State:codewordPosition:]
++[ZXDataMatrixHighLevelEncoder encodeHighLevel:]
++[ZXDataMatrixHighLevelEncoder encodeHighLevel:shape:minSize:maxSize:]
++[ZXDataMatrixHighLevelEncoder lookAheadTest:startpos:currentMode:]
++[ZXDataMatrixHighLevelEncoder findMinimums:intCharCounts:min:mins:]
++[ZXDataMatrixHighLevelEncoder minimumCount:]
++[ZXDataMatrixHighLevelEncoder isDigit:]
++[ZXDataMatrixHighLevelEncoder isExtendedASCII:]
++[ZXDataMatrixHighLevelEncoder isNativeC40:]
++[ZXDataMatrixHighLevelEncoder isNativeText:]
++[ZXDataMatrixHighLevelEncoder isNativeX12:]
++[ZXDataMatrixHighLevelEncoder isX12TermSep:]
++[ZXDataMatrixHighLevelEncoder isNativeEDIFACT:]
++[ZXDataMatrixHighLevelEncoder isSpecialB256:]
++[ZXDataMatrixHighLevelEncoder determineConsecutiveDigitCount:startpos:]
++[ZXDataMatrixHighLevelEncoder illegalCharacter:]
+_MACRO_05_HEADER
+_MACRO_06_HEADER
+_MACRO_TRAILER
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.m
++[ZXDataMatrixSymbolInfo initialize]
++[ZXDataMatrixSymbolInfo prodSymbols]
++[ZXDataMatrixSymbolInfo overrideSymbolSet:]
+-[ZXDataMatrixSymbolInfo initWithRectangular:dataCapacity:errorCodewords:matrixWidth:matrixHeight:dataRegions:]
+-[ZXDataMatrixSymbolInfo initWithRectangular:dataCapacity:errorCodewords:matrixWidth:matrixHeight:dataRegions:rsBlockData:rsBlockError:]
++[ZXDataMatrixSymbolInfo lookup:]
++[ZXDataMatrixSymbolInfo lookup:shape:]
++[ZXDataMatrixSymbolInfo lookup:allowRectangular:fail:]
++[ZXDataMatrixSymbolInfo lookup:shape:fail:]
++[ZXDataMatrixSymbolInfo lookup:shape:minSize:maxSize:fail:]
+-[ZXDataMatrixSymbolInfo horizontalDataRegions]
+-[ZXDataMatrixSymbolInfo verticalDataRegions]
+-[ZXDataMatrixSymbolInfo symbolDataWidth]
+-[ZXDataMatrixSymbolInfo symbolDataHeight]
+-[ZXDataMatrixSymbolInfo symbolWidth]
+-[ZXDataMatrixSymbolInfo symbolHeight]
+-[ZXDataMatrixSymbolInfo codewordCount]
+-[ZXDataMatrixSymbolInfo interleavedBlockCount]
+-[ZXDataMatrixSymbolInfo dataLengthForInterleavedBlock:]
+-[ZXDataMatrixSymbolInfo errorLengthForInterleavedBlock:]
+-[ZXDataMatrixSymbolInfo description]
+-[ZXDataMatrixSymbolInfo rectangular]
+-[ZXDataMatrixSymbolInfo errorCodewords]
+-[ZXDataMatrixSymbolInfo dataCapacity]
+-[ZXDataMatrixSymbolInfo dataRegions]
+-[ZXDataMatrixSymbolInfo matrixWidth]
+-[ZXDataMatrixSymbolInfo matrixHeight]
+-[ZXDataMatrixSymbolInfo rsBlockData]
+-[ZXDataMatrixSymbolInfo rsBlockError]
+_PROD_SYMBOLS
+_symbols
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._rectangular
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._dataCapacity
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._errorCodewords
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._matrixWidth
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._matrixHeight
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._dataRegions
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._rsBlockData
+_OBJC_IVAR_$_ZXDataMatrixSymbolInfo._rsBlockError
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo.h
+-[ZXDataMatrixTextEncoder encodingMode]
+-[ZXDataMatrixTextEncoder encodeChar:buffer:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixTextEncoder.m
+-[ZXDataMatrixX12Encoder encodingMode]
+-[ZXDataMatrixX12Encoder encode:]
+-[ZXDataMatrixX12Encoder encodeChar:buffer:]
+-[ZXDataMatrixX12Encoder handleEOD:buffer:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.m
+-[ZXAztecCode codeWords]
+-[ZXAztecCode setCodeWords:]
+-[ZXAztecCode isCompact]
+-[ZXAztecCode setCompact:]
+-[ZXAztecCode layers]
+-[ZXAztecCode setLayers:]
+-[ZXAztecCode matrix]
+-[ZXAztecCode setMatrix:]
+-[ZXAztecCode size]
+-[ZXAztecCode setSize:]
+-[ZXAztecCode .cxx_destruct]
+_OBJC_IVAR_$_ZXAztecCode._codeWords
+_OBJC_IVAR_$_ZXAztecCode._compact
+_OBJC_IVAR_$_ZXAztecCode._layers
+_OBJC_IVAR_$_ZXAztecCode._matrix
+_OBJC_IVAR_$_ZXAztecCode._size
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecCode.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecCode.h
++[ZXAztecEncoder encode:]
++[ZXAztecEncoder encode:minECCPercent:userSpecifiedLayers:]
++[ZXAztecEncoder drawBullsEye:center:size:]
++[ZXAztecEncoder generateModeMessageCompact:layers:messageSizeInWords:]
++[ZXAztecEncoder drawModeMessage:compact:matrixSize:modeMessage:]
++[ZXAztecEncoder generateCheckWords:totalBits:wordSize:]
++[ZXAztecEncoder bitsToWords:wordSize:totalWords:]
++[ZXAztecEncoder getGF:]
++[ZXAztecEncoder stuffBits:wordSize:]
++[ZXAztecEncoder totalBitsInLayer:compact:]
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/ZXingObjC/aztec/encoder/ZXAztecEncoder.m
+/Users/whizphone/Documents/TestChat/Carthage/Checkouts/ZXingObjC/build/ZXingObjC/Build/Intermediates/ZXingObjC.build/Release-iphoneos/iOS Framework.build/DerivedSources/ZXingObjC_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~479/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=278.4 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

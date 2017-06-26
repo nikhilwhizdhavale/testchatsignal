@@ -1,0 +1,17 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "48313c40380950ec3604f603bec291f2"
+build_time: [551787584, 402152000]
+inputs:
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/when.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/join.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/Zalgo.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/wrap.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/after.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/Promise+AnyPromise.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/Promise+Properties.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/race.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/State.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/DispatchQueue+Promise.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/Promise.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/AnyPromise.swift": [9223372036854775807, 0]
+  "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/Error.swift": [9223372036854775807, 0]

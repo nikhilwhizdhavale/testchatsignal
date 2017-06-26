@@ -1,0 +1,1337 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CallAudioService"
+provides-nominal:
+- "C8TestChat16CallAudioService"
+- "CC8TestChat16CallAudioService5Sound"
+provides-member:
+- ["C8TestChat16CallAudioService", ""]
+- ["CC8TestChat16CallAudioService5Sound", ""]
+provides-dynamic-lookup:
+- "currentPlayer"
+- "didUpdateVideoTracks"
+- "handleState"
+- "hasLocalVideoDidChange"
+- "muteDidChange"
+- "ringVibration"
+- "speakerphoneDidChange"
+- "vibrate"
+depends-top-level:
+- !private "+"
+- "AVAudioPlayer"
+- !private "AVAudioSession"
+- !private "AVAudioSessionCategoryAmbient"
+- !private "AVAudioSessionCategoryOptions"
+- !private "AVAudioSessionCategoryPlayAndRecord"
+- !private "AVAudioSessionCategoryPlayback"
+- !private "AVAudioSessionCategorySoloAmbient"
+- !private "AVAudioSessionModeDefault"
+- !private "AVAudioSessionModeVideoChat"
+- !private "AVAudioSessionModeVoiceChat"
+- !private "Array"
+- !private "AssertIsOnMainThread"
+- "AssignmentPrecedence"
+- !private "AudioServicesPlaySystemSound"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CallAudioService"
+- "CallObserver"
+- "CallState"
+- !private "DispatchQueue"
+- !private "DispatchTime"
+- !private "Logger"
+- "NSObject"
+- "SignalCall"
+- "String"
+- "StringLiteralType"
+- !private "Thread"
+- "Timer"
+- "URL"
+- "UnicodeScalarType"
+- !private "WeakTimer"
+- !private "assert"
+- !private "assertionFailure"
+- !private "kSystemSoundID_Vibrate"
+depends-member:
+- ["CSo13AVAudioPlayer", "init"]
+- !private ["CSo13AVAudioPlayer", "numberOfLoops"]
+- !private ["CSo13AVAudioPlayer", "play"]
+- !private ["CSo13AVAudioPlayer", "stop"]
+- !private ["CSo14AVAudioSession", "setCategory"]
+- !private ["CSo14AVAudioSession", "sharedInstance"]
+- !private ["VSC29AVAudioSessionCategoryOptions", "defaultToSpeaker"]
+- !private ["VSC29AVAudioSessionCategoryOptions", "init"]
+- !private ["VSC29AVAudioSessionCategoryOptions", "mixWithOthers"]
+- ["Ps9AnyObject", "AVAudioPlayer"]
+- !private ["Ps9AnyObject", "AVAudioSession"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryOptions"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps9AnyObject", "AVAudioSessionModeDefault"]
+- !private ["Ps9AnyObject", "AVAudioSessionModeVideoChat"]
+- !private ["Ps9AnyObject", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps9AnyObject", "AssertIsOnMainThread"]
+- !private ["Ps9AnyObject", "AudioServicesPlaySystemSound"]
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "DispatchTime"]
+- !private ["Ps9AnyObject", "Logger"]
+- ["Ps9AnyObject", "Sound"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "Thread"]
+- !private ["Ps9AnyObject", "WeakTimer"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "asyncAfter"]
+- !private ["Ps9AnyObject", "busy"]
+- !private ["Ps9AnyObject", "currentPlayer"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "dialing"]
+- !private ["Ps9AnyObject", "ensureIsEnabled"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "failure"]
+- !private ["Ps9AnyObject", "fileExtension"]
+- !private ["Ps9AnyObject", "filePath"]
+- !private ["Ps9AnyObject", "fire"]
+- !private ["Ps9AnyObject", "handleAnswering"]
+- !private ["Ps9AnyObject", "handleBusy"]
+- !private ["Ps9AnyObject", "handleCallEnded"]
+- !private ["Ps9AnyObject", "handleConnected"]
+- !private ["Ps9AnyObject", "handleDialing"]
+- !private ["Ps9AnyObject", "handleIdle"]
+- !private ["Ps9AnyObject", "handleLocalFailure"]
+- !private ["Ps9AnyObject", "handleLocalHangup"]
+- !private ["Ps9AnyObject", "handleLocalRinging"]
+- !private ["Ps9AnyObject", "handleRemoteHangup"]
+- !private ["Ps9AnyObject", "handleRemoteRinging"]
+- !private ["Ps9AnyObject", "handleRinging"]
+- !private ["Ps9AnyObject", "handleState"]
+- !private ["Ps9AnyObject", "hasLocalVideo"]
+- ["Ps9AnyObject", "hasLocalVideoDidChange"]
+- !private ["Ps9AnyObject", "incomingRing"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidate"]
+- !private ["Ps9AnyObject", "isMainThread"]
+- !private ["Ps9AnyObject", "isSpeakerphoneEnabled"]
+- !private ["Ps9AnyObject", "kSystemSoundID_Vibrate"]
+- !private ["Ps9AnyObject", "loop"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "muteDidChange"]
+- !private ["Ps9AnyObject", "numberOfLoops"]
+- !private ["Ps9AnyObject", "outgoingRing"]
+- !private ["Ps9AnyObject", "play"]
+- !private ["Ps9AnyObject", "player"]
+- !private ["Ps9AnyObject", "pulseDuration"]
+- !private ["Ps9AnyObject", "ringVibration"]
+- !private ["Ps9AnyObject", "scheduledTimer"]
+- !private ["Ps9AnyObject", "setAudioSession"]
+- !private ["Ps9AnyObject", "setCategory"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "speakerphoneDidChange"]
+- !private ["Ps9AnyObject", "startRinging"]
+- !private ["Ps9AnyObject", "state"]
+- ["Ps9AnyObject", "stateDidChange"]
+- !private ["Ps9AnyObject", "stop"]
+- !private ["Ps9AnyObject", "stopAnyRingingVibration"]
+- !private ["Ps9AnyObject", "stopPlayingAnySounds"]
+- !private ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "verbose"]
+- !private ["Ps9AnyObject", "vibrate"]
+- !private ["Ps9AnyObject", "vibrateRepeatDuration"]
+- !private ["Ps9AnyObject", "vibrateTimer"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6Bundle", "main"]
+- !private ["CSo6Bundle", "url"]
+- ["PSo15CNKeyDescriptor", "init"]
+- ["Ps7CVarArg", "AVAudioPlayer"]
+- !private ["Ps7CVarArg", "AVAudioSession"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryOptions"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps7CVarArg", "AVAudioSessionModeDefault"]
+- !private ["Ps7CVarArg", "AVAudioSessionModeVideoChat"]
+- !private ["Ps7CVarArg", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps7CVarArg", "AssertIsOnMainThread"]
+- !private ["Ps7CVarArg", "AudioServicesPlaySystemSound"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "DispatchTime"]
+- !private ["Ps7CVarArg", "Logger"]
+- ["Ps7CVarArg", "Sound"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "Thread"]
+- !private ["Ps7CVarArg", "WeakTimer"]
+- !private ["Ps7CVarArg", "assert"]
+- !private ["Ps7CVarArg", "assertionFailure"]
+- !private ["Ps7CVarArg", "asyncAfter"]
+- !private ["Ps7CVarArg", "currentPlayer"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "ensureIsEnabled"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "fire"]
+- !private ["Ps7CVarArg", "handleAnswering"]
+- !private ["Ps7CVarArg", "handleBusy"]
+- !private ["Ps7CVarArg", "handleCallEnded"]
+- !private ["Ps7CVarArg", "handleConnected"]
+- !private ["Ps7CVarArg", "handleDialing"]
+- !private ["Ps7CVarArg", "handleIdle"]
+- !private ["Ps7CVarArg", "handleLocalFailure"]
+- !private ["Ps7CVarArg", "handleLocalHangup"]
+- !private ["Ps7CVarArg", "handleLocalRinging"]
+- !private ["Ps7CVarArg", "handleRemoteHangup"]
+- !private ["Ps7CVarArg", "handleRemoteRinging"]
+- !private ["Ps7CVarArg", "handleRinging"]
+- !private ["Ps7CVarArg", "handleState"]
+- !private ["Ps7CVarArg", "hasLocalVideo"]
+- ["Ps7CVarArg", "hasLocalVideoDidChange"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidate"]
+- !private ["Ps7CVarArg", "isMainThread"]
+- !private ["Ps7CVarArg", "isSpeakerphoneEnabled"]
+- !private ["Ps7CVarArg", "kSystemSoundID_Vibrate"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "muteDidChange"]
+- !private ["Ps7CVarArg", "numberOfLoops"]
+- !private ["Ps7CVarArg", "play"]
+- !private ["Ps7CVarArg", "pulseDuration"]
+- !private ["Ps7CVarArg", "ringVibration"]
+- !private ["Ps7CVarArg", "setAudioSession"]
+- !private ["Ps7CVarArg", "setCategory"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- ["Ps7CVarArg", "speakerphoneDidChange"]
+- !private ["Ps7CVarArg", "startRinging"]
+- !private ["Ps7CVarArg", "state"]
+- ["Ps7CVarArg", "stateDidChange"]
+- !private ["Ps7CVarArg", "stop"]
+- !private ["Ps7CVarArg", "stopAnyRingingVibration"]
+- !private ["Ps7CVarArg", "stopPlayingAnySounds"]
+- !private ["Ps7CVarArg", "url"]
+- !private ["Ps7CVarArg", "verbose"]
+- !private ["Ps7CVarArg", "vibrate"]
+- !private ["Ps7CVarArg", "vibrateRepeatDuration"]
+- !private ["Ps7CVarArg", "vibrateTimer"]
+- ["Ps7CVarArg", ""]
+- ["C8TestChat16CallAudioService", "AVAudioPlayer"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSession"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionCategoryAmbient"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionCategoryOptions"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionCategoryPlayback"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionCategorySoloAmbient"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionModeDefault"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionModeVideoChat"]
+- !private ["C8TestChat16CallAudioService", "AVAudioSessionModeVoiceChat"]
+- !private ["C8TestChat16CallAudioService", "AssertIsOnMainThread"]
+- !private ["C8TestChat16CallAudioService", "AudioServicesPlaySystemSound"]
+- ["C8TestChat16CallAudioService", "Bool"]
+- !private ["C8TestChat16CallAudioService", "Bundle"]
+- ["C8TestChat16CallAudioService", "CallState"]
+- !private ["C8TestChat16CallAudioService", "DispatchQueue"]
+- !private ["C8TestChat16CallAudioService", "DispatchTime"]
+- !private ["C8TestChat16CallAudioService", "Logger"]
+- ["C8TestChat16CallAudioService", "SignalCall"]
+- ["C8TestChat16CallAudioService", "Sound"]
+- ["C8TestChat16CallAudioService", "String"]
+- !private ["C8TestChat16CallAudioService", "TAG"]
+- !private ["C8TestChat16CallAudioService", "Thread"]
+- ["C8TestChat16CallAudioService", "Timer"]
+- ["C8TestChat16CallAudioService", "URL"]
+- !private ["C8TestChat16CallAudioService", "WeakTimer"]
+- !private ["C8TestChat16CallAudioService", "assert"]
+- !private ["C8TestChat16CallAudioService", "assertionFailure"]
+- !private ["C8TestChat16CallAudioService", "audioPlayer"]
+- ["C8TestChat16CallAudioService", "currentPlayer"]
+- ["C8TestChat16CallAudioService", "deinit"]
+- ["C8TestChat16CallAudioService", "didUpdateVideoTracks"]
+- !private ["C8TestChat16CallAudioService", "ensureIsEnabled"]
+- !private ["C8TestChat16CallAudioService", "handleAnswering"]
+- !private ["C8TestChat16CallAudioService", "handleBusy"]
+- !private ["C8TestChat16CallAudioService", "handleCallEnded"]
+- !private ["C8TestChat16CallAudioService", "handleConnected"]
+- !private ["C8TestChat16CallAudioService", "handleDialing"]
+- !private ["C8TestChat16CallAudioService", "handleIdle"]
+- !private ["C8TestChat16CallAudioService", "handleLocalFailure"]
+- !private ["C8TestChat16CallAudioService", "handleLocalHangup"]
+- !private ["C8TestChat16CallAudioService", "handleLocalRinging"]
+- !private ["C8TestChat16CallAudioService", "handleRemoteHangup"]
+- !private ["C8TestChat16CallAudioService", "handleRemoteRinging"]
+- !private ["C8TestChat16CallAudioService", "handleRinging"]
+- ["C8TestChat16CallAudioService", "handleState"]
+- ["C8TestChat16CallAudioService", "hasLocalVideoDidChange"]
+- ["C8TestChat16CallAudioService", "init"]
+- !private ["C8TestChat16CallAudioService", "kSystemSoundID_Vibrate"]
+- ["C8TestChat16CallAudioService", "muteDidChange"]
+- !private ["C8TestChat16CallAudioService", "play"]
+- !private ["C8TestChat16CallAudioService", "pulseDuration"]
+- ["C8TestChat16CallAudioService", "ringVibration"]
+- !private ["C8TestChat16CallAudioService", "setAudioSession"]
+- ["C8TestChat16CallAudioService", "speakerphoneDidChange"]
+- !private ["C8TestChat16CallAudioService", "startRinging"]
+- ["C8TestChat16CallAudioService", "stateDidChange"]
+- !private ["C8TestChat16CallAudioService", "stopAnyRingingVibration"]
+- !private ["C8TestChat16CallAudioService", "stopPlayingAnySounds"]
+- ["C8TestChat16CallAudioService", "vibrate"]
+- !private ["C8TestChat16CallAudioService", "vibrateRepeatDuration"]
+- !private ["C8TestChat16CallAudioService", "vibrateTimer"]
+- ["P8TestChat12CallObserver", "AVAudioPlayer"]
+- !private ["P8TestChat12CallObserver", "AVAudioSession"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionCategoryAmbient"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionCategoryOptions"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionCategoryPlayback"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionCategorySoloAmbient"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionModeDefault"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionModeVideoChat"]
+- !private ["P8TestChat12CallObserver", "AVAudioSessionModeVoiceChat"]
+- !private ["P8TestChat12CallObserver", "AssertIsOnMainThread"]
+- !private ["P8TestChat12CallObserver", "AudioServicesPlaySystemSound"]
+- !private ["P8TestChat12CallObserver", "Bundle"]
+- !private ["P8TestChat12CallObserver", "DispatchQueue"]
+- !private ["P8TestChat12CallObserver", "DispatchTime"]
+- !private ["P8TestChat12CallObserver", "Logger"]
+- ["P8TestChat12CallObserver", "Sound"]
+- !private ["P8TestChat12CallObserver", "String"]
+- !private ["P8TestChat12CallObserver", "TAG"]
+- !private ["P8TestChat12CallObserver", "Thread"]
+- !private ["P8TestChat12CallObserver", "WeakTimer"]
+- !private ["P8TestChat12CallObserver", "assert"]
+- !private ["P8TestChat12CallObserver", "assertionFailure"]
+- !private ["P8TestChat12CallObserver", "currentPlayer"]
+- !private ["P8TestChat12CallObserver", "ensureIsEnabled"]
+- !private ["P8TestChat12CallObserver", "handleAnswering"]
+- !private ["P8TestChat12CallObserver", "handleBusy"]
+- !private ["P8TestChat12CallObserver", "handleCallEnded"]
+- !private ["P8TestChat12CallObserver", "handleConnected"]
+- !private ["P8TestChat12CallObserver", "handleDialing"]
+- !private ["P8TestChat12CallObserver", "handleIdle"]
+- !private ["P8TestChat12CallObserver", "handleLocalFailure"]
+- !private ["P8TestChat12CallObserver", "handleLocalHangup"]
+- !private ["P8TestChat12CallObserver", "handleLocalRinging"]
+- !private ["P8TestChat12CallObserver", "handleRemoteHangup"]
+- !private ["P8TestChat12CallObserver", "handleRemoteRinging"]
+- !private ["P8TestChat12CallObserver", "handleRinging"]
+- !private ["P8TestChat12CallObserver", "handleState"]
+- ["P8TestChat12CallObserver", "hasLocalVideoDidChange"]
+- !private ["P8TestChat12CallObserver", "kSystemSoundID_Vibrate"]
+- ["P8TestChat12CallObserver", "muteDidChange"]
+- !private ["P8TestChat12CallObserver", "play"]
+- !private ["P8TestChat12CallObserver", "pulseDuration"]
+- !private ["P8TestChat12CallObserver", "ringVibration"]
+- !private ["P8TestChat12CallObserver", "setAudioSession"]
+- ["P8TestChat12CallObserver", "speakerphoneDidChange"]
+- !private ["P8TestChat12CallObserver", "startRinging"]
+- ["P8TestChat12CallObserver", "stateDidChange"]
+- !private ["P8TestChat12CallObserver", "stopAnyRingingVibration"]
+- !private ["P8TestChat12CallObserver", "stopPlayingAnySounds"]
+- !private ["P8TestChat12CallObserver", "vibrate"]
+- !private ["P8TestChat12CallObserver", "vibrateRepeatDuration"]
+- !private ["P8TestChat12CallObserver", "vibrateTimer"]
+- ["P8TestChat12CallObserver", ""]
+- ["O8TestChat9CallState", "answering"]
+- ["O8TestChat9CallState", "connected"]
+- ["O8TestChat9CallState", "dialing"]
+- ["O8TestChat9CallState", "idle"]
+- ["O8TestChat9CallState", "localFailure"]
+- ["O8TestChat9CallState", "localHangup"]
+- ["O8TestChat9CallState", "localRinging"]
+- ["O8TestChat9CallState", "remoteBusy"]
+- ["O8TestChat9CallState", "remoteHangup"]
+- ["O8TestChat9CallState", "remoteRinging"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "now"]
+- ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionModeDefault"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionModeVideoChat"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps28CustomDebugStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "AudioServicesPlaySystemSound"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchTime"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- ["Ps28CustomDebugStringConvertible", "Sound"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "Thread"]
+- !private ["Ps28CustomDebugStringConvertible", "WeakTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "asyncAfter"]
+- !private ["Ps28CustomDebugStringConvertible", "currentPlayer"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "ensureIsEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "fire"]
+- !private ["Ps28CustomDebugStringConvertible", "handleAnswering"]
+- !private ["Ps28CustomDebugStringConvertible", "handleBusy"]
+- !private ["Ps28CustomDebugStringConvertible", "handleCallEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "handleConnected"]
+- !private ["Ps28CustomDebugStringConvertible", "handleDialing"]
+- !private ["Ps28CustomDebugStringConvertible", "handleIdle"]
+- !private ["Ps28CustomDebugStringConvertible", "handleLocalFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "handleLocalHangup"]
+- !private ["Ps28CustomDebugStringConvertible", "handleLocalRinging"]
+- !private ["Ps28CustomDebugStringConvertible", "handleRemoteHangup"]
+- !private ["Ps28CustomDebugStringConvertible", "handleRemoteRinging"]
+- !private ["Ps28CustomDebugStringConvertible", "handleRinging"]
+- !private ["Ps28CustomDebugStringConvertible", "handleState"]
+- !private ["Ps28CustomDebugStringConvertible", "hasLocalVideo"]
+- ["Ps28CustomDebugStringConvertible", "hasLocalVideoDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "isMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "isSpeakerphoneEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "kSystemSoundID_Vibrate"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "muteDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfLoops"]
+- !private ["Ps28CustomDebugStringConvertible", "play"]
+- !private ["Ps28CustomDebugStringConvertible", "pulseDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "ringVibration"]
+- !private ["Ps28CustomDebugStringConvertible", "setAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "setCategory"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "speakerphoneDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "startRinging"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- ["Ps28CustomDebugStringConvertible", "stateDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "stop"]
+- !private ["Ps28CustomDebugStringConvertible", "stopAnyRingingVibration"]
+- !private ["Ps28CustomDebugStringConvertible", "stopPlayingAnySounds"]
+- !private ["Ps28CustomDebugStringConvertible", "url"]
+- !private ["Ps28CustomDebugStringConvertible", "verbose"]
+- !private ["Ps28CustomDebugStringConvertible", "vibrate"]
+- !private ["Ps28CustomDebugStringConvertible", "vibrateRepeatDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "vibrateTimer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "AVAudioPlayer"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSession"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryOptions"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionModeDefault"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionModeVideoChat"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps23CustomStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps23CustomStringConvertible", "AudioServicesPlaySystemSound"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "DispatchTime"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- ["Ps23CustomStringConvertible", "Sound"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "Thread"]
+- !private ["Ps23CustomStringConvertible", "WeakTimer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "asyncAfter"]
+- !private ["Ps23CustomStringConvertible", "currentPlayer"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "ensureIsEnabled"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "fire"]
+- !private ["Ps23CustomStringConvertible", "handleAnswering"]
+- !private ["Ps23CustomStringConvertible", "handleBusy"]
+- !private ["Ps23CustomStringConvertible", "handleCallEnded"]
+- !private ["Ps23CustomStringConvertible", "handleConnected"]
+- !private ["Ps23CustomStringConvertible", "handleDialing"]
+- !private ["Ps23CustomStringConvertible", "handleIdle"]
+- !private ["Ps23CustomStringConvertible", "handleLocalFailure"]
+- !private ["Ps23CustomStringConvertible", "handleLocalHangup"]
+- !private ["Ps23CustomStringConvertible", "handleLocalRinging"]
+- !private ["Ps23CustomStringConvertible", "handleRemoteHangup"]
+- !private ["Ps23CustomStringConvertible", "handleRemoteRinging"]
+- !private ["Ps23CustomStringConvertible", "handleRinging"]
+- !private ["Ps23CustomStringConvertible", "handleState"]
+- !private ["Ps23CustomStringConvertible", "hasLocalVideo"]
+- ["Ps23CustomStringConvertible", "hasLocalVideoDidChange"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidate"]
+- !private ["Ps23CustomStringConvertible", "isMainThread"]
+- !private ["Ps23CustomStringConvertible", "isSpeakerphoneEnabled"]
+- !private ["Ps23CustomStringConvertible", "kSystemSoundID_Vibrate"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "muteDidChange"]
+- !private ["Ps23CustomStringConvertible", "numberOfLoops"]
+- !private ["Ps23CustomStringConvertible", "play"]
+- !private ["Ps23CustomStringConvertible", "pulseDuration"]
+- !private ["Ps23CustomStringConvertible", "ringVibration"]
+- !private ["Ps23CustomStringConvertible", "setAudioSession"]
+- !private ["Ps23CustomStringConvertible", "setCategory"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "speakerphoneDidChange"]
+- !private ["Ps23CustomStringConvertible", "startRinging"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- ["Ps23CustomStringConvertible", "stateDidChange"]
+- !private ["Ps23CustomStringConvertible", "stop"]
+- !private ["Ps23CustomStringConvertible", "stopAnyRingingVibration"]
+- !private ["Ps23CustomStringConvertible", "stopPlayingAnySounds"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- !private ["Ps23CustomStringConvertible", "verbose"]
+- !private ["Ps23CustomStringConvertible", "vibrate"]
+- !private ["Ps23CustomStringConvertible", "vibrateRepeatDuration"]
+- !private ["Ps23CustomStringConvertible", "vibrateTimer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "asyncAfter"]
+- !private ["CSo14DispatchObject", "default"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "asyncAfter"]
+- !private ["CSo13DispatchQueue", "default"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["V8Dispatch12DispatchTime", "now"]
+- ["Ps9Equatable", "AVAudioPlayer"]
+- !private ["Ps9Equatable", "AVAudioSession"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryOptions"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9Equatable", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps9Equatable", "AVAudioSessionModeDefault"]
+- !private ["Ps9Equatable", "AVAudioSessionModeVideoChat"]
+- !private ["Ps9Equatable", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps9Equatable", "AssertIsOnMainThread"]
+- !private ["Ps9Equatable", "AudioServicesPlaySystemSound"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "DispatchTime"]
+- !private ["Ps9Equatable", "Logger"]
+- ["Ps9Equatable", "Sound"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "Thread"]
+- !private ["Ps9Equatable", "WeakTimer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "answering"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "asyncAfter"]
+- ["Ps9Equatable", "connected"]
+- !private ["Ps9Equatable", "currentPlayer"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "defaultToSpeaker"]
+- ["Ps9Equatable", "dialing"]
+- !private ["Ps9Equatable", "ensureIsEnabled"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "fire"]
+- !private ["Ps9Equatable", "handleAnswering"]
+- !private ["Ps9Equatable", "handleBusy"]
+- !private ["Ps9Equatable", "handleCallEnded"]
+- !private ["Ps9Equatable", "handleConnected"]
+- !private ["Ps9Equatable", "handleDialing"]
+- !private ["Ps9Equatable", "handleIdle"]
+- !private ["Ps9Equatable", "handleLocalFailure"]
+- !private ["Ps9Equatable", "handleLocalHangup"]
+- !private ["Ps9Equatable", "handleLocalRinging"]
+- !private ["Ps9Equatable", "handleRemoteHangup"]
+- !private ["Ps9Equatable", "handleRemoteRinging"]
+- !private ["Ps9Equatable", "handleRinging"]
+- !private ["Ps9Equatable", "handleState"]
+- !private ["Ps9Equatable", "hasLocalVideo"]
+- ["Ps9Equatable", "hasLocalVideoDidChange"]
+- ["Ps9Equatable", "idle"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidate"]
+- !private ["Ps9Equatable", "isMainThread"]
+- !private ["Ps9Equatable", "isSpeakerphoneEnabled"]
+- !private ["Ps9Equatable", "kSystemSoundID_Vibrate"]
+- ["Ps9Equatable", "localFailure"]
+- ["Ps9Equatable", "localHangup"]
+- ["Ps9Equatable", "localRinging"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "mixWithOthers"]
+- ["Ps9Equatable", "muteDidChange"]
+- !private ["Ps9Equatable", "now"]
+- !private ["Ps9Equatable", "numberOfLoops"]
+- !private ["Ps9Equatable", "play"]
+- !private ["Ps9Equatable", "pulseDuration"]
+- ["Ps9Equatable", "remoteBusy"]
+- ["Ps9Equatable", "remoteHangup"]
+- ["Ps9Equatable", "remoteRinging"]
+- !private ["Ps9Equatable", "ringVibration"]
+- !private ["Ps9Equatable", "setAudioSession"]
+- !private ["Ps9Equatable", "setCategory"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "speakerphoneDidChange"]
+- !private ["Ps9Equatable", "startRinging"]
+- !private ["Ps9Equatable", "state"]
+- ["Ps9Equatable", "stateDidChange"]
+- !private ["Ps9Equatable", "stop"]
+- !private ["Ps9Equatable", "stopAnyRingingVibration"]
+- !private ["Ps9Equatable", "stopPlayingAnySounds"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "verbose"]
+- !private ["Ps9Equatable", "vibrate"]
+- !private ["Ps9Equatable", "vibrateRepeatDuration"]
+- !private ["Ps9Equatable", "vibrateTimer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "defaultToSpeaker"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "mixWithOthers"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "AVAudioPlayer"]
+- !private ["Ps8Hashable", "AVAudioSession"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryOptions"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps8Hashable", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps8Hashable", "AVAudioSessionModeDefault"]
+- !private ["Ps8Hashable", "AVAudioSessionModeVideoChat"]
+- !private ["Ps8Hashable", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps8Hashable", "AssertIsOnMainThread"]
+- !private ["Ps8Hashable", "AudioServicesPlaySystemSound"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "DispatchTime"]
+- !private ["Ps8Hashable", "Logger"]
+- ["Ps8Hashable", "Sound"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "Thread"]
+- !private ["Ps8Hashable", "WeakTimer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "answering"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "asyncAfter"]
+- ["Ps8Hashable", "connected"]
+- !private ["Ps8Hashable", "currentPlayer"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "dialing"]
+- !private ["Ps8Hashable", "ensureIsEnabled"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "fire"]
+- !private ["Ps8Hashable", "handleAnswering"]
+- !private ["Ps8Hashable", "handleBusy"]
+- !private ["Ps8Hashable", "handleCallEnded"]
+- !private ["Ps8Hashable", "handleConnected"]
+- !private ["Ps8Hashable", "handleDialing"]
+- !private ["Ps8Hashable", "handleIdle"]
+- !private ["Ps8Hashable", "handleLocalFailure"]
+- !private ["Ps8Hashable", "handleLocalHangup"]
+- !private ["Ps8Hashable", "handleLocalRinging"]
+- !private ["Ps8Hashable", "handleRemoteHangup"]
+- !private ["Ps8Hashable", "handleRemoteRinging"]
+- !private ["Ps8Hashable", "handleRinging"]
+- !private ["Ps8Hashable", "handleState"]
+- !private ["Ps8Hashable", "hasLocalVideo"]
+- ["Ps8Hashable", "hasLocalVideoDidChange"]
+- ["Ps8Hashable", "idle"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidate"]
+- !private ["Ps8Hashable", "isMainThread"]
+- !private ["Ps8Hashable", "isSpeakerphoneEnabled"]
+- !private ["Ps8Hashable", "kSystemSoundID_Vibrate"]
+- ["Ps8Hashable", "localFailure"]
+- ["Ps8Hashable", "localHangup"]
+- ["Ps8Hashable", "localRinging"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "muteDidChange"]
+- !private ["Ps8Hashable", "numberOfLoops"]
+- !private ["Ps8Hashable", "play"]
+- !private ["Ps8Hashable", "pulseDuration"]
+- ["Ps8Hashable", "remoteBusy"]
+- ["Ps8Hashable", "remoteHangup"]
+- ["Ps8Hashable", "remoteRinging"]
+- !private ["Ps8Hashable", "ringVibration"]
+- !private ["Ps8Hashable", "setAudioSession"]
+- !private ["Ps8Hashable", "setCategory"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "speakerphoneDidChange"]
+- !private ["Ps8Hashable", "startRinging"]
+- !private ["Ps8Hashable", "state"]
+- ["Ps8Hashable", "stateDidChange"]
+- !private ["Ps8Hashable", "stop"]
+- !private ["Ps8Hashable", "stopAnyRingingVibration"]
+- !private ["Ps8Hashable", "stopPlayingAnySounds"]
+- !private ["Ps8Hashable", "url"]
+- !private ["Ps8Hashable", "verbose"]
+- !private ["Ps8Hashable", "vibrate"]
+- !private ["Ps8Hashable", "vibrateRepeatDuration"]
+- !private ["Ps8Hashable", "vibrateTimer"]
+- ["Ps8Hashable", ""]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "info"]
+- !private ["CSo6Logger", "verbose"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AVAudioPlayer"]
+- !private ["CSo8NSObject", "AVAudioSession"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryAmbient"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryOptions"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayback"]
+- !private ["CSo8NSObject", "AVAudioSessionCategorySoloAmbient"]
+- !private ["CSo8NSObject", "AVAudioSessionModeDefault"]
+- !private ["CSo8NSObject", "AVAudioSessionModeVideoChat"]
+- !private ["CSo8NSObject", "AVAudioSessionModeVoiceChat"]
+- !private ["CSo8NSObject", "AssertIsOnMainThread"]
+- !private ["CSo8NSObject", "AudioServicesPlaySystemSound"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "CallState"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "DispatchTime"]
+- !private ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "SignalCall"]
+- ["CSo8NSObject", "Sound"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- !private ["CSo8NSObject", "Thread"]
+- ["CSo8NSObject", "Timer"]
+- ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "WeakTimer"]
+- !private ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "asyncAfter"]
+- ["CSo8NSObject", "audioPlayer"]
+- ["CSo8NSObject", "currentPlayer"]
+- !private ["CSo8NSObject", "debug"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "didUpdateVideoTracks"]
+- ["CSo8NSObject", "ensureIsEnabled"]
+- !private ["CSo8NSObject", "error"]
+- !private ["CSo8NSObject", "fire"]
+- ["CSo8NSObject", "handleAnswering"]
+- ["CSo8NSObject", "handleBusy"]
+- ["CSo8NSObject", "handleCallEnded"]
+- ["CSo8NSObject", "handleConnected"]
+- ["CSo8NSObject", "handleDialing"]
+- ["CSo8NSObject", "handleIdle"]
+- ["CSo8NSObject", "handleLocalFailure"]
+- ["CSo8NSObject", "handleLocalHangup"]
+- ["CSo8NSObject", "handleLocalRinging"]
+- ["CSo8NSObject", "handleRemoteHangup"]
+- ["CSo8NSObject", "handleRemoteRinging"]
+- ["CSo8NSObject", "handleRinging"]
+- ["CSo8NSObject", "handleState"]
+- !private ["CSo8NSObject", "hasLocalVideo"]
+- ["CSo8NSObject", "hasLocalVideoDidChange"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidate"]
+- !private ["CSo8NSObject", "isMainThread"]
+- !private ["CSo8NSObject", "isSpeakerphoneEnabled"]
+- !private ["CSo8NSObject", "kSystemSoundID_Vibrate"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "muteDidChange"]
+- !private ["CSo8NSObject", "numberOfLoops"]
+- ["CSo8NSObject", "play"]
+- ["CSo8NSObject", "pulseDuration"]
+- ["CSo8NSObject", "ringVibration"]
+- ["CSo8NSObject", "setAudioSession"]
+- !private ["CSo8NSObject", "setCategory"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "speakerphoneDidChange"]
+- ["CSo8NSObject", "startRinging"]
+- !private ["CSo8NSObject", "state"]
+- ["CSo8NSObject", "stateDidChange"]
+- !private ["CSo8NSObject", "stop"]
+- ["CSo8NSObject", "stopAnyRingingVibration"]
+- ["CSo8NSObject", "stopPlayingAnySounds"]
+- !private ["CSo8NSObject", "url"]
+- !private ["CSo8NSObject", "verbose"]
+- ["CSo8NSObject", "vibrate"]
+- ["CSo8NSObject", "vibrateRepeatDuration"]
+- ["CSo8NSObject", "vibrateTimer"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "AVAudioPlayer"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSession"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryOptions"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayback"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategorySoloAmbient"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionModeDefault"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionModeVideoChat"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionModeVoiceChat"]
+- !private ["PSo16NSObjectProtocol", "AssertIsOnMainThread"]
+- !private ["PSo16NSObjectProtocol", "AudioServicesPlaySystemSound"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "DispatchTime"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- ["PSo16NSObjectProtocol", "Sound"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "Thread"]
+- !private ["PSo16NSObjectProtocol", "WeakTimer"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "asyncAfter"]
+- !private ["PSo16NSObjectProtocol", "currentPlayer"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "ensureIsEnabled"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "fire"]
+- !private ["PSo16NSObjectProtocol", "handleAnswering"]
+- !private ["PSo16NSObjectProtocol", "handleBusy"]
+- !private ["PSo16NSObjectProtocol", "handleCallEnded"]
+- !private ["PSo16NSObjectProtocol", "handleConnected"]
+- !private ["PSo16NSObjectProtocol", "handleDialing"]
+- !private ["PSo16NSObjectProtocol", "handleIdle"]
+- !private ["PSo16NSObjectProtocol", "handleLocalFailure"]
+- !private ["PSo16NSObjectProtocol", "handleLocalHangup"]
+- !private ["PSo16NSObjectProtocol", "handleLocalRinging"]
+- !private ["PSo16NSObjectProtocol", "handleRemoteHangup"]
+- !private ["PSo16NSObjectProtocol", "handleRemoteRinging"]
+- !private ["PSo16NSObjectProtocol", "handleRinging"]
+- !private ["PSo16NSObjectProtocol", "handleState"]
+- !private ["PSo16NSObjectProtocol", "hasLocalVideo"]
+- ["PSo16NSObjectProtocol", "hasLocalVideoDidChange"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidate"]
+- !private ["PSo16NSObjectProtocol", "isMainThread"]
+- !private ["PSo16NSObjectProtocol", "isSpeakerphoneEnabled"]
+- !private ["PSo16NSObjectProtocol", "kSystemSoundID_Vibrate"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "muteDidChange"]
+- !private ["PSo16NSObjectProtocol", "numberOfLoops"]
+- !private ["PSo16NSObjectProtocol", "play"]
+- !private ["PSo16NSObjectProtocol", "pulseDuration"]
+- !private ["PSo16NSObjectProtocol", "ringVibration"]
+- !private ["PSo16NSObjectProtocol", "setAudioSession"]
+- !private ["PSo16NSObjectProtocol", "setCategory"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "speakerphoneDidChange"]
+- !private ["PSo16NSObjectProtocol", "startRinging"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- ["PSo16NSObjectProtocol", "stateDidChange"]
+- !private ["PSo16NSObjectProtocol", "stop"]
+- !private ["PSo16NSObjectProtocol", "stopAnyRingingVibration"]
+- !private ["PSo16NSObjectProtocol", "stopPlayingAnySounds"]
+- !private ["PSo16NSObjectProtocol", "url"]
+- !private ["PSo16NSObjectProtocol", "verbose"]
+- !private ["PSo16NSObjectProtocol", "vibrate"]
+- !private ["PSo16NSObjectProtocol", "vibrateRepeatDuration"]
+- !private ["PSo16NSObjectProtocol", "vibrateTimer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "asyncAfter"]
+- !private ["CSo9OS_object", "default"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps9OptionSet", "defaultToSpeaker"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "mixWithOthers"]
+- ["Ps16RawRepresentable", "answering"]
+- ["Ps16RawRepresentable", "connected"]
+- !private ["Ps16RawRepresentable", "defaultToSpeaker"]
+- ["Ps16RawRepresentable", "dialing"]
+- ["Ps16RawRepresentable", "idle"]
+- !private ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "localFailure"]
+- ["Ps16RawRepresentable", "localHangup"]
+- ["Ps16RawRepresentable", "localRinging"]
+- !private ["Ps16RawRepresentable", "mixWithOthers"]
+- ["Ps16RawRepresentable", "remoteBusy"]
+- ["Ps16RawRepresentable", "remoteHangup"]
+- ["Ps16RawRepresentable", "remoteRinging"]
+- !private ["Ps10SetAlgebra", "defaultToSpeaker"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "mixWithOthers"]
+- !private ["C8TestChat10SignalCall", "hasLocalVideo"]
+- !private ["C8TestChat10SignalCall", "isSpeakerphoneEnabled"]
+- !private ["C8TestChat10SignalCall", "state"]
+- ["CC8TestChat16CallAudioService5Sound", "AVAudioPlayer"]
+- ["CC8TestChat16CallAudioService5Sound", "Bool"]
+- !private ["CC8TestChat16CallAudioService5Sound", "Bundle"]
+- !private ["CC8TestChat16CallAudioService5Sound", "Logger"]
+- ["CC8TestChat16CallAudioService5Sound", "Sound"]
+- ["CC8TestChat16CallAudioService5Sound", "String"]
+- ["CC8TestChat16CallAudioService5Sound", "TAG"]
+- ["CC8TestChat16CallAudioService5Sound", "URL"]
+- !private ["CC8TestChat16CallAudioService5Sound", "assertionFailure"]
+- ["CC8TestChat16CallAudioService5Sound", "busy"]
+- ["CC8TestChat16CallAudioService5Sound", "deinit"]
+- ["CC8TestChat16CallAudioService5Sound", "dialing"]
+- ["CC8TestChat16CallAudioService5Sound", "failure"]
+- ["CC8TestChat16CallAudioService5Sound", "fileExtension"]
+- ["CC8TestChat16CallAudioService5Sound", "filePath"]
+- ["CC8TestChat16CallAudioService5Sound", "incomingRing"]
+- ["CC8TestChat16CallAudioService5Sound", "init"]
+- ["CC8TestChat16CallAudioService5Sound", "loop"]
+- ["CC8TestChat16CallAudioService5Sound", "outgoingRing"]
+- ["CC8TestChat16CallAudioService5Sound", "player"]
+- !private ["CC8TestChat16CallAudioService5Sound", "player.storage"]
+- ["CC8TestChat16CallAudioService5Sound", "url"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo6Thread", "isMainThread"]
+- !private ["CSo5Timer", "fire"]
+- !private ["CSo5Timer", "invalidate"]
+- !private ["C8TestChat9WeakTimer", "scheduledTimer"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "AVAudioPlayer"]
+- !private ["Ps9_Hashable", "AVAudioSession"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryOptions"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryPlayAndRecord"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategorySoloAmbient"]
+- !private ["Ps9_Hashable", "AVAudioSessionModeDefault"]
+- !private ["Ps9_Hashable", "AVAudioSessionModeVideoChat"]
+- !private ["Ps9_Hashable", "AVAudioSessionModeVoiceChat"]
+- !private ["Ps9_Hashable", "AssertIsOnMainThread"]
+- !private ["Ps9_Hashable", "AudioServicesPlaySystemSound"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "DispatchTime"]
+- !private ["Ps9_Hashable", "Logger"]
+- ["Ps9_Hashable", "Sound"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "Thread"]
+- !private ["Ps9_Hashable", "WeakTimer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "answering"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "assertionFailure"]
+- !private ["Ps9_Hashable", "asyncAfter"]
+- ["Ps9_Hashable", "connected"]
+- !private ["Ps9_Hashable", "currentPlayer"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "dialing"]
+- !private ["Ps9_Hashable", "ensureIsEnabled"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "fire"]
+- !private ["Ps9_Hashable", "handleAnswering"]
+- !private ["Ps9_Hashable", "handleBusy"]
+- !private ["Ps9_Hashable", "handleCallEnded"]
+- !private ["Ps9_Hashable", "handleConnected"]
+- !private ["Ps9_Hashable", "handleDialing"]
+- !private ["Ps9_Hashable", "handleIdle"]
+- !private ["Ps9_Hashable", "handleLocalFailure"]
+- !private ["Ps9_Hashable", "handleLocalHangup"]
+- !private ["Ps9_Hashable", "handleLocalRinging"]
+- !private ["Ps9_Hashable", "handleRemoteHangup"]
+- !private ["Ps9_Hashable", "handleRemoteRinging"]
+- !private ["Ps9_Hashable", "handleRinging"]
+- !private ["Ps9_Hashable", "handleState"]
+- !private ["Ps9_Hashable", "hasLocalVideo"]
+- ["Ps9_Hashable", "hasLocalVideoDidChange"]
+- ["Ps9_Hashable", "idle"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidate"]
+- !private ["Ps9_Hashable", "isMainThread"]
+- !private ["Ps9_Hashable", "isSpeakerphoneEnabled"]
+- !private ["Ps9_Hashable", "kSystemSoundID_Vibrate"]
+- ["Ps9_Hashable", "localFailure"]
+- ["Ps9_Hashable", "localHangup"]
+- ["Ps9_Hashable", "localRinging"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "muteDidChange"]
+- !private ["Ps9_Hashable", "numberOfLoops"]
+- !private ["Ps9_Hashable", "play"]
+- !private ["Ps9_Hashable", "pulseDuration"]
+- ["Ps9_Hashable", "remoteBusy"]
+- ["Ps9_Hashable", "remoteHangup"]
+- ["Ps9_Hashable", "remoteRinging"]
+- !private ["Ps9_Hashable", "ringVibration"]
+- !private ["Ps9_Hashable", "setAudioSession"]
+- !private ["Ps9_Hashable", "setCategory"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- ["Ps9_Hashable", "speakerphoneDidChange"]
+- !private ["Ps9_Hashable", "startRinging"]
+- !private ["Ps9_Hashable", "state"]
+- ["Ps9_Hashable", "stateDidChange"]
+- !private ["Ps9_Hashable", "stop"]
+- !private ["Ps9_Hashable", "stopAnyRingingVibration"]
+- !private ["Ps9_Hashable", "stopPlayingAnySounds"]
+- !private ["Ps9_Hashable", "url"]
+- !private ["Ps9_Hashable", "verbose"]
+- !private ["Ps9_Hashable", "vibrate"]
+- !private ["Ps9_Hashable", "vibrateRepeatDuration"]
+- !private ["Ps9_Hashable", "vibrateTimer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "CSo13AVAudioPlayer"
+- !private "CSo14AVAudioSession"
+- !private "VSC29AVAudioSessionCategoryOptions"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "CSo6Bundle"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "C8TestChat16CallAudioService"
+- "P8TestChat12CallObserver"
+- "O8TestChat9CallState"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "V8Dispatch12DispatchTime"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "Ps9OptionSet"
+- "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "C8TestChat10SignalCall"
+- "CC8TestChat16CallAudioService5Sound"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "CSo6Thread"
+- !private "CSo5Timer"
+- !private "C8TestChat9WeakTimer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "bfb3a5be7acd6afa0d9df8835a7cea57"

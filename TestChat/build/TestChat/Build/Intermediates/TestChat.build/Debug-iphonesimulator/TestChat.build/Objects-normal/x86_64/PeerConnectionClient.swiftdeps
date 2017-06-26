@@ -1,0 +1,1985 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "kAudioTrackType"
+- "kVideoTrackType"
+- "kMediaConstraintsMinWidth"
+- "kMediaConstraintsMaxWidth"
+- "kMediaConstraintsMinHeight"
+- "kMediaConstraintsMaxHeight"
+- "PeerConnectionClientDelegate"
+- "PeerConnectionClient"
+- "HardenedRTCSessionDescription"
+provides-nominal:
+- "P8TestChat28PeerConnectionClientDelegate"
+- "C8TestChat20PeerConnectionClient"
+- "OC8TestChat20PeerConnectionClient11Identifiers"
+- "C8TestChat29HardenedRTCSessionDescription"
+provides-member:
+- ["P8TestChat28PeerConnectionClientDelegate", ""]
+- ["C8TestChat20PeerConnectionClient", ""]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", ""]
+- ["C8TestChat29HardenedRTCSessionDescription", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "addIceCandidate"
+- "configureAudioSession"
+- "dataChannel"
+- "dataChannelDidChangeState"
+- "dataChannelForTests"
+- "flushSignalingQueueForTests"
+- "peerConnection"
+- "peerConnectionForTests"
+- "peerConnectionShouldNegotiate"
+- "sendDataChannelMessage"
+- "setAudioEnabled"
+- "setLocalVideoEnabled"
+- "startAudioSession"
+- "stopAudioSession"
+- "terminate"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- !private ">"
+- "AVCaptureSession"
+- !private "Array"
+- !private "AssertIsOnMainThread"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CallAudioSession"
+- "CallDirection"
+- "Data"
+- !private "Dictionary"
+- "DispatchQueue"
+- !private "Error"
+- "HardenedRTCSessionDescription"
+- !private "Logger"
+- !private "NSError"
+- !private "NSMakeRange"
+- "NSObject"
+- !private "NSRegularExpression"
+- !private "OWSErrorMakeUnableToProcessServerResponseError"
+- "OWSWebRTCProtosData"
+- "PeerConnectionClient"
+- "PeerConnectionClientDelegate"
+- !private "Platform"
+- "Promise"
+- !private "PromiseKit"
+- "RTCAudioTrack"
+- "RTCConfiguration"
+- "RTCDataBuffer"
+- "RTCDataChannel"
+- !private "RTCDataChannelConfiguration"
+- "RTCDataChannelDelegate"
+- "RTCIceCandidate"
+- "RTCIceConnectionState"
+- "RTCIceGatheringState"
+- "RTCIceServer"
+- "RTCMediaConstraints"
+- "RTCMediaStream"
+- "RTCPeerConnection"
+- "RTCPeerConnectionDelegate"
+- "RTCPeerConnectionFactory"
+- "RTCRtpSender"
+- "RTCSessionDescription"
+- "RTCSignalingState"
+- "RTCVideoTrack"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UInt64"
+- "UnicodeScalarType"
+- "Void"
+- !private "assert"
+- !private "assertionFailure"
+- !private "dispatchPrecondition"
+- "kAudioTrackType"
+- "kMediaConstraintsMaxHeight"
+- "kMediaConstraintsMaxWidth"
+- "kMediaConstraintsMinHeight"
+- "kMediaConstraintsMinWidth"
+- "kRTCMediaConstraintsMaxHeight"
+- "kRTCMediaConstraintsMaxWidth"
+- "kRTCMediaConstraintsMinHeight"
+- "kRTCMediaConstraintsMinWidth"
+- "kRTCMediaStreamTrackKindAudio"
+- "kRTCMediaStreamTrackKindVideo"
+- "kVideoTrackType"
+- !private "objc_sync_enter"
+- !private "objc_sync_exit"
+- !private "~="
+depends-member:
+- !private ["CSo16AVCaptureSession", "startRunning"]
+- !private ["CSo16AVCaptureSession", "stopRunning"]
+- !private ["Ps9AnyObject", "AssertIsOnMainThread"]
+- ["Ps9AnyObject", "CallAudioSession"]
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "HardenedRTCSessionDescription"]
+- !private ["Ps9AnyObject", "Identifiers"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSMakeRange"]
+- !private ["Ps9AnyObject", "NSRegularExpression"]
+- !private ["Ps9AnyObject", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9AnyObject", "OWSWebRTCProtosData"]
+- !private ["Ps9AnyObject", "PeerConnectionClient"]
+- !private ["Ps9AnyObject", "Platform"]
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "PromiseKit"]
+- !private ["Ps9AnyObject", "RTCConfiguration"]
+- !private ["Ps9AnyObject", "RTCDataBuffer"]
+- !private ["Ps9AnyObject", "RTCDataChannelConfiguration"]
+- !private ["Ps9AnyObject", "RTCMediaConstraints"]
+- ["Ps9AnyObject", "RTCPeerConnectionFactory"]
+- !private ["Ps9AnyObject", "RTCSessionDescription"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "answer"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "assertOnSignalingQueue"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "audioConstraints"]
+- !private ["Ps9AnyObject", "audioSender"]
+- !private ["Ps9AnyObject", "audioSource"]
+- !private ["Ps9AnyObject", "audioTrack"]
+- !private ["Ps9AnyObject", "audioTracks"]
+- !private ["Ps9AnyObject", "avFoundationVideoSource"]
+- !private ["Ps9AnyObject", "bundlePolicy"]
+- !private ["Ps9AnyObject", "cameraConstraints"]
+- !private ["Ps9AnyObject", "captureSession"]
+- !private ["Ps9AnyObject", "catch"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "configuration"]
+- !private ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "configureAudioSession"]
+- !private ["Ps9AnyObject", "connectionConstraints"]
+- !private ["Ps9AnyObject", "createAudioSender"]
+- !private ["Ps9AnyObject", "createSignalingDataChannel"]
+- !private ["Ps9AnyObject", "createVideoSender"]
+- !private ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "dataChannel"]
+- ["Ps9AnyObject", "dataChannelDidChangeState"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "defaultOfferConstraints"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatchPrecondition"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "factory"]
+- !private ["Ps9AnyObject", "harden"]
+- !private ["Ps9AnyObject", "iceServers"]
+- !private ["Ps9AnyObject", "iceTransportPolicy"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "isOrdered"]
+- !private ["Ps9AnyObject", "kAudioTrackType"]
+- !private ["Ps9AnyObject", "kVideoTrackType"]
+- !private ["Ps9AnyObject", "localVideoTrack"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "negotiateAnswerSessionDescription"]
+- !private ["Ps9AnyObject", "objc_sync_enter"]
+- !private ["Ps9AnyObject", "objc_sync_exit"]
+- !private ["Ps9AnyObject", "offer"]
+- !private ["Ps9AnyObject", "parse"]
+- ["Ps9AnyObject", "peerConnection"]
+- ["Ps9AnyObject", "peerConnectionShouldNegotiate"]
+- !private ["Ps9AnyObject", "remoteVideoTrack"]
+- !private ["Ps9AnyObject", "rtcSessionDescription"]
+- !private ["Ps9AnyObject", "rtcpMuxPolicy"]
+- !private ["Ps9AnyObject", "sdp"]
+- !private ["Ps9AnyObject", "sendData"]
+- !private ["Ps9AnyObject", "sender"]
+- !private ["Ps9AnyObject", "setLocalDescription"]
+- !private ["Ps9AnyObject", "setLocalSessionDescriptionInternal"]
+- !private ["Ps9AnyObject", "setRemoteDescription"]
+- !private ["Ps9AnyObject", "setRemoteSessionDescription"]
+- !private ["Ps9AnyObject", "sharedAudioSession"]
+- !private ["Ps9AnyObject", "signalingQueue"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "startRunning"]
+- !private ["Ps9AnyObject", "stop"]
+- !private ["Ps9AnyObject", "stopRunning"]
+- !private ["Ps9AnyObject", "stringByReplacingMatches"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "terminateInternal"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "track"]
+- !private ["Ps9AnyObject", "type"]
+- !private ["Ps9AnyObject", "useBackCamera"]
+- !private ["Ps9AnyObject", "verbose"]
+- !private ["Ps9AnyObject", "videoCaptureSession"]
+- !private ["Ps9AnyObject", "videoSender"]
+- !private ["Ps9AnyObject", "videoTrack"]
+- !private ["Ps9AnyObject", "videoTracks"]
+- !private ["Ps9AnyObject", "warn"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CNKeyDescriptor", "characters"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "AssertIsOnMainThread"]
+- ["Ps7CVarArg", "CallAudioSession"]
+- ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "HardenedRTCSessionDescription"]
+- !private ["Ps7CVarArg", "Identifiers"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "NSError"]
+- !private ["Ps7CVarArg", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps7CVarArg", "OWSWebRTCProtosData"]
+- !private ["Ps7CVarArg", "PeerConnectionClient"]
+- !private ["Ps7CVarArg", "Platform"]
+- !private ["Ps7CVarArg", "Promise"]
+- !private ["Ps7CVarArg", "PromiseKit"]
+- !private ["Ps7CVarArg", "RTCConfiguration"]
+- !private ["Ps7CVarArg", "RTCDataBuffer"]
+- !private ["Ps7CVarArg", "RTCDataChannelConfiguration"]
+- !private ["Ps7CVarArg", "RTCMediaConstraints"]
+- ["Ps7CVarArg", "RTCPeerConnectionFactory"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "answer"]
+- !private ["Ps7CVarArg", "assert"]
+- !private ["Ps7CVarArg", "assertOnSignalingQueue"]
+- !private ["Ps7CVarArg", "assertionFailure"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "audioConstraints"]
+- !private ["Ps7CVarArg", "audioSender"]
+- !private ["Ps7CVarArg", "audioSource"]
+- !private ["Ps7CVarArg", "audioTrack"]
+- !private ["Ps7CVarArg", "audioTracks"]
+- !private ["Ps7CVarArg", "avFoundationVideoSource"]
+- !private ["Ps7CVarArg", "bundlePolicy"]
+- !private ["Ps7CVarArg", "cameraConstraints"]
+- !private ["Ps7CVarArg", "captureSession"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "close"]
+- !private ["Ps7CVarArg", "configuration"]
+- !private ["Ps7CVarArg", "configureAudioSession"]
+- !private ["Ps7CVarArg", "connectionConstraints"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "createAudioSender"]
+- !private ["Ps7CVarArg", "createSignalingDataChannel"]
+- !private ["Ps7CVarArg", "createVideoSender"]
+- !private ["Ps7CVarArg", "data"]
+- ["Ps7CVarArg", "dataChannel"]
+- ["Ps7CVarArg", "dataChannelDidChangeState"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "defaultOfferConstraints"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "dispatchPrecondition"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "factory"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "iceServers"]
+- !private ["Ps7CVarArg", "iceTransportPolicy"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- !private ["Ps7CVarArg", "isOrdered"]
+- !private ["Ps7CVarArg", "kAudioTrackType"]
+- !private ["Ps7CVarArg", "kVideoTrackType"]
+- !private ["Ps7CVarArg", "localVideoTrack"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "negotiateAnswerSessionDescription"]
+- !private ["Ps7CVarArg", "objc_sync_enter"]
+- !private ["Ps7CVarArg", "objc_sync_exit"]
+- !private ["Ps7CVarArg", "offer"]
+- !private ["Ps7CVarArg", "parse"]
+- ["Ps7CVarArg", "peerConnection"]
+- ["Ps7CVarArg", "peerConnectionShouldNegotiate"]
+- !private ["Ps7CVarArg", "remoteVideoTrack"]
+- !private ["Ps7CVarArg", "rtcpMuxPolicy"]
+- !private ["Ps7CVarArg", "sdp"]
+- !private ["Ps7CVarArg", "sendData"]
+- !private ["Ps7CVarArg", "sender"]
+- !private ["Ps7CVarArg", "setLocalDescription"]
+- !private ["Ps7CVarArg", "setLocalSessionDescriptionInternal"]
+- !private ["Ps7CVarArg", "setRemoteDescription"]
+- !private ["Ps7CVarArg", "setRemoteSessionDescription"]
+- !private ["Ps7CVarArg", "sharedAudioSession"]
+- !private ["Ps7CVarArg", "signalingQueue"]
+- !private ["Ps7CVarArg", "startRunning"]
+- !private ["Ps7CVarArg", "stopRunning"]
+- !private ["Ps7CVarArg", "stringByReplacingMatches"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "sync"]
+- !private ["Ps7CVarArg", "terminateInternal"]
+- !private ["Ps7CVarArg", "track"]
+- !private ["Ps7CVarArg", "type"]
+- !private ["Ps7CVarArg", "useBackCamera"]
+- !private ["Ps7CVarArg", "verbose"]
+- !private ["Ps7CVarArg", "videoCaptureSession"]
+- !private ["Ps7CVarArg", "videoSender"]
+- !private ["Ps7CVarArg", "videoTrack"]
+- !private ["Ps7CVarArg", "videoTracks"]
+- !private ["Ps7CVarArg", "warn"]
+- ["Ps7CVarArg", ""]
+- !private ["C8TestChat16CallAudioSession", "configure"]
+- ["C8TestChat16CallAudioSession", "init"]
+- !private ["C8TestChat16CallAudioSession", "start"]
+- !private ["C8TestChat16CallAudioSession", "stop"]
+- !private ["O8TestChat13CallDirection", "deinit"]
+- !private ["O8TestChat13CallDirection", "outgoing"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AssertIsOnMainThread"]
+- ["Ps28CustomDebugStringConvertible", "CallAudioSession"]
+- ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "HardenedRTCSessionDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "Identifiers"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSWebRTCProtosData"]
+- !private ["Ps28CustomDebugStringConvertible", "PeerConnectionClient"]
+- !private ["Ps28CustomDebugStringConvertible", "Platform"]
+- !private ["Ps28CustomDebugStringConvertible", "Promise"]
+- !private ["Ps28CustomDebugStringConvertible", "PromiseKit"]
+- !private ["Ps28CustomDebugStringConvertible", "RTCConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "RTCDataBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "RTCDataChannelConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "RTCMediaConstraints"]
+- ["Ps28CustomDebugStringConvertible", "RTCPeerConnectionFactory"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "answer"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "assertOnSignalingQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "audioConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "audioSender"]
+- !private ["Ps28CustomDebugStringConvertible", "audioSource"]
+- !private ["Ps28CustomDebugStringConvertible", "audioTrack"]
+- !private ["Ps28CustomDebugStringConvertible", "audioTracks"]
+- !private ["Ps28CustomDebugStringConvertible", "avFoundationVideoSource"]
+- !private ["Ps28CustomDebugStringConvertible", "bundlePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "cameraConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "captureSession"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "close"]
+- !private ["Ps28CustomDebugStringConvertible", "configuration"]
+- !private ["Ps28CustomDebugStringConvertible", "configureAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "connectionConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "createAudioSender"]
+- !private ["Ps28CustomDebugStringConvertible", "createSignalingDataChannel"]
+- !private ["Ps28CustomDebugStringConvertible", "createVideoSender"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- ["Ps28CustomDebugStringConvertible", "dataChannel"]
+- ["Ps28CustomDebugStringConvertible", "dataChannelDidChangeState"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultOfferConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatchPrecondition"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "factory"]
+- !private ["Ps28CustomDebugStringConvertible", "iceServers"]
+- !private ["Ps28CustomDebugStringConvertible", "iceTransportPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "isOrdered"]
+- !private ["Ps28CustomDebugStringConvertible", "kAudioTrackType"]
+- !private ["Ps28CustomDebugStringConvertible", "kVideoTrackType"]
+- !private ["Ps28CustomDebugStringConvertible", "localVideoTrack"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "negotiateAnswerSessionDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_enter"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_exit"]
+- !private ["Ps28CustomDebugStringConvertible", "offer"]
+- !private ["Ps28CustomDebugStringConvertible", "outgoing"]
+- !private ["Ps28CustomDebugStringConvertible", "parse"]
+- ["Ps28CustomDebugStringConvertible", "peerConnection"]
+- ["Ps28CustomDebugStringConvertible", "peerConnectionShouldNegotiate"]
+- !private ["Ps28CustomDebugStringConvertible", "remoteVideoTrack"]
+- !private ["Ps28CustomDebugStringConvertible", "rtcpMuxPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "sdp"]
+- !private ["Ps28CustomDebugStringConvertible", "sendData"]
+- !private ["Ps28CustomDebugStringConvertible", "sender"]
+- !private ["Ps28CustomDebugStringConvertible", "setLocalDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "setLocalSessionDescriptionInternal"]
+- !private ["Ps28CustomDebugStringConvertible", "setRemoteDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "setRemoteSessionDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "signalingQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "startRunning"]
+- !private ["Ps28CustomDebugStringConvertible", "stopRunning"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByReplacingMatches"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- !private ["Ps28CustomDebugStringConvertible", "terminateInternal"]
+- !private ["Ps28CustomDebugStringConvertible", "track"]
+- !private ["Ps28CustomDebugStringConvertible", "type"]
+- !private ["Ps28CustomDebugStringConvertible", "useBackCamera"]
+- !private ["Ps28CustomDebugStringConvertible", "verbose"]
+- !private ["Ps28CustomDebugStringConvertible", "videoCaptureSession"]
+- !private ["Ps28CustomDebugStringConvertible", "videoSender"]
+- !private ["Ps28CustomDebugStringConvertible", "videoTrack"]
+- !private ["Ps28CustomDebugStringConvertible", "videoTracks"]
+- !private ["Ps28CustomDebugStringConvertible", "warn"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "outgoing"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "AssertIsOnMainThread"]
+- ["Ps23CustomStringConvertible", "CallAudioSession"]
+- ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "HardenedRTCSessionDescription"]
+- !private ["Ps23CustomStringConvertible", "Identifiers"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps23CustomStringConvertible", "OWSWebRTCProtosData"]
+- !private ["Ps23CustomStringConvertible", "PeerConnectionClient"]
+- !private ["Ps23CustomStringConvertible", "Platform"]
+- !private ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "PromiseKit"]
+- !private ["Ps23CustomStringConvertible", "RTCConfiguration"]
+- !private ["Ps23CustomStringConvertible", "RTCDataBuffer"]
+- !private ["Ps23CustomStringConvertible", "RTCDataChannelConfiguration"]
+- !private ["Ps23CustomStringConvertible", "RTCMediaConstraints"]
+- ["Ps23CustomStringConvertible", "RTCPeerConnectionFactory"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "answer"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "assertOnSignalingQueue"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "audioConstraints"]
+- !private ["Ps23CustomStringConvertible", "audioSender"]
+- !private ["Ps23CustomStringConvertible", "audioSource"]
+- !private ["Ps23CustomStringConvertible", "audioTrack"]
+- !private ["Ps23CustomStringConvertible", "audioTracks"]
+- !private ["Ps23CustomStringConvertible", "avFoundationVideoSource"]
+- !private ["Ps23CustomStringConvertible", "bundlePolicy"]
+- !private ["Ps23CustomStringConvertible", "cameraConstraints"]
+- !private ["Ps23CustomStringConvertible", "captureSession"]
+- !private ["Ps23CustomStringConvertible", "catch"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "configuration"]
+- !private ["Ps23CustomStringConvertible", "configureAudioSession"]
+- !private ["Ps23CustomStringConvertible", "connectionConstraints"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "createAudioSender"]
+- !private ["Ps23CustomStringConvertible", "createSignalingDataChannel"]
+- !private ["Ps23CustomStringConvertible", "createVideoSender"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- ["Ps23CustomStringConvertible", "dataChannel"]
+- ["Ps23CustomStringConvertible", "dataChannelDidChangeState"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "defaultOfferConstraints"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dispatchPrecondition"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "factory"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "iceServers"]
+- !private ["Ps23CustomStringConvertible", "iceTransportPolicy"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- !private ["Ps23CustomStringConvertible", "isOrdered"]
+- !private ["Ps23CustomStringConvertible", "kAudioTrackType"]
+- !private ["Ps23CustomStringConvertible", "kVideoTrackType"]
+- !private ["Ps23CustomStringConvertible", "localVideoTrack"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "negotiateAnswerSessionDescription"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_enter"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_exit"]
+- !private ["Ps23CustomStringConvertible", "offer"]
+- !private ["Ps23CustomStringConvertible", "parse"]
+- ["Ps23CustomStringConvertible", "peerConnection"]
+- ["Ps23CustomStringConvertible", "peerConnectionShouldNegotiate"]
+- !private ["Ps23CustomStringConvertible", "remoteVideoTrack"]
+- !private ["Ps23CustomStringConvertible", "rtcpMuxPolicy"]
+- !private ["Ps23CustomStringConvertible", "sdp"]
+- !private ["Ps23CustomStringConvertible", "sendData"]
+- !private ["Ps23CustomStringConvertible", "sender"]
+- !private ["Ps23CustomStringConvertible", "setLocalDescription"]
+- !private ["Ps23CustomStringConvertible", "setLocalSessionDescriptionInternal"]
+- !private ["Ps23CustomStringConvertible", "setRemoteDescription"]
+- !private ["Ps23CustomStringConvertible", "setRemoteSessionDescription"]
+- !private ["Ps23CustomStringConvertible", "sharedAudioSession"]
+- !private ["Ps23CustomStringConvertible", "signalingQueue"]
+- !private ["Ps23CustomStringConvertible", "startRunning"]
+- !private ["Ps23CustomStringConvertible", "stopRunning"]
+- !private ["Ps23CustomStringConvertible", "stringByReplacingMatches"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- !private ["Ps23CustomStringConvertible", "terminateInternal"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- !private ["Ps23CustomStringConvertible", "track"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- !private ["Ps23CustomStringConvertible", "useBackCamera"]
+- !private ["Ps23CustomStringConvertible", "verbose"]
+- !private ["Ps23CustomStringConvertible", "videoCaptureSession"]
+- !private ["Ps23CustomStringConvertible", "videoSender"]
+- !private ["Ps23CustomStringConvertible", "videoTrack"]
+- !private ["Ps23CustomStringConvertible", "videoTracks"]
+- !private ["Ps23CustomStringConvertible", "warn"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo14DispatchObject", "sync"]
+- !private ["O8Dispatch17DispatchPredicate", "onQueue"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "init"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["CSo13DispatchQueue", "sync"]
+- !private ["Ps9Equatable", "AssertIsOnMainThread"]
+- ["Ps9Equatable", "CallAudioSession"]
+- ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "HardenedRTCSessionDescription"]
+- !private ["Ps9Equatable", "Identifiers"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9Equatable", "OWSWebRTCProtosData"]
+- !private ["Ps9Equatable", "PeerConnectionClient"]
+- !private ["Ps9Equatable", "Platform"]
+- !private ["Ps9Equatable", "Promise"]
+- !private ["Ps9Equatable", "PromiseKit"]
+- !private ["Ps9Equatable", "RTCConfiguration"]
+- !private ["Ps9Equatable", "RTCDataBuffer"]
+- !private ["Ps9Equatable", "RTCDataChannelConfiguration"]
+- !private ["Ps9Equatable", "RTCMediaConstraints"]
+- ["Ps9Equatable", "RTCPeerConnectionFactory"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "answer"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "assertOnSignalingQueue"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "audioConstraints"]
+- !private ["Ps9Equatable", "audioSender"]
+- !private ["Ps9Equatable", "audioSource"]
+- !private ["Ps9Equatable", "audioTrack"]
+- !private ["Ps9Equatable", "audioTracks"]
+- !private ["Ps9Equatable", "avFoundationVideoSource"]
+- !private ["Ps9Equatable", "bundlePolicy"]
+- !private ["Ps9Equatable", "cameraConstraints"]
+- !private ["Ps9Equatable", "captureSession"]
+- !private ["Ps9Equatable", "caseInsensitive"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "checking"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "closed"]
+- !private ["Ps9Equatable", "complete"]
+- !private ["Ps9Equatable", "completed"]
+- !private ["Ps9Equatable", "configuration"]
+- !private ["Ps9Equatable", "configureAudioSession"]
+- !private ["Ps9Equatable", "connected"]
+- !private ["Ps9Equatable", "connectionConstraints"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "createAudioSender"]
+- !private ["Ps9Equatable", "createSignalingDataChannel"]
+- !private ["Ps9Equatable", "createVideoSender"]
+- !private ["Ps9Equatable", "data"]
+- ["Ps9Equatable", "dataChannel"]
+- ["Ps9Equatable", "dataChannelDidChangeState"]
+- !private ["Ps9Equatable", "dataChannelSignaling"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "debugDescription"]
+- !private ["Ps9Equatable", "defaultOfferConstraints"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "disconnected"]
+- !private ["Ps9Equatable", "dispatchPrecondition"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "factory"]
+- !private ["Ps9Equatable", "failed"]
+- !private ["Ps9Equatable", "gathering"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "haveLocalOffer"]
+- !private ["Ps9Equatable", "haveLocalPrAnswer"]
+- !private ["Ps9Equatable", "haveRemoteOffer"]
+- !private ["Ps9Equatable", "haveRemotePrAnswer"]
+- !private ["Ps9Equatable", "iceServers"]
+- !private ["Ps9Equatable", "iceTransportPolicy"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEnabled"]
+- !private ["Ps9Equatable", "isOrdered"]
+- !private ["Ps9Equatable", "kAudioTrackType"]
+- !private ["Ps9Equatable", "kVideoTrackType"]
+- !private ["Ps9Equatable", "localVideoTrack"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "maxBundle"]
+- !private ["Ps9Equatable", "mediaStream"]
+- !private ["Ps9Equatable", "negotiateAnswerSessionDescription"]
+- !private ["Ps9Equatable", "new"]
+- !private ["Ps9Equatable", "objc_sync_enter"]
+- !private ["Ps9Equatable", "objc_sync_exit"]
+- !private ["Ps9Equatable", "offer"]
+- !private ["Ps9Equatable", "outgoing"]
+- !private ["Ps9Equatable", "parse"]
+- ["Ps9Equatable", "peerConnection"]
+- ["Ps9Equatable", "peerConnectionShouldNegotiate"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "relay"]
+- !private ["Ps9Equatable", "remoteVideoTrack"]
+- !private ["Ps9Equatable", "require"]
+- !private ["Ps9Equatable", "rtcpMuxPolicy"]
+- !private ["Ps9Equatable", "sdp"]
+- !private ["Ps9Equatable", "sendData"]
+- !private ["Ps9Equatable", "sender"]
+- !private ["Ps9Equatable", "setLocalDescription"]
+- !private ["Ps9Equatable", "setLocalSessionDescriptionInternal"]
+- !private ["Ps9Equatable", "setRemoteDescription"]
+- !private ["Ps9Equatable", "setRemoteSessionDescription"]
+- !private ["Ps9Equatable", "sharedAudioSession"]
+- !private ["Ps9Equatable", "signalingQueue"]
+- !private ["Ps9Equatable", "stable"]
+- !private ["Ps9Equatable", "startRunning"]
+- !private ["Ps9Equatable", "stopRunning"]
+- !private ["Ps9Equatable", "stringByReplacingMatches"]
+- !private ["Ps9Equatable", "sync"]
+- !private ["Ps9Equatable", "terminateInternal"]
+- !private ["Ps9Equatable", "track"]
+- !private ["Ps9Equatable", "type"]
+- !private ["Ps9Equatable", "useBackCamera"]
+- !private ["Ps9Equatable", "verbose"]
+- !private ["Ps9Equatable", "videoCaptureSession"]
+- !private ["Ps9Equatable", "videoSender"]
+- !private ["Ps9Equatable", "videoTrack"]
+- !private ["Ps9Equatable", "videoTracks"]
+- !private ["Ps9Equatable", "warn"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "caseInsensitive"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "outgoing"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["PSo24GeneratedMessageProtocol", "parse"]
+- !private ["C8TestChat29HardenedRTCSessionDescription", "HardenedRTCSessionDescription"]
+- !private ["C8TestChat29HardenedRTCSessionDescription", "NSMakeRange"]
+- !private ["C8TestChat29HardenedRTCSessionDescription", "NSRegularExpression"]
+- ["C8TestChat29HardenedRTCSessionDescription", "RTCSessionDescription"]
+- ["C8TestChat29HardenedRTCSessionDescription", "String"]
+- ["C8TestChat29HardenedRTCSessionDescription", "deinit"]
+- ["C8TestChat29HardenedRTCSessionDescription", "harden"]
+- ["C8TestChat29HardenedRTCSessionDescription", "init"]
+- ["C8TestChat29HardenedRTCSessionDescription", "rtcSessionDescription"]
+- ["C8TestChat29HardenedRTCSessionDescription", "sdp"]
+- !private ["Ps8Hashable", "AssertIsOnMainThread"]
+- ["Ps8Hashable", "CallAudioSession"]
+- ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "HardenedRTCSessionDescription"]
+- !private ["Ps8Hashable", "Identifiers"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps8Hashable", "OWSWebRTCProtosData"]
+- !private ["Ps8Hashable", "PeerConnectionClient"]
+- !private ["Ps8Hashable", "Platform"]
+- !private ["Ps8Hashable", "Promise"]
+- !private ["Ps8Hashable", "PromiseKit"]
+- !private ["Ps8Hashable", "RTCConfiguration"]
+- !private ["Ps8Hashable", "RTCDataBuffer"]
+- !private ["Ps8Hashable", "RTCDataChannelConfiguration"]
+- !private ["Ps8Hashable", "RTCMediaConstraints"]
+- ["Ps8Hashable", "RTCPeerConnectionFactory"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "answer"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "assertOnSignalingQueue"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "audioConstraints"]
+- !private ["Ps8Hashable", "audioSender"]
+- !private ["Ps8Hashable", "audioSource"]
+- !private ["Ps8Hashable", "audioTrack"]
+- !private ["Ps8Hashable", "audioTracks"]
+- !private ["Ps8Hashable", "avFoundationVideoSource"]
+- !private ["Ps8Hashable", "bundlePolicy"]
+- !private ["Ps8Hashable", "cameraConstraints"]
+- !private ["Ps8Hashable", "captureSession"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "checking"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "closed"]
+- !private ["Ps8Hashable", "complete"]
+- !private ["Ps8Hashable", "completed"]
+- !private ["Ps8Hashable", "configuration"]
+- !private ["Ps8Hashable", "configureAudioSession"]
+- !private ["Ps8Hashable", "connected"]
+- !private ["Ps8Hashable", "connectionConstraints"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "createAudioSender"]
+- !private ["Ps8Hashable", "createSignalingDataChannel"]
+- !private ["Ps8Hashable", "createVideoSender"]
+- !private ["Ps8Hashable", "data"]
+- ["Ps8Hashable", "dataChannel"]
+- ["Ps8Hashable", "dataChannelDidChangeState"]
+- !private ["Ps8Hashable", "dataChannelSignaling"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "debugDescription"]
+- !private ["Ps8Hashable", "defaultOfferConstraints"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "disconnected"]
+- !private ["Ps8Hashable", "dispatchPrecondition"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "factory"]
+- !private ["Ps8Hashable", "failed"]
+- !private ["Ps8Hashable", "gathering"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "haveLocalOffer"]
+- !private ["Ps8Hashable", "haveLocalPrAnswer"]
+- !private ["Ps8Hashable", "haveRemoteOffer"]
+- !private ["Ps8Hashable", "haveRemotePrAnswer"]
+- !private ["Ps8Hashable", "iceServers"]
+- !private ["Ps8Hashable", "iceTransportPolicy"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEnabled"]
+- !private ["Ps8Hashable", "isOrdered"]
+- !private ["Ps8Hashable", "kAudioTrackType"]
+- !private ["Ps8Hashable", "kVideoTrackType"]
+- !private ["Ps8Hashable", "localVideoTrack"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "maxBundle"]
+- !private ["Ps8Hashable", "mediaStream"]
+- !private ["Ps8Hashable", "negotiateAnswerSessionDescription"]
+- !private ["Ps8Hashable", "new"]
+- !private ["Ps8Hashable", "objc_sync_enter"]
+- !private ["Ps8Hashable", "objc_sync_exit"]
+- !private ["Ps8Hashable", "offer"]
+- !private ["Ps8Hashable", "outgoing"]
+- !private ["Ps8Hashable", "parse"]
+- ["Ps8Hashable", "peerConnection"]
+- ["Ps8Hashable", "peerConnectionShouldNegotiate"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "relay"]
+- !private ["Ps8Hashable", "remoteVideoTrack"]
+- !private ["Ps8Hashable", "require"]
+- !private ["Ps8Hashable", "rtcpMuxPolicy"]
+- !private ["Ps8Hashable", "sdp"]
+- !private ["Ps8Hashable", "sendData"]
+- !private ["Ps8Hashable", "sender"]
+- !private ["Ps8Hashable", "setLocalDescription"]
+- !private ["Ps8Hashable", "setLocalSessionDescriptionInternal"]
+- !private ["Ps8Hashable", "setRemoteDescription"]
+- !private ["Ps8Hashable", "setRemoteSessionDescription"]
+- !private ["Ps8Hashable", "sharedAudioSession"]
+- !private ["Ps8Hashable", "signalingQueue"]
+- !private ["Ps8Hashable", "stable"]
+- !private ["Ps8Hashable", "startRunning"]
+- !private ["Ps8Hashable", "stopRunning"]
+- !private ["Ps8Hashable", "stringByReplacingMatches"]
+- !private ["Ps8Hashable", "sync"]
+- !private ["Ps8Hashable", "terminateInternal"]
+- !private ["Ps8Hashable", "track"]
+- !private ["Ps8Hashable", "type"]
+- !private ["Ps8Hashable", "useBackCamera"]
+- !private ["Ps8Hashable", "verbose"]
+- !private ["Ps8Hashable", "videoCaptureSession"]
+- !private ["Ps8Hashable", "videoSender"]
+- !private ["Ps8Hashable", "videoTrack"]
+- !private ["Ps8Hashable", "videoTracks"]
+- !private ["Ps8Hashable", "warn"]
+- ["Ps8Hashable", ""]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "RawValue"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "_toAnyHashable"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "audioTrack"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "dataChannelSignaling"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "deinit"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "hashValue"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "init"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "mediaStream"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "rawValue"]
+- ["OC8TestChat20PeerConnectionClient11Identifiers", "videoTrack"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "info"]
+- !private ["CSo6Logger", "verbose"]
+- !private ["CSo6Logger", "warn"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "characters"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringByReplacingMatches"]
+- !private ["PSo9NSCopying", "characters"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByReplacingMatches"]
+- !private ["CSo7NSError", "init"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AVCaptureSession"]
+- !private ["CSo8NSObject", "AssertIsOnMainThread"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CallAudioSession"]
+- ["CSo8NSObject", "CallDirection"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "HardenedRTCSessionDescription"]
+- !private ["CSo8NSObject", "Identifiers"]
+- !private ["CSo8NSObject", "Logger"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["CSo8NSObject", "OWSWebRTCProtosData"]
+- !private ["CSo8NSObject", "PeerConnectionClient"]
+- ["CSo8NSObject", "PeerConnectionClientDelegate"]
+- !private ["CSo8NSObject", "Platform"]
+- ["CSo8NSObject", "Promise"]
+- !private ["CSo8NSObject", "PromiseKit"]
+- ["CSo8NSObject", "RTCAudioTrack"]
+- ["CSo8NSObject", "RTCConfiguration"]
+- ["CSo8NSObject", "RTCDataBuffer"]
+- ["CSo8NSObject", "RTCDataChannel"]
+- !private ["CSo8NSObject", "RTCDataChannelConfiguration"]
+- ["CSo8NSObject", "RTCIceCandidate"]
+- ["CSo8NSObject", "RTCIceConnectionState"]
+- ["CSo8NSObject", "RTCIceGatheringState"]
+- ["CSo8NSObject", "RTCIceServer"]
+- ["CSo8NSObject", "RTCMediaConstraints"]
+- ["CSo8NSObject", "RTCMediaStream"]
+- ["CSo8NSObject", "RTCPeerConnection"]
+- ["CSo8NSObject", "RTCPeerConnectionFactory"]
+- ["CSo8NSObject", "RTCRtpSender"]
+- ["CSo8NSObject", "RTCSessionDescription"]
+- ["CSo8NSObject", "RTCSignalingState"]
+- ["CSo8NSObject", "RTCVideoTrack"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- ["CSo8NSObject", "UInt64"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "add"]
+- ["CSo8NSObject", "addIceCandidate"]
+- !private ["CSo8NSObject", "answer"]
+- !private ["CSo8NSObject", "assert"]
+- ["CSo8NSObject", "assertOnSignalingQueue"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "audioConstraints"]
+- ["CSo8NSObject", "audioSender"]
+- !private ["CSo8NSObject", "audioSource"]
+- ["CSo8NSObject", "audioTrack"]
+- !private ["CSo8NSObject", "audioTracks"]
+- !private ["CSo8NSObject", "avFoundationVideoSource"]
+- !private ["CSo8NSObject", "bundlePolicy"]
+- ["CSo8NSObject", "cameraConstraints"]
+- !private ["CSo8NSObject", "captureSession"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "close"]
+- ["CSo8NSObject", "configuration"]
+- ["CSo8NSObject", "configureAudioSession"]
+- ["CSo8NSObject", "connectionConstraints"]
+- ["CSo8NSObject", "createAudioSender"]
+- ["CSo8NSObject", "createOffer"]
+- ["CSo8NSObject", "createSignalingDataChannel"]
+- ["CSo8NSObject", "createVideoSender"]
+- !private ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "dataChannel"]
+- ["CSo8NSObject", "dataChannelDidChangeState"]
+- ["CSo8NSObject", "dataChannelForTests"]
+- !private ["CSo8NSObject", "debug"]
+- ["CSo8NSObject", "defaultOfferConstraints"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dispatchPrecondition"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "factory"]
+- ["CSo8NSObject", "flushSignalingQueueForTests"]
+- ["CSo8NSObject", "iceServers"]
+- !private ["CSo8NSObject", "iceTransportPolicy"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEnabled"]
+- !private ["CSo8NSObject", "isOrdered"]
+- !private ["CSo8NSObject", "kAudioTrackType"]
+- !private ["CSo8NSObject", "kVideoTrackType"]
+- ["CSo8NSObject", "localVideoTrack"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "negotiateAnswerSessionDescription"]
+- ["CSo8NSObject", "negotiateSessionDescription"]
+- !private ["CSo8NSObject", "objc_sync_enter"]
+- !private ["CSo8NSObject", "objc_sync_exit"]
+- !private ["CSo8NSObject", "offer"]
+- !private ["CSo8NSObject", "parse"]
+- ["CSo8NSObject", "peerConnection"]
+- ["CSo8NSObject", "peerConnectionForTests"]
+- ["CSo8NSObject", "peerConnectionShouldNegotiate"]
+- ["CSo8NSObject", "remoteVideoTrack"]
+- !private ["CSo8NSObject", "rtcpMuxPolicy"]
+- !private ["CSo8NSObject", "sdp"]
+- !private ["CSo8NSObject", "sendData"]
+- ["CSo8NSObject", "sendDataChannelMessage"]
+- !private ["CSo8NSObject", "sender"]
+- ["CSo8NSObject", "setAudioEnabled"]
+- ["CSo8NSObject", "setDelegate"]
+- !private ["CSo8NSObject", "setLocalDescription"]
+- ["CSo8NSObject", "setLocalSessionDescription"]
+- ["CSo8NSObject", "setLocalSessionDescriptionInternal"]
+- ["CSo8NSObject", "setLocalVideoEnabled"]
+- !private ["CSo8NSObject", "setRemoteDescription"]
+- ["CSo8NSObject", "setRemoteSessionDescription"]
+- ["CSo8NSObject", "sharedAudioSession"]
+- ["CSo8NSObject", "signalingQueue"]
+- ["CSo8NSObject", "startAudioSession"]
+- !private ["CSo8NSObject", "startRunning"]
+- ["CSo8NSObject", "stopAudioSession"]
+- !private ["CSo8NSObject", "stopRunning"]
+- !private ["CSo8NSObject", "stringByReplacingMatches"]
+- !private ["CSo8NSObject", "sync"]
+- ["CSo8NSObject", "terminate"]
+- ["CSo8NSObject", "terminateInternal"]
+- !private ["CSo8NSObject", "track"]
+- !private ["CSo8NSObject", "type"]
+- !private ["CSo8NSObject", "useBackCamera"]
+- !private ["CSo8NSObject", "verbose"]
+- ["CSo8NSObject", "videoCaptureSession"]
+- ["CSo8NSObject", "videoSender"]
+- !private ["CSo8NSObject", "videoTrack"]
+- !private ["CSo8NSObject", "videoTracks"]
+- !private ["CSo8NSObject", "warn"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AssertIsOnMainThread"]
+- ["PSo16NSObjectProtocol", "CallAudioSession"]
+- ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "HardenedRTCSessionDescription"]
+- !private ["PSo16NSObjectProtocol", "Identifiers"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "NSError"]
+- !private ["PSo16NSObjectProtocol", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["PSo16NSObjectProtocol", "OWSWebRTCProtosData"]
+- !private ["PSo16NSObjectProtocol", "PeerConnectionClient"]
+- !private ["PSo16NSObjectProtocol", "Platform"]
+- !private ["PSo16NSObjectProtocol", "Promise"]
+- !private ["PSo16NSObjectProtocol", "PromiseKit"]
+- !private ["PSo16NSObjectProtocol", "RTCConfiguration"]
+- !private ["PSo16NSObjectProtocol", "RTCDataBuffer"]
+- !private ["PSo16NSObjectProtocol", "RTCDataChannelConfiguration"]
+- !private ["PSo16NSObjectProtocol", "RTCMediaConstraints"]
+- ["PSo16NSObjectProtocol", "RTCPeerConnectionFactory"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "answer"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "assertOnSignalingQueue"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "audioConstraints"]
+- !private ["PSo16NSObjectProtocol", "audioSender"]
+- !private ["PSo16NSObjectProtocol", "audioSource"]
+- !private ["PSo16NSObjectProtocol", "audioTrack"]
+- !private ["PSo16NSObjectProtocol", "audioTracks"]
+- !private ["PSo16NSObjectProtocol", "avFoundationVideoSource"]
+- !private ["PSo16NSObjectProtocol", "bundlePolicy"]
+- !private ["PSo16NSObjectProtocol", "cameraConstraints"]
+- !private ["PSo16NSObjectProtocol", "captureSession"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "close"]
+- !private ["PSo16NSObjectProtocol", "configuration"]
+- !private ["PSo16NSObjectProtocol", "configureAudioSession"]
+- !private ["PSo16NSObjectProtocol", "connectionConstraints"]
+- !private ["PSo16NSObjectProtocol", "createAudioSender"]
+- !private ["PSo16NSObjectProtocol", "createSignalingDataChannel"]
+- !private ["PSo16NSObjectProtocol", "createVideoSender"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- ["PSo16NSObjectProtocol", "dataChannel"]
+- ["PSo16NSObjectProtocol", "dataChannelDidChangeState"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "defaultOfferConstraints"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dispatchPrecondition"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "factory"]
+- !private ["PSo16NSObjectProtocol", "iceServers"]
+- !private ["PSo16NSObjectProtocol", "iceTransportPolicy"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- !private ["PSo16NSObjectProtocol", "isOrdered"]
+- !private ["PSo16NSObjectProtocol", "kAudioTrackType"]
+- !private ["PSo16NSObjectProtocol", "kVideoTrackType"]
+- !private ["PSo16NSObjectProtocol", "localVideoTrack"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "negotiateAnswerSessionDescription"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_enter"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_exit"]
+- !private ["PSo16NSObjectProtocol", "offer"]
+- !private ["PSo16NSObjectProtocol", "parse"]
+- ["PSo16NSObjectProtocol", "peerConnection"]
+- ["PSo16NSObjectProtocol", "peerConnectionShouldNegotiate"]
+- !private ["PSo16NSObjectProtocol", "remoteVideoTrack"]
+- !private ["PSo16NSObjectProtocol", "rtcpMuxPolicy"]
+- !private ["PSo16NSObjectProtocol", "sdp"]
+- !private ["PSo16NSObjectProtocol", "sendData"]
+- !private ["PSo16NSObjectProtocol", "sender"]
+- !private ["PSo16NSObjectProtocol", "setLocalDescription"]
+- !private ["PSo16NSObjectProtocol", "setLocalSessionDescriptionInternal"]
+- !private ["PSo16NSObjectProtocol", "setRemoteDescription"]
+- !private ["PSo16NSObjectProtocol", "setRemoteSessionDescription"]
+- !private ["PSo16NSObjectProtocol", "sharedAudioSession"]
+- !private ["PSo16NSObjectProtocol", "signalingQueue"]
+- !private ["PSo16NSObjectProtocol", "startRunning"]
+- !private ["PSo16NSObjectProtocol", "stopRunning"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingMatches"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- !private ["PSo16NSObjectProtocol", "terminateInternal"]
+- !private ["PSo16NSObjectProtocol", "track"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- !private ["PSo16NSObjectProtocol", "useBackCamera"]
+- !private ["PSo16NSObjectProtocol", "verbose"]
+- !private ["PSo16NSObjectProtocol", "videoCaptureSession"]
+- !private ["PSo16NSObjectProtocol", "videoSender"]
+- !private ["PSo16NSObjectProtocol", "videoTrack"]
+- !private ["PSo16NSObjectProtocol", "videoTracks"]
+- !private ["PSo16NSObjectProtocol", "warn"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo19NSRegularExpression", "init"]
+- !private ["CSo19NSRegularExpression", "stringByReplacingMatches"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingMatches"]
+- !private ["CSo8NSString", "characters"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["CSo9OS_object", "sync"]
+- !private ["CSo19OWSWebRTCProtosData", "parse"]
+- !private ["Ps9OptionSet", "caseInsensitive"]
+- !private ["Sq", "outgoing"]
+- !private ["VCSo19NSRegularExpression7Options", "caseInsensitive"]
+- !private ["CSo17PBAbstractMessage", "parse"]
+- !private ["CSo18PBGeneratedMessage", "parse"]
+- !private ["PSo9PBMessage", "parse"]
+- ["C8TestChat20PeerConnectionClient", "AVCaptureSession"]
+- !private ["C8TestChat20PeerConnectionClient", "AssertIsOnMainThread"]
+- ["C8TestChat20PeerConnectionClient", "Bool"]
+- ["C8TestChat20PeerConnectionClient", "CallAudioSession"]
+- ["C8TestChat20PeerConnectionClient", "CallDirection"]
+- ["C8TestChat20PeerConnectionClient", "Data"]
+- ["C8TestChat20PeerConnectionClient", "DispatchQueue"]
+- !private ["C8TestChat20PeerConnectionClient", "Error"]
+- ["C8TestChat20PeerConnectionClient", "HardenedRTCSessionDescription"]
+- ["C8TestChat20PeerConnectionClient", "Identifiers"]
+- !private ["C8TestChat20PeerConnectionClient", "Logger"]
+- !private ["C8TestChat20PeerConnectionClient", "NSError"]
+- !private ["C8TestChat20PeerConnectionClient", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["C8TestChat20PeerConnectionClient", "OWSWebRTCProtosData"]
+- !private ["C8TestChat20PeerConnectionClient", "PeerConnectionClient"]
+- ["C8TestChat20PeerConnectionClient", "PeerConnectionClientDelegate"]
+- !private ["C8TestChat20PeerConnectionClient", "Platform"]
+- ["C8TestChat20PeerConnectionClient", "Promise"]
+- !private ["C8TestChat20PeerConnectionClient", "PromiseKit"]
+- ["C8TestChat20PeerConnectionClient", "RTCAudioTrack"]
+- ["C8TestChat20PeerConnectionClient", "RTCConfiguration"]
+- ["C8TestChat20PeerConnectionClient", "RTCDataBuffer"]
+- ["C8TestChat20PeerConnectionClient", "RTCDataChannel"]
+- !private ["C8TestChat20PeerConnectionClient", "RTCDataChannelConfiguration"]
+- ["C8TestChat20PeerConnectionClient", "RTCIceCandidate"]
+- ["C8TestChat20PeerConnectionClient", "RTCIceConnectionState"]
+- ["C8TestChat20PeerConnectionClient", "RTCIceGatheringState"]
+- ["C8TestChat20PeerConnectionClient", "RTCIceServer"]
+- ["C8TestChat20PeerConnectionClient", "RTCMediaConstraints"]
+- ["C8TestChat20PeerConnectionClient", "RTCMediaStream"]
+- ["C8TestChat20PeerConnectionClient", "RTCPeerConnection"]
+- ["C8TestChat20PeerConnectionClient", "RTCPeerConnectionFactory"]
+- ["C8TestChat20PeerConnectionClient", "RTCRtpSender"]
+- ["C8TestChat20PeerConnectionClient", "RTCSessionDescription"]
+- ["C8TestChat20PeerConnectionClient", "RTCSignalingState"]
+- ["C8TestChat20PeerConnectionClient", "RTCVideoTrack"]
+- ["C8TestChat20PeerConnectionClient", "String"]
+- ["C8TestChat20PeerConnectionClient", "TAG"]
+- ["C8TestChat20PeerConnectionClient", "UInt64"]
+- ["C8TestChat20PeerConnectionClient", "Void"]
+- ["C8TestChat20PeerConnectionClient", "addIceCandidate"]
+- !private ["C8TestChat20PeerConnectionClient", "assert"]
+- !private ["C8TestChat20PeerConnectionClient", "assertOnSignalingQueue"]
+- !private ["C8TestChat20PeerConnectionClient", "assertionFailure"]
+- !private ["C8TestChat20PeerConnectionClient", "audioConstraints"]
+- !private ["C8TestChat20PeerConnectionClient", "audioSender"]
+- !private ["C8TestChat20PeerConnectionClient", "audioTrack"]
+- !private ["C8TestChat20PeerConnectionClient", "cameraConstraints"]
+- !private ["C8TestChat20PeerConnectionClient", "configuration"]
+- ["C8TestChat20PeerConnectionClient", "configureAudioSession"]
+- !private ["C8TestChat20PeerConnectionClient", "connectionConstraints"]
+- !private ["C8TestChat20PeerConnectionClient", "createAudioSender"]
+- ["C8TestChat20PeerConnectionClient", "createOffer"]
+- !private ["C8TestChat20PeerConnectionClient", "createSignalingDataChannel"]
+- !private ["C8TestChat20PeerConnectionClient", "createVideoSender"]
+- ["C8TestChat20PeerConnectionClient", "dataChannel"]
+- ["C8TestChat20PeerConnectionClient", "dataChannelDidChangeState"]
+- ["C8TestChat20PeerConnectionClient", "dataChannelForTests"]
+- !private ["C8TestChat20PeerConnectionClient", "defaultOfferConstraints"]
+- ["C8TestChat20PeerConnectionClient", "deinit"]
+- !private ["C8TestChat20PeerConnectionClient", "delegate"]
+- !private ["C8TestChat20PeerConnectionClient", "dispatchPrecondition"]
+- !private ["C8TestChat20PeerConnectionClient", "factory"]
+- ["C8TestChat20PeerConnectionClient", "flushSignalingQueueForTests"]
+- !private ["C8TestChat20PeerConnectionClient", "iceServers"]
+- ["C8TestChat20PeerConnectionClient", "init"]
+- !private ["C8TestChat20PeerConnectionClient", "kAudioTrackType"]
+- !private ["C8TestChat20PeerConnectionClient", "kVideoTrackType"]
+- !private ["C8TestChat20PeerConnectionClient", "localVideoTrack"]
+- !private ["C8TestChat20PeerConnectionClient", "negotiateAnswerSessionDescription"]
+- ["C8TestChat20PeerConnectionClient", "negotiateSessionDescription"]
+- !private ["C8TestChat20PeerConnectionClient", "objc_sync_enter"]
+- !private ["C8TestChat20PeerConnectionClient", "objc_sync_exit"]
+- ["C8TestChat20PeerConnectionClient", "peerConnection"]
+- ["C8TestChat20PeerConnectionClient", "peerConnectionForTests"]
+- ["C8TestChat20PeerConnectionClient", "peerConnectionShouldNegotiate"]
+- !private ["C8TestChat20PeerConnectionClient", "remoteVideoTrack"]
+- ["C8TestChat20PeerConnectionClient", "sendDataChannelMessage"]
+- ["C8TestChat20PeerConnectionClient", "setAudioEnabled"]
+- ["C8TestChat20PeerConnectionClient", "setDelegate"]
+- ["C8TestChat20PeerConnectionClient", "setLocalSessionDescription"]
+- ["C8TestChat20PeerConnectionClient", "setLocalSessionDescriptionInternal"]
+- ["C8TestChat20PeerConnectionClient", "setLocalVideoEnabled"]
+- ["C8TestChat20PeerConnectionClient", "setRemoteSessionDescription"]
+- !private ["C8TestChat20PeerConnectionClient", "sharedAudioSession"]
+- !private ["C8TestChat20PeerConnectionClient", "signalingQueue"]
+- ["C8TestChat20PeerConnectionClient", "startAudioSession"]
+- ["C8TestChat20PeerConnectionClient", "stopAudioSession"]
+- ["C8TestChat20PeerConnectionClient", "terminate"]
+- !private ["C8TestChat20PeerConnectionClient", "terminateInternal"]
+- !private ["C8TestChat20PeerConnectionClient", "videoCaptureSession"]
+- !private ["C8TestChat20PeerConnectionClient", "videoSender"]
+- ["P8TestChat28PeerConnectionClientDelegate", "OWSWebRTCProtosData"]
+- ["P8TestChat28PeerConnectionClientDelegate", "PeerConnectionClient"]
+- ["P8TestChat28PeerConnectionClientDelegate", "RTCIceCandidate"]
+- ["P8TestChat28PeerConnectionClientDelegate", "RTCVideoTrack"]
+- ["P8TestChat28PeerConnectionClientDelegate", "peerConnectionClient"]
+- ["P8TestChat28PeerConnectionClientDelegate", "peerConnectionClientIceConnected"]
+- ["P8TestChat28PeerConnectionClientDelegate", "peerConnectionClientIceFailed"]
+- !private ["V8TestChat8Platform", "isSimulator"]
+- !private ["C10PromiseKit7Promise", "catch"]
+- !private ["C10PromiseKit7Promise", "init"]
+- !private ["C10PromiseKit7Promise", "then"]
+- !private ["CSo26RTCAVFoundationVideoSource", "captureSession"]
+- !private ["CSo26RTCAVFoundationVideoSource", "useBackCamera"]
+- !private ["CSo13RTCAudioTrack", "isEnabled"]
+- !private ["OSC15RTCBundlePolicy", "maxBundle"]
+- !private ["CSo16RTCConfiguration", "bundlePolicy"]
+- !private ["CSo16RTCConfiguration", "iceServers"]
+- !private ["CSo16RTCConfiguration", "iceTransportPolicy"]
+- !private ["CSo16RTCConfiguration", "init"]
+- !private ["CSo16RTCConfiguration", "rtcpMuxPolicy"]
+- !private ["CSo13RTCDataBuffer", "data"]
+- !private ["CSo13RTCDataBuffer", "init"]
+- !private ["CSo14RTCDataChannel", "delegate"]
+- !private ["CSo14RTCDataChannel", "sendData"]
+- !private ["CSo27RTCDataChannelConfiguration", "init"]
+- !private ["CSo27RTCDataChannelConfiguration", "isOrdered"]
+- !private ["PSo22RTCDataChannelDelegate", "AssertIsOnMainThread"]
+- ["PSo22RTCDataChannelDelegate", "CallAudioSession"]
+- ["PSo22RTCDataChannelDelegate", "DispatchQueue"]
+- !private ["PSo22RTCDataChannelDelegate", "HardenedRTCSessionDescription"]
+- !private ["PSo22RTCDataChannelDelegate", "Identifiers"]
+- !private ["PSo22RTCDataChannelDelegate", "Logger"]
+- !private ["PSo22RTCDataChannelDelegate", "NSError"]
+- !private ["PSo22RTCDataChannelDelegate", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["PSo22RTCDataChannelDelegate", "OWSWebRTCProtosData"]
+- !private ["PSo22RTCDataChannelDelegate", "PeerConnectionClient"]
+- !private ["PSo22RTCDataChannelDelegate", "Platform"]
+- !private ["PSo22RTCDataChannelDelegate", "Promise"]
+- !private ["PSo22RTCDataChannelDelegate", "PromiseKit"]
+- !private ["PSo22RTCDataChannelDelegate", "RTCConfiguration"]
+- !private ["PSo22RTCDataChannelDelegate", "RTCDataBuffer"]
+- !private ["PSo22RTCDataChannelDelegate", "RTCDataChannelConfiguration"]
+- !private ["PSo22RTCDataChannelDelegate", "RTCMediaConstraints"]
+- ["PSo22RTCDataChannelDelegate", "RTCPeerConnectionFactory"]
+- !private ["PSo22RTCDataChannelDelegate", "TAG"]
+- !private ["PSo22RTCDataChannelDelegate", "assert"]
+- !private ["PSo22RTCDataChannelDelegate", "assertOnSignalingQueue"]
+- !private ["PSo22RTCDataChannelDelegate", "assertionFailure"]
+- !private ["PSo22RTCDataChannelDelegate", "audioConstraints"]
+- !private ["PSo22RTCDataChannelDelegate", "audioSender"]
+- !private ["PSo22RTCDataChannelDelegate", "audioTrack"]
+- !private ["PSo22RTCDataChannelDelegate", "cameraConstraints"]
+- !private ["PSo22RTCDataChannelDelegate", "configuration"]
+- !private ["PSo22RTCDataChannelDelegate", "configureAudioSession"]
+- !private ["PSo22RTCDataChannelDelegate", "connectionConstraints"]
+- !private ["PSo22RTCDataChannelDelegate", "createAudioSender"]
+- !private ["PSo22RTCDataChannelDelegate", "createSignalingDataChannel"]
+- !private ["PSo22RTCDataChannelDelegate", "createVideoSender"]
+- ["PSo22RTCDataChannelDelegate", "dataChannel"]
+- ["PSo22RTCDataChannelDelegate", "dataChannelDidChangeState"]
+- !private ["PSo22RTCDataChannelDelegate", "defaultOfferConstraints"]
+- !private ["PSo22RTCDataChannelDelegate", "delegate"]
+- !private ["PSo22RTCDataChannelDelegate", "dispatchPrecondition"]
+- !private ["PSo22RTCDataChannelDelegate", "factory"]
+- !private ["PSo22RTCDataChannelDelegate", "iceServers"]
+- !private ["PSo22RTCDataChannelDelegate", "kAudioTrackType"]
+- !private ["PSo22RTCDataChannelDelegate", "kVideoTrackType"]
+- !private ["PSo22RTCDataChannelDelegate", "localVideoTrack"]
+- !private ["PSo22RTCDataChannelDelegate", "negotiateAnswerSessionDescription"]
+- !private ["PSo22RTCDataChannelDelegate", "objc_sync_enter"]
+- !private ["PSo22RTCDataChannelDelegate", "objc_sync_exit"]
+- ["PSo22RTCDataChannelDelegate", "peerConnection"]
+- ["PSo22RTCDataChannelDelegate", "peerConnectionShouldNegotiate"]
+- !private ["PSo22RTCDataChannelDelegate", "remoteVideoTrack"]
+- !private ["PSo22RTCDataChannelDelegate", "setLocalSessionDescriptionInternal"]
+- !private ["PSo22RTCDataChannelDelegate", "setRemoteSessionDescription"]
+- !private ["PSo22RTCDataChannelDelegate", "sharedAudioSession"]
+- !private ["PSo22RTCDataChannelDelegate", "signalingQueue"]
+- !private ["PSo22RTCDataChannelDelegate", "terminateInternal"]
+- !private ["PSo22RTCDataChannelDelegate", "videoCaptureSession"]
+- !private ["PSo22RTCDataChannelDelegate", "videoSender"]
+- ["PSo22RTCDataChannelDelegate", ""]
+- !private ["CSo15RTCIceCandidate", "sdp"]
+- !private ["OSC21RTCIceConnectionState", "String"]
+- !private ["OSC21RTCIceConnectionState", "checking"]
+- !private ["OSC21RTCIceConnectionState", "closed"]
+- !private ["OSC21RTCIceConnectionState", "completed"]
+- !private ["OSC21RTCIceConnectionState", "connected"]
+- !private ["OSC21RTCIceConnectionState", "count"]
+- !private ["OSC21RTCIceConnectionState", "debugDescription"]
+- !private ["OSC21RTCIceConnectionState", "disconnected"]
+- !private ["OSC21RTCIceConnectionState", "failed"]
+- !private ["OSC21RTCIceConnectionState", "new"]
+- !private ["OSC20RTCIceGatheringState", "String"]
+- !private ["OSC20RTCIceGatheringState", "complete"]
+- !private ["OSC20RTCIceGatheringState", "debugDescription"]
+- !private ["OSC20RTCIceGatheringState", "gathering"]
+- !private ["OSC20RTCIceGatheringState", "new"]
+- !private ["OSC21RTCIceTransportPolicy", "relay"]
+- !private ["CSo19RTCMediaConstraints", "init"]
+- !private ["CSo14RTCMediaSource", "captureSession"]
+- !private ["CSo14RTCMediaSource", "useBackCamera"]
+- !private ["CSo14RTCMediaStream", "audioTracks"]
+- !private ["CSo14RTCMediaStream", "videoTracks"]
+- !private ["CSo19RTCMediaStreamTrack", "isEnabled"]
+- !private ["CSo17RTCPeerConnection", "add"]
+- !private ["CSo17RTCPeerConnection", "answer"]
+- !private ["CSo17RTCPeerConnection", "close"]
+- !private ["CSo17RTCPeerConnection", "dataChannel"]
+- !private ["CSo17RTCPeerConnection", "delegate"]
+- !private ["CSo17RTCPeerConnection", "offer"]
+- !private ["CSo17RTCPeerConnection", "sender"]
+- !private ["CSo17RTCPeerConnection", "setLocalDescription"]
+- !private ["CSo17RTCPeerConnection", "setRemoteDescription"]
+- !private ["PSo25RTCPeerConnectionDelegate", "AssertIsOnMainThread"]
+- ["PSo25RTCPeerConnectionDelegate", "CallAudioSession"]
+- ["PSo25RTCPeerConnectionDelegate", "DispatchQueue"]
+- !private ["PSo25RTCPeerConnectionDelegate", "HardenedRTCSessionDescription"]
+- !private ["PSo25RTCPeerConnectionDelegate", "Identifiers"]
+- !private ["PSo25RTCPeerConnectionDelegate", "Logger"]
+- !private ["PSo25RTCPeerConnectionDelegate", "NSError"]
+- !private ["PSo25RTCPeerConnectionDelegate", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["PSo25RTCPeerConnectionDelegate", "OWSWebRTCProtosData"]
+- !private ["PSo25RTCPeerConnectionDelegate", "PeerConnectionClient"]
+- !private ["PSo25RTCPeerConnectionDelegate", "Platform"]
+- !private ["PSo25RTCPeerConnectionDelegate", "Promise"]
+- !private ["PSo25RTCPeerConnectionDelegate", "PromiseKit"]
+- !private ["PSo25RTCPeerConnectionDelegate", "RTCConfiguration"]
+- !private ["PSo25RTCPeerConnectionDelegate", "RTCDataBuffer"]
+- !private ["PSo25RTCPeerConnectionDelegate", "RTCDataChannelConfiguration"]
+- !private ["PSo25RTCPeerConnectionDelegate", "RTCMediaConstraints"]
+- ["PSo25RTCPeerConnectionDelegate", "RTCPeerConnectionFactory"]
+- !private ["PSo25RTCPeerConnectionDelegate", "TAG"]
+- !private ["PSo25RTCPeerConnectionDelegate", "assert"]
+- !private ["PSo25RTCPeerConnectionDelegate", "assertOnSignalingQueue"]
+- !private ["PSo25RTCPeerConnectionDelegate", "assertionFailure"]
+- !private ["PSo25RTCPeerConnectionDelegate", "audioConstraints"]
+- !private ["PSo25RTCPeerConnectionDelegate", "audioSender"]
+- !private ["PSo25RTCPeerConnectionDelegate", "audioTrack"]
+- !private ["PSo25RTCPeerConnectionDelegate", "cameraConstraints"]
+- !private ["PSo25RTCPeerConnectionDelegate", "configuration"]
+- !private ["PSo25RTCPeerConnectionDelegate", "configureAudioSession"]
+- !private ["PSo25RTCPeerConnectionDelegate", "connectionConstraints"]
+- !private ["PSo25RTCPeerConnectionDelegate", "createAudioSender"]
+- !private ["PSo25RTCPeerConnectionDelegate", "createSignalingDataChannel"]
+- !private ["PSo25RTCPeerConnectionDelegate", "createVideoSender"]
+- ["PSo25RTCPeerConnectionDelegate", "dataChannel"]
+- ["PSo25RTCPeerConnectionDelegate", "dataChannelDidChangeState"]
+- !private ["PSo25RTCPeerConnectionDelegate", "defaultOfferConstraints"]
+- !private ["PSo25RTCPeerConnectionDelegate", "delegate"]
+- !private ["PSo25RTCPeerConnectionDelegate", "dispatchPrecondition"]
+- !private ["PSo25RTCPeerConnectionDelegate", "factory"]
+- !private ["PSo25RTCPeerConnectionDelegate", "iceServers"]
+- !private ["PSo25RTCPeerConnectionDelegate", "kAudioTrackType"]
+- !private ["PSo25RTCPeerConnectionDelegate", "kVideoTrackType"]
+- !private ["PSo25RTCPeerConnectionDelegate", "localVideoTrack"]
+- !private ["PSo25RTCPeerConnectionDelegate", "negotiateAnswerSessionDescription"]
+- !private ["PSo25RTCPeerConnectionDelegate", "objc_sync_enter"]
+- !private ["PSo25RTCPeerConnectionDelegate", "objc_sync_exit"]
+- ["PSo25RTCPeerConnectionDelegate", "peerConnection"]
+- ["PSo25RTCPeerConnectionDelegate", "peerConnectionShouldNegotiate"]
+- !private ["PSo25RTCPeerConnectionDelegate", "remoteVideoTrack"]
+- !private ["PSo25RTCPeerConnectionDelegate", "setLocalSessionDescriptionInternal"]
+- !private ["PSo25RTCPeerConnectionDelegate", "setRemoteSessionDescription"]
+- !private ["PSo25RTCPeerConnectionDelegate", "sharedAudioSession"]
+- !private ["PSo25RTCPeerConnectionDelegate", "signalingQueue"]
+- !private ["PSo25RTCPeerConnectionDelegate", "terminateInternal"]
+- !private ["PSo25RTCPeerConnectionDelegate", "videoCaptureSession"]
+- !private ["PSo25RTCPeerConnectionDelegate", "videoSender"]
+- ["PSo25RTCPeerConnectionDelegate", ""]
+- !private ["CSo24RTCPeerConnectionFactory", "audioSource"]
+- !private ["CSo24RTCPeerConnectionFactory", "audioTrack"]
+- !private ["CSo24RTCPeerConnectionFactory", "avFoundationVideoSource"]
+- ["CSo24RTCPeerConnectionFactory", "init"]
+- !private ["CSo24RTCPeerConnectionFactory", "peerConnection"]
+- !private ["CSo24RTCPeerConnectionFactory", "videoTrack"]
+- !private ["OSC16RTCRtcpMuxPolicy", "require"]
+- !private ["CSo12RTCRtpSender", "track"]
+- !private ["PSo20RTCRtpSenderProtocol", "track"]
+- !private ["CSo21RTCSessionDescription", "init"]
+- !private ["CSo21RTCSessionDescription", "sdp"]
+- !private ["CSo21RTCSessionDescription", "type"]
+- !private ["OSC17RTCSignalingState", "String"]
+- !private ["OSC17RTCSignalingState", "closed"]
+- !private ["OSC17RTCSignalingState", "debugDescription"]
+- !private ["OSC17RTCSignalingState", "haveLocalOffer"]
+- !private ["OSC17RTCSignalingState", "haveLocalPrAnswer"]
+- !private ["OSC17RTCSignalingState", "haveRemoteOffer"]
+- !private ["OSC17RTCSignalingState", "haveRemotePrAnswer"]
+- !private ["OSC17RTCSignalingState", "stable"]
+- !private ["CSo14RTCVideoSource", "captureSession"]
+- !private ["CSo14RTCVideoSource", "useBackCamera"]
+- !private ["CSo13RTCVideoTrack", "isEnabled"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "audioTrack"]
+- !private ["Ps16RawRepresentable", "caseInsensitive"]
+- !private ["Ps16RawRepresentable", "checking"]
+- !private ["Ps16RawRepresentable", "closed"]
+- !private ["Ps16RawRepresentable", "complete"]
+- !private ["Ps16RawRepresentable", "completed"]
+- !private ["Ps16RawRepresentable", "connected"]
+- !private ["Ps16RawRepresentable", "count"]
+- !private ["Ps16RawRepresentable", "dataChannelSignaling"]
+- !private ["Ps16RawRepresentable", "debugDescription"]
+- !private ["Ps16RawRepresentable", "disconnected"]
+- !private ["Ps16RawRepresentable", "failed"]
+- !private ["Ps16RawRepresentable", "gathering"]
+- ["Ps16RawRepresentable", "hashValue"]
+- !private ["Ps16RawRepresentable", "haveLocalOffer"]
+- !private ["Ps16RawRepresentable", "haveLocalPrAnswer"]
+- !private ["Ps16RawRepresentable", "haveRemoteOffer"]
+- !private ["Ps16RawRepresentable", "haveRemotePrAnswer"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "maxBundle"]
+- !private ["Ps16RawRepresentable", "mediaStream"]
+- !private ["Ps16RawRepresentable", "new"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "relay"]
+- !private ["Ps16RawRepresentable", "require"]
+- !private ["Ps16RawRepresentable", "stable"]
+- !private ["Ps16RawRepresentable", "videoTrack"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "caseInsensitive"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "characters"]
+- ["SS", "init"]
+- !private ["Ps16TextOutputStream", "characters"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AssertIsOnMainThread"]
+- ["Ps9_Hashable", "CallAudioSession"]
+- ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "HardenedRTCSessionDescription"]
+- !private ["Ps9_Hashable", "Identifiers"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "NSError"]
+- !private ["Ps9_Hashable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9_Hashable", "OWSWebRTCProtosData"]
+- !private ["Ps9_Hashable", "PeerConnectionClient"]
+- !private ["Ps9_Hashable", "Platform"]
+- !private ["Ps9_Hashable", "Promise"]
+- !private ["Ps9_Hashable", "PromiseKit"]
+- !private ["Ps9_Hashable", "RTCConfiguration"]
+- !private ["Ps9_Hashable", "RTCDataBuffer"]
+- !private ["Ps9_Hashable", "RTCDataChannelConfiguration"]
+- !private ["Ps9_Hashable", "RTCMediaConstraints"]
+- ["Ps9_Hashable", "RTCPeerConnectionFactory"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "answer"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "assertOnSignalingQueue"]
+- !private ["Ps9_Hashable", "assertionFailure"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "audioConstraints"]
+- !private ["Ps9_Hashable", "audioSender"]
+- !private ["Ps9_Hashable", "audioSource"]
+- !private ["Ps9_Hashable", "audioTrack"]
+- !private ["Ps9_Hashable", "audioTracks"]
+- !private ["Ps9_Hashable", "avFoundationVideoSource"]
+- !private ["Ps9_Hashable", "bundlePolicy"]
+- !private ["Ps9_Hashable", "cameraConstraints"]
+- !private ["Ps9_Hashable", "captureSession"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "checking"]
+- !private ["Ps9_Hashable", "close"]
+- !private ["Ps9_Hashable", "closed"]
+- !private ["Ps9_Hashable", "complete"]
+- !private ["Ps9_Hashable", "completed"]
+- !private ["Ps9_Hashable", "configuration"]
+- !private ["Ps9_Hashable", "configureAudioSession"]
+- !private ["Ps9_Hashable", "connected"]
+- !private ["Ps9_Hashable", "connectionConstraints"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "createAudioSender"]
+- !private ["Ps9_Hashable", "createSignalingDataChannel"]
+- !private ["Ps9_Hashable", "createVideoSender"]
+- !private ["Ps9_Hashable", "data"]
+- ["Ps9_Hashable", "dataChannel"]
+- ["Ps9_Hashable", "dataChannelDidChangeState"]
+- !private ["Ps9_Hashable", "dataChannelSignaling"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "debugDescription"]
+- !private ["Ps9_Hashable", "defaultOfferConstraints"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "disconnected"]
+- !private ["Ps9_Hashable", "dispatchPrecondition"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "factory"]
+- !private ["Ps9_Hashable", "failed"]
+- !private ["Ps9_Hashable", "gathering"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "haveLocalOffer"]
+- !private ["Ps9_Hashable", "haveLocalPrAnswer"]
+- !private ["Ps9_Hashable", "haveRemoteOffer"]
+- !private ["Ps9_Hashable", "haveRemotePrAnswer"]
+- !private ["Ps9_Hashable", "iceServers"]
+- !private ["Ps9_Hashable", "iceTransportPolicy"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- !private ["Ps9_Hashable", "isOrdered"]
+- !private ["Ps9_Hashable", "kAudioTrackType"]
+- !private ["Ps9_Hashable", "kVideoTrackType"]
+- !private ["Ps9_Hashable", "localVideoTrack"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "maxBundle"]
+- !private ["Ps9_Hashable", "mediaStream"]
+- !private ["Ps9_Hashable", "negotiateAnswerSessionDescription"]
+- !private ["Ps9_Hashable", "new"]
+- !private ["Ps9_Hashable", "objc_sync_enter"]
+- !private ["Ps9_Hashable", "objc_sync_exit"]
+- !private ["Ps9_Hashable", "offer"]
+- !private ["Ps9_Hashable", "outgoing"]
+- !private ["Ps9_Hashable", "parse"]
+- ["Ps9_Hashable", "peerConnection"]
+- ["Ps9_Hashable", "peerConnectionShouldNegotiate"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "relay"]
+- !private ["Ps9_Hashable", "remoteVideoTrack"]
+- !private ["Ps9_Hashable", "require"]
+- !private ["Ps9_Hashable", "rtcpMuxPolicy"]
+- !private ["Ps9_Hashable", "sdp"]
+- !private ["Ps9_Hashable", "sendData"]
+- !private ["Ps9_Hashable", "sender"]
+- !private ["Ps9_Hashable", "setLocalDescription"]
+- !private ["Ps9_Hashable", "setLocalSessionDescriptionInternal"]
+- !private ["Ps9_Hashable", "setRemoteDescription"]
+- !private ["Ps9_Hashable", "setRemoteSessionDescription"]
+- !private ["Ps9_Hashable", "sharedAudioSession"]
+- !private ["Ps9_Hashable", "signalingQueue"]
+- !private ["Ps9_Hashable", "stable"]
+- !private ["Ps9_Hashable", "startRunning"]
+- !private ["Ps9_Hashable", "stopRunning"]
+- !private ["Ps9_Hashable", "stringByReplacingMatches"]
+- !private ["Ps9_Hashable", "sync"]
+- !private ["Ps9_Hashable", "terminateInternal"]
+- !private ["Ps9_Hashable", "track"]
+- !private ["Ps9_Hashable", "type"]
+- !private ["Ps9_Hashable", "useBackCamera"]
+- !private ["Ps9_Hashable", "verbose"]
+- !private ["Ps9_Hashable", "videoCaptureSession"]
+- !private ["Ps9_Hashable", "videoSender"]
+- !private ["Ps9_Hashable", "videoTrack"]
+- !private ["Ps9_Hashable", "videoTracks"]
+- !private ["Ps9_Hashable", "warn"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "outgoing"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "outgoing"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "CSo16AVCaptureSession"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "C8TestChat16CallAudioSession"
+- !private "O8TestChat13CallDirection"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "O8Dispatch17DispatchPredicate"
+- "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "PSo24GeneratedMessageProtocol"
+- "C8TestChat29HardenedRTCSessionDescription"
+- "Ps8Hashable"
+- "OC8TestChat20PeerConnectionClient11Identifiers"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo19NSRegularExpression"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "CSo19OWSWebRTCProtosData"
+- !private "Ps9OptionSet"
+- !private "Sq"
+- !private "VCSo19NSRegularExpression7Options"
+- !private "CSo17PBAbstractMessage"
+- !private "CSo18PBGeneratedMessage"
+- !private "PSo9PBMessage"
+- "C8TestChat20PeerConnectionClient"
+- "P8TestChat28PeerConnectionClientDelegate"
+- !private "V8TestChat8Platform"
+- !private "C10PromiseKit7Promise"
+- !private "CSo26RTCAVFoundationVideoSource"
+- !private "CSo13RTCAudioTrack"
+- !private "OSC15RTCBundlePolicy"
+- !private "CSo16RTCConfiguration"
+- !private "CSo13RTCDataBuffer"
+- !private "CSo14RTCDataChannel"
+- !private "CSo27RTCDataChannelConfiguration"
+- "PSo22RTCDataChannelDelegate"
+- !private "CSo15RTCIceCandidate"
+- !private "OSC21RTCIceConnectionState"
+- !private "OSC20RTCIceGatheringState"
+- !private "OSC21RTCIceTransportPolicy"
+- !private "CSo19RTCMediaConstraints"
+- !private "CSo14RTCMediaSource"
+- !private "CSo14RTCMediaStream"
+- !private "CSo19RTCMediaStreamTrack"
+- !private "CSo17RTCPeerConnection"
+- "PSo25RTCPeerConnectionDelegate"
+- "CSo24RTCPeerConnectionFactory"
+- !private "OSC16RTCRtcpMuxPolicy"
+- !private "CSo12RTCRtpSender"
+- !private "PSo20RTCRtpSenderProtocol"
+- !private "CSo21RTCSessionDescription"
+- !private "OSC17RTCSignalingState"
+- !private "CSo14RTCVideoSource"
+- !private "CSo13RTCVideoTrack"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "676a9bdebcb9c9c406b61a51ee4216b4"

@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/OWSDeviceProvisioningService.m \
+  /Users/whizphone/Documents/TestChat/Pods/Target\ Support\ Files/SignalServiceKit/SignalServiceKit-prefix.pch \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/Asserts.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/constraints/Constraints.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLog.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLogMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDAssertMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDASLLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDTTYLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDFileLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/constraints/BadArgument.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/constraints/BadState.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/constraints/OperationFailed.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/constraints/SecurityFailure.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/iOSVersions.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/OWSAnalytics.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Util/OWSDispatch.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/OWSDeviceProvisioningService.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/OWSDeviceProvisioningRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/TSNetworkManager.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSAllocAttachmentRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSAttachmentRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSAvailablePreKeysCountRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSContactsIntersectionRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSCurrentSignedPreKeyRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSRecipientPrekeyRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSRegisterForPushRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSRegisterPrekeysRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSRequestVerificationCodeRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSSubmitMessageRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/TSConstants.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSUnregisterAccountRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSUpdateAttributesRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/SignalServiceKit/src/Network/API/Requests/TSVerifyCodeRequest.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h \
+  /Users/whizphone/Documents/TestChat/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h

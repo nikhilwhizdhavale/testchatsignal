@@ -1,0 +1,1070 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageFetcherJob"
+provides-nominal:
+- "C8TestChat17MessageFetcherJob"
+provides-member:
+- ["C8TestChat17MessageFetcherJob", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "acknowledgeDelivery"
+- "buildEnvelope"
+- "messagesManager"
+- "networkManager"
+- "runAsync"
+- "signalService"
+- "startRunLoop"
+- "stopRunLoop"
+- "timer"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Data"
+- "Double"
+- !private "Error"
+- !private "Int32"
+- !private "Logger"
+- "MessageFetcherJob"
+- !private "NSDate"
+- "NSObject"
+- !private "OWSAcknowledgeMessageDeliveryRequest"
+- !private "OWSErrorMakeUnableToProcessServerResponseError"
+- !private "OWSGetMessagesRequest"
+- "OWSSignalService"
+- "OWSSignalServiceProtosEnvelope"
+- !private "OWSSignalServiceProtosEnvelopeBuilder"
+- !private "OWSSignalServiceProtosEnvelopeType"
+- "Promise"
+- "String"
+- "StringLiteralType"
+- "TSMessagesManager"
+- "TSNetworkManager"
+- !private "TSSocketManager"
+- "Timer"
+- !private "UInt32"
+- !private "UInt64"
+- !private "URLSessionDataTask"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "Data"]
+- ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps9AnyObject", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9AnyObject", "OWSGetMessagesRequest"]
+- !private ["Ps9AnyObject", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps9AnyObject", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "TSSocketManager"]
+- !private ["Ps9AnyObject", "Timer"]
+- !private ["Ps9AnyObject", "acknowledgeDelivery"]
+- !private ["Ps9AnyObject", "always"]
+- !private ["Ps9AnyObject", "build"]
+- !private ["Ps9AnyObject", "buildEnvelope"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "fetchUndeliveredMessages"]
+- !private ["Ps9AnyObject", "handleReceivedEnvelope"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidate"]
+- !private ["Ps9AnyObject", "isCensorshipCircumventionActive"]
+- !private ["Ps9AnyObject", "makeRequest"]
+- !private ["Ps9AnyObject", "messagesManager"]
+- !private ["Ps9AnyObject", "networkManager"]
+- !private ["Ps9AnyObject", "parseMessagesResponse"]
+- !private ["Ps9AnyObject", "requestSocketOpen"]
+- !private ["Ps9AnyObject", "runAsync"]
+- !private ["Ps9AnyObject", "runPromises"]
+- !private ["Ps9AnyObject", "scheduledTimer"]
+- !private ["Ps9AnyObject", "setContent"]
+- !private ["Ps9AnyObject", "setLegacyMessage"]
+- !private ["Ps9AnyObject", "setRelay"]
+- !private ["Ps9AnyObject", "setSource"]
+- !private ["Ps9AnyObject", "setSourceDevice"]
+- !private ["Ps9AnyObject", "setTimestamp"]
+- !private ["Ps9AnyObject", "setType"]
+- !private ["Ps9AnyObject", "signalService"]
+- !private ["Ps9AnyObject", "source"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "timeIntervalSince1970"]
+- !private ["Ps9AnyObject", "timer"]
+- !private ["Ps9AnyObject", "timestamp"]
+- !private ["Ps9AnyObject", "warn"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "filter"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "Data"]
+- ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "NSDate"]
+- !private ["Ps7CVarArg", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps7CVarArg", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps7CVarArg", "OWSGetMessagesRequest"]
+- !private ["Ps7CVarArg", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps7CVarArg", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps7CVarArg", "Promise"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "TSSocketManager"]
+- !private ["Ps7CVarArg", "Timer"]
+- !private ["Ps7CVarArg", "acknowledgeDelivery"]
+- !private ["Ps7CVarArg", "build"]
+- !private ["Ps7CVarArg", "buildEnvelope"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "fetchUndeliveredMessages"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "handleReceivedEnvelope"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidate"]
+- !private ["Ps7CVarArg", "isCensorshipCircumventionActive"]
+- !private ["Ps7CVarArg", "makeRequest"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "messagesManager"]
+- !private ["Ps7CVarArg", "networkManager"]
+- !private ["Ps7CVarArg", "parseMessagesResponse"]
+- !private ["Ps7CVarArg", "requestSocketOpen"]
+- !private ["Ps7CVarArg", "runAsync"]
+- !private ["Ps7CVarArg", "runPromises"]
+- !private ["Ps7CVarArg", "scheduledTimer"]
+- !private ["Ps7CVarArg", "setContent"]
+- !private ["Ps7CVarArg", "setLegacyMessage"]
+- !private ["Ps7CVarArg", "setRelay"]
+- !private ["Ps7CVarArg", "setSource"]
+- !private ["Ps7CVarArg", "setSourceDevice"]
+- !private ["Ps7CVarArg", "setTimestamp"]
+- !private ["Ps7CVarArg", "setType"]
+- !private ["Ps7CVarArg", "signalService"]
+- !private ["Ps7CVarArg", "source"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "timeIntervalSince1970"]
+- !private ["Ps7CVarArg", "timer"]
+- !private ["Ps7CVarArg", "timestamp"]
+- !private ["Ps7CVarArg", "warn"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "filter"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Data"]
+- ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSGetMessagesRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps28CustomDebugStringConvertible", "Promise"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "TSSocketManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Timer"]
+- !private ["Ps28CustomDebugStringConvertible", "acknowledgeDelivery"]
+- !private ["Ps28CustomDebugStringConvertible", "build"]
+- !private ["Ps28CustomDebugStringConvertible", "buildEnvelope"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "fetchUndeliveredMessages"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "handleReceivedEnvelope"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "isCensorshipCircumventionActive"]
+- !private ["Ps28CustomDebugStringConvertible", "makeRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "messagesManager"]
+- !private ["Ps28CustomDebugStringConvertible", "networkManager"]
+- !private ["Ps28CustomDebugStringConvertible", "parseMessagesResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "requestSocketOpen"]
+- !private ["Ps28CustomDebugStringConvertible", "runAsync"]
+- !private ["Ps28CustomDebugStringConvertible", "runPromises"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduledTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "setContent"]
+- !private ["Ps28CustomDebugStringConvertible", "setLegacyMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "setRelay"]
+- !private ["Ps28CustomDebugStringConvertible", "setSource"]
+- !private ["Ps28CustomDebugStringConvertible", "setSourceDevice"]
+- !private ["Ps28CustomDebugStringConvertible", "setTimestamp"]
+- !private ["Ps28CustomDebugStringConvertible", "setType"]
+- !private ["Ps28CustomDebugStringConvertible", "signalService"]
+- !private ["Ps28CustomDebugStringConvertible", "source"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps28CustomDebugStringConvertible", "timer"]
+- !private ["Ps28CustomDebugStringConvertible", "timestamp"]
+- !private ["Ps28CustomDebugStringConvertible", "warn"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince1970"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "filter"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Data"]
+- ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps23CustomStringConvertible", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps23CustomStringConvertible", "OWSGetMessagesRequest"]
+- !private ["Ps23CustomStringConvertible", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps23CustomStringConvertible", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "TSSocketManager"]
+- !private ["Ps23CustomStringConvertible", "Timer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "acknowledgeDelivery"]
+- !private ["Ps23CustomStringConvertible", "always"]
+- !private ["Ps23CustomStringConvertible", "build"]
+- !private ["Ps23CustomStringConvertible", "buildEnvelope"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "fetchUndeliveredMessages"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "handleReceivedEnvelope"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidate"]
+- !private ["Ps23CustomStringConvertible", "isCensorshipCircumventionActive"]
+- !private ["Ps23CustomStringConvertible", "makeRequest"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "messagesManager"]
+- !private ["Ps23CustomStringConvertible", "networkManager"]
+- !private ["Ps23CustomStringConvertible", "parseMessagesResponse"]
+- !private ["Ps23CustomStringConvertible", "requestSocketOpen"]
+- !private ["Ps23CustomStringConvertible", "runAsync"]
+- !private ["Ps23CustomStringConvertible", "runPromises"]
+- !private ["Ps23CustomStringConvertible", "scheduledTimer"]
+- !private ["Ps23CustomStringConvertible", "setContent"]
+- !private ["Ps23CustomStringConvertible", "setLegacyMessage"]
+- !private ["Ps23CustomStringConvertible", "setRelay"]
+- !private ["Ps23CustomStringConvertible", "setSource"]
+- !private ["Ps23CustomStringConvertible", "setSourceDevice"]
+- !private ["Ps23CustomStringConvertible", "setTimestamp"]
+- !private ["Ps23CustomStringConvertible", "setType"]
+- !private ["Ps23CustomStringConvertible", "signalService"]
+- !private ["Ps23CustomStringConvertible", "source"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "timer"]
+- !private ["Ps23CustomStringConvertible", "timestamp"]
+- !private ["Ps23CustomStringConvertible", "warn"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "init"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Data"]
+- ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps9Equatable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9Equatable", "OWSGetMessagesRequest"]
+- !private ["Ps9Equatable", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps9Equatable", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps9Equatable", "Promise"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "TSSocketManager"]
+- !private ["Ps9Equatable", "Timer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "acknowledgeDelivery"]
+- !private ["Ps9Equatable", "build"]
+- !private ["Ps9Equatable", "buildEnvelope"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "fetchUndeliveredMessages"]
+- !private ["Ps9Equatable", "handleReceivedEnvelope"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidate"]
+- !private ["Ps9Equatable", "isCensorshipCircumventionActive"]
+- !private ["Ps9Equatable", "makeRequest"]
+- !private ["Ps9Equatable", "messagesManager"]
+- !private ["Ps9Equatable", "networkManager"]
+- !private ["Ps9Equatable", "parseMessagesResponse"]
+- !private ["Ps9Equatable", "requestSocketOpen"]
+- !private ["Ps9Equatable", "runAsync"]
+- !private ["Ps9Equatable", "runPromises"]
+- !private ["Ps9Equatable", "scheduledTimer"]
+- !private ["Ps9Equatable", "setContent"]
+- !private ["Ps9Equatable", "setLegacyMessage"]
+- !private ["Ps9Equatable", "setRelay"]
+- !private ["Ps9Equatable", "setSource"]
+- !private ["Ps9Equatable", "setSourceDevice"]
+- !private ["Ps9Equatable", "setTimestamp"]
+- !private ["Ps9Equatable", "setType"]
+- !private ["Ps9Equatable", "signalService"]
+- !private ["Ps9Equatable", "source"]
+- !private ["Ps9Equatable", "timeIntervalSince1970"]
+- !private ["Ps9Equatable", "timer"]
+- !private ["Ps9Equatable", "timestamp"]
+- !private ["Ps9Equatable", "warn"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["PSo24GeneratedMessageProtocol", "source"]
+- !private ["PSo24GeneratedMessageProtocol", "timestamp"]
+- !private ["Ps8Hashable", "Data"]
+- ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps8Hashable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps8Hashable", "OWSGetMessagesRequest"]
+- !private ["Ps8Hashable", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps8Hashable", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps8Hashable", "Promise"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "TSSocketManager"]
+- !private ["Ps8Hashable", "Timer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "acknowledgeDelivery"]
+- !private ["Ps8Hashable", "build"]
+- !private ["Ps8Hashable", "buildEnvelope"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "fetchUndeliveredMessages"]
+- !private ["Ps8Hashable", "handleReceivedEnvelope"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidate"]
+- !private ["Ps8Hashable", "isCensorshipCircumventionActive"]
+- !private ["Ps8Hashable", "makeRequest"]
+- !private ["Ps8Hashable", "messagesManager"]
+- !private ["Ps8Hashable", "networkManager"]
+- !private ["Ps8Hashable", "parseMessagesResponse"]
+- !private ["Ps8Hashable", "requestSocketOpen"]
+- !private ["Ps8Hashable", "runAsync"]
+- !private ["Ps8Hashable", "runPromises"]
+- !private ["Ps8Hashable", "scheduledTimer"]
+- !private ["Ps8Hashable", "setContent"]
+- !private ["Ps8Hashable", "setLegacyMessage"]
+- !private ["Ps8Hashable", "setRelay"]
+- !private ["Ps8Hashable", "setSource"]
+- !private ["Ps8Hashable", "setSourceDevice"]
+- !private ["Ps8Hashable", "setTimestamp"]
+- !private ["Ps8Hashable", "setType"]
+- !private ["Ps8Hashable", "signalService"]
+- !private ["Ps8Hashable", "source"]
+- !private ["Ps8Hashable", "timeIntervalSince1970"]
+- !private ["Ps8Hashable", "timer"]
+- !private ["Ps8Hashable", "timestamp"]
+- !private ["Ps8Hashable", "warn"]
+- ["Ps8Hashable", ""]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "info"]
+- !private ["CSo6Logger", "warn"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["C8TestChat17MessageFetcherJob", "Bool"]
+- !private ["C8TestChat17MessageFetcherJob", "Data"]
+- ["C8TestChat17MessageFetcherJob", "Double"]
+- !private ["C8TestChat17MessageFetcherJob", "Error"]
+- !private ["C8TestChat17MessageFetcherJob", "Int32"]
+- !private ["C8TestChat17MessageFetcherJob", "Logger"]
+- !private ["C8TestChat17MessageFetcherJob", "NSDate"]
+- !private ["C8TestChat17MessageFetcherJob", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["C8TestChat17MessageFetcherJob", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["C8TestChat17MessageFetcherJob", "OWSGetMessagesRequest"]
+- ["C8TestChat17MessageFetcherJob", "OWSSignalService"]
+- ["C8TestChat17MessageFetcherJob", "OWSSignalServiceProtosEnvelope"]
+- !private ["C8TestChat17MessageFetcherJob", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["C8TestChat17MessageFetcherJob", "OWSSignalServiceProtosEnvelopeType"]
+- ["C8TestChat17MessageFetcherJob", "Promise"]
+- ["C8TestChat17MessageFetcherJob", "String"]
+- ["C8TestChat17MessageFetcherJob", "TAG"]
+- ["C8TestChat17MessageFetcherJob", "TSMessagesManager"]
+- ["C8TestChat17MessageFetcherJob", "TSNetworkManager"]
+- !private ["C8TestChat17MessageFetcherJob", "TSSocketManager"]
+- ["C8TestChat17MessageFetcherJob", "Timer"]
+- !private ["C8TestChat17MessageFetcherJob", "UInt32"]
+- !private ["C8TestChat17MessageFetcherJob", "UInt64"]
+- !private ["C8TestChat17MessageFetcherJob", "URLSessionDataTask"]
+- ["C8TestChat17MessageFetcherJob", "Void"]
+- ["C8TestChat17MessageFetcherJob", "acknowledgeDelivery"]
+- ["C8TestChat17MessageFetcherJob", "buildEnvelope"]
+- ["C8TestChat17MessageFetcherJob", "deinit"]
+- ["C8TestChat17MessageFetcherJob", "fetchUndeliveredMessages"]
+- ["C8TestChat17MessageFetcherJob", "init"]
+- ["C8TestChat17MessageFetcherJob", "messagesManager"]
+- ["C8TestChat17MessageFetcherJob", "networkManager"]
+- ["C8TestChat17MessageFetcherJob", "parseMessagesResponse"]
+- ["C8TestChat17MessageFetcherJob", "runAsync"]
+- ["C8TestChat17MessageFetcherJob", "runPromises"]
+- ["C8TestChat17MessageFetcherJob", "signalService"]
+- ["C8TestChat17MessageFetcherJob", "startRunLoop"]
+- ["C8TestChat17MessageFetcherJob", "stopRunLoop"]
+- ["C8TestChat17MessageFetcherJob", "timer"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "map"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "timeIntervalSince1970"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timeIntervalSince1970"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo6NSDate", "timeIntervalSince1970"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "Int32"]
+- !private ["CSo8NSObject", "Logger"]
+- !private ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["CSo8NSObject", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["CSo8NSObject", "OWSGetMessagesRequest"]
+- ["CSo8NSObject", "OWSSignalService"]
+- ["CSo8NSObject", "OWSSignalServiceProtosEnvelope"]
+- !private ["CSo8NSObject", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["CSo8NSObject", "OWSSignalServiceProtosEnvelopeType"]
+- ["CSo8NSObject", "Promise"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- ["CSo8NSObject", "TSMessagesManager"]
+- ["CSo8NSObject", "TSNetworkManager"]
+- !private ["CSo8NSObject", "TSSocketManager"]
+- ["CSo8NSObject", "Timer"]
+- !private ["CSo8NSObject", "UInt32"]
+- !private ["CSo8NSObject", "UInt64"]
+- !private ["CSo8NSObject", "URLSessionDataTask"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "acknowledgeDelivery"]
+- !private ["CSo8NSObject", "build"]
+- ["CSo8NSObject", "buildEnvelope"]
+- !private ["CSo8NSObject", "debug"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "fetchUndeliveredMessages"]
+- !private ["CSo8NSObject", "handleReceivedEnvelope"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidate"]
+- !private ["CSo8NSObject", "isCensorshipCircumventionActive"]
+- !private ["CSo8NSObject", "makeRequest"]
+- ["CSo8NSObject", "messagesManager"]
+- ["CSo8NSObject", "networkManager"]
+- ["CSo8NSObject", "parseMessagesResponse"]
+- !private ["CSo8NSObject", "requestSocketOpen"]
+- ["CSo8NSObject", "runAsync"]
+- ["CSo8NSObject", "runPromises"]
+- !private ["CSo8NSObject", "scheduledTimer"]
+- !private ["CSo8NSObject", "setContent"]
+- !private ["CSo8NSObject", "setLegacyMessage"]
+- !private ["CSo8NSObject", "setRelay"]
+- !private ["CSo8NSObject", "setSource"]
+- !private ["CSo8NSObject", "setSourceDevice"]
+- !private ["CSo8NSObject", "setTimestamp"]
+- !private ["CSo8NSObject", "setType"]
+- ["CSo8NSObject", "signalService"]
+- !private ["CSo8NSObject", "source"]
+- ["CSo8NSObject", "startRunLoop"]
+- ["CSo8NSObject", "stopRunLoop"]
+- !private ["CSo8NSObject", "timeIntervalSince1970"]
+- ["CSo8NSObject", "timer"]
+- !private ["CSo8NSObject", "timestamp"]
+- !private ["CSo8NSObject", "warn"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Data"]
+- ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["PSo16NSObjectProtocol", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["PSo16NSObjectProtocol", "OWSGetMessagesRequest"]
+- !private ["PSo16NSObjectProtocol", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["PSo16NSObjectProtocol", "OWSSignalServiceProtosEnvelopeType"]
+- ["PSo16NSObjectProtocol", "Promise"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "TSSocketManager"]
+- !private ["PSo16NSObjectProtocol", "Timer"]
+- !private ["PSo16NSObjectProtocol", "acknowledgeDelivery"]
+- !private ["PSo16NSObjectProtocol", "build"]
+- !private ["PSo16NSObjectProtocol", "buildEnvelope"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "fetchUndeliveredMessages"]
+- !private ["PSo16NSObjectProtocol", "handleReceivedEnvelope"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidate"]
+- !private ["PSo16NSObjectProtocol", "isCensorshipCircumventionActive"]
+- !private ["PSo16NSObjectProtocol", "makeRequest"]
+- !private ["PSo16NSObjectProtocol", "messagesManager"]
+- !private ["PSo16NSObjectProtocol", "networkManager"]
+- !private ["PSo16NSObjectProtocol", "parseMessagesResponse"]
+- !private ["PSo16NSObjectProtocol", "requestSocketOpen"]
+- !private ["PSo16NSObjectProtocol", "runAsync"]
+- !private ["PSo16NSObjectProtocol", "runPromises"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimer"]
+- !private ["PSo16NSObjectProtocol", "setContent"]
+- !private ["PSo16NSObjectProtocol", "setLegacyMessage"]
+- !private ["PSo16NSObjectProtocol", "setRelay"]
+- !private ["PSo16NSObjectProtocol", "setSource"]
+- !private ["PSo16NSObjectProtocol", "setSourceDevice"]
+- !private ["PSo16NSObjectProtocol", "setTimestamp"]
+- !private ["PSo16NSObjectProtocol", "setType"]
+- !private ["PSo16NSObjectProtocol", "signalService"]
+- !private ["PSo16NSObjectProtocol", "source"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSince1970"]
+- !private ["PSo16NSObjectProtocol", "timer"]
+- !private ["PSo16NSObjectProtocol", "timestamp"]
+- !private ["PSo16NSObjectProtocol", "warn"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSince1970"]
+- ["CSo8NSString", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo36OWSAcknowledgeMessageDeliveryRequest", "init"]
+- !private ["CSo21OWSGetMessagesRequest", "init"]
+- !private ["CSo16OWSSignalService", "isCensorshipCircumventionActive"]
+- !private ["CSo30OWSSignalServiceProtosEnvelope", "source"]
+- !private ["CSo30OWSSignalServiceProtosEnvelope", "timestamp"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "build"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "init"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setContent"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setLegacyMessage"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setRelay"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setSource"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setSourceDevice"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setTimestamp"]
+- !private ["CSo37OWSSignalServiceProtosEnvelopeBuilder", "setType"]
+- !private ["OSC34OWSSignalServiceProtosEnvelopeType", "init"]
+- !private ["CSo17PBAbstractMessage", "source"]
+- !private ["CSo17PBAbstractMessage", "timestamp"]
+- !private ["CSo24PBAbstractMessageBuilder", "build"]
+- !private ["CSo24PBAbstractMessageBuilder", "init"]
+- !private ["CSo24PBAbstractMessageBuilder", "setContent"]
+- !private ["CSo24PBAbstractMessageBuilder", "setLegacyMessage"]
+- !private ["CSo24PBAbstractMessageBuilder", "setRelay"]
+- !private ["CSo24PBAbstractMessageBuilder", "setSource"]
+- !private ["CSo24PBAbstractMessageBuilder", "setSourceDevice"]
+- !private ["CSo24PBAbstractMessageBuilder", "setTimestamp"]
+- !private ["CSo24PBAbstractMessageBuilder", "setType"]
+- !private ["CSo18PBGeneratedMessage", "source"]
+- !private ["CSo18PBGeneratedMessage", "timestamp"]
+- !private ["CSo25PBGeneratedMessageBuilder", "build"]
+- !private ["CSo25PBGeneratedMessageBuilder", "init"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setContent"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setLegacyMessage"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setRelay"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setSource"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setSourceDevice"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setTimestamp"]
+- !private ["CSo25PBGeneratedMessageBuilder", "setType"]
+- !private ["PSo9PBMessage", "source"]
+- !private ["PSo9PBMessage", "timestamp"]
+- !private ["PSo16PBMessageBuilder", "build"]
+- !private ["PSo16PBMessageBuilder", "init"]
+- !private ["PSo16PBMessageBuilder", "setContent"]
+- !private ["PSo16PBMessageBuilder", "setLegacyMessage"]
+- !private ["PSo16PBMessageBuilder", "setRelay"]
+- !private ["PSo16PBMessageBuilder", "setSource"]
+- !private ["PSo16PBMessageBuilder", "setSourceDevice"]
+- !private ["PSo16PBMessageBuilder", "setTimestamp"]
+- !private ["PSo16PBMessageBuilder", "setType"]
+- !private ["C10PromiseKit7Promise", "always"]
+- !private ["C10PromiseKit7Promise", "init"]
+- !private ["C10PromiseKit7Promise", "then"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["PSo19SRWebSocketDelegate", "requestSocketOpen"]
+- !private ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- !private ["CSo17TSMessagesManager", "handleReceivedEnvelope"]
+- !private ["CSo16TSNetworkManager", "makeRequest"]
+- !private ["CSo9TSRequest", "init"]
+- !private ["CSo15TSSocketManager", "requestSocketOpen"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo5Timer", "invalidate"]
+- !private ["CSo5Timer", "scheduledTimer"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "timeIntervalSince1970"]
+- !private ["Ps9_Hashable", "Data"]
+- ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "NSDate"]
+- !private ["Ps9_Hashable", "OWSAcknowledgeMessageDeliveryRequest"]
+- !private ["Ps9_Hashable", "OWSErrorMakeUnableToProcessServerResponseError"]
+- !private ["Ps9_Hashable", "OWSGetMessagesRequest"]
+- !private ["Ps9_Hashable", "OWSSignalServiceProtosEnvelopeBuilder"]
+- !private ["Ps9_Hashable", "OWSSignalServiceProtosEnvelopeType"]
+- ["Ps9_Hashable", "Promise"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "TSSocketManager"]
+- !private ["Ps9_Hashable", "Timer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "acknowledgeDelivery"]
+- !private ["Ps9_Hashable", "build"]
+- !private ["Ps9_Hashable", "buildEnvelope"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "error"]
+- !private ["Ps9_Hashable", "fetchUndeliveredMessages"]
+- !private ["Ps9_Hashable", "handleReceivedEnvelope"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidate"]
+- !private ["Ps9_Hashable", "isCensorshipCircumventionActive"]
+- !private ["Ps9_Hashable", "makeRequest"]
+- !private ["Ps9_Hashable", "messagesManager"]
+- !private ["Ps9_Hashable", "networkManager"]
+- !private ["Ps9_Hashable", "parseMessagesResponse"]
+- !private ["Ps9_Hashable", "requestSocketOpen"]
+- !private ["Ps9_Hashable", "runAsync"]
+- !private ["Ps9_Hashable", "runPromises"]
+- !private ["Ps9_Hashable", "scheduledTimer"]
+- !private ["Ps9_Hashable", "setContent"]
+- !private ["Ps9_Hashable", "setLegacyMessage"]
+- !private ["Ps9_Hashable", "setRelay"]
+- !private ["Ps9_Hashable", "setSource"]
+- !private ["Ps9_Hashable", "setSourceDevice"]
+- !private ["Ps9_Hashable", "setTimestamp"]
+- !private ["Ps9_Hashable", "setType"]
+- !private ["Ps9_Hashable", "signalService"]
+- !private ["Ps9_Hashable", "source"]
+- !private ["Ps9_Hashable", "timeIntervalSince1970"]
+- !private ["Ps9_Hashable", "timer"]
+- !private ["Ps9_Hashable", "timestamp"]
+- !private ["Ps9_Hashable", "warn"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "filter"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "filter"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "PSo24GeneratedMessageProtocol"
+- "Ps8Hashable"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "C8TestChat17MessageFetcherJob"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo6NSDate"
+- "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo12NSURLRequest"
+- !private "CSo36OWSAcknowledgeMessageDeliveryRequest"
+- !private "CSo21OWSGetMessagesRequest"
+- !private "CSo16OWSSignalService"
+- !private "CSo30OWSSignalServiceProtosEnvelope"
+- !private "CSo37OWSSignalServiceProtosEnvelopeBuilder"
+- !private "OSC34OWSSignalServiceProtosEnvelopeType"
+- !private "CSo17PBAbstractMessage"
+- !private "CSo24PBAbstractMessageBuilder"
+- !private "CSo18PBGeneratedMessage"
+- !private "CSo25PBGeneratedMessageBuilder"
+- !private "PSo9PBMessage"
+- !private "PSo16PBMessageBuilder"
+- !private "C10PromiseKit7Promise"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "PSo19SRWebSocketDelegate"
+- "Ps8Sequence"
+- !private "Vs12StaticString"
+- "SS"
+- !private "CSo17TSMessagesManager"
+- !private "CSo16TSNetworkManager"
+- !private "CSo9TSRequest"
+- !private "CSo15TSSocketManager"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "CSo5Timer"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "88c778e6c3538b804c1c36d8b073c000"

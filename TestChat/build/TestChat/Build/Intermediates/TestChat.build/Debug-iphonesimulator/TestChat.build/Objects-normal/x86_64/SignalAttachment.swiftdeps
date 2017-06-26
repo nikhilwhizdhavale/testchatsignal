@@ -1,0 +1,1890 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignalAttachmentError"
+- "TSImageQuality"
+- "SignalAttachment"
+- "=="
+- "=="
+provides-nominal:
+- "O8TestChat21SignalAttachmentError"
+- "O8TestChat14TSImageQuality"
+- "C8TestChat16SignalAttachment"
+provides-member:
+- ["O8TestChat21SignalAttachmentError", ""]
+- ["O8TestChat14TSImageQuality", ""]
+- ["C8TestChat16SignalAttachment", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "attachment"
+- "attachmentFromPasteboard"
+- "data"
+- "dataUTI"
+- "errorName"
+- "fileExtension"
+- "filename"
+- "filenameOrDefault"
+- "getTemporaryDataUrl"
+- "hasError"
+- "image"
+- "imageAttachment"
+- "isAnimatedImage"
+- "isAudio"
+- "isImage"
+- "isVideo"
+- "isVoiceMessage"
+- "kMaxFileSizeAnimatedImage"
+- "kMaxFileSizeAudio"
+- "kMaxFileSizeGeneric"
+- "kMaxFileSizeImage"
+- "kMaxFileSizeVideo"
+- "kOversizeTextAttachmentUTI"
+- "kUnknownTestAttachmentUTI"
+- "localizedErrorDescription"
+- "mimeType"
+- "missingDataErrorMessage"
+- "pasteboardHasPossibleAttachment"
+- "pasteboardHasText"
+- "temporaryDataUrl"
+- "voiceMessageAttachment"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "*"
+- !private "+"
+- !private "/"
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- !private "AssertIsOnMainThread"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CFString"
+- !private "CGFloat"
+- !private "CGRect"
+- !private "CGSize"
+- "CastingPrecedence"
+- "Data"
+- !private "Date"
+- !private "DateFormatter"
+- "Error"
+- !private "IndexSet"
+- !private "Int"
+- "LocalizedError"
+- !private "Logger"
+- !private "MIMETypeUtil"
+- !private "NSLocalizedString"
+- "NSObject"
+- !private "NSString"
+- !private "NSTemporaryDirectory"
+- !private "NSURL"
+- !private "NSUUID"
+- !private "OWSMimeTypeApplicationOctetStream"
+- !private "OWSMimeTypeOversizeTextMessage"
+- !private "OWSMimeTypeUnknownForTests"
+- "Set"
+- "SignalAttachment"
+- "SignalAttachmentError"
+- "String"
+- "StringLiteralType"
+- "TSImageQuality"
+- !private "UIGraphicsBeginImageContext"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- !private "UIPasteboard"
+- "URL"
+- !private "UTTypeConformsTo"
+- !private "UTTypeCopyPreferredTagWithClass"
+- !private "UnicodeScalarType"
+- !private "assert"
+- !private "assertionFailure"
+- !private "kUTTagClassMIMEType"
+- !private "kUTTypeJPEG"
+- !private "kUTTypeText"
+- !private "kUTTypeURL"
+- !private "max"
+- !private "||"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "AssertIsOnMainThread"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "DateFormatter"]
+- !private ["Ps9AnyObject", "IndexSet"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "MIMETypeUtil"]
+- !private ["Ps9AnyObject", "NSTemporaryDirectory"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSUUID"]
+- !private ["Ps9AnyObject", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps9AnyObject", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps9AnyObject", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "SignalAttachment"]
+- !private ["Ps9AnyObject", "SignalAttachmentError"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "UIGraphicsBeginImageContext"]
+- !private ["Ps9AnyObject", "UIGraphicsEndImageContext"]
+- !private ["Ps9AnyObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIImageJPEGRepresentation"]
+- !private ["Ps9AnyObject", "UIPasteboard"]
+- !private ["Ps9AnyObject", "UTTypeConformsTo"]
+- !private ["Ps9AnyObject", "UTTypeCopyPreferredTagWithClass"]
+- !private ["Ps9AnyObject", "animatedImageUTISet"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "audioAttachment"]
+- !private ["Ps9AnyObject", "audioUTISet"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "compressImageAsJPEG"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataForFirstPasteboardItem"]
+- !private ["Ps9AnyObject", "dataUTI"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "defaultImageUploadQuality"]
+- !private ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "fileExtension"]
+- !private ["Ps9AnyObject", "fileURL"]
+- !private ["Ps9AnyObject", "filename"]
+- !private ["Ps9AnyObject", "general"]
+- !private ["Ps9AnyObject", "genericAttachment"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageAttachment"]
+- !private ["Ps9AnyObject", "imageScaled"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inputImageUTISet"]
+- !private ["Ps9AnyObject", "isInputImageValidOutputImage"]
+- !private ["Ps9AnyObject", "isVoiceMessage"]
+- !private ["Ps9AnyObject", "jpegCompressionQuality"]
+- !private ["Ps9AnyObject", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps9AnyObject", "kMaxFileSizeAudio"]
+- !private ["Ps9AnyObject", "kMaxFileSizeGeneric"]
+- !private ["Ps9AnyObject", "kMaxFileSizeImage"]
+- !private ["Ps9AnyObject", "kMaxFileSizeVideo"]
+- !private ["Ps9AnyObject", "kOversizeTextAttachmentUTI"]
+- !private ["Ps9AnyObject", "kUTTagClassMIMEType"]
+- !private ["Ps9AnyObject", "kUTTypeJPEG"]
+- !private ["Ps9AnyObject", "kUTTypeText"]
+- !private ["Ps9AnyObject", "kUTTypeURL"]
+- !private ["Ps9AnyObject", "kUnknownTestAttachmentUTI"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "maxSizeForImage"]
+- !private ["Ps9AnyObject", "mediaUTISet"]
+- !private ["Ps9AnyObject", "mimeType"]
+- !private ["Ps9AnyObject", "newAttachment"]
+- !private ["Ps9AnyObject", "numberOfItems"]
+- !private ["Ps9AnyObject", "outputImageUTISet"]
+- !private ["Ps9AnyObject", "pathExtension"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "supportedAnimatedImageUTITypes"]
+- !private ["Ps9AnyObject", "supportedAudioUTITypes"]
+- !private ["Ps9AnyObject", "supportedImageUTITypes"]
+- !private ["Ps9AnyObject", "supportedVideoUTITypes"]
+- !private ["Ps9AnyObject", "temporaryDataUrl"]
+- !private ["Ps9AnyObject", "types"]
+- !private ["Ps9AnyObject", "uuidString"]
+- !private ["Ps9AnyObject", "verbose"]
+- !private ["Ps9AnyObject", "videoAttachment"]
+- !private ["Ps9AnyObject", "videoUTISet"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps23BidirectionalCollection", "write"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSo15CNKeyDescriptor", "characters"]
+- !private ["PSo15CNKeyDescriptor", "data"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["PSo15CNKeyDescriptor", "pathExtension"]
+- !private ["Ps7CVarArg", "AssertIsOnMainThread"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "CGSize"]
+- !private ["Ps7CVarArg", "Data"]
+- !private ["Ps7CVarArg", "Date"]
+- !private ["Ps7CVarArg", "DateFormatter"]
+- !private ["Ps7CVarArg", "IndexSet"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "MIMETypeUtil"]
+- !private ["Ps7CVarArg", "NSTemporaryDirectory"]
+- !private ["Ps7CVarArg", "NSURL"]
+- !private ["Ps7CVarArg", "NSUUID"]
+- !private ["Ps7CVarArg", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps7CVarArg", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps7CVarArg", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps7CVarArg", "Set"]
+- !private ["Ps7CVarArg", "SignalAttachment"]
+- !private ["Ps7CVarArg", "SignalAttachmentError"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "UIGraphicsBeginImageContext"]
+- !private ["Ps7CVarArg", "UIGraphicsEndImageContext"]
+- !private ["Ps7CVarArg", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "UIImageJPEGRepresentation"]
+- !private ["Ps7CVarArg", "UIPasteboard"]
+- !private ["Ps7CVarArg", "UTTypeConformsTo"]
+- !private ["Ps7CVarArg", "UTTypeCopyPreferredTagWithClass"]
+- !private ["Ps7CVarArg", "animatedImageUTISet"]
+- !private ["Ps7CVarArg", "assert"]
+- !private ["Ps7CVarArg", "assertionFailure"]
+- !private ["Ps7CVarArg", "audioAttachment"]
+- !private ["Ps7CVarArg", "audioUTISet"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "compressImageAsJPEG"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataForFirstPasteboardItem"]
+- !private ["Ps7CVarArg", "dataUTI"]
+- !private ["Ps7CVarArg", "dateFormat"]
+- !private ["Ps7CVarArg", "defaultImageUploadQuality"]
+- !private ["Ps7CVarArg", "draw"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "fileExtension"]
+- !private ["Ps7CVarArg", "fileURL"]
+- !private ["Ps7CVarArg", "filename"]
+- !private ["Ps7CVarArg", "general"]
+- !private ["Ps7CVarArg", "genericAttachment"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "imageAttachment"]
+- !private ["Ps7CVarArg", "imageScaled"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "inputImageUTISet"]
+- !private ["Ps7CVarArg", "isInputImageValidOutputImage"]
+- !private ["Ps7CVarArg", "isVoiceMessage"]
+- !private ["Ps7CVarArg", "jpegCompressionQuality"]
+- !private ["Ps7CVarArg", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps7CVarArg", "kMaxFileSizeAudio"]
+- !private ["Ps7CVarArg", "kMaxFileSizeGeneric"]
+- !private ["Ps7CVarArg", "kMaxFileSizeImage"]
+- !private ["Ps7CVarArg", "kMaxFileSizeVideo"]
+- !private ["Ps7CVarArg", "kOversizeTextAttachmentUTI"]
+- !private ["Ps7CVarArg", "kUTTagClassMIMEType"]
+- !private ["Ps7CVarArg", "kUTTypeJPEG"]
+- !private ["Ps7CVarArg", "kUTTypeText"]
+- !private ["Ps7CVarArg", "kUTTypeURL"]
+- !private ["Ps7CVarArg", "kUnknownTestAttachmentUTI"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "maxSizeForImage"]
+- !private ["Ps7CVarArg", "mediaUTISet"]
+- !private ["Ps7CVarArg", "mimeType"]
+- !private ["Ps7CVarArg", "newAttachment"]
+- !private ["Ps7CVarArg", "numberOfItems"]
+- !private ["Ps7CVarArg", "outputImageUTISet"]
+- !private ["Ps7CVarArg", "pathExtension"]
+- !private ["Ps7CVarArg", "size"]
+- !private ["Ps7CVarArg", "startIndex"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "supportedAnimatedImageUTITypes"]
+- !private ["Ps7CVarArg", "supportedAudioUTITypes"]
+- !private ["Ps7CVarArg", "supportedImageUTITypes"]
+- !private ["Ps7CVarArg", "supportedVideoUTITypes"]
+- !private ["Ps7CVarArg", "temporaryDataUrl"]
+- !private ["Ps7CVarArg", "types"]
+- !private ["Ps7CVarArg", "union"]
+- !private ["Ps7CVarArg", "uuidString"]
+- !private ["Ps7CVarArg", "verbose"]
+- !private ["Ps7CVarArg", "videoAttachment"]
+- !private ["Ps7CVarArg", "videoUTISet"]
+- ["Ps7CVarArg", ""]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "startIndex"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "union"]
+- !private ["Ps10Collection", "write"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "Data"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexSet"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "MIMETypeUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "NSTemporaryDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUUID"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps28CustomDebugStringConvertible", "Set"]
+- !private ["Ps28CustomDebugStringConvertible", "SignalAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "SignalAttachmentError"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsBeginImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImageJPEGRepresentation"]
+- !private ["Ps28CustomDebugStringConvertible", "UIPasteboard"]
+- !private ["Ps28CustomDebugStringConvertible", "UTTypeConformsTo"]
+- !private ["Ps28CustomDebugStringConvertible", "UTTypeCopyPreferredTagWithClass"]
+- !private ["Ps28CustomDebugStringConvertible", "animatedImageUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "audioAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "audioUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "compressImageAsJPEG"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "couldNotConvertToJpeg"]
+- !private ["Ps28CustomDebugStringConvertible", "couldNotParseImage"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataForFirstPasteboardItem"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUTI"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultImageUploadQuality"]
+- !private ["Ps28CustomDebugStringConvertible", "draw"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "fileExtension"]
+- !private ["Ps28CustomDebugStringConvertible", "fileSizeTooLarge"]
+- !private ["Ps28CustomDebugStringConvertible", "fileURL"]
+- !private ["Ps28CustomDebugStringConvertible", "filename"]
+- !private ["Ps28CustomDebugStringConvertible", "general"]
+- !private ["Ps28CustomDebugStringConvertible", "genericAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "imageAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "imageScaled"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "inputImageUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidData"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidFileFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "isInputImageValidOutputImage"]
+- !private ["Ps28CustomDebugStringConvertible", "isVoiceMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "jpegCompressionQuality"]
+- !private ["Ps28CustomDebugStringConvertible", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps28CustomDebugStringConvertible", "kMaxFileSizeAudio"]
+- !private ["Ps28CustomDebugStringConvertible", "kMaxFileSizeGeneric"]
+- !private ["Ps28CustomDebugStringConvertible", "kMaxFileSizeImage"]
+- !private ["Ps28CustomDebugStringConvertible", "kMaxFileSizeVideo"]
+- !private ["Ps28CustomDebugStringConvertible", "kOversizeTextAttachmentUTI"]
+- !private ["Ps28CustomDebugStringConvertible", "kUTTagClassMIMEType"]
+- !private ["Ps28CustomDebugStringConvertible", "kUTTypeJPEG"]
+- !private ["Ps28CustomDebugStringConvertible", "kUTTypeText"]
+- !private ["Ps28CustomDebugStringConvertible", "kUTTypeURL"]
+- !private ["Ps28CustomDebugStringConvertible", "kUnknownTestAttachmentUTI"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "maxSizeForImage"]
+- !private ["Ps28CustomDebugStringConvertible", "mediaUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "mimeType"]
+- !private ["Ps28CustomDebugStringConvertible", "missingData"]
+- !private ["Ps28CustomDebugStringConvertible", "newAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfItems"]
+- !private ["Ps28CustomDebugStringConvertible", "outputImageUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "pathExtension"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "supportedAnimatedImageUTITypes"]
+- !private ["Ps28CustomDebugStringConvertible", "supportedAudioUTITypes"]
+- !private ["Ps28CustomDebugStringConvertible", "supportedImageUTITypes"]
+- !private ["Ps28CustomDebugStringConvertible", "supportedVideoUTITypes"]
+- !private ["Ps28CustomDebugStringConvertible", "temporaryDataUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "types"]
+- !private ["Ps28CustomDebugStringConvertible", "union"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps28CustomDebugStringConvertible", "verbose"]
+- !private ["Ps28CustomDebugStringConvertible", "videoAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "videoUTISet"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "fileURL"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pathExtension"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "couldNotConvertToJpeg"]
+- !private ["Ps17CustomReflectable", "couldNotParseImage"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "fileSizeTooLarge"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "invalidData"]
+- !private ["Ps17CustomReflectable", "invalidFileFormat"]
+- !private ["Ps17CustomReflectable", "missingData"]
+- !private ["Ps17CustomReflectable", "startIndex"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "union"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "write"]
+- !private ["Ps23CustomStringConvertible", "AssertIsOnMainThread"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "Data"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "DateFormatter"]
+- !private ["Ps23CustomStringConvertible", "IndexSet"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "MIMETypeUtil"]
+- !private ["Ps23CustomStringConvertible", "NSTemporaryDirectory"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "NSUUID"]
+- !private ["Ps23CustomStringConvertible", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps23CustomStringConvertible", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps23CustomStringConvertible", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps23CustomStringConvertible", "Set"]
+- !private ["Ps23CustomStringConvertible", "SignalAttachment"]
+- !private ["Ps23CustomStringConvertible", "SignalAttachmentError"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsBeginImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIImageJPEGRepresentation"]
+- !private ["Ps23CustomStringConvertible", "UIPasteboard"]
+- !private ["Ps23CustomStringConvertible", "UTTypeConformsTo"]
+- !private ["Ps23CustomStringConvertible", "UTTypeCopyPreferredTagWithClass"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "animatedImageUTISet"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "audioAttachment"]
+- !private ["Ps23CustomStringConvertible", "audioUTISet"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "compressImageAsJPEG"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataForFirstPasteboardItem"]
+- !private ["Ps23CustomStringConvertible", "dataUTI"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "defaultImageUploadQuality"]
+- !private ["Ps23CustomStringConvertible", "draw"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "fileExtension"]
+- !private ["Ps23CustomStringConvertible", "fileURL"]
+- !private ["Ps23CustomStringConvertible", "filename"]
+- !private ["Ps23CustomStringConvertible", "general"]
+- !private ["Ps23CustomStringConvertible", "genericAttachment"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "imageAttachment"]
+- !private ["Ps23CustomStringConvertible", "imageScaled"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "inputImageUTISet"]
+- !private ["Ps23CustomStringConvertible", "isInputImageValidOutputImage"]
+- !private ["Ps23CustomStringConvertible", "isVoiceMessage"]
+- !private ["Ps23CustomStringConvertible", "jpegCompressionQuality"]
+- !private ["Ps23CustomStringConvertible", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps23CustomStringConvertible", "kMaxFileSizeAudio"]
+- !private ["Ps23CustomStringConvertible", "kMaxFileSizeGeneric"]
+- !private ["Ps23CustomStringConvertible", "kMaxFileSizeImage"]
+- !private ["Ps23CustomStringConvertible", "kMaxFileSizeVideo"]
+- !private ["Ps23CustomStringConvertible", "kOversizeTextAttachmentUTI"]
+- !private ["Ps23CustomStringConvertible", "kUTTagClassMIMEType"]
+- !private ["Ps23CustomStringConvertible", "kUTTypeJPEG"]
+- !private ["Ps23CustomStringConvertible", "kUTTypeText"]
+- !private ["Ps23CustomStringConvertible", "kUTTypeURL"]
+- !private ["Ps23CustomStringConvertible", "kUnknownTestAttachmentUTI"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "maxSizeForImage"]
+- !private ["Ps23CustomStringConvertible", "mediaUTISet"]
+- !private ["Ps23CustomStringConvertible", "mimeType"]
+- !private ["Ps23CustomStringConvertible", "newAttachment"]
+- !private ["Ps23CustomStringConvertible", "numberOfItems"]
+- !private ["Ps23CustomStringConvertible", "outputImageUTISet"]
+- !private ["Ps23CustomStringConvertible", "pathExtension"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "startIndex"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "supportedAnimatedImageUTITypes"]
+- !private ["Ps23CustomStringConvertible", "supportedAudioUTITypes"]
+- !private ["Ps23CustomStringConvertible", "supportedImageUTITypes"]
+- !private ["Ps23CustomStringConvertible", "supportedVideoUTITypes"]
+- !private ["Ps23CustomStringConvertible", "temporaryDataUrl"]
+- !private ["Ps23CustomStringConvertible", "types"]
+- !private ["Ps23CustomStringConvertible", "union"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "verbose"]
+- !private ["Ps23CustomStringConvertible", "videoAttachment"]
+- !private ["Ps23CustomStringConvertible", "videoUTISet"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "count"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["V10Foundation4Data", "write"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["CSo13DateFormatter", "dateFormat"]
+- !private ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "AssertIsOnMainThread"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "Data"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "DateFormatter"]
+- !private ["Ps9Equatable", "IndexSet"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "MIMETypeUtil"]
+- !private ["Ps9Equatable", "NSLocalizedString"]
+- !private ["Ps9Equatable", "NSTemporaryDirectory"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSUUID"]
+- !private ["Ps9Equatable", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps9Equatable", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps9Equatable", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps9Equatable", "Set"]
+- !private ["Ps9Equatable", "SignalAttachment"]
+- !private ["Ps9Equatable", "SignalAttachmentError"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "UIGraphicsBeginImageContext"]
+- !private ["Ps9Equatable", "UIGraphicsEndImageContext"]
+- !private ["Ps9Equatable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIImageJPEGRepresentation"]
+- !private ["Ps9Equatable", "UIPasteboard"]
+- !private ["Ps9Equatable", "UTTypeConformsTo"]
+- !private ["Ps9Equatable", "UTTypeCopyPreferredTagWithClass"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "animatedImageUTISet"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "audioAttachment"]
+- !private ["Ps9Equatable", "audioUTISet"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "compressImageAsJPEG"]
+- !private ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "couldNotConvertToJpeg"]
+- ["Ps9Equatable", "couldNotParseImage"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataForFirstPasteboardItem"]
+- !private ["Ps9Equatable", "dataUTI"]
+- !private ["Ps9Equatable", "dateFormat"]
+- !private ["Ps9Equatable", "defaultImageUploadQuality"]
+- !private ["Ps9Equatable", "draw"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "errorDescription"]
+- ["Ps9Equatable", "failureReason"]
+- !private ["Ps9Equatable", "fileExtension"]
+- ["Ps9Equatable", "fileSizeTooLarge"]
+- !private ["Ps9Equatable", "fileURL"]
+- !private ["Ps9Equatable", "filename"]
+- !private ["Ps9Equatable", "general"]
+- !private ["Ps9Equatable", "genericAttachment"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "helpAnchor"]
+- !private ["Ps9Equatable", "high"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "imageAttachment"]
+- !private ["Ps9Equatable", "imageScaled"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inputImageUTISet"]
+- ["Ps9Equatable", "invalidData"]
+- ["Ps9Equatable", "invalidFileFormat"]
+- !private ["Ps9Equatable", "isInputImageValidOutputImage"]
+- !private ["Ps9Equatable", "isVoiceMessage"]
+- !private ["Ps9Equatable", "jpegCompressionQuality"]
+- !private ["Ps9Equatable", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps9Equatable", "kMaxFileSizeAudio"]
+- !private ["Ps9Equatable", "kMaxFileSizeGeneric"]
+- !private ["Ps9Equatable", "kMaxFileSizeImage"]
+- !private ["Ps9Equatable", "kMaxFileSizeVideo"]
+- !private ["Ps9Equatable", "kOversizeTextAttachmentUTI"]
+- !private ["Ps9Equatable", "kUTTagClassMIMEType"]
+- !private ["Ps9Equatable", "kUTTypeJPEG"]
+- !private ["Ps9Equatable", "kUTTypeText"]
+- !private ["Ps9Equatable", "kUTTypeURL"]
+- !private ["Ps9Equatable", "kUnknownTestAttachmentUTI"]
+- !private ["Ps9Equatable", "low"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "maxSizeForImage"]
+- !private ["Ps9Equatable", "mediaUTISet"]
+- !private ["Ps9Equatable", "medium"]
+- !private ["Ps9Equatable", "mimeType"]
+- ["Ps9Equatable", "missingData"]
+- !private ["Ps9Equatable", "newAttachment"]
+- !private ["Ps9Equatable", "numberOfItems"]
+- !private ["Ps9Equatable", "outputImageUTISet"]
+- !private ["Ps9Equatable", "pathExtension"]
+- ["Ps9Equatable", "recoverySuggestion"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "startIndex"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "supportedAnimatedImageUTITypes"]
+- !private ["Ps9Equatable", "supportedAudioUTITypes"]
+- !private ["Ps9Equatable", "supportedImageUTITypes"]
+- !private ["Ps9Equatable", "supportedVideoUTITypes"]
+- !private ["Ps9Equatable", "temporaryDataUrl"]
+- !private ["Ps9Equatable", "types"]
+- !private ["Ps9Equatable", "uncropped"]
+- !private ["Ps9Equatable", "union"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps9Equatable", "uuidString"]
+- !private ["Ps9Equatable", "verbose"]
+- !private ["Ps9Equatable", "videoAttachment"]
+- !private ["Ps9Equatable", "videoUTISet"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "NSLocalizedString"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "couldNotConvertToJpeg"]
+- ["Ps5Error", "couldNotParseImage"]
+- ["Ps5Error", "errorDescription"]
+- ["Ps5Error", "failureReason"]
+- ["Ps5Error", "fileSizeTooLarge"]
+- ["Ps5Error", "hashValue"]
+- ["Ps5Error", "helpAnchor"]
+- ["Ps5Error", "invalidData"]
+- ["Ps5Error", "invalidFileFormat"]
+- ["Ps5Error", "missingData"]
+- ["Ps5Error", "recoverySuggestion"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "startIndex"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "union"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "pathExtension"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "couldNotConvertToJpeg"]
+- !private ["Ps23ExpressibleByNilLiteral", "couldNotParseImage"]
+- !private ["Ps23ExpressibleByNilLiteral", "fileSizeTooLarge"]
+- !private ["Ps23ExpressibleByNilLiteral", "invalidData"]
+- !private ["Ps23ExpressibleByNilLiteral", "invalidFileFormat"]
+- !private ["Ps23ExpressibleByNilLiteral", "missingData"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "pathExtension"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "pathExtension"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["CSo9Formatter", "dateFormat"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "string"]
+- !private ["Ps8Hashable", "AssertIsOnMainThread"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "Data"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "DateFormatter"]
+- !private ["Ps8Hashable", "IndexSet"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "MIMETypeUtil"]
+- !private ["Ps8Hashable", "NSLocalizedString"]
+- !private ["Ps8Hashable", "NSTemporaryDirectory"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSUUID"]
+- !private ["Ps8Hashable", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps8Hashable", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps8Hashable", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps8Hashable", "Set"]
+- !private ["Ps8Hashable", "SignalAttachment"]
+- !private ["Ps8Hashable", "SignalAttachmentError"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "UIGraphicsBeginImageContext"]
+- !private ["Ps8Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps8Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIImageJPEGRepresentation"]
+- !private ["Ps8Hashable", "UIPasteboard"]
+- !private ["Ps8Hashable", "UTTypeConformsTo"]
+- !private ["Ps8Hashable", "UTTypeCopyPreferredTagWithClass"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "animatedImageUTISet"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "audioAttachment"]
+- !private ["Ps8Hashable", "audioUTISet"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "compressImageAsJPEG"]
+- !private ["Ps8Hashable", "contains"]
+- ["Ps8Hashable", "couldNotConvertToJpeg"]
+- ["Ps8Hashable", "couldNotParseImage"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataForFirstPasteboardItem"]
+- !private ["Ps8Hashable", "dataUTI"]
+- !private ["Ps8Hashable", "dateFormat"]
+- !private ["Ps8Hashable", "defaultImageUploadQuality"]
+- !private ["Ps8Hashable", "draw"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "errorDescription"]
+- ["Ps8Hashable", "failureReason"]
+- !private ["Ps8Hashable", "fileExtension"]
+- ["Ps8Hashable", "fileSizeTooLarge"]
+- !private ["Ps8Hashable", "fileURL"]
+- !private ["Ps8Hashable", "filename"]
+- !private ["Ps8Hashable", "general"]
+- !private ["Ps8Hashable", "genericAttachment"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "helpAnchor"]
+- !private ["Ps8Hashable", "high"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "imageAttachment"]
+- !private ["Ps8Hashable", "imageScaled"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "inputImageUTISet"]
+- ["Ps8Hashable", "invalidData"]
+- ["Ps8Hashable", "invalidFileFormat"]
+- !private ["Ps8Hashable", "isInputImageValidOutputImage"]
+- !private ["Ps8Hashable", "isVoiceMessage"]
+- !private ["Ps8Hashable", "jpegCompressionQuality"]
+- !private ["Ps8Hashable", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps8Hashable", "kMaxFileSizeAudio"]
+- !private ["Ps8Hashable", "kMaxFileSizeGeneric"]
+- !private ["Ps8Hashable", "kMaxFileSizeImage"]
+- !private ["Ps8Hashable", "kMaxFileSizeVideo"]
+- !private ["Ps8Hashable", "kOversizeTextAttachmentUTI"]
+- !private ["Ps8Hashable", "kUTTagClassMIMEType"]
+- !private ["Ps8Hashable", "kUTTypeJPEG"]
+- !private ["Ps8Hashable", "kUTTypeText"]
+- !private ["Ps8Hashable", "kUTTypeURL"]
+- !private ["Ps8Hashable", "kUnknownTestAttachmentUTI"]
+- !private ["Ps8Hashable", "low"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "maxSizeForImage"]
+- !private ["Ps8Hashable", "mediaUTISet"]
+- !private ["Ps8Hashable", "medium"]
+- !private ["Ps8Hashable", "mimeType"]
+- ["Ps8Hashable", "missingData"]
+- !private ["Ps8Hashable", "newAttachment"]
+- !private ["Ps8Hashable", "numberOfItems"]
+- !private ["Ps8Hashable", "outputImageUTISet"]
+- !private ["Ps8Hashable", "pathExtension"]
+- ["Ps8Hashable", "recoverySuggestion"]
+- !private ["Ps8Hashable", "size"]
+- !private ["Ps8Hashable", "startIndex"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "supportedAnimatedImageUTITypes"]
+- !private ["Ps8Hashable", "supportedAudioUTITypes"]
+- !private ["Ps8Hashable", "supportedImageUTITypes"]
+- !private ["Ps8Hashable", "supportedVideoUTITypes"]
+- !private ["Ps8Hashable", "temporaryDataUrl"]
+- !private ["Ps8Hashable", "types"]
+- !private ["Ps8Hashable", "uncropped"]
+- !private ["Ps8Hashable", "union"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["Ps8Hashable", "uuidString"]
+- !private ["Ps8Hashable", "verbose"]
+- !private ["Ps8Hashable", "videoAttachment"]
+- !private ["Ps8Hashable", "videoUTISet"]
+- !private ["Ps8Hashable", "write"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation8IndexSet", "init"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation14LocalizedError", "NSLocalizedString"]
+- ["P10Foundation14LocalizedError", "_code"]
+- ["P10Foundation14LocalizedError", "_domain"]
+- ["P10Foundation14LocalizedError", "_getEmbeddedNSError"]
+- ["P10Foundation14LocalizedError", "_toAnyHashable"]
+- ["P10Foundation14LocalizedError", "_userInfo"]
+- ["P10Foundation14LocalizedError", "couldNotConvertToJpeg"]
+- ["P10Foundation14LocalizedError", "couldNotParseImage"]
+- ["P10Foundation14LocalizedError", "errorDescription"]
+- ["P10Foundation14LocalizedError", "failureReason"]
+- ["P10Foundation14LocalizedError", "fileSizeTooLarge"]
+- ["P10Foundation14LocalizedError", "hashValue"]
+- ["P10Foundation14LocalizedError", "helpAnchor"]
+- ["P10Foundation14LocalizedError", "invalidData"]
+- ["P10Foundation14LocalizedError", "invalidFileFormat"]
+- ["P10Foundation14LocalizedError", "missingData"]
+- ["P10Foundation14LocalizedError", "recoverySuggestion"]
+- ["P10Foundation14LocalizedError", ""]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "verbose"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["CSo12MIMETypeUtil", "fileExtension"]
+- !private ["CSo12MIMETypeUtil", "mimeType"]
+- !private ["CSo12MIMETypeUtil", "supportedAnimatedImageUTITypes"]
+- !private ["CSo12MIMETypeUtil", "supportedAudioUTITypes"]
+- !private ["CSo12MIMETypeUtil", "supportedImageUTITypes"]
+- !private ["CSo12MIMETypeUtil", "supportedVideoUTITypes"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps17MutableCollection", "write"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "draw"]
+- !private ["PSo8NSCoding", "fileURL"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "pathExtension"]
+- !private ["PSo8NSCoding", "size"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "uuidString"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "fileURL"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "pathExtension"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo9NSCopying", "uuidString"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "data"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "pathExtension"]
+- !private ["CSo8NSObject", "AssertIsOnMainThread"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CFString"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "Date"]
+- !private ["CSo8NSObject", "DateFormatter"]
+- !private ["CSo8NSObject", "IndexSet"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Logger"]
+- !private ["CSo8NSObject", "MIMETypeUtil"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSTemporaryDirectory"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSUUID"]
+- !private ["CSo8NSObject", "OWSMimeTypeApplicationOctetStream"]
+- !private ["CSo8NSObject", "OWSMimeTypeOversizeTextMessage"]
+- !private ["CSo8NSObject", "OWSMimeTypeUnknownForTests"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "SignalAttachment"]
+- ["CSo8NSObject", "SignalAttachmentError"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- !private ["CSo8NSObject", "TSImageQuality"]
+- !private ["CSo8NSObject", "UIGraphicsBeginImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsEndImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImageJPEGRepresentation"]
+- !private ["CSo8NSObject", "UIPasteboard"]
+- ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "UTTypeConformsTo"]
+- !private ["CSo8NSObject", "UTTypeCopyPreferredTagWithClass"]
+- ["CSo8NSObject", "animatedImageUTISet"]
+- !private ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- ["CSo8NSObject", "attachment"]
+- ["CSo8NSObject", "attachmentFromPasteboard"]
+- ["CSo8NSObject", "audioAttachment"]
+- ["CSo8NSObject", "audioUTISet"]
+- !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "compressImageAsJPEG"]
+- ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "dataForFirstPasteboardItem"]
+- ["CSo8NSObject", "dataUTI"]
+- !private ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "defaultImageUploadQuality"]
+- !private ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "errorName"]
+- ["CSo8NSObject", "fileExtension"]
+- !private ["CSo8NSObject", "fileURL"]
+- ["CSo8NSObject", "filename"]
+- ["CSo8NSObject", "filenameOrDefault"]
+- !private ["CSo8NSObject", "general"]
+- ["CSo8NSObject", "genericAttachment"]
+- ["CSo8NSObject", "getTemporaryDataUrl"]
+- ["CSo8NSObject", "hasError"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageAttachment"]
+- ["CSo8NSObject", "imageScaled"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "inputImageUTISet"]
+- ["CSo8NSObject", "isAnimatedImage"]
+- ["CSo8NSObject", "isAudio"]
+- ["CSo8NSObject", "isImage"]
+- ["CSo8NSObject", "isInputImageValidOutputImage"]
+- ["CSo8NSObject", "isVideo"]
+- ["CSo8NSObject", "isVoiceMessage"]
+- ["CSo8NSObject", "jpegCompressionQuality"]
+- ["CSo8NSObject", "kMaxFileSizeAnimatedImage"]
+- ["CSo8NSObject", "kMaxFileSizeAudio"]
+- ["CSo8NSObject", "kMaxFileSizeGeneric"]
+- ["CSo8NSObject", "kMaxFileSizeImage"]
+- ["CSo8NSObject", "kMaxFileSizeVideo"]
+- ["CSo8NSObject", "kOversizeTextAttachmentUTI"]
+- !private ["CSo8NSObject", "kUTTagClassMIMEType"]
+- !private ["CSo8NSObject", "kUTTypeJPEG"]
+- !private ["CSo8NSObject", "kUTTypeText"]
+- !private ["CSo8NSObject", "kUTTypeURL"]
+- ["CSo8NSObject", "kUnknownTestAttachmentUTI"]
+- ["CSo8NSObject", "localizedErrorDescription"]
+- !private ["CSo8NSObject", "max"]
+- ["CSo8NSObject", "maxSizeForImage"]
+- ["CSo8NSObject", "mediaUTISet"]
+- ["CSo8NSObject", "mimeType"]
+- ["CSo8NSObject", "missingDataErrorMessage"]
+- ["CSo8NSObject", "newAttachment"]
+- !private ["CSo8NSObject", "numberOfItems"]
+- ["CSo8NSObject", "outputImageUTISet"]
+- ["CSo8NSObject", "oversizeTextAttachment"]
+- ["CSo8NSObject", "pasteboardHasPossibleAttachment"]
+- ["CSo8NSObject", "pasteboardHasText"]
+- !private ["CSo8NSObject", "pathExtension"]
+- !private ["CSo8NSObject", "size"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "supportedAnimatedImageUTITypes"]
+- !private ["CSo8NSObject", "supportedAudioUTITypes"]
+- !private ["CSo8NSObject", "supportedImageUTITypes"]
+- !private ["CSo8NSObject", "supportedVideoUTITypes"]
+- ["CSo8NSObject", "temporaryDataUrl"]
+- !private ["CSo8NSObject", "types"]
+- !private ["CSo8NSObject", "uuidString"]
+- !private ["CSo8NSObject", "verbose"]
+- ["CSo8NSObject", "videoAttachment"]
+- ["CSo8NSObject", "videoUTISet"]
+- ["CSo8NSObject", "voiceMessageAttachment"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AssertIsOnMainThread"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "Data"]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- !private ["PSo16NSObjectProtocol", "DateFormatter"]
+- !private ["PSo16NSObjectProtocol", "IndexSet"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "MIMETypeUtil"]
+- !private ["PSo16NSObjectProtocol", "NSTemporaryDirectory"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSUUID"]
+- !private ["PSo16NSObjectProtocol", "OWSMimeTypeApplicationOctetStream"]
+- !private ["PSo16NSObjectProtocol", "OWSMimeTypeOversizeTextMessage"]
+- !private ["PSo16NSObjectProtocol", "OWSMimeTypeUnknownForTests"]
+- !private ["PSo16NSObjectProtocol", "Set"]
+- !private ["PSo16NSObjectProtocol", "SignalAttachment"]
+- !private ["PSo16NSObjectProtocol", "SignalAttachmentError"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsBeginImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsEndImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIImageJPEGRepresentation"]
+- !private ["PSo16NSObjectProtocol", "UIPasteboard"]
+- !private ["PSo16NSObjectProtocol", "UTTypeConformsTo"]
+- !private ["PSo16NSObjectProtocol", "UTTypeCopyPreferredTagWithClass"]
+- !private ["PSo16NSObjectProtocol", "animatedImageUTISet"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "audioAttachment"]
+- !private ["PSo16NSObjectProtocol", "audioUTISet"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "compressImageAsJPEG"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataForFirstPasteboardItem"]
+- !private ["PSo16NSObjectProtocol", "dataUTI"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "defaultImageUploadQuality"]
+- !private ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "fileExtension"]
+- !private ["PSo16NSObjectProtocol", "fileURL"]
+- !private ["PSo16NSObjectProtocol", "filename"]
+- !private ["PSo16NSObjectProtocol", "general"]
+- !private ["PSo16NSObjectProtocol", "genericAttachment"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imageAttachment"]
+- !private ["PSo16NSObjectProtocol", "imageScaled"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "inputImageUTISet"]
+- !private ["PSo16NSObjectProtocol", "isInputImageValidOutputImage"]
+- !private ["PSo16NSObjectProtocol", "isVoiceMessage"]
+- !private ["PSo16NSObjectProtocol", "jpegCompressionQuality"]
+- !private ["PSo16NSObjectProtocol", "kMaxFileSizeAnimatedImage"]
+- !private ["PSo16NSObjectProtocol", "kMaxFileSizeAudio"]
+- !private ["PSo16NSObjectProtocol", "kMaxFileSizeGeneric"]
+- !private ["PSo16NSObjectProtocol", "kMaxFileSizeImage"]
+- !private ["PSo16NSObjectProtocol", "kMaxFileSizeVideo"]
+- !private ["PSo16NSObjectProtocol", "kOversizeTextAttachmentUTI"]
+- !private ["PSo16NSObjectProtocol", "kUTTagClassMIMEType"]
+- !private ["PSo16NSObjectProtocol", "kUTTypeJPEG"]
+- !private ["PSo16NSObjectProtocol", "kUTTypeText"]
+- !private ["PSo16NSObjectProtocol", "kUTTypeURL"]
+- !private ["PSo16NSObjectProtocol", "kUnknownTestAttachmentUTI"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "maxSizeForImage"]
+- !private ["PSo16NSObjectProtocol", "mediaUTISet"]
+- !private ["PSo16NSObjectProtocol", "mimeType"]
+- !private ["PSo16NSObjectProtocol", "newAttachment"]
+- !private ["PSo16NSObjectProtocol", "numberOfItems"]
+- !private ["PSo16NSObjectProtocol", "outputImageUTISet"]
+- !private ["PSo16NSObjectProtocol", "pathExtension"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "supportedAnimatedImageUTITypes"]
+- !private ["PSo16NSObjectProtocol", "supportedAudioUTITypes"]
+- !private ["PSo16NSObjectProtocol", "supportedImageUTITypes"]
+- !private ["PSo16NSObjectProtocol", "supportedVideoUTITypes"]
+- !private ["PSo16NSObjectProtocol", "temporaryDataUrl"]
+- !private ["PSo16NSObjectProtocol", "types"]
+- !private ["PSo16NSObjectProtocol", "uuidString"]
+- !private ["PSo16NSObjectProtocol", "verbose"]
+- !private ["PSo16NSObjectProtocol", "videoAttachment"]
+- !private ["PSo16NSObjectProtocol", "videoUTISet"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["PSo14NSSecureCoding", "draw"]
+- !private ["PSo14NSSecureCoding", "fileURL"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "pathExtension"]
+- !private ["PSo14NSSecureCoding", "size"]
+- !private ["PSo14NSSecureCoding", "uuidString"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "data"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "pathExtension"]
+- !private ["CSo5NSURL", "fileURL"]
+- !private ["CSo6NSUUID", "init"]
+- !private ["CSo6NSUUID", "uuidString"]
+- !private ["Sq", "couldNotConvertToJpeg"]
+- !private ["Sq", "couldNotParseImage"]
+- !private ["Sq", "fileSizeTooLarge"]
+- !private ["Sq", "invalidData"]
+- !private ["Sq", "invalidFileFormat"]
+- !private ["Sq", "missingData"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps22RandomAccessCollection", "write"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "write"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- !private ["P10Foundation20ReferenceConvertible", "count"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "write"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "startIndex"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "union"]
+- !private ["Ps8Sequence", "write"]
+- !private ["Vs3Set", "contains"]
+- !private ["Vs3Set", "init"]
+- !private ["Vs3Set", "startIndex"]
+- !private ["Vs3Set", "subscript"]
+- !private ["Vs3Set", "union"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "startIndex"]
+- !private ["Ps10SetAlgebra", "subscript"]
+- !private ["Ps10SetAlgebra", "union"]
+- !private ["C8TestChat16SignalAttachment", "AssertIsOnMainThread"]
+- ["C8TestChat16SignalAttachment", "Bool"]
+- !private ["C8TestChat16SignalAttachment", "CFString"]
+- !private ["C8TestChat16SignalAttachment", "CGFloat"]
+- !private ["C8TestChat16SignalAttachment", "CGRect"]
+- !private ["C8TestChat16SignalAttachment", "CGSize"]
+- ["C8TestChat16SignalAttachment", "Data"]
+- !private ["C8TestChat16SignalAttachment", "Date"]
+- !private ["C8TestChat16SignalAttachment", "DateFormatter"]
+- !private ["C8TestChat16SignalAttachment", "IndexSet"]
+- !private ["C8TestChat16SignalAttachment", "Int"]
+- !private ["C8TestChat16SignalAttachment", "Logger"]
+- !private ["C8TestChat16SignalAttachment", "MIMETypeUtil"]
+- !private ["C8TestChat16SignalAttachment", "NSString"]
+- !private ["C8TestChat16SignalAttachment", "NSTemporaryDirectory"]
+- !private ["C8TestChat16SignalAttachment", "NSURL"]
+- !private ["C8TestChat16SignalAttachment", "NSUUID"]
+- !private ["C8TestChat16SignalAttachment", "OWSMimeTypeApplicationOctetStream"]
+- !private ["C8TestChat16SignalAttachment", "OWSMimeTypeOversizeTextMessage"]
+- !private ["C8TestChat16SignalAttachment", "OWSMimeTypeUnknownForTests"]
+- ["C8TestChat16SignalAttachment", "Set"]
+- ["C8TestChat16SignalAttachment", "SignalAttachment"]
+- ["C8TestChat16SignalAttachment", "SignalAttachmentError"]
+- ["C8TestChat16SignalAttachment", "String"]
+- ["C8TestChat16SignalAttachment", "TAG"]
+- !private ["C8TestChat16SignalAttachment", "TSImageQuality"]
+- !private ["C8TestChat16SignalAttachment", "UIGraphicsBeginImageContext"]
+- !private ["C8TestChat16SignalAttachment", "UIGraphicsEndImageContext"]
+- !private ["C8TestChat16SignalAttachment", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["C8TestChat16SignalAttachment", "UIImage"]
+- !private ["C8TestChat16SignalAttachment", "UIImageJPEGRepresentation"]
+- !private ["C8TestChat16SignalAttachment", "UIPasteboard"]
+- ["C8TestChat16SignalAttachment", "URL"]
+- !private ["C8TestChat16SignalAttachment", "UTTypeConformsTo"]
+- !private ["C8TestChat16SignalAttachment", "UTTypeCopyPreferredTagWithClass"]
+- !private ["C8TestChat16SignalAttachment", "animatedImageUTISet"]
+- !private ["C8TestChat16SignalAttachment", "assert"]
+- !private ["C8TestChat16SignalAttachment", "assertionFailure"]
+- ["C8TestChat16SignalAttachment", "attachment"]
+- ["C8TestChat16SignalAttachment", "attachmentFromPasteboard"]
+- !private ["C8TestChat16SignalAttachment", "audioAttachment"]
+- !private ["C8TestChat16SignalAttachment", "audioUTISet"]
+- !private ["C8TestChat16SignalAttachment", "compressImageAsJPEG"]
+- ["C8TestChat16SignalAttachment", "data"]
+- !private ["C8TestChat16SignalAttachment", "dataForFirstPasteboardItem"]
+- ["C8TestChat16SignalAttachment", "dataUTI"]
+- !private ["C8TestChat16SignalAttachment", "defaultImageUploadQuality"]
+- ["C8TestChat16SignalAttachment", "deinit"]
+- ["C8TestChat16SignalAttachment", "error"]
+- ["C8TestChat16SignalAttachment", "errorName"]
+- ["C8TestChat16SignalAttachment", "fileExtension"]
+- ["C8TestChat16SignalAttachment", "filename"]
+- ["C8TestChat16SignalAttachment", "filenameOrDefault"]
+- !private ["C8TestChat16SignalAttachment", "genericAttachment"]
+- ["C8TestChat16SignalAttachment", "getTemporaryDataUrl"]
+- ["C8TestChat16SignalAttachment", "hasError"]
+- ["C8TestChat16SignalAttachment", "image"]
+- ["C8TestChat16SignalAttachment", "imageAttachment"]
+- !private ["C8TestChat16SignalAttachment", "imageScaled"]
+- ["C8TestChat16SignalAttachment", "init"]
+- !private ["C8TestChat16SignalAttachment", "inputImageUTISet"]
+- ["C8TestChat16SignalAttachment", "isAnimatedImage"]
+- ["C8TestChat16SignalAttachment", "isAudio"]
+- ["C8TestChat16SignalAttachment", "isImage"]
+- !private ["C8TestChat16SignalAttachment", "isInputImageValidOutputImage"]
+- ["C8TestChat16SignalAttachment", "isVideo"]
+- ["C8TestChat16SignalAttachment", "isVoiceMessage"]
+- !private ["C8TestChat16SignalAttachment", "jpegCompressionQuality"]
+- ["C8TestChat16SignalAttachment", "kMaxFileSizeAnimatedImage"]
+- ["C8TestChat16SignalAttachment", "kMaxFileSizeAudio"]
+- ["C8TestChat16SignalAttachment", "kMaxFileSizeGeneric"]
+- ["C8TestChat16SignalAttachment", "kMaxFileSizeImage"]
+- ["C8TestChat16SignalAttachment", "kMaxFileSizeVideo"]
+- ["C8TestChat16SignalAttachment", "kOversizeTextAttachmentUTI"]
+- !private ["C8TestChat16SignalAttachment", "kUTTagClassMIMEType"]
+- !private ["C8TestChat16SignalAttachment", "kUTTypeJPEG"]
+- !private ["C8TestChat16SignalAttachment", "kUTTypeText"]
+- !private ["C8TestChat16SignalAttachment", "kUTTypeURL"]
+- ["C8TestChat16SignalAttachment", "kUnknownTestAttachmentUTI"]
+- ["C8TestChat16SignalAttachment", "localizedErrorDescription"]
+- !private ["C8TestChat16SignalAttachment", "max"]
+- !private ["C8TestChat16SignalAttachment", "maxSizeForImage"]
+- !private ["C8TestChat16SignalAttachment", "mediaUTISet"]
+- ["C8TestChat16SignalAttachment", "mimeType"]
+- ["C8TestChat16SignalAttachment", "missingDataErrorMessage"]
+- !private ["C8TestChat16SignalAttachment", "newAttachment"]
+- !private ["C8TestChat16SignalAttachment", "outputImageUTISet"]
+- !private ["C8TestChat16SignalAttachment", "oversizeTextAttachment"]
+- ["C8TestChat16SignalAttachment", "pasteboardHasPossibleAttachment"]
+- ["C8TestChat16SignalAttachment", "pasteboardHasText"]
+- ["C8TestChat16SignalAttachment", "temporaryDataUrl"]
+- !private ["C8TestChat16SignalAttachment", "videoAttachment"]
+- !private ["C8TestChat16SignalAttachment", "videoUTISet"]
+- ["C8TestChat16SignalAttachment", "voiceMessageAttachment"]
+- ["O8TestChat21SignalAttachmentError", "=="]
+- !private ["O8TestChat21SignalAttachmentError", "NSLocalizedString"]
+- ["O8TestChat21SignalAttachmentError", "String"]
+- ["O8TestChat21SignalAttachmentError", "_code"]
+- ["O8TestChat21SignalAttachmentError", "_domain"]
+- ["O8TestChat21SignalAttachmentError", "_getEmbeddedNSError"]
+- ["O8TestChat21SignalAttachmentError", "_toAnyHashable"]
+- ["O8TestChat21SignalAttachmentError", "_userInfo"]
+- ["O8TestChat21SignalAttachmentError", "couldNotConvertToJpeg"]
+- ["O8TestChat21SignalAttachmentError", "couldNotParseImage"]
+- ["O8TestChat21SignalAttachmentError", "deinit"]
+- ["O8TestChat21SignalAttachmentError", "errorDescription"]
+- ["O8TestChat21SignalAttachmentError", "failureReason"]
+- ["O8TestChat21SignalAttachmentError", "fileSizeTooLarge"]
+- ["O8TestChat21SignalAttachmentError", "hashValue"]
+- ["O8TestChat21SignalAttachmentError", "helpAnchor"]
+- ["O8TestChat21SignalAttachmentError", "invalidData"]
+- ["O8TestChat21SignalAttachmentError", "invalidFileFormat"]
+- ["O8TestChat21SignalAttachmentError", "missingData"]
+- ["O8TestChat21SignalAttachmentError", "recoverySuggestion"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "characters"]
+- !private ["SS", "data"]
+- ["SS", "init"]
+- ["O8TestChat14TSImageQuality", "=="]
+- ["O8TestChat14TSImageQuality", "_toAnyHashable"]
+- ["O8TestChat14TSImageQuality", "deinit"]
+- ["O8TestChat14TSImageQuality", "hashValue"]
+- ["O8TestChat14TSImageQuality", "high"]
+- ["O8TestChat14TSImageQuality", "low"]
+- ["O8TestChat14TSImageQuality", "medium"]
+- ["O8TestChat14TSImageQuality", "uncropped"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "data"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "draw"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
+- !private ["CSo7UIImage", "draw"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "size"]
+- !private ["CSo12UIPasteboard", "data"]
+- !private ["CSo12UIPasteboard", "general"]
+- !private ["CSo12UIPasteboard", "numberOfItems"]
+- !private ["CSo12UIPasteboard", "types"]
+- !private ["Vs9Unmanaged", "takeRetainedValue"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "write"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "draw"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "size"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "data"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "fileURL"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "pathExtension"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "uuidString"]
+- !private ["Ps9_Hashable", "AssertIsOnMainThread"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "CGSize"]
+- !private ["Ps9_Hashable", "Data"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "DateFormatter"]
+- !private ["Ps9_Hashable", "IndexSet"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "MIMETypeUtil"]
+- !private ["Ps9_Hashable", "NSLocalizedString"]
+- !private ["Ps9_Hashable", "NSTemporaryDirectory"]
+- !private ["Ps9_Hashable", "NSURL"]
+- !private ["Ps9_Hashable", "NSUUID"]
+- !private ["Ps9_Hashable", "OWSMimeTypeApplicationOctetStream"]
+- !private ["Ps9_Hashable", "OWSMimeTypeOversizeTextMessage"]
+- !private ["Ps9_Hashable", "OWSMimeTypeUnknownForTests"]
+- !private ["Ps9_Hashable", "Set"]
+- !private ["Ps9_Hashable", "SignalAttachment"]
+- !private ["Ps9_Hashable", "SignalAttachmentError"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "UIGraphicsBeginImageContext"]
+- !private ["Ps9_Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps9_Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "UIImageJPEGRepresentation"]
+- !private ["Ps9_Hashable", "UIPasteboard"]
+- !private ["Ps9_Hashable", "UTTypeConformsTo"]
+- !private ["Ps9_Hashable", "UTTypeCopyPreferredTagWithClass"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "animatedImageUTISet"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "assertionFailure"]
+- !private ["Ps9_Hashable", "audioAttachment"]
+- !private ["Ps9_Hashable", "audioUTISet"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "compressImageAsJPEG"]
+- !private ["Ps9_Hashable", "contains"]
+- ["Ps9_Hashable", "couldNotConvertToJpeg"]
+- ["Ps9_Hashable", "couldNotParseImage"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataForFirstPasteboardItem"]
+- !private ["Ps9_Hashable", "dataUTI"]
+- !private ["Ps9_Hashable", "dateFormat"]
+- !private ["Ps9_Hashable", "defaultImageUploadQuality"]
+- !private ["Ps9_Hashable", "draw"]
+- !private ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "errorDescription"]
+- ["Ps9_Hashable", "failureReason"]
+- !private ["Ps9_Hashable", "fileExtension"]
+- ["Ps9_Hashable", "fileSizeTooLarge"]
+- !private ["Ps9_Hashable", "fileURL"]
+- !private ["Ps9_Hashable", "filename"]
+- !private ["Ps9_Hashable", "general"]
+- !private ["Ps9_Hashable", "genericAttachment"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "helpAnchor"]
+- !private ["Ps9_Hashable", "high"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "imageAttachment"]
+- !private ["Ps9_Hashable", "imageScaled"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "inputImageUTISet"]
+- ["Ps9_Hashable", "invalidData"]
+- ["Ps9_Hashable", "invalidFileFormat"]
+- !private ["Ps9_Hashable", "isInputImageValidOutputImage"]
+- !private ["Ps9_Hashable", "isVoiceMessage"]
+- !private ["Ps9_Hashable", "jpegCompressionQuality"]
+- !private ["Ps9_Hashable", "kMaxFileSizeAnimatedImage"]
+- !private ["Ps9_Hashable", "kMaxFileSizeAudio"]
+- !private ["Ps9_Hashable", "kMaxFileSizeGeneric"]
+- !private ["Ps9_Hashable", "kMaxFileSizeImage"]
+- !private ["Ps9_Hashable", "kMaxFileSizeVideo"]
+- !private ["Ps9_Hashable", "kOversizeTextAttachmentUTI"]
+- !private ["Ps9_Hashable", "kUTTagClassMIMEType"]
+- !private ["Ps9_Hashable", "kUTTypeJPEG"]
+- !private ["Ps9_Hashable", "kUTTypeText"]
+- !private ["Ps9_Hashable", "kUTTypeURL"]
+- !private ["Ps9_Hashable", "kUnknownTestAttachmentUTI"]
+- !private ["Ps9_Hashable", "low"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "maxSizeForImage"]
+- !private ["Ps9_Hashable", "mediaUTISet"]
+- !private ["Ps9_Hashable", "medium"]
+- !private ["Ps9_Hashable", "mimeType"]
+- ["Ps9_Hashable", "missingData"]
+- !private ["Ps9_Hashable", "newAttachment"]
+- !private ["Ps9_Hashable", "numberOfItems"]
+- !private ["Ps9_Hashable", "outputImageUTISet"]
+- !private ["Ps9_Hashable", "pathExtension"]
+- ["Ps9_Hashable", "recoverySuggestion"]
+- !private ["Ps9_Hashable", "size"]
+- !private ["Ps9_Hashable", "startIndex"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "supportedAnimatedImageUTITypes"]
+- !private ["Ps9_Hashable", "supportedAudioUTITypes"]
+- !private ["Ps9_Hashable", "supportedImageUTITypes"]
+- !private ["Ps9_Hashable", "supportedVideoUTITypes"]
+- !private ["Ps9_Hashable", "temporaryDataUrl"]
+- !private ["Ps9_Hashable", "types"]
+- !private ["Ps9_Hashable", "uncropped"]
+- !private ["Ps9_Hashable", "union"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["Ps9_Hashable", "uuidString"]
+- !private ["Ps9_Hashable", "verbose"]
+- !private ["Ps9_Hashable", "videoAttachment"]
+- !private ["Ps9_Hashable", "videoUTISet"]
+- !private ["Ps9_Hashable", "write"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "startIndex"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "union"]
+- !private ["Ps10_Indexable", "write"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "startIndex"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "union"]
+- !private ["Ps14_IndexableBase", "write"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps17_MutableIndexable", "write"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "couldNotConvertToJpeg"]
+- !private ["Ps21_ObjectiveCBridgeable", "couldNotParseImage"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "fileSizeTooLarge"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "invalidData"]
+- !private ["Ps21_ObjectiveCBridgeable", "invalidFileFormat"]
+- !private ["Ps21_ObjectiveCBridgeable", "missingData"]
+- !private ["Ps21_ObjectiveCBridgeable", "startIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "union"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "write"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "write"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "write"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "V10Foundation4Date"
+- !private "CSo13DateFormatter"
+- !private "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- !private "V10Foundation8IndexSet"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "P10Foundation14LocalizedError"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- !private "CSo12MIMETypeUtil"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo6NSUUID"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- "C8TestChat16SignalAttachment"
+- "O8TestChat21SignalAttachmentError"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "O8TestChat14TSImageQuality"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "CSo12UIPasteboard"
+- !private "Vs9Unmanaged"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "a03e3891328551d3df932a17dedada94"

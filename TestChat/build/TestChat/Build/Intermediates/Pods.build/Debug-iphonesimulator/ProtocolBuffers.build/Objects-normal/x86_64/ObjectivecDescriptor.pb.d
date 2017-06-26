@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ObjectivecDescriptor.pb.m \
+  /Users/whizphone/Documents/TestChat/Pods/Target\ Support\ Files/ProtocolBuffers/ProtocolBuffers-prefix.pch \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ObjectivecDescriptor.pb.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ProtocolBuffers.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Bootstrap.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ForwardDeclarations.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/CodedInputStream.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/CodedOutputStream.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtendableMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/GeneratedMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/AbstractMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Message.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtensionField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/WireFormat.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtendableMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/GeneratedMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/AbstractMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtensionRegistry.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/UnknownFieldSet.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/UnknownFieldSetBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Utilities.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ConcreteExtensionField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Field.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MutableExtensionRegistry.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MutableField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/PBArray.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Descriptor.pb.h

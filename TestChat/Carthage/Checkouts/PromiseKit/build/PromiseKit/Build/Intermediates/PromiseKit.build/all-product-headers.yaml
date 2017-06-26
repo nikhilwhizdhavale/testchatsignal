@@ -1,0 +1,54 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/build/PromiseKit/Build/Products/Release-iphonesimulator/PromiseKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AnyPromise.h",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "PromiseKit-Swift.h",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/build/PromiseKit/Build/Products/Release-iphonesimulator/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PromiseKit.h",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/PromiseKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "fwd.h",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/fwd.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/build/PromiseKit/Build/Products/Release-iphonesimulator/PromiseKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/build/PromiseKit/Build/Intermediates/PromiseKit.build/Release-iphonesimulator/PromiseKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/build/PromiseKit/Build/Products/Release-iphonesimulator/PromiseKit.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AnyPromise+Private.h",
+          'external-contents': "/Users/whizphone/Documents/TestChat/Carthage/Checkouts/PromiseKit/Sources/AnyPromise+Private.h"
+        }
+      ]
+    }
+  ]
+}

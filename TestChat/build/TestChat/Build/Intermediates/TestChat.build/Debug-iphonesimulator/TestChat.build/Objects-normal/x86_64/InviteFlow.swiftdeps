@@ -1,0 +1,1551 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InviteFlow"
+- "=="
+provides-nominal:
+- "C8TestChat10InviteFlow"
+- "OC8TestChat10InviteFlow7Channel"
+provides-member:
+- ["C8TestChat10InviteFlow", ""]
+- ["OC8TestChat10InviteFlow7Channel", ""]
+provides-dynamic-lookup:
+- "TAG"
+- "actionSheetController"
+- "canTweet"
+- "contactsManager"
+- "contactsPicker"
+- "dismissAction"
+- "homepageUrl"
+- "installUrl"
+- "mailAction"
+- "mailComposeController"
+- "messageAction"
+- "messageComposeViewController"
+- "presentingViewController"
+- "sendMailTo"
+- "sendSMSTo"
+- "tweetAction"
+depends-top-level:
+- !private "!="
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Contact"
+- "ContactsPicker"
+- "ContactsPickerDelegate"
+- "Error"
+- "InviteFlow"
+- !private "Logger"
+- "MFMailComposeResult"
+- "MFMailComposeViewController"
+- "MFMailComposeViewControllerDelegate"
+- "MFMessageComposeViewController"
+- "MFMessageComposeViewControllerDelegate"
+- "MessageComposeResult"
+- !private "NSLocalizedString"
+- "NSObject"
+- "OWSContactsManager"
+- !private "SLComposeViewController"
+- !private "SLServiceTypeTwitter"
+- "String"
+- "StringLiteralType"
+- "UIAlertAction"
+- "UIAlertController"
+- !private "UINavigationController"
+- !private "UIUtil"
+- "UIViewController"
+- !private "URL"
+- "UnicodeScalarType"
+- !private "_ImageLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "ContactsPicker"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "MFMailComposeViewController"]
+- !private ["Ps9AnyObject", "MFMessageComposeViewController"]
+- !private ["Ps9AnyObject", "NSLocalizedString"]
+- !private ["Ps9AnyObject", "SLComposeViewController"]
+- !private ["Ps9AnyObject", "SLServiceTypeTwitter"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TAG"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UINavigationController"]
+- !private ["Ps9AnyObject", "UIUtil"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "actionSheetController"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "appending"]
+- !private ["Ps9AnyObject", "applyDefaultSystemAppearence"]
+- !private ["Ps9AnyObject", "applySignalAppearence"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "canSendMail"]
+- !private ["Ps9AnyObject", "canSendText"]
+- !private ["Ps9AnyObject", "canTweet"]
+- !private ["Ps9AnyObject", "channel"]
+- !private ["Ps9AnyObject", "contactsManager"]
+- ["Ps9AnyObject", "contactsPicker"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "dismissAction"]
+- !private ["Ps9AnyObject", "emails"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "homepageUrl"]
+- !private ["Ps9AnyObject", "info"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "installUrl"]
+- !private ["Ps9AnyObject", "isAvailable"]
+- !private ["Ps9AnyObject", "mailAction"]
+- ["Ps9AnyObject", "mailComposeController"]
+- !private ["Ps9AnyObject", "mailComposeDelegate"]
+- !private ["Ps9AnyObject", "messageAction"]
+- !private ["Ps9AnyObject", "messageComposeDelegate"]
+- ["Ps9AnyObject", "messageComposeViewController"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "presentingViewController"]
+- !private ["Ps9AnyObject", "recipients"]
+- !private ["Ps9AnyObject", "sendMailTo"]
+- !private ["Ps9AnyObject", "sendSMSTo"]
+- !private ["Ps9AnyObject", "setBccRecipients"]
+- !private ["Ps9AnyObject", "setInitialText"]
+- !private ["Ps9AnyObject", "setMessageBody"]
+- !private ["Ps9AnyObject", "setSubject"]
+- !private ["Ps9AnyObject", "tweetAction"]
+- !private ["Ps9AnyObject", "userTextPhoneNumbers"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CNKeyDescriptor", "appending"]
+- ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "ContactsPicker"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "MFMailComposeViewController"]
+- !private ["Ps7CVarArg", "MFMessageComposeViewController"]
+- !private ["Ps7CVarArg", "NSLocalizedString"]
+- !private ["Ps7CVarArg", "SLComposeViewController"]
+- !private ["Ps7CVarArg", "SLServiceTypeTwitter"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "TAG"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "UIAlertController"]
+- !private ["Ps7CVarArg", "UINavigationController"]
+- !private ["Ps7CVarArg", "UIUtil"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "actionSheetController"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "addAction"]
+- !private ["Ps7CVarArg", "appending"]
+- !private ["Ps7CVarArg", "applyDefaultSystemAppearence"]
+- !private ["Ps7CVarArg", "applySignalAppearence"]
+- !private ["Ps7CVarArg", "body"]
+- !private ["Ps7CVarArg", "canSendMail"]
+- !private ["Ps7CVarArg", "canSendText"]
+- !private ["Ps7CVarArg", "canTweet"]
+- !private ["Ps7CVarArg", "channel"]
+- !private ["Ps7CVarArg", "contactsManager"]
+- ["Ps7CVarArg", "contactsPicker"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "debug"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "dismissAction"]
+- !private ["Ps7CVarArg", "emails"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "homepageUrl"]
+- !private ["Ps7CVarArg", "info"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "installUrl"]
+- !private ["Ps7CVarArg", "isAvailable"]
+- !private ["Ps7CVarArg", "mailAction"]
+- ["Ps7CVarArg", "mailComposeController"]
+- !private ["Ps7CVarArg", "mailComposeDelegate"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "messageAction"]
+- !private ["Ps7CVarArg", "messageComposeDelegate"]
+- ["Ps7CVarArg", "messageComposeViewController"]
+- !private ["Ps7CVarArg", "navigationController"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "presentingViewController"]
+- !private ["Ps7CVarArg", "recipients"]
+- !private ["Ps7CVarArg", "sendMailTo"]
+- !private ["Ps7CVarArg", "sendSMSTo"]
+- !private ["Ps7CVarArg", "setBccRecipients"]
+- !private ["Ps7CVarArg", "setInitialText"]
+- !private ["Ps7CVarArg", "setMessageBody"]
+- !private ["Ps7CVarArg", "setSubject"]
+- !private ["Ps7CVarArg", "tweetAction"]
+- !private ["Ps7CVarArg", "userTextPhoneNumbers"]
+- ["Ps7CVarArg", ""]
+- ["OC8TestChat10InviteFlow7Channel", "=="]
+- ["OC8TestChat10InviteFlow7Channel", "_toAnyHashable"]
+- ["OC8TestChat10InviteFlow7Channel", "deinit"]
+- ["OC8TestChat10InviteFlow7Channel", "hashValue"]
+- ["OC8TestChat10InviteFlow7Channel", "mail"]
+- ["OC8TestChat10InviteFlow7Channel", "message"]
+- ["OC8TestChat10InviteFlow7Channel", "twitter"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["CSo7Contact", "emails"]
+- !private ["CSo7Contact", "userTextPhoneNumbers"]
+- !private ["C8TestChat14ContactsPicker", "deinit"]
+- !private ["C8TestChat14ContactsPicker", "init"]
+- !private ["P8TestChat22ContactsPickerDelegate", "ContactsPicker"]
+- !private ["P8TestChat22ContactsPickerDelegate", "Logger"]
+- !private ["P8TestChat22ContactsPickerDelegate", "MFMailComposeViewController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "MFMessageComposeViewController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "NSLocalizedString"]
+- !private ["P8TestChat22ContactsPickerDelegate", "SLComposeViewController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "SLServiceTypeTwitter"]
+- !private ["P8TestChat22ContactsPickerDelegate", "String"]
+- !private ["P8TestChat22ContactsPickerDelegate", "TAG"]
+- !private ["P8TestChat22ContactsPickerDelegate", "UIAlertAction"]
+- !private ["P8TestChat22ContactsPickerDelegate", "UIAlertController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "UINavigationController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "UIUtil"]
+- !private ["P8TestChat22ContactsPickerDelegate", "URL"]
+- !private ["P8TestChat22ContactsPickerDelegate", "actionSheetController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "canTweet"]
+- !private ["P8TestChat22ContactsPickerDelegate", "channel"]
+- !private ["P8TestChat22ContactsPickerDelegate", "contactsManager"]
+- ["P8TestChat22ContactsPickerDelegate", "contactsPicker"]
+- !private ["P8TestChat22ContactsPickerDelegate", "dismissAction"]
+- !private ["P8TestChat22ContactsPickerDelegate", "homepageUrl"]
+- !private ["P8TestChat22ContactsPickerDelegate", "installUrl"]
+- !private ["P8TestChat22ContactsPickerDelegate", "mailAction"]
+- ["P8TestChat22ContactsPickerDelegate", "mailComposeController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "messageAction"]
+- ["P8TestChat22ContactsPickerDelegate", "messageComposeViewController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "presentingViewController"]
+- !private ["P8TestChat22ContactsPickerDelegate", "sendMailTo"]
+- !private ["P8TestChat22ContactsPickerDelegate", "sendSMSTo"]
+- !private ["P8TestChat22ContactsPickerDelegate", "tweetAction"]
+- ["P8TestChat22ContactsPickerDelegate", ""]
+- !private ["Ps28CustomDebugStringConvertible", "ContactsPicker"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "MFMailComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "MFMessageComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedString"]
+- !private ["Ps28CustomDebugStringConvertible", "SLComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "SLServiceTypeTwitter"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "TAG"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "UINavigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "actionSheetController"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "appending"]
+- !private ["Ps28CustomDebugStringConvertible", "applyDefaultSystemAppearence"]
+- !private ["Ps28CustomDebugStringConvertible", "applySignalAppearence"]
+- !private ["Ps28CustomDebugStringConvertible", "body"]
+- !private ["Ps28CustomDebugStringConvertible", "canSendMail"]
+- !private ["Ps28CustomDebugStringConvertible", "canSendText"]
+- !private ["Ps28CustomDebugStringConvertible", "canTweet"]
+- !private ["Ps28CustomDebugStringConvertible", "channel"]
+- !private ["Ps28CustomDebugStringConvertible", "contactsManager"]
+- ["Ps28CustomDebugStringConvertible", "contactsPicker"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "debug"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissAction"]
+- !private ["Ps28CustomDebugStringConvertible", "emails"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "homepageUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "info"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "installUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "isAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "mail"]
+- !private ["Ps28CustomDebugStringConvertible", "mailAction"]
+- ["Ps28CustomDebugStringConvertible", "mailComposeController"]
+- !private ["Ps28CustomDebugStringConvertible", "mailComposeDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "message"]
+- !private ["Ps28CustomDebugStringConvertible", "messageAction"]
+- !private ["Ps28CustomDebugStringConvertible", "messageComposeDelegate"]
+- ["Ps28CustomDebugStringConvertible", "messageComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "presentingViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "recipients"]
+- !private ["Ps28CustomDebugStringConvertible", "sendMailTo"]
+- !private ["Ps28CustomDebugStringConvertible", "sendSMSTo"]
+- !private ["Ps28CustomDebugStringConvertible", "setBccRecipients"]
+- !private ["Ps28CustomDebugStringConvertible", "setInitialText"]
+- !private ["Ps28CustomDebugStringConvertible", "setMessageBody"]
+- !private ["Ps28CustomDebugStringConvertible", "setSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "tweetAction"]
+- !private ["Ps28CustomDebugStringConvertible", "userTextPhoneNumbers"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appending"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "appending"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "mail"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "message"]
+- !private ["Ps23CustomStringConvertible", "ContactsPicker"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "MFMailComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "MFMessageComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- !private ["Ps23CustomStringConvertible", "SLComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "SLServiceTypeTwitter"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "TAG"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "UINavigationController"]
+- !private ["Ps23CustomStringConvertible", "UIUtil"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "actionSheetController"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "applyDefaultSystemAppearence"]
+- !private ["Ps23CustomStringConvertible", "applySignalAppearence"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "canSendMail"]
+- !private ["Ps23CustomStringConvertible", "canSendText"]
+- !private ["Ps23CustomStringConvertible", "canTweet"]
+- !private ["Ps23CustomStringConvertible", "channel"]
+- !private ["Ps23CustomStringConvertible", "contactsManager"]
+- ["Ps23CustomStringConvertible", "contactsPicker"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "debug"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "dismissAction"]
+- !private ["Ps23CustomStringConvertible", "emails"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "homepageUrl"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "installUrl"]
+- !private ["Ps23CustomStringConvertible", "isAvailable"]
+- !private ["Ps23CustomStringConvertible", "mailAction"]
+- ["Ps23CustomStringConvertible", "mailComposeController"]
+- !private ["Ps23CustomStringConvertible", "mailComposeDelegate"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "messageAction"]
+- !private ["Ps23CustomStringConvertible", "messageComposeDelegate"]
+- ["Ps23CustomStringConvertible", "messageComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "presentingViewController"]
+- !private ["Ps23CustomStringConvertible", "recipients"]
+- !private ["Ps23CustomStringConvertible", "sendMailTo"]
+- !private ["Ps23CustomStringConvertible", "sendSMSTo"]
+- !private ["Ps23CustomStringConvertible", "setBccRecipients"]
+- !private ["Ps23CustomStringConvertible", "setInitialText"]
+- !private ["Ps23CustomStringConvertible", "setMessageBody"]
+- !private ["Ps23CustomStringConvertible", "setSubject"]
+- !private ["Ps23CustomStringConvertible", "tweetAction"]
+- !private ["Ps23CustomStringConvertible", "userTextPhoneNumbers"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ContactsPicker"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "MFMailComposeViewController"]
+- !private ["Ps9Equatable", "MFMessageComposeViewController"]
+- !private ["Ps9Equatable", "NSLocalizedString"]
+- !private ["Ps9Equatable", "SLComposeViewController"]
+- !private ["Ps9Equatable", "SLServiceTypeTwitter"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "TAG"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "UINavigationController"]
+- !private ["Ps9Equatable", "UIUtil"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "actionSheet"]
+- !private ["Ps9Equatable", "actionSheetController"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "appending"]
+- !private ["Ps9Equatable", "applyDefaultSystemAppearence"]
+- !private ["Ps9Equatable", "applySignalAppearence"]
+- !private ["Ps9Equatable", "body"]
+- !private ["Ps9Equatable", "canSendMail"]
+- !private ["Ps9Equatable", "canSendText"]
+- !private ["Ps9Equatable", "canTweet"]
+- !private ["Ps9Equatable", "cancel"]
+- ["Ps9Equatable", "cancelled"]
+- !private ["Ps9Equatable", "channel"]
+- !private ["Ps9Equatable", "contactsManager"]
+- ["Ps9Equatable", "contactsPicker"]
+- !private ["Ps9Equatable", "debug"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "dismissAction"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "emails"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "failed"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "homepageUrl"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "installUrl"]
+- !private ["Ps9Equatable", "isAvailable"]
+- ["Ps9Equatable", "mail"]
+- !private ["Ps9Equatable", "mailAction"]
+- ["Ps9Equatable", "mailComposeController"]
+- !private ["Ps9Equatable", "mailComposeDelegate"]
+- ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "messageAction"]
+- !private ["Ps9Equatable", "messageComposeDelegate"]
+- ["Ps9Equatable", "messageComposeViewController"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "phoneNumber"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "presentingViewController"]
+- !private ["Ps9Equatable", "recipients"]
+- ["Ps9Equatable", "saved"]
+- !private ["Ps9Equatable", "sendMailTo"]
+- !private ["Ps9Equatable", "sendSMSTo"]
+- ["Ps9Equatable", "sent"]
+- !private ["Ps9Equatable", "setBccRecipients"]
+- !private ["Ps9Equatable", "setInitialText"]
+- !private ["Ps9Equatable", "setMessageBody"]
+- !private ["Ps9Equatable", "setSubject"]
+- !private ["Ps9Equatable", "tweetAction"]
+- !private ["Ps9Equatable", "userTextPhoneNumbers"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "appending"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "mail"]
+- !private ["Ps23ExpressibleByNilLiteral", "message"]
+- !private ["Ps26ExpressibleByStringLiteral", "appending"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "appending"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "ContactsPicker"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "MFMailComposeViewController"]
+- !private ["Ps8Hashable", "MFMessageComposeViewController"]
+- !private ["Ps8Hashable", "NSLocalizedString"]
+- !private ["Ps8Hashable", "SLComposeViewController"]
+- !private ["Ps8Hashable", "SLServiceTypeTwitter"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "TAG"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "UINavigationController"]
+- !private ["Ps8Hashable", "UIUtil"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "actionSheet"]
+- !private ["Ps8Hashable", "actionSheetController"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "alert"]
+- !private ["Ps8Hashable", "appending"]
+- !private ["Ps8Hashable", "applyDefaultSystemAppearence"]
+- !private ["Ps8Hashable", "applySignalAppearence"]
+- !private ["Ps8Hashable", "body"]
+- !private ["Ps8Hashable", "canSendMail"]
+- !private ["Ps8Hashable", "canSendText"]
+- !private ["Ps8Hashable", "canTweet"]
+- !private ["Ps8Hashable", "cancel"]
+- ["Ps8Hashable", "cancelled"]
+- !private ["Ps8Hashable", "channel"]
+- !private ["Ps8Hashable", "contactsManager"]
+- ["Ps8Hashable", "contactsPicker"]
+- !private ["Ps8Hashable", "debug"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "dismissAction"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "emails"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "failed"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "homepageUrl"]
+- !private ["Ps8Hashable", "info"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "installUrl"]
+- !private ["Ps8Hashable", "isAvailable"]
+- ["Ps8Hashable", "mail"]
+- !private ["Ps8Hashable", "mailAction"]
+- ["Ps8Hashable", "mailComposeController"]
+- !private ["Ps8Hashable", "mailComposeDelegate"]
+- ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "messageAction"]
+- !private ["Ps8Hashable", "messageComposeDelegate"]
+- ["Ps8Hashable", "messageComposeViewController"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "phoneNumber"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "presentingViewController"]
+- !private ["Ps8Hashable", "recipients"]
+- ["Ps8Hashable", "saved"]
+- !private ["Ps8Hashable", "sendMailTo"]
+- !private ["Ps8Hashable", "sendSMSTo"]
+- ["Ps8Hashable", "sent"]
+- !private ["Ps8Hashable", "setBccRecipients"]
+- !private ["Ps8Hashable", "setInitialText"]
+- !private ["Ps8Hashable", "setMessageBody"]
+- !private ["Ps8Hashable", "setSubject"]
+- !private ["Ps8Hashable", "tweetAction"]
+- !private ["Ps8Hashable", "userTextPhoneNumbers"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["C8TestChat10InviteFlow", "Bool"]
+- ["C8TestChat10InviteFlow", "Channel"]
+- ["C8TestChat10InviteFlow", "Contact"]
+- ["C8TestChat10InviteFlow", "ContactsPicker"]
+- ["C8TestChat10InviteFlow", "Error"]
+- !private ["C8TestChat10InviteFlow", "Logger"]
+- ["C8TestChat10InviteFlow", "MFMailComposeResult"]
+- ["C8TestChat10InviteFlow", "MFMailComposeViewController"]
+- ["C8TestChat10InviteFlow", "MFMessageComposeViewController"]
+- ["C8TestChat10InviteFlow", "MessageComposeResult"]
+- !private ["C8TestChat10InviteFlow", "NSLocalizedString"]
+- ["C8TestChat10InviteFlow", "OWSContactsManager"]
+- !private ["C8TestChat10InviteFlow", "SLComposeViewController"]
+- !private ["C8TestChat10InviteFlow", "SLServiceTypeTwitter"]
+- ["C8TestChat10InviteFlow", "String"]
+- ["C8TestChat10InviteFlow", "TAG"]
+- ["C8TestChat10InviteFlow", "UIAlertAction"]
+- ["C8TestChat10InviteFlow", "UIAlertController"]
+- !private ["C8TestChat10InviteFlow", "UINavigationController"]
+- !private ["C8TestChat10InviteFlow", "UIUtil"]
+- ["C8TestChat10InviteFlow", "UIViewController"]
+- !private ["C8TestChat10InviteFlow", "URL"]
+- ["C8TestChat10InviteFlow", "actionSheetController"]
+- ["C8TestChat10InviteFlow", "canTweet"]
+- ["C8TestChat10InviteFlow", "channel"]
+- ["C8TestChat10InviteFlow", "contactsManager"]
+- ["C8TestChat10InviteFlow", "contactsPicker"]
+- ["C8TestChat10InviteFlow", "deinit"]
+- ["C8TestChat10InviteFlow", "dismissAction"]
+- ["C8TestChat10InviteFlow", "homepageUrl"]
+- ["C8TestChat10InviteFlow", "init"]
+- ["C8TestChat10InviteFlow", "installUrl"]
+- ["C8TestChat10InviteFlow", "mailAction"]
+- ["C8TestChat10InviteFlow", "mailComposeController"]
+- ["C8TestChat10InviteFlow", "messageAction"]
+- ["C8TestChat10InviteFlow", "messageComposeViewController"]
+- ["C8TestChat10InviteFlow", "presentingViewController"]
+- ["C8TestChat10InviteFlow", "sendMailTo"]
+- ["C8TestChat10InviteFlow", "sendSMSTo"]
+- ["C8TestChat10InviteFlow", "tweetAction"]
+- !private ["CSo6Logger", "debug"]
+- !private ["CSo6Logger", "error"]
+- !private ["CSo6Logger", "info"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "appending"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["OSC19MFMailComposeResult", "cancelled"]
+- ["OSC19MFMailComposeResult", "failed"]
+- ["OSC19MFMailComposeResult", "saved"]
+- ["OSC19MFMailComposeResult", "sent"]
+- !private ["CSo27MFMailComposeViewController", "canSendMail"]
+- !private ["CSo27MFMailComposeViewController", "init"]
+- !private ["CSo27MFMailComposeViewController", "mailComposeDelegate"]
+- !private ["CSo27MFMailComposeViewController", "setBccRecipients"]
+- !private ["CSo27MFMailComposeViewController", "setMessageBody"]
+- !private ["CSo27MFMailComposeViewController", "setSubject"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "ContactsPicker"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "Logger"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "MFMailComposeViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "MFMessageComposeViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "NSLocalizedString"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "SLComposeViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "SLServiceTypeTwitter"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "String"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "TAG"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertAction"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UINavigationController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIUtil"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "URL"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "actionSheetController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "canTweet"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "channel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "contactsManager"]
+- ["PSo35MFMailComposeViewControllerDelegate", "contactsPicker"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "dismissAction"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "homepageUrl"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "installUrl"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "mailAction"]
+- ["PSo35MFMailComposeViewControllerDelegate", "mailComposeController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "messageAction"]
+- ["PSo35MFMailComposeViewControllerDelegate", "messageComposeViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "presentingViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "sendMailTo"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "sendSMSTo"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "tweetAction"]
+- ["PSo35MFMailComposeViewControllerDelegate", ""]
+- !private ["CSo30MFMessageComposeViewController", "body"]
+- !private ["CSo30MFMessageComposeViewController", "canSendText"]
+- !private ["CSo30MFMessageComposeViewController", "init"]
+- !private ["CSo30MFMessageComposeViewController", "messageComposeDelegate"]
+- !private ["CSo30MFMessageComposeViewController", "recipients"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "ContactsPicker"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "Logger"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "MFMailComposeViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "MFMessageComposeViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "NSLocalizedString"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "SLComposeViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "SLServiceTypeTwitter"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "String"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "TAG"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "UIAlertAction"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "UIAlertController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "UINavigationController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "UIUtil"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "URL"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "actionSheetController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "canTweet"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "channel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "contactsManager"]
+- ["PSo38MFMessageComposeViewControllerDelegate", "contactsPicker"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "dismissAction"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "homepageUrl"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "installUrl"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "mailAction"]
+- ["PSo38MFMessageComposeViewControllerDelegate", "mailComposeController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "messageAction"]
+- ["PSo38MFMessageComposeViewControllerDelegate", "messageComposeViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "presentingViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "sendMailTo"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "sendSMSTo"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "tweetAction"]
+- ["PSo38MFMessageComposeViewControllerDelegate", ""]
+- ["OSC20MessageComposeResult", "cancelled"]
+- ["OSC20MessageComposeResult", "failed"]
+- ["OSC20MessageComposeResult", "sent"]
+- !private ["Ps10MirrorPath", "appending"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "appending"]
+- !private ["PSo8NSCoding", "body"]
+- !private ["PSo8NSCoding", "canSendMail"]
+- !private ["PSo8NSCoding", "canSendText"]
+- !private ["PSo8NSCoding", "dismiss"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isAvailable"]
+- !private ["PSo8NSCoding", "mailComposeDelegate"]
+- !private ["PSo8NSCoding", "messageComposeDelegate"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "recipients"]
+- !private ["PSo8NSCoding", "setBccRecipients"]
+- !private ["PSo8NSCoding", "setInitialText"]
+- !private ["PSo8NSCoding", "setMessageBody"]
+- !private ["PSo8NSCoding", "setSubject"]
+- !private ["PSo9NSCopying", "appending"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "add"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "body"]
+- !private ["PSo26NSExtensionRequestHandling", "canSendMail"]
+- !private ["PSo26NSExtensionRequestHandling", "canSendText"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isAvailable"]
+- !private ["PSo26NSExtensionRequestHandling", "mailComposeDelegate"]
+- !private ["PSo26NSExtensionRequestHandling", "messageComposeDelegate"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "recipients"]
+- !private ["PSo26NSExtensionRequestHandling", "setBccRecipients"]
+- !private ["PSo26NSExtensionRequestHandling", "setInitialText"]
+- !private ["PSo26NSExtensionRequestHandling", "setMessageBody"]
+- !private ["PSo26NSExtensionRequestHandling", "setSubject"]
+- !private ["PSo16NSMutableCopying", "appending"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Channel"]
+- ["CSo8NSObject", "Contact"]
+- ["CSo8NSObject", "ContactsPicker"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "MFMailComposeResult"]
+- ["CSo8NSObject", "MFMailComposeViewController"]
+- ["CSo8NSObject", "MFMessageComposeViewController"]
+- ["CSo8NSObject", "MessageComposeResult"]
+- !private ["CSo8NSObject", "NSLocalizedString"]
+- ["CSo8NSObject", "OWSContactsManager"]
+- !private ["CSo8NSObject", "SLComposeViewController"]
+- !private ["CSo8NSObject", "SLServiceTypeTwitter"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TAG"]
+- ["CSo8NSObject", "UIAlertAction"]
+- ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UIUtil"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "actionSheetController"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "appending"]
+- !private ["CSo8NSObject", "applyDefaultSystemAppearence"]
+- !private ["CSo8NSObject", "applySignalAppearence"]
+- !private ["CSo8NSObject", "body"]
+- !private ["CSo8NSObject", "canSendMail"]
+- !private ["CSo8NSObject", "canSendText"]
+- ["CSo8NSObject", "canTweet"]
+- ["CSo8NSObject", "channel"]
+- ["CSo8NSObject", "contactsManager"]
+- ["CSo8NSObject", "contactsPicker"]
+- !private ["CSo8NSObject", "debug"]
+- !private ["CSo8NSObject", "dismiss"]
+- ["CSo8NSObject", "dismissAction"]
+- !private ["CSo8NSObject", "emails"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "homepageUrl"]
+- !private ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "installUrl"]
+- !private ["CSo8NSObject", "isAvailable"]
+- ["CSo8NSObject", "mailAction"]
+- ["CSo8NSObject", "mailComposeController"]
+- !private ["CSo8NSObject", "mailComposeDelegate"]
+- ["CSo8NSObject", "messageAction"]
+- !private ["CSo8NSObject", "messageComposeDelegate"]
+- ["CSo8NSObject", "messageComposeViewController"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "present"]
+- ["CSo8NSObject", "presentingViewController"]
+- !private ["CSo8NSObject", "recipients"]
+- ["CSo8NSObject", "sendMailTo"]
+- ["CSo8NSObject", "sendSMSTo"]
+- !private ["CSo8NSObject", "setBccRecipients"]
+- !private ["CSo8NSObject", "setInitialText"]
+- !private ["CSo8NSObject", "setMessageBody"]
+- !private ["CSo8NSObject", "setSubject"]
+- ["CSo8NSObject", "tweetAction"]
+- !private ["CSo8NSObject", "userTextPhoneNumbers"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "ContactsPicker"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "MFMailComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "MFMessageComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedString"]
+- !private ["PSo16NSObjectProtocol", "SLComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "SLServiceTypeTwitter"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "TAG"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UINavigationController"]
+- !private ["PSo16NSObjectProtocol", "UIUtil"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "actionSheetController"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "appending"]
+- !private ["PSo16NSObjectProtocol", "applyDefaultSystemAppearence"]
+- !private ["PSo16NSObjectProtocol", "applySignalAppearence"]
+- !private ["PSo16NSObjectProtocol", "body"]
+- !private ["PSo16NSObjectProtocol", "canSendMail"]
+- !private ["PSo16NSObjectProtocol", "canSendText"]
+- !private ["PSo16NSObjectProtocol", "canTweet"]
+- !private ["PSo16NSObjectProtocol", "channel"]
+- !private ["PSo16NSObjectProtocol", "contactsManager"]
+- ["PSo16NSObjectProtocol", "contactsPicker"]
+- !private ["PSo16NSObjectProtocol", "debug"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "dismissAction"]
+- !private ["PSo16NSObjectProtocol", "emails"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "homepageUrl"]
+- !private ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "installUrl"]
+- !private ["PSo16NSObjectProtocol", "isAvailable"]
+- !private ["PSo16NSObjectProtocol", "mailAction"]
+- ["PSo16NSObjectProtocol", "mailComposeController"]
+- !private ["PSo16NSObjectProtocol", "mailComposeDelegate"]
+- !private ["PSo16NSObjectProtocol", "messageAction"]
+- !private ["PSo16NSObjectProtocol", "messageComposeDelegate"]
+- ["PSo16NSObjectProtocol", "messageComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "presentingViewController"]
+- !private ["PSo16NSObjectProtocol", "recipients"]
+- !private ["PSo16NSObjectProtocol", "sendMailTo"]
+- !private ["PSo16NSObjectProtocol", "sendSMSTo"]
+- !private ["PSo16NSObjectProtocol", "setBccRecipients"]
+- !private ["PSo16NSObjectProtocol", "setInitialText"]
+- !private ["PSo16NSObjectProtocol", "setMessageBody"]
+- !private ["PSo16NSObjectProtocol", "setSubject"]
+- !private ["PSo16NSObjectProtocol", "tweetAction"]
+- !private ["PSo16NSObjectProtocol", "userTextPhoneNumbers"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "appending"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "appending"]
+- ["CSo8NSString", "init"]
+- !private ["Sq", "mail"]
+- !private ["Sq", "message"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps16RawRepresentable", "actionSheet"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "cancel"]
+- ["Ps16RawRepresentable", "cancelled"]
+- !private ["Ps16RawRepresentable", "default"]
+- ["Ps16RawRepresentable", "failed"]
+- ["Ps16RawRepresentable", "saved"]
+- ["Ps16RawRepresentable", "sent"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["CSo23SLComposeViewController", "add"]
+- !private ["CSo23SLComposeViewController", "init"]
+- !private ["CSo23SLComposeViewController", "isAvailable"]
+- !private ["CSo23SLComposeViewController", "setInitialText"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "appending"]
+- ["SS", "init"]
+- !private ["O8TestChat17SubtitleCellValue", "email"]
+- !private ["O8TestChat17SubtitleCellValue", "phoneNumber"]
+- !private ["Ps16TextOutputStream", "appending"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "appending"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "cancel"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "actionSheet"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- !private ["PSo21UIAppearanceContainer", "add"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "body"]
+- !private ["PSo21UIAppearanceContainer", "canSendMail"]
+- !private ["PSo21UIAppearanceContainer", "canSendText"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isAvailable"]
+- !private ["PSo21UIAppearanceContainer", "mailComposeDelegate"]
+- !private ["PSo21UIAppearanceContainer", "messageComposeDelegate"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "recipients"]
+- !private ["PSo21UIAppearanceContainer", "setBccRecipients"]
+- !private ["PSo21UIAppearanceContainer", "setInitialText"]
+- !private ["PSo21UIAppearanceContainer", "setMessageBody"]
+- !private ["PSo21UIAppearanceContainer", "setSubject"]
+- !private ["PSo24UIBarPositioningDelegate", "init"]
+- !private ["PSo18UIContentContainer", "add"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "body"]
+- !private ["PSo18UIContentContainer", "canSendMail"]
+- !private ["PSo18UIContentContainer", "canSendText"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isAvailable"]
+- !private ["PSo18UIContentContainer", "mailComposeDelegate"]
+- !private ["PSo18UIContentContainer", "messageComposeDelegate"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "recipients"]
+- !private ["PSo18UIContentContainer", "setBccRecipients"]
+- !private ["PSo18UIContentContainer", "setInitialText"]
+- !private ["PSo18UIContentContainer", "setMessageBody"]
+- !private ["PSo18UIContentContainer", "setSubject"]
+- !private ["PSo18UIFocusEnvironment", "add"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "body"]
+- !private ["PSo18UIFocusEnvironment", "canSendMail"]
+- !private ["PSo18UIFocusEnvironment", "canSendText"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isAvailable"]
+- !private ["PSo18UIFocusEnvironment", "mailComposeDelegate"]
+- !private ["PSo18UIFocusEnvironment", "messageComposeDelegate"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "recipients"]
+- !private ["PSo18UIFocusEnvironment", "setBccRecipients"]
+- !private ["PSo18UIFocusEnvironment", "setInitialText"]
+- !private ["PSo18UIFocusEnvironment", "setMessageBody"]
+- !private ["PSo18UIFocusEnvironment", "setSubject"]
+- !private ["CSo22UINavigationController", "body"]
+- !private ["CSo22UINavigationController", "canSendMail"]
+- !private ["CSo22UINavigationController", "canSendText"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "mailComposeDelegate"]
+- !private ["CSo22UINavigationController", "messageComposeDelegate"]
+- !private ["CSo22UINavigationController", "present"]
+- !private ["CSo22UINavigationController", "recipients"]
+- !private ["CSo22UINavigationController", "setBccRecipients"]
+- !private ["CSo22UINavigationController", "setMessageBody"]
+- !private ["CSo22UINavigationController", "setSubject"]
+- !private ["CSo11UIResponder", "add"]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "body"]
+- !private ["CSo11UIResponder", "canSendMail"]
+- !private ["CSo11UIResponder", "canSendText"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isAvailable"]
+- !private ["CSo11UIResponder", "mailComposeDelegate"]
+- !private ["CSo11UIResponder", "messageComposeDelegate"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "recipients"]
+- !private ["CSo11UIResponder", "setBccRecipients"]
+- !private ["CSo11UIResponder", "setInitialText"]
+- !private ["CSo11UIResponder", "setMessageBody"]
+- !private ["CSo11UIResponder", "setSubject"]
+- !private ["PSo30UIResponderStandardEditActions", "add"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- !private ["PSo30UIResponderStandardEditActions", "body"]
+- !private ["PSo30UIResponderStandardEditActions", "canSendMail"]
+- !private ["PSo30UIResponderStandardEditActions", "canSendText"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isAvailable"]
+- !private ["PSo30UIResponderStandardEditActions", "mailComposeDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "messageComposeDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationController"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "recipients"]
+- !private ["PSo30UIResponderStandardEditActions", "setBccRecipients"]
+- !private ["PSo30UIResponderStandardEditActions", "setInitialText"]
+- !private ["PSo30UIResponderStandardEditActions", "setMessageBody"]
+- !private ["PSo30UIResponderStandardEditActions", "setSubject"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo19UISearchBarDelegate", "init"]
+- !private ["PSo16UIStateRestoring", "add"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "body"]
+- !private ["PSo16UIStateRestoring", "canSendMail"]
+- !private ["PSo16UIStateRestoring", "canSendText"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isAvailable"]
+- !private ["PSo16UIStateRestoring", "mailComposeDelegate"]
+- !private ["PSo16UIStateRestoring", "messageComposeDelegate"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "recipients"]
+- !private ["PSo16UIStateRestoring", "setBccRecipients"]
+- !private ["PSo16UIStateRestoring", "setInitialText"]
+- !private ["PSo16UIStateRestoring", "setMessageBody"]
+- !private ["PSo16UIStateRestoring", "setSubject"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo18UITraitEnvironment", "add"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "body"]
+- !private ["PSo18UITraitEnvironment", "canSendMail"]
+- !private ["PSo18UITraitEnvironment", "canSendText"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isAvailable"]
+- !private ["PSo18UITraitEnvironment", "mailComposeDelegate"]
+- !private ["PSo18UITraitEnvironment", "messageComposeDelegate"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "recipients"]
+- !private ["PSo18UITraitEnvironment", "setBccRecipients"]
+- !private ["PSo18UITraitEnvironment", "setInitialText"]
+- !private ["PSo18UITraitEnvironment", "setMessageBody"]
+- !private ["PSo18UITraitEnvironment", "setSubject"]
+- !private ["CSo6UIUtil", "applyDefaultSystemAppearence"]
+- !private ["CSo6UIUtil", "applySignalAppearence"]
+- !private ["CSo16UIViewController", "add"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "body"]
+- !private ["CSo16UIViewController", "canSendMail"]
+- !private ["CSo16UIViewController", "canSendText"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isAvailable"]
+- !private ["CSo16UIViewController", "mailComposeDelegate"]
+- !private ["CSo16UIViewController", "messageComposeDelegate"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "recipients"]
+- !private ["CSo16UIViewController", "setBccRecipients"]
+- !private ["CSo16UIViewController", "setInitialText"]
+- !private ["CSo16UIViewController", "setMessageBody"]
+- !private ["CSo16UIViewController", "setSubject"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "appending"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "appending"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "appending"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "appending"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "appending"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "appending"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ContactsPicker"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "MFMailComposeViewController"]
+- !private ["Ps9_Hashable", "MFMessageComposeViewController"]
+- !private ["Ps9_Hashable", "NSLocalizedString"]
+- !private ["Ps9_Hashable", "SLComposeViewController"]
+- !private ["Ps9_Hashable", "SLServiceTypeTwitter"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "TAG"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "UINavigationController"]
+- !private ["Ps9_Hashable", "UIUtil"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "actionSheet"]
+- !private ["Ps9_Hashable", "actionSheetController"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "addAction"]
+- !private ["Ps9_Hashable", "alert"]
+- !private ["Ps9_Hashable", "appending"]
+- !private ["Ps9_Hashable", "applyDefaultSystemAppearence"]
+- !private ["Ps9_Hashable", "applySignalAppearence"]
+- !private ["Ps9_Hashable", "body"]
+- !private ["Ps9_Hashable", "canSendMail"]
+- !private ["Ps9_Hashable", "canSendText"]
+- !private ["Ps9_Hashable", "canTweet"]
+- !private ["Ps9_Hashable", "cancel"]
+- ["Ps9_Hashable", "cancelled"]
+- !private ["Ps9_Hashable", "channel"]
+- !private ["Ps9_Hashable", "contactsManager"]
+- ["Ps9_Hashable", "contactsPicker"]
+- !private ["Ps9_Hashable", "debug"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "dismissAction"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "emails"]
+- !private ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "failed"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "homepageUrl"]
+- !private ["Ps9_Hashable", "info"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "installUrl"]
+- !private ["Ps9_Hashable", "isAvailable"]
+- ["Ps9_Hashable", "mail"]
+- !private ["Ps9_Hashable", "mailAction"]
+- ["Ps9_Hashable", "mailComposeController"]
+- !private ["Ps9_Hashable", "mailComposeDelegate"]
+- ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "messageAction"]
+- !private ["Ps9_Hashable", "messageComposeDelegate"]
+- ["Ps9_Hashable", "messageComposeViewController"]
+- !private ["Ps9_Hashable", "navigationController"]
+- !private ["Ps9_Hashable", "phoneNumber"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "presentingViewController"]
+- !private ["Ps9_Hashable", "recipients"]
+- ["Ps9_Hashable", "saved"]
+- !private ["Ps9_Hashable", "sendMailTo"]
+- !private ["Ps9_Hashable", "sendSMSTo"]
+- ["Ps9_Hashable", "sent"]
+- !private ["Ps9_Hashable", "setBccRecipients"]
+- !private ["Ps9_Hashable", "setInitialText"]
+- !private ["Ps9_Hashable", "setMessageBody"]
+- !private ["Ps9_Hashable", "setSubject"]
+- !private ["Ps9_Hashable", "tweetAction"]
+- !private ["Ps9_Hashable", "userTextPhoneNumbers"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "appending"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "mail"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "message"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "OC8TestChat10InviteFlow7Channel"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "CSo7Contact"
+- !private "C8TestChat14ContactsPicker"
+- "P8TestChat22ContactsPickerDelegate"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C8TestChat10InviteFlow"
+- !private "CSo6Logger"
+- "Ps25LosslessStringConvertible"
+- "OSC19MFMailComposeResult"
+- !private "CSo27MFMailComposeViewController"
+- "PSo35MFMailComposeViewControllerDelegate"
+- !private "CSo30MFMessageComposeViewController"
+- "PSo38MFMessageComposeViewControllerDelegate"
+- "OSC20MessageComposeResult"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "CSo23SLComposeViewController"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- !private "O8TestChat17SubtitleCellValue"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo24UIBarPositioningDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- !private "PSo19UISearchBarDelegate"
+- !private "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIUtil"
+- !private "CSo16UIViewController"
+- !private "V10Foundation3URL"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/AttachmentSharing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/Environment.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/PropertyListPreferences.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSYapDatabaseObject.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/Mantle/MTLModel.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsManagerProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageHeaders.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabase.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseOptions.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapCollectionKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtension.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTypes.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionConnection.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/YapDatabase/YapDatabaseExtensionTransaction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSIdentityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSRecipientIdentity.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalServiceProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ProtocolBuffers.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Bootstrap.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ForwardDeclarations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedInputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/CodedOutputStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Message.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/WireFormat.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtendableMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/GeneratedMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/AbstractMessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MessageBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSet.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/UnknownFieldSetBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Utilities.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ConcreteExtensionField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Field.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableExtensionRegistry.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/MutableField.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/PBArray.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/Descriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/ProtocolBuffers/ProtocolBuffers/ObjectivecDescriptor.pb.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/IdentityKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/PreKeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/25519/Curve25519.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SessionState.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RKCK.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/Chain.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/RootKey.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/MessageKeys.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPreKeyStore.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/SignedPrekeyRecord.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyFromIntLong.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+keyingMaterial.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+messageIDs.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImage.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/FLAnimatedImage/FLAnimatedImageView.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLog.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/FingerprintViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/environment/NotificationsManager.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/UserInterface/OWSCallNotificationsAdaptee.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NotificationsProtocol.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSAnyTouchGestureRecognizer.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSAudioAttachmentPlayer.h"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSContactAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/OWSAvatarBuilder.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/contact/OWSContactsManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Contact.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/OWSLogger.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/Models/TSMessageAdapaters/OWSMessageEditing.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/views/OWSProgressView.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/call/OWSWebRTCDataProtos.pb.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/PrivacySettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/network/PushManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/CollapsingFutures.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/NSArray+TOCFuture.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFutureAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelTokenAndSource.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTypeDefs.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCCancelToken+MoreConstructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContinuations.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCFuture+MoreContructors.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/TwistedOakCollapsingFutures/TOCTimeout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/SettingsTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/OWSTableViewController.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIColor+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIFont+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/MIMETypeUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/UIImage+contentTypes.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/util/UIImage+normalizeImage.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/UIView+OWS.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/ALView+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/PureLayoutDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSArray+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/whizphone/Documents/TestChat/Signal/src/ViewControllers/ViewControllerUtils.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AxolotlKit/NSData+keyVersionByte.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMediaItem.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessageMediaData.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQMessagesViewController/UIColor+JSQMessages.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/JSQSystemSoundPlayer/JSQSystemSoundPlayer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/AppVersion.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Asserts.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/ContactsUpdater.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalRecipient.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/Cryptography.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSData+Base64.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/NSDate+millisecondTimeStamp.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAcknowledgeMessageDeliveryRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSAttachmentsProcessor.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallAnswerMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallBusyMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSOutgoingCallMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSOutgoingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInteraction.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallHangupMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallIceUpdateMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallMessageHandler.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSCallOfferMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSDispatch.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSEndSessionMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSError.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetMessagesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSGetProfileRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSMessageSender.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSSignalService.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSTurnServerInfoRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/PhoneNumber.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberUtil.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/libPhoneNumber-iOS/NBPhoneNumberDefines.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/SignalAccount.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAccountManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSConstants.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachment.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentPointer.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentStream.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCall.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/OWSReadTracking.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSGroupThread.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInfoMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSMessagesManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSIncomingMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeySendingErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSInvalidIdentityKeyErrorMessage.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSNetworkManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAllocAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAttachmentRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSAvailablePreKeysCountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSContactsIntersectionRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSCurrentSignedPreKeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRecipientPrekeyRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterForPushRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRegisterPrekeysRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSRequestVerificationCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSubmitMessageRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUnregisterAccountRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSUpdateAttributesRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSVerifyCodeRequest.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSSocketManager.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SocketRocket/SRWebSocket.h"
+- "/Users/whizphone/Documents/TestChat/Pods/Headers/Public/SignalServiceKit/TSStorageManager+Calling.h"
+- "/Users/whizphone/Documents/TestChat/RTCAudioSession.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/UIDevice+RTCDevice.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoFrame.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCTracing.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSessionDescription.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCSSLAdapter.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpSender.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpReceiver.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpEncodingParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCRtpCodecParameters.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnectionFactory.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCPeerConnection.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetricsSampleInfo.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMetrics.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStream.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaConstraints.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLogging.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCLegacyStatsReport.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceServer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCIceCandidate.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFileLogger.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCFieldTrials.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoRenderer.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCEAGLVideoView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDispatcher.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannelConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCDataChannel.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCConfiguration.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCCameraPreviewView.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaStreamTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioTrack.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAudioSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMediaSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCMacros.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Headers/WebRTC.h"
+- "/Users/whizphone/Documents/TestChat/WebRTC.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/fwd.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/whizphone/Documents/TestChat/Carthage/Build/iOS/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CallKit.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UserNotifications.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode 8.3.1/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+interface-hash: "d2cbdf0f3315e9eb101e0f416354b984"

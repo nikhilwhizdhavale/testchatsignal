@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/CipherMessage/PreKeyWhisperMessage.m \
+  /Users/whizphone/Documents/TestChat/Pods/Target\ Support\ Files/AxolotlKit/AxolotlKit-prefix.pch \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLog.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDLogMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDAssertMacros.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDASLLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDTTYLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/CocoaLumberjack/Classes/DDFileLogger.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/AxolotlExceptions.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/CipherMessage/PreKeyWhisperMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/CipherMessage/WhisperMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/CipherMessage/CipherMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/Constants.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/Protobuffs/WhisperTextProtocol.pb.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ProtocolBuffers.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Bootstrap.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ForwardDeclarations.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/CodedInputStream.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/CodedOutputStream.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtendableMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/GeneratedMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/AbstractMessage.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Message.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtensionField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/WireFormat.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtendableMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/GeneratedMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/AbstractMessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MessageBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ExtensionRegistry.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/UnknownFieldSet.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/UnknownFieldSetBuilder.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Utilities.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ConcreteExtensionField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Field.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MutableExtensionRegistry.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/MutableField.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/PBArray.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/Descriptor.pb.h \
+  /Users/whizphone/Documents/TestChat/Pods/ProtocolBuffers/src/runtime/Classes/ObjectivecDescriptor.pb.h \
+  /Users/whizphone/Documents/TestChat/Pods/AxolotlKit/AxolotlKit/Classes/Utility/SerializationUtilities.h
