@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
             [self runUpWithTransaction:transaction];
         }
         completionBlock:^{
-            DDLogInfo(@"Completed migration %@", self.uniqueId);
+           // DDLogInfo(@"Completed migration %@", self.uniqueId);
             [self save];
         }];
 }

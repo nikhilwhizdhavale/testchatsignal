@@ -23,17 +23,17 @@
     return [self dequeue];
 }
 - (id)dequeue {
-    requireState(self.count > 0);
+ //   requireState(self.count > 0);
     id result = items[0];
     [items removeObjectAtIndex:0];
     return result;
 }
 - (id)peek {
-    requireState(self.count > 0);
+  //  requireState(self.count > 0);
     return items[0];
 }
 - (id)peekAt:(NSUInteger)offset {
-    ows_require(offset < self.count);
+   // ows_require(offset < self.count);
     return items[offset];
 }
 - (NSUInteger)count {
