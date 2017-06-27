@@ -4,7 +4,7 @@
 
 #import "DebugUISessionState.h"
 #import "OWSTableViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <SignalServiceKit/OWSIdentityManager.h>
 #import <SignalServiceKit/TSContactThread.h>
 #import <SignalServiceKit/TSStorageManager+SessionStore.h>

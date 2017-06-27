@@ -5,7 +5,7 @@
 #import "UIUtil.h"
 #import "UIViewController+CameraPermissions.h"
 #import <AVFoundation/AVFoundation.h>
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

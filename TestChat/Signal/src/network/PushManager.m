@@ -7,7 +7,7 @@
 #import "NSData+ows_StripToken.h"
 #import "OWSContactsManager.h"
 #import "PropertyListPreferences.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <SignalServiceKit/NSDate+millisecondTimeStamp.h>
 #import <SignalServiceKit/OWSMessageSender.h>
 #import <SignalServiceKit/OWSSignalService.h>

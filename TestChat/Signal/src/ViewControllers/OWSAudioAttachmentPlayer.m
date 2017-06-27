@@ -3,7 +3,7 @@
 //
 
 #import "OWSAudioAttachmentPlayer.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSAttachment.h"
 #import "TSAttachmentStream.h"
 #import "TSVideoAttachmentAdapter.h"

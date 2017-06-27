@@ -10,7 +10,7 @@
 #import "Pastelog.h"
 #import "PropertyListPreferences.h"
 #import "PushManager.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSAccountManager.h"
 #import <Reachability/Reachability.h>
 #import <SignalServiceKit/OWSSignalService.h>

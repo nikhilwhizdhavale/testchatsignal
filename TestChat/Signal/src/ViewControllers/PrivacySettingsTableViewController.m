@@ -6,7 +6,7 @@
 #import "BlockListViewController.h"
 #import "Environment.h"
 #import "PropertyListPreferences.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIUtil.h"
 #import <25519/Curve25519.h>
 

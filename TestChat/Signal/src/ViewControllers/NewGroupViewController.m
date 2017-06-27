@@ -12,7 +12,7 @@
 #import "OWSContactsManager.h"
 #import "OWSTableViewController.h"
 #import "SecurityUtils.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "SignalKeyingStorage.h"
 #import "TSOutgoingMessage.h"
 #import "UIUtil.h"

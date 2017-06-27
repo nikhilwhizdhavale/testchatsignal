@@ -4,7 +4,7 @@
 
 #import "CodeVerificationViewController.h"
 #import "AppDelegate.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "SignalsNavigationController.h"
 #import "SignalsViewController.h"
 #import "StringUtil.h"

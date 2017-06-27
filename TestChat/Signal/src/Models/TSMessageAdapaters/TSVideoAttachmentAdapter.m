@@ -6,7 +6,7 @@
 #import "AttachmentUploadView.h"
 #import "JSQMediaItem+OWS.h"
 #import "MIMETypeUtil.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSAttachmentStream.h"
 #import "TSMessagesManager.h"
 #import "TSStorageManager+keyingMaterial.h"

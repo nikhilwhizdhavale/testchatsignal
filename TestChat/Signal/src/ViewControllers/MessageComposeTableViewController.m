@@ -10,7 +10,7 @@
 #import "NewNonContactConversationViewController.h"
 #import "OWSContactsSearcher.h"
 #import "OWSTableViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIColor+OWS.h"
 #import "UIUtil.h"
 #import "UIView+OWS.h"

@@ -7,7 +7,7 @@
 #import "OWSContactsManager.h"
 #import "PropertyListPreferences.h"
 #import "PushManager.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <AudioToolbox/AudioServices.h>
 #import <SignalServiceKit/TSCall.h>
 #import <SignalServiceKit/TSContactThread.h>

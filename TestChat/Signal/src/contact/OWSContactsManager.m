@@ -4,7 +4,7 @@
 
 #import "OWSContactsManager.h"
 #import "Environment.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "Util.h"
 #import <SignalServiceKit/ContactsUpdater.h>
 #import <SignalServiceKit/OWSError.h>

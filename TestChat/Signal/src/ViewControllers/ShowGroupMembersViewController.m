@@ -9,7 +9,7 @@
 #import "Environment.h"
 #import "OWSContactsManager.h"
 #import "SignalsViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIUtil.h"
 #import "ViewControllerUtils.h"
 #import <AddressBookUI/AddressBookUI.h>

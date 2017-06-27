@@ -13,7 +13,7 @@
 #import "PrivacySettingsTableViewController.h"
 #import "PropertyListPreferences.h"
 #import "PushManager.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIUtil.h"
 #import <SignalServiceKit/TSAccountManager.h>
 #import <SignalServiceKit/TSSocketManager.h>

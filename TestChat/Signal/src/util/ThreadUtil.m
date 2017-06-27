@@ -4,7 +4,7 @@
 
 #import "ThreadUtil.h"
 #import "OWSContactsManager.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSUnreadIndicatorInteraction.h"
 #import <SignalServiceKit/NSDate+millisecondTimeStamp.h>
 #import <SignalServiceKit/OWSAddToContactsOfferMessage.h>

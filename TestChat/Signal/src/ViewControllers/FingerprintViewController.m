@@ -7,7 +7,7 @@
 #import "FingerprintViewScanController.h"
 #import "OWSBezierPathView.h"
 #import "OWSContactsManager.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"
 #import "UIUtil.h"

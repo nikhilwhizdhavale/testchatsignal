@@ -12,7 +12,7 @@
 #import "OWSContactsManager.h"
 #import "PhoneNumber.h"
 #import "ShowGroupMembersViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "UIFont+OWS.h"
 #import "UIUtil.h"
 #import "UIView+OWS.h"

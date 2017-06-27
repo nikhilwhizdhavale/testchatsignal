@@ -12,7 +12,7 @@
 #import "PropertyListPreferences.h"
 #import "PushManager.h"
 #import "SettingsTableViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSAccountManager.h"
 #import "TSDatabaseView.h"
 #import "TSGroupThread.h"

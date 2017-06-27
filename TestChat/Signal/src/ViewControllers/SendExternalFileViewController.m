@@ -4,7 +4,7 @@
 
 #import "SendExternalFileViewController.h"
 #import "Environment.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "ThreadUtil.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"

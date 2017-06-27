@@ -17,7 +17,7 @@
 #import "RegistrationViewController.h"
 #import "Release.h"
 #import "SendExternalFileViewController.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "VersionMigrations.h"
 #import "ViewControllerUtils.h"
 #import <AxolotlKit/SessionCipher.h>

@@ -7,7 +7,7 @@
 #import "DebugUIMessages.h"
 #import "DebugUISessionState.h"
 #import "DebugUIVerification.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <SignalServiceKit/TSContactThread.h>
 #import <SignalServiceKit/TSThread.h>
 

@@ -7,7 +7,7 @@
 #import "OWSAvatarBuilder.h"
 #import "OWSContactAvatarBuilder.h"
 #import "PropertyListPreferences.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSContactThread.h"
 #import "TSGroupThread.h"
 #import "TSMessagesManager.h"

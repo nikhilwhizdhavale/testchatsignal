@@ -4,7 +4,7 @@
 
 #import "DebugUIMessages.h"
 #import "Environment.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "ThreadUtil.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AxolotlKit/PreKeyBundle.h>

@@ -4,7 +4,7 @@
 
 #import "DebugUIVerification.h"
 #import "DebugUIMessages.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <SignalServiceKit/OWSIdentityManager.h>
 
 NS_ASSUME_NONNULL_BEGIN

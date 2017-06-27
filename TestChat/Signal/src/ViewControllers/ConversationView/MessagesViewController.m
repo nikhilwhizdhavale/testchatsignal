@@ -31,7 +31,7 @@
 #import "OWSSystemMessageCell.h"
 #import "OWSUnreadIndicatorCell.h"
 #import "PropertyListPreferences.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "SignalKeyingStorage.h"
 #import "TSAttachmentPointer.h"
 #import "TSCall.h"

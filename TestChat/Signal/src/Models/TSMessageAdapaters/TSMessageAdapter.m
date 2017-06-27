@@ -5,7 +5,7 @@
 #import "TSMessageAdapter.h"
 #import "AttachmentSharing.h"
 #import "OWSCall.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import "TSAttachmentPointer.h"
 #import "TSAttachmentStream.h"
 #import "TSCall.h"

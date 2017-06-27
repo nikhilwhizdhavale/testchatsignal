@@ -5,7 +5,7 @@
 #import "ContactsViewHelper.h"
 #import "ContactTableViewCell.h"
 #import "Environment.h"
-#import "Signal-Swift.h"
+#import "TestChat-Swift.h"
 #import <SignalServiceKit/Contact.h>
 #import <SignalServiceKit/OWSBlockingManager.h>
 #import <SignalServiceKit/PhoneNumber.h>
