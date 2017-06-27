@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)phoneNumberWasSelected:(NSString *)phoneNumber
 {
-    OWSAssert(phoneNumber.length > 0);
+ //   OWSAssert(phoneNumber.length > 0);
 
     __weak AddToBlockListViewController *weakSelf = self;
     [BlockListUIUtils showBlockPhoneNumberActionSheet:phoneNumber

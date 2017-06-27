@@ -84,9 +84,8 @@ NSString *const kTSStorageManagerOWSContactsSyncingLastMessageKey =
             // often so we'll sync soon.
             return;
         }
-
-        OWSSyncContactsMessage *syncContactsMessage =
-            [[OWSSyncContactsMessage alloc] initWithContactsManager:self.contactsManager];
+        OWSSyncContactsMessage *syncContactsMessage;
+       // = [[OWSSyncContactsMessage alloc] initWithContactsManager:self.contactsManager];
 
         NSData *messageData = [syncContactsMessage buildPlainTextAttachmentData];
 

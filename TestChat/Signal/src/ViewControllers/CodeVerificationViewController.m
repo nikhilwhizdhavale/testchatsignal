@@ -3,7 +3,7 @@
 //
 
 #import "CodeVerificationViewController.h"
-#import "AppDelegate.h"
+#import "SignalAppDelegate.h"
 #import "TestChat-Swift.h"
 #import "SignalsNavigationController.h"
 #import "SignalsViewController.h"

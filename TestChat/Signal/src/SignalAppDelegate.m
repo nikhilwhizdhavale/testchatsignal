@@ -2,7 +2,7 @@
 //  Copyright (c) 2017 Open Whisper Systems. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SignalAppDelegate.h"
 #import "AppStoreRating.h"
 #import "CodeVerificationViewController.h"
 #import "DebugLogger.h"
@@ -43,7 +43,7 @@ static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewContr
 static NSString *const kURLSchemeSGNLKey                = @"sgnl";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
 
-@interface AppDelegate ()
+@interface SignalAppDelegate ()
 
 @property (nonatomic) UIWindow *screenProtectionWindow;
 @property (nonatomic) OWSIncomingMessageReadObserver *incomingMessageReadObserver;
@@ -53,7 +53,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
 
 @end
 
-@implementation AppDelegate
+@implementation SignalAppDelegate
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     DDLogWarn(@"%@ applicationDidEnterBackground.", self.tag);

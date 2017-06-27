@@ -8,7 +8,7 @@
 
 extern NSString *const AppDelegateStoryboardMain;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SignalAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) SignalsViewController *signalVC;

@@ -3,7 +3,7 @@
 //
 
 #import "MessagesViewController.h"
-#import "AppDelegate.h"
+#import "SignalAppDelegate.h"
 #import "AttachmentSharing.h"
 #import "BlockListUIUtils.h"
 #import "BlockListViewController.h"

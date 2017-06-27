@@ -3,7 +3,7 @@
 //
 
 #import "PushManager.h"
-#import "AppDelegate.h"
+#import "SignalAppDelegate.h"
 #import "NSData+ows_StripToken.h"
 #import "OWSContactsManager.h"
 #import "PropertyListPreferences.h"

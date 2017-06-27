@@ -3,7 +3,7 @@
 //
 
 #import "SignalsViewController.h"
-#import "AppDelegate.h"
+#import "SignalAppDelegate.h"
 #import "InboxTableViewCell.h"
 #import "MessageComposeTableViewController.h"
 #import "MessagesViewController.h"

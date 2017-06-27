@@ -48,9 +48,8 @@
 		4B35BFCD1F011C1900E96DD1 /* warning_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE021F011C1800E96DD1 /* warning_white@2x.png */; };
 		4B35BFCE1F011C1900E96DD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE031F011C1800E96DD1 /* Images.xcassets */; };
 		4B35BFCF1F011C1900E96DD1 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE041F011C1800E96DD1 /* iTunesArtwork@3x.png */; };
-		4B35BFD01F011C1900E96DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE051F011C1800E96DD1 /* main.m */; };
 		4B35BFD11F011C1900E96DD1 /* Signal-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE061F011C1800E96DD1 /* Signal-Info.plist */; };
-		4B35BFD21F011C1900E96DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE0B1F011C1800E96DD1 /* AppDelegate.m */; };
+		4B35BFD21F011C1900E96DD1 /* SignalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE0B1F011C1800E96DD1 /* SignalAppDelegate.m */; };
 		4B35BFD31F011C1900E96DD1 /* CallAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE0D1F011C1800E96DD1 /* CallAudioService.swift */; };
 		4B35BFD41F011C1900E96DD1 /* CallAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE0E1F011C1800E96DD1 /* CallAudioSession.swift */; };
 		4B35BFD51F011C1900E96DD1 /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE0F1F011C1800E96DD1 /* CallService.swift */; };
@@ -269,6 +268,7 @@
 		4B35C0AA1F011C1900E96DD1 /* TRANSLATIONS.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BFA61F011C1900E96DD1 /* TRANSLATIONS.md */; };
 		4B35C0B01F011C9A00E96DD1 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35C0AD1F011C9A00E96DD1 /* FLAnimatedImage.m */; };
 		4B35C0B11F011C9A00E96DD1 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35C0AF1F011C9A00E96DD1 /* FLAnimatedImageView.m */; };
+		4B414B9E1F027AA0005F7436 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B414B9D1F027AA0005F7436 /* iRate.m */; };
 		4BACA7881F0114FA00DEB23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACA7871F0114FA00DEB23C /* AppDelegate.swift */; };
 		4BACA78A1F0114FA00DEB23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACA7891F0114FA00DEB23C /* ViewController.swift */; };
 		4BACA78D1F0114FA00DEB23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BACA78B1F0114FA00DEB23C /* Main.storyboard */; };
@@ -323,12 +323,11 @@
 		4B35BE021F011C1800E96DD1 /* warning_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_white@2x.png"; sourceTree = "<group>"; };
 		4B35BE031F011C1800E96DD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B35BE041F011C1800E96DD1 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
-		4B35BE051F011C1800E96DD1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B35BE061F011C1800E96DD1 /* Signal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Signal-Info.plist"; sourceTree = "<group>"; };
 		4B35BE071F011C1800E96DD1 /* Signal-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Signal-Prefix.pch"; sourceTree = "<group>"; };
 		4B35BE081F011C1800E96DD1 /* Signal.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Signal.entitlements; sourceTree = "<group>"; };
-		4B35BE0A1F011C1800E96DD1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4B35BE0B1F011C1800E96DD1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B35BE0A1F011C1800E96DD1 /* SignalAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalAppDelegate.h; sourceTree = "<group>"; };
+		4B35BE0B1F011C1800E96DD1 /* SignalAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalAppDelegate.m; sourceTree = "<group>"; };
 		4B35BE0D1F011C1800E96DD1 /* CallAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAudioService.swift; sourceTree = "<group>"; };
 		4B35BE0E1F011C1800E96DD1 /* CallAudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAudioSession.swift; sourceTree = "<group>"; };
 		4B35BE0F1F011C1800E96DD1 /* CallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallService.swift; sourceTree = "<group>"; };
@@ -718,6 +717,8 @@
 		4B35C0AD1F011C9A00E96DD1 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		4B35C0AE1F011C9A00E96DD1 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		4B35C0AF1F011C9A00E96DD1 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		4B414B9C1F027AA0005F7436 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		4B414B9D1F027AA0005F7436 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		4BACA7841F0114FA00DEB23C /* TestChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BACA7871F0114FA00DEB23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BACA7891F0114FA00DEB23C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -762,7 +763,6 @@
 				4B35BDEA1F011C1800E96DD1 /* Images */,
 				4B35BE031F011C1800E96DD1 /* Images.xcassets */,
 				4B35BE041F011C1800E96DD1 /* iTunesArtwork@3x.png */,
-				4B35BE051F011C1800E96DD1 /* main.m */,
 				4B35BE061F011C1800E96DD1 /* Signal-Info.plist */,
 				4B35BE071F011C1800E96DD1 /* Signal-Prefix.pch */,
 				4B35BE081F011C1800E96DD1 /* Signal.entitlements */,
@@ -840,8 +840,8 @@
 		4B35BE091F011C1800E96DD1 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				4B35BE0A1F011C1800E96DD1 /* AppDelegate.h */,
-				4B35BE0B1F011C1800E96DD1 /* AppDelegate.m */,
+				4B35BE0A1F011C1800E96DD1 /* SignalAppDelegate.h */,
+				4B35BE0B1F011C1800E96DD1 /* SignalAppDelegate.m */,
 				4B35BE0C1F011C1800E96DD1 /* call */,
 				4B35BE1F1F011C1800E96DD1 /* contact */,
 				4B35BE251F011C1800E96DD1 /* crypto */,
@@ -1086,6 +1086,8 @@
 		4B35BE861F011C1800E96DD1 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				4B414B9C1F027AA0005F7436 /* iRate.h */,
+				4B414B9D1F027AA0005F7436 /* iRate.m */,
 				4B35C0AB1F011C9A00E96DD1 /* FLAnimatedImage */,
 				4B35BE871F011C1800E96DD1 /* AppStoreRating.h */,
 				4B35BE881F011C1800E96DD1 /* AppStoreRating.m */,
@@ -1788,7 +1790,6 @@
 				4B35C0081F011C1900E96DD1 /* PushManager.m in Sources */,
 				4B35C0161F011C1900E96DD1 /* DateUtil.m in Sources */,
 				4B35BFD31F011C1900E96DD1 /* CallAudioService.swift in Sources */,
-				4B35BFD01F011C1900E96DD1 /* main.m in Sources */,
 				4B35BFFB1F011C1900E96DD1 /* OWSContactAvatarBuilder.m in Sources */,
 				4B35C0681F011C1900E96DD1 /* SignalsNavigationController.m in Sources */,
 				4B35C0691F011C1900E96DD1 /* SignalsViewController.m in Sources */,
@@ -1820,6 +1821,7 @@
 				4B35BFFD1F011C1900E96DD1 /* OWSGroupAvatarBuilder.m in Sources */,
 				4B35C03F1F011C1900E96DD1 /* OWSMessagesToolbarContentView.m in Sources */,
 				4B35C0591F011C1900E96DD1 /* OWSCountryMetadata.m in Sources */,
+				4B414B9E1F027AA0005F7436 /* iRate.m in Sources */,
 				4B35BFF01F011C1900E96DD1 /* NotificationsManager.m in Sources */,
 				4B35BFF51F011C1900E96DD1 /* MessageFetcherJob.swift in Sources */,
 				4B35C02C1F011C1900E96DD1 /* Weak.swift in Sources */,
@@ -1848,7 +1850,7 @@
 				4B35C04D1F011C1900E96DD1 /* InboxTableViewCell.m in Sources */,
 				4BACA7881F0114FA00DEB23C /* AppDelegate.swift in Sources */,
 				4B35BFDA1F011C1900E96DD1 /* PeerConnectionClient.swift in Sources */,
-				4B35BFD21F011C1900E96DD1 /* AppDelegate.m in Sources */,
+				4B35BFD21F011C1900E96DD1 /* SignalAppDelegate.m in Sources */,
 				4B35C0631F011C1900E96DD1 /* SelectThreadViewController.m in Sources */,
 				4B35C05E1F011C1900E96DD1 /* OWSTableViewController.m in Sources */,
 				4B35BFE31F011C1900E96DD1 /* SystemContactsFetcher.swift in Sources */,
@@ -2066,12 +2068,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Signal/Signal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+					HAVE_CONFIG_H,
+				);
+				GCC_STRICT_ALIASING = NO;
 				INFOPLIST_FILE = TestChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -2156,12 +2174,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Signal/Signal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+					HAVE_CONFIG_H,
+				);
+				GCC_STRICT_ALIASING = NO;
 				INFOPLIST_FILE = TestChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
