@@ -43,7 +43,6 @@
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/ContactsViewHelper.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/PushManager.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/DateUtil.o
-/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/main.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/OWSContactAvatarBuilder.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SignalsNavigationController.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SignalsViewController.o
@@ -68,6 +67,7 @@
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/OWSGroupAvatarBuilder.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/OWSMessagesToolbarContentView.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/OWSCountryMetadata.o
+/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/iRate.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/NotificationsManager.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/AddToGroupViewController.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/ThreadUtil.o
@@ -89,7 +89,7 @@
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/TSMessageAdapter.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/UpdateGroupViewController.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/InboxTableViewCell.o
-/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/AppDelegate-62330BD9383DBC71.o
+/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SignalAppDelegate.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SelectThreadViewController.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/OWSTableViewController.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/ViewControllerUtils.o
@@ -154,7 +154,7 @@
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/Promise+retainUntilComplete.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/UserNotificationsAdaptee.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/AccountManager.o
-/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/AppDelegate-6E373CB45CB4C90.o
+/Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/AppDelegate.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/PeerConnectionClient.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SystemContactsFetcher.o
 /Users/whizphone/Desktop/gitTestChat/TestChat/build/TestChat/Build/Intermediates/TestChat.build/Debug-iphonesimulator/TestChat.build/Objects-normal/x86_64/SessionResetJob.o

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/whizphone/Documents/TestChat/Pods/Target\ Support\ Files/CocoaLumberjack/CocoaLumberjack-dummy.m \
-  /Users/whizphone/Documents/TestChat/Pods/Target\ Support\ Files/CocoaLumberjack/CocoaLumberjack-prefix.pch
+  /Users/whizphone/Desktop/gitTestChat/TestChat/Pods/Target\ Support\ Files/CocoaLumberjack/CocoaLumberjack-dummy.m \
+  /Users/whizphone/Desktop/gitTestChat/TestChat/Pods/Target\ Support\ Files/CocoaLumberjack/CocoaLumberjack-prefix.pch

@@ -143,7 +143,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UserNotifications;
 #endif
 
-#import "/Users/whizphone/Documents/TestChat/TestChat-Bridging-Header.h"
+#import "/Users/whizphone/Desktop/gitTestChat/TestChat/TestChat-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"

@@ -106,7 +106,7 @@
 		4B35C0081F011C1900E96DD1 /* PushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE721F011C1800E96DD1 /* PushManager.m */; };
 		4B35C0091F011C1900E96DD1 /* OWSStaleNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE751F011C1800E96DD1 /* OWSStaleNotificationObserver.m */; };
 		4B35C00A1F011C1900E96DD1 /* ProfileFetcherJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE761F011C1800E96DD1 /* ProfileFetcherJob.swift */; };
-		4B35C00B1F011C1900E96DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE791F011C1800E96DD1 /* Main.storyboard */; };
+		4B35C00B1F011C1900E96DD1 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B35BE791F011C1800E96DD1 /* Chat.storyboard */; };
 		4B35C00C1F011C1900E96DD1 /* UIApplication+OWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE7A1F011C1800E96DD1 /* UIApplication+OWS.swift */; };
 		4B35C00D1F011C1900E96DD1 /* UIColor+OWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE7C1F011C1800E96DD1 /* UIColor+OWS.m */; };
 		4B35C00E1F011C1900E96DD1 /* UIDevice+featureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35BE7D1F011C1800E96DD1 /* UIDevice+featureSupport.swift */; };
@@ -269,17 +269,35 @@
 		4B35C0B01F011C9A00E96DD1 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35C0AD1F011C9A00E96DD1 /* FLAnimatedImage.m */; };
 		4B35C0B11F011C9A00E96DD1 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35C0AF1F011C9A00E96DD1 /* FLAnimatedImageView.m */; };
 		4B414B9E1F027AA0005F7436 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B414B9D1F027AA0005F7436 /* iRate.m */; };
+		4B4386B01F036A75006BAB90 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAB1F0117D400DEB23C /* PromiseKit.framework */; };
+		4B4386B11F036A75006BAB90 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAB1F0117D400DEB23C /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B4386B21F036A75006BAB90 /* ZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAC1F0117D400DEB23C /* ZXingObjC.framework */; };
+		4B4386B31F036A75006BAB90 /* ZXingObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAC1F0117D400DEB23C /* ZXingObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B4386B51F036A99006BAB90 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAA91F01175100DEB23C /* WebRTC.framework */; };
+		4B4386B61F036A99006BAB90 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAA91F01175100DEB23C /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BACA7881F0114FA00DEB23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACA7871F0114FA00DEB23C /* AppDelegate.swift */; };
 		4BACA78A1F0114FA00DEB23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACA7891F0114FA00DEB23C /* ViewController.swift */; };
 		4BACA78D1F0114FA00DEB23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BACA78B1F0114FA00DEB23C /* Main.storyboard */; };
 		4BACA7901F0114FA00DEB23C /* TestChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BACA78E1F0114FA00DEB23C /* TestChat.xcdatamodeld */; };
 		4BACA7921F0114FA00DEB23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BACA7911F0114FA00DEB23C /* Assets.xcassets */; };
 		4BACA7951F0114FA00DEB23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BACA7931F0114FA00DEB23C /* LaunchScreen.storyboard */; };
-		4BACAAAA1F01175200DEB23C /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAA91F01175100DEB23C /* WebRTC.framework */; };
-		4BACAAAD1F0117D400DEB23C /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAB1F0117D400DEB23C /* PromiseKit.framework */; };
-		4BACAAAE1F0117D400DEB23C /* ZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAAC1F0117D400DEB23C /* ZXingObjC.framework */; };
-		4BACAAB11F01188600DEB23C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACAAB01F01188600DEB23C /* XCTest.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B4386B41F036A75006BAB90 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B4386B11F036A75006BAB90 /* PromiseKit.framework in Embed Frameworks */,
+				4B4386B31F036A75006BAB90 /* ZXingObjC.framework in Embed Frameworks */,
+				4B4386B61F036A99006BAB90 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		40377653ABC5E380BBA00880 /* Pods-TestChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestChat/Pods-TestChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -423,7 +441,7 @@
 		4B35BE751F011C1800E96DD1 /* OWSStaleNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSStaleNotificationObserver.m; sourceTree = "<group>"; };
 		4B35BE761F011C1800E96DD1 /* ProfileFetcherJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileFetcherJob.swift; sourceTree = "<group>"; };
 		4B35BE771F011C1800E96DD1 /* Signal-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Signal-Bridging-Header.h"; sourceTree = "<group>"; };
-		4B35BE791F011C1800E96DD1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B35BE791F011C1800E96DD1 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		4B35BE7A1F011C1800E96DD1 /* UIApplication+OWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+OWS.swift"; sourceTree = "<group>"; };
 		4B35BE7B1F011C1800E96DD1 /* UIColor+OWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+OWS.h"; sourceTree = "<group>"; };
 		4B35BE7C1F011C1800E96DD1 /* UIColor+OWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OWS.m"; sourceTree = "<group>"; };
@@ -742,11 +760,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BACAAB11F01188600DEB23C /* XCTest.framework in Frameworks */,
-				4BACAAAD1F0117D400DEB23C /* PromiseKit.framework in Frameworks */,
-				4BACAAAE1F0117D400DEB23C /* ZXingObjC.framework in Frameworks */,
+				4B4386B01F036A75006BAB90 /* PromiseKit.framework in Frameworks */,
+				4B4386B21F036A75006BAB90 /* ZXingObjC.framework in Frameworks */,
 				2EF24E972A5D179D70668EE0 /* libPods-TestChat.a in Frameworks */,
-				4BACAAAA1F01175200DEB23C /* WebRTC.framework in Frameworks */,
+				4B4386B51F036A99006BAB90 /* WebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1060,7 +1077,7 @@
 		4B35BE781F011C1800E96DD1 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				4B35BE791F011C1800E96DD1 /* Main.storyboard */,
+				4B35BE791F011C1800E96DD1 /* Chat.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -1481,6 +1498,7 @@
 				4BACA7821F0114FA00DEB23C /* Resources */,
 				CFD3A58C4EA7365DE98B3D91 /* [CP] Embed Pods Frameworks */,
 				9EF81CD3CA1669FC604A793A /* [CP] Copy Pods Resources */,
+				4B4386B41F036A75006BAB90 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1503,8 +1521,9 @@
 				TargetAttributes = {
 					4BACA7831F0114FA00DEB23C = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 98FT28U9N2;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1588,7 +1607,7 @@
 				4B35C0891F011C1900E96DD1 /* de_translation in Resources */,
 				4B35BFA81F011C1900E96DD1 /* .swiftlint.yml in Resources */,
 				4B35C0881F011C1900E96DD1 /* da_translation in Resources */,
-				4B35C00B1F011C1900E96DD1 /* Main.storyboard in Resources */,
+				4B35C00B1F011C1900E96DD1 /* Chat.storyboard in Resources */,
 				4B35BFAE1F011C1900E96DD1 /* NewMessage.aifc in Resources */,
 				4B35BFB51F011C1900E96DD1 /* fontawesome-webfont.ttf in Resources */,
 				4B35BFC41F011C1900E96DD1 /* pause_icon.png in Resources */,
@@ -2071,6 +2090,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 98FT28U9N2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2162,6 +2182,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "52ff1d9d-3ed5-4c97-9f00-e6c46f1d3937";
+				PROVISIONING_PROFILE_SPECIFIER = "WhizDev Whiz Team Generic Dev Profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestChat-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -2176,7 +2198,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 98FT28U9N2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2268,6 +2292,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4cd465f2-913f-414c-8c59-71869d2618d1";
+				PROVISIONING_PROFILE_SPECIFIER = "WhizDev Whiz Team Generic Adhoc Profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

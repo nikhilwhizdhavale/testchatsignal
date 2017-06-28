@@ -6,6 +6,7 @@
 
 #import "AttachmentSharing.h"
 #import "Environment.h"
+#import "Release.h"
 #import "FLAnimatedImage.h"
 #import "FingerprintViewController.h"
 #import "NotificationsManager.h"
@@ -15,6 +16,7 @@
 #import "OWSContactAvatarBuilder.h"
 #import "OWSContactsManager.h"
 #import "OWSLogger.h"
+#import "RegistrationViewController.h"
 #import "OWSMessageEditing.h"
 #import "OWSProgressView.h"
 #import "OWSWebRTCDataProtos.pb.h"
