@@ -10,7 +10,7 @@
 #import <SignalServiceKit/OWSSyncContactsMessage.h>
 #import <SignalServiceKit/TSAccountManager.h>
 #import <SignalServiceKit/TSStorageManager.h>
-
+#import "OWSIdentityManager.h"
 NS_ASSUME_NONNULL_BEGIN
 
 NSString *const kTSStorageManagerOWSContactsSyncingCollection = @"kTSStorageManagerOWSContactsSyncingCollection";
@@ -84,8 +84,8 @@ NSString *const kTSStorageManagerOWSContactsSyncingLastMessageKey =
             // often so we'll sync soon.
             return;
         }
-        OWSSyncContactsMessage *syncContactsMessage;
-       // = [[OWSSyncContactsMessage alloc] initWithContactsManager:self.contactsManager];
+        
+        OWSSyncContactsMessage *syncContactsMessage = [[OWSSyncContactsMessage alloc] initWithContactsManager:self.contactsManager identityManager:[OWSIdentityManager sharedManager]];
 
         NSData *messageData = [syncContactsMessage buildPlainTextAttachmentData];
 
